@@ -1,0 +1,193 @@
+﻿cle;valeur;fichier;onglet;cellule;libelle_verifie
+2025p.die.1d;59.9992152854459;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 5;B32;Premier degré
+2025p.dme.1d;9440;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C82;2025p | Dépense moyenne pour un élève du 1er degré
+2025p.part.1d.etat;55.0983426131613;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;B32;État (1) | Premier degré
+2025p.part.1d.collectivites;38.4097486976944;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;B33;Collectivités territoriales | Premier degré
+2025p.part.1d.autres_apu;1.42421658773526;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;B34;Autres administrations publiques | Premier degré
+2025p.part.1d.entreprises;0.0231791474071907;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;B35;Entreprises (2) | Premier degré
+2025p.part.1d.menages;5.04451295400189;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;B36;Ménages | Premier degré
+2025p.die.2d;73.7536925001837;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 5;B33;Second degré
+2025p.dme.2d;11780;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D82;2025p | Dépense moyenne pour un élève du 2d degré
+2025p.part.2d.etat;67.2637658433868;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;C32;État (1) | Second degré
+2025p.part.2d.collectivites;19.6283398533566;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;C33;Collectivités territoriales | Second degré
+2025p.part.2d.autres_apu;1.98950464936992;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;C34;Autres administrations publiques | Second degré
+2025p.part.2d.entreprises;4.63880914963509;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;C35;Entreprises (2) | Second degré
+2025p.part.2d.menages;6.47958050425157;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;C36;Ménages | Second degré
+2025p.dme.preelementaire;9270;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 6;B31;Préélémentaire
+2025p.dme.elementaire;9530;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 6;B32;Élémentaire
+2025p.dme.college;10580;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 6;B33;Formations en collège
+2025p.dme.lycee_gt;13200;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 6;B34;Formations générales et technologiques en lycée
+2025p.dme.lycee_pro;14590;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 6;B35;Formations professionnelles en lycée
+2024p.die.1d;58.5230279761405;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 5;B31;Premier degré
+2024p.dme.1d;9080;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 6;E32;Premier degré
+2024p.part.1d.etat;55.1828720388518;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 4;B32;État (1) | Premier degré
+2024p.part.1d.collectivites;38.3259928006445;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 4;B33;Collectivités territoriales | Premier degré
+2024p.part.1d.autres_apu;1.45689652547463;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 4;B34;Autres administrations publiques | Premier degré
+2024p.part.1d.entreprises;0.0197510547551758;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 4;B35;Entreprises | Premier degré
+2024p.part.1d.menages;5.01448758027396;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 4;B36;Ménages | Premier degré
+2024p.die.2d;73.1220976220622;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 5;B32;Second degré
+2024p.dme.2d;11660;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 6;E34;Second degré
+2024p.part.2d.etat;66.9942917358022;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 4;C32;État (1) | Second degré
+2024p.part.2d.collectivites;20.1245195306777;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 4;C33;Collectivités territoriales | Second degré
+2024p.part.2d.autres_apu;1.95790331182728;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 4;C34;Autres administrations publiques | Second degré
+2024p.part.2d.entreprises;4.51955019295576;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 4;C35;Entreprises | Second degré
+2024p.part.2d.menages;6.40373522873703;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 4;C36;Ménages | Second degré
+2024p.dme.preelementaire;8990;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 6;B32;Préélémentaire
+2024p.dme.elementaire;9130;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 6;B33;Élémentaire
+2024p.dme.college;10450;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 6;B34;Formations en collège
+2024p.dme.lycee_gt;13020;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 6;B35;Formations générales et technologiques en lycée
+2024p.dme.lycee_pro;14700;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 6;B36;Formations professionnelles en lycée
+2024p.dme.1d2d.publie;10350;data/raw/depp_compte_education/depp_rers2026_10-05_depense_par_eleve_donnees.xlsx;10.05 Tableau 2;J13;Sous-total premier et second degrés (1) (2) | 2024p
+2024p.activite.Premier degré.Enseignement;82.3514457534928;data/raw/depp_compte_education/depp_rers2026_10-05_depense_par_eleve_donnees.xlsx;10.05 Graphique 4;B8;Premier degré | Enseignement (1)
+2024p.activite.Premier degré.Activités annexes;12.8309126975879;data/raw/depp_compte_education/depp_rers2026_10-05_depense_par_eleve_donnees.xlsx;10.05 Graphique 4;C8;Premier degré | Activités annexes (2)
+2024p.activite.Premier degré.Administration générale;2.4240328811578;data/raw/depp_compte_education/depp_rers2026_10-05_depense_par_eleve_donnees.xlsx;10.05 Graphique 4;D8;Premier degré | Administration générale
+2024p.activite.Premier degré.Achats de biens et services liés;2.39360866776146;data/raw/depp_compte_education/depp_rers2026_10-05_depense_par_eleve_donnees.xlsx;10.05 Graphique 4;E8;Premier degré | Achats de biens et services liés (3)
+2024p.activite.Second degré.Enseignement;83.3366433013255;data/raw/depp_compte_education/depp_rers2026_10-05_depense_par_eleve_donnees.xlsx;10.05 Graphique 4;B9;Second degré | Enseignement (1)
+2024p.activite.Second degré.Activités annexes;8.27507257254788;data/raw/depp_compte_education/depp_rers2026_10-05_depense_par_eleve_donnees.xlsx;10.05 Graphique 4;C9;Second degré | Activités annexes (2)
+2024p.activite.Second degré.Administration générale;2.57104024042641;data/raw/depp_compte_education/depp_rers2026_10-05_depense_par_eleve_donnees.xlsx;10.05 Graphique 4;D9;Second degré | Administration générale
+2024p.activite.Second degré.Achats de biens et services liés;5.81724388570018;data/raw/depp_compte_education/depp_rers2026_10-05_depense_par_eleve_donnees.xlsx;10.05 Graphique 4;E9;Second degré | Achats de biens et services liés (3)
+2024p.nature.Rémunérations;70.4;data/raw/depp_compte_education/depp_rers2026_10-04_producteurs_education_donnees.xlsx;10.04 Graphique 4;B9;Rémunérations
+2024p.nature.des personnels enseignants;47.4;data/raw/depp_compte_education/depp_rers2026_10-04_producteurs_education_donnees.xlsx;10.04 Graphique 4;B10;des personnels enseignants
+2024p.nature.des personnels non enseignants;23;data/raw/depp_compte_education/depp_rers2026_10-04_producteurs_education_donnees.xlsx;10.04 Graphique 4;B11;des personnels non enseignants
+2024p.nature.Autres dépenses de fonctionnement;21.3;data/raw/depp_compte_education/depp_rers2026_10-04_producteurs_education_donnees.xlsx;10.04 Graphique 4;B7;Autres dépenses de fonctionnement
+2024p.nature.Investissement;8.4;data/raw/depp_compte_education/depp_rers2026_10-04_producteurs_education_donnees.xlsx;10.04 Graphique 4;B8;Investissement
+serie.1980.1d;3850;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C37;1980 | Dépense moyenne pour un élève du 1er degré
+serie.1980.2d;6980;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D37;1980 | Dépense moyenne pour un élève du 2d degré
+serie.1981.1d;4050;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C38;1981 | Dépense moyenne pour un élève du 1er degré
+serie.1981.2d;7190;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D38;1981 | Dépense moyenne pour un élève du 2d degré
+serie.1982.1d;4300;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C39;1982 | Dépense moyenne pour un élève du 1er degré
+serie.1982.2d;7520;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D39;1982 | Dépense moyenne pour un élève du 2d degré
+serie.1983.1d;4350;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C40;1983 | Dépense moyenne pour un élève du 1er degré
+serie.1983.2d;7510;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D40;1983 | Dépense moyenne pour un élève du 2d degré
+serie.1984.1d;4510;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C41;1984 | Dépense moyenne pour un élève du 1er degré
+serie.1984.2d;7510;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D41;1984 | Dépense moyenne pour un élève du 2d degré
+serie.1985.1d;4580;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C42;1985 | Dépense moyenne pour un élève du 1er degré
+serie.1985.2d;7490;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D42;1985 | Dépense moyenne pour un élève du 2d degré
+serie.1986.1d;4450;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C43;1986 | Dépense moyenne pour un élève du 1er degré
+serie.1986.2d;7460;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D43;1986 | Dépense moyenne pour un élève du 2d degré
+serie.1987.1d;4510;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C44;1987 | Dépense moyenne pour un élève du 1er degré
+serie.1987.2d;7510;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D44;1987 | Dépense moyenne pour un élève du 2d degré
+serie.1988.1d;4630;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C45;1988 | Dépense moyenne pour un élève du 1er degré
+serie.1988.2d;7720;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D45;1988 | Dépense moyenne pour un élève du 2d degré
+serie.1989.1d;4750;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C46;1989 | Dépense moyenne pour un élève du 1er degré
+serie.1989.2d;8020;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D46;1989 | Dépense moyenne pour un élève du 2d degré
+serie.1990.1d;4820;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C47;1990 | Dépense moyenne pour un élève du 1er degré
+serie.1990.2d;8400;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D47;1990 | Dépense moyenne pour un élève du 2d degré
+serie.1991.1d;5000;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C48;1991 | Dépense moyenne pour un élève du 1er degré
+serie.1991.2d;8720;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D48;1991 | Dépense moyenne pour un élève du 2d degré
+serie.1992.1d;5200;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C49;1992 | Dépense moyenne pour un élève du 1er degré
+serie.1992.2d;9210;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D49;1992 | Dépense moyenne pour un élève du 2d degré
+serie.1993.1d;5400;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C50;1993 | Dépense moyenne pour un élève du 1er degré
+serie.1993.2d;9480;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D50;1993 | Dépense moyenne pour un élève du 2d degré
+serie.1994.1d;5580;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C51;1994 | Dépense moyenne pour un élève du 1er degré
+serie.1994.2d;9650;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D51;1994 | Dépense moyenne pour un élève du 2d degré
+serie.1995.1d;5750;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C52;1995 | Dépense moyenne pour un élève du 1er degré
+serie.1995.2d;9900;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D52;1995 | Dépense moyenne pour un élève du 2d degré
+serie.1996.1d;5860;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C53;1996 | Dépense moyenne pour un élève du 1er degré
+serie.1996.2d;10050;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D53;1996 | Dépense moyenne pour un élève du 2d degré
+serie.1997.1d;6030;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C54;1997 | Dépense moyenne pour un élève du 1er degré
+serie.1997.2d;10270;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D54;1997 | Dépense moyenne pour un élève du 2d degré
+serie.1998.1d;6250;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C55;1998 | Dépense moyenne pour un élève du 1er degré
+serie.1998.2d;10500;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D55;1998 | Dépense moyenne pour un élève du 2d degré
+serie.1999.1d;6520;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C56;1999 | Dépense moyenne pour un élève du 1er degré
+serie.1999.2d;10840;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D56;1999 | Dépense moyenne pour un élève du 2d degré
+serie.2000.1d;6640;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C57;2000 | Dépense moyenne pour un élève du 1er degré
+serie.2000.2d;11060;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D57;2000 | Dépense moyenne pour un élève du 2d degré
+serie.2001.1d;6670;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C58;2001 | Dépense moyenne pour un élève du 1er degré
+serie.2001.2d;11180;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D58;2001 | Dépense moyenne pour un élève du 2d degré
+serie.2002.1d;6620;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C59;2002 | Dépense moyenne pour un élève du 1er degré
+serie.2002.2d;11300;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D59;2002 | Dépense moyenne pour un élève du 2d degré
+serie.2003.1d;6840;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C60;2003 | Dépense moyenne pour un élève du 1er degré
+serie.2003.2d;11330;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D60;2003 | Dépense moyenne pour un élève du 2d degré
+serie.2004.1d;6900;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C61;2004 | Dépense moyenne pour un élève du 1er degré
+serie.2004.2d;11340;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D61;2004 | Dépense moyenne pour un élève du 2d degré
+serie.2005.1d;6830;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C62;2005 | Dépense moyenne pour un élève du 1er degré
+serie.2005.2d;11330;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D62;2005 | Dépense moyenne pour un élève du 2d degré
+serie.2006.1d;6870;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C63;2006 | Dépense moyenne pour un élève du 1er degré
+serie.2006.2d;11540;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D63;2006 | Dépense moyenne pour un élève du 2d degré
+serie.2007.1d;6850;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C64;2007 | Dépense moyenne pour un élève du 1er degré
+serie.2007.2d;11520;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D64;2007 | Dépense moyenne pour un élève du 2d degré
+serie.2008.1d;6770;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C65;2008 | Dépense moyenne pour un élève du 1er degré
+serie.2008.2d;11700;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D65;2008 | Dépense moyenne pour un élève du 2d degré
+serie.2009.1d;7000;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C66;2009 | Dépense moyenne pour un élève du 1er degré
+serie.2009.2d;12000;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D66;2009 | Dépense moyenne pour un élève du 2d degré
+serie.2010.1d;7050;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C67;2010 | Dépense moyenne pour un élève du 1er degré
+serie.2010.2d;12050;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D67;2010 | Dépense moyenne pour un élève du 2d degré
+serie.2011.1d;7080;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C68;2011 | Dépense moyenne pour un élève du 1er degré
+serie.2011.2d;11770;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D68;2011 | Dépense moyenne pour un élève du 2d degré
+serie.2012.1d;7190;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C69;2012 | Dépense moyenne pour un élève du 1er degré
+serie.2012.2d;11610;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D69;2012 | Dépense moyenne pour un élève du 2d degré
+serie.2013.1d;7430;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C70;2013 | Dépense moyenne pour un élève du 1er degré
+serie.2013.2d;11590;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D70;2013 | Dépense moyenne pour un élève du 2d degré
+serie.2014.1d;7480;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C71;2014 | Dépense moyenne pour un élève du 1er degré
+serie.2014.2d;11640;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D71;2014 | Dépense moyenne pour un élève du 2d degré
+serie.2015.1d;7490;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C72;2015 | Dépense moyenne pour un élève du 1er degré
+serie.2015.2d;11580;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D72;2015 | Dépense moyenne pour un élève du 2d degré
+serie.2016.1d;7530;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C73;2016 | Dépense moyenne pour un élève du 1er degré
+serie.2016.2d;11590;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D73;2016 | Dépense moyenne pour un élève du 2d degré
+serie.2017.1d;7880;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C74;2017 | Dépense moyenne pour un élève du 1er degré
+serie.2017.2d;11700;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D74;2017 | Dépense moyenne pour un élève du 2d degré
+serie.2018.1d;8000;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C75;2018 | Dépense moyenne pour un élève du 1er degré
+serie.2018.2d;11630;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D75;2018 | Dépense moyenne pour un élève du 2d degré
+serie.2019.1d;8170;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C76;2019 | Dépense moyenne pour un élève du 1er degré
+serie.2019.2d;11640;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D76;2019 | Dépense moyenne pour un élève du 2d degré
+serie.2020.1d;7950;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C77;2020 | Dépense moyenne pour un élève du 1er degré
+serie.2020.2d;11210;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D77;2020 | Dépense moyenne pour un élève du 2d degré
+serie.2021.1d;8310;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C78;2021 | Dépense moyenne pour un élève du 1er degré
+serie.2021.2d;11600;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D78;2021 | Dépense moyenne pour un élève du 2d degré
+serie.2022.1d;8580;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C79;2022 | Dépense moyenne pour un élève du 1er degré
+serie.2022.2d;11660;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D79;2022 | Dépense moyenne pour un élève du 2d degré
+serie.2023.1d;8760;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C80;2023 | Dépense moyenne pour un élève du 1er degré
+serie.2023.2d;11670;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D80;2023 | Dépense moyenne pour un élève du 2d degré
+serie.2024.1d;9200;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C81;2024 | Dépense moyenne pour un élève du 1er degré
+serie.2024.2d;11780;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D81;2024 | Dépense moyenne pour un élève du 2d degré
+serie.2025p.1d;9440;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C82;2025p | Dépense moyenne pour un élève du 1er degré
+serie.2025p.2d;11780;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D82;2025p | Dépense moyenne pour un élève du 2d degré
+2025p.die.1d;59.9992152854459;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 5;B32;Premier degré
+2025p.dme.1d;9440;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C82;2025p | Dépense moyenne pour un élève du 1er degré
+2025p.part.1d.etat;55.0983426131613;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;B32;État (1) | Premier degré
+2025p.part.1d.collectivites;38.4097486976944;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;B33;Collectivités territoriales | Premier degré
+2025p.part.1d.autres_apu;1.42421658773526;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;B34;Autres administrations publiques | Premier degré
+2025p.part.1d.entreprises;0.0231791474071907;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;B35;Entreprises (2) | Premier degré
+2025p.part.1d.menages;5.04451295400189;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;B36;Ménages | Premier degré
+2025p.die.2d;73.7536925001837;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 5;B33;Second degré
+2025p.dme.2d;11780;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D82;2025p | Dépense moyenne pour un élève du 2d degré
+2025p.part.2d.etat;67.2637658433868;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;C32;État (1) | Second degré
+2025p.part.2d.collectivites;19.6283398533566;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;C33;Collectivités territoriales | Second degré
+2025p.part.2d.autres_apu;1.98950464936992;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;C34;Autres administrations publiques | Second degré
+2025p.part.2d.entreprises;4.63880914963509;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;C35;Entreprises (2) | Second degré
+2025p.part.2d.menages;6.47958050425157;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;C36;Ménages | Second degré
+2025p.dme.preelementaire;9270;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 6;B31;Préélémentaire
+2025p.dme.elementaire;9530;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 6;B32;Élémentaire
+2025p.dme.college;10580;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 6;B33;Formations en collège
+2025p.dme.lycee_gt;13200;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 6;B34;Formations générales et technologiques en lycée
+2025p.dme.lycee_pro;14590;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 6;B35;Formations professionnelles en lycée
+2024p.die.1d;58.5230279761405;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 5;B31;Premier degré
+2024p.dme.1d;9080;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 6;E32;Premier degré
+2024p.part.1d.etat;55.1828720388518;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 4;B32;État (1) | Premier degré
+2024p.part.1d.collectivites;38.3259928006445;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 4;B33;Collectivités territoriales | Premier degré
+2024p.part.1d.autres_apu;1.45689652547463;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 4;B34;Autres administrations publiques | Premier degré
+2024p.part.1d.entreprises;0.0197510547551758;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 4;B35;Entreprises | Premier degré
+2024p.part.1d.menages;5.01448758027396;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 4;B36;Ménages | Premier degré
+2024p.die.2d;73.1220976220622;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 5;B32;Second degré
+2024p.dme.2d;11660;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 6;E34;Second degré
+2024p.part.2d.etat;66.9942917358022;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 4;C32;État (1) | Second degré
+2024p.part.2d.collectivites;20.1245195306777;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 4;C33;Collectivités territoriales | Second degré
+2024p.part.2d.autres_apu;1.95790331182728;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 4;C34;Autres administrations publiques | Second degré
+2024p.part.2d.entreprises;4.51955019295576;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 4;C35;Entreprises | Second degré
+2024p.part.2d.menages;6.40373522873703;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 4;C36;Ménages | Second degré
+2024p.dme.preelementaire;8990;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 6;B32;Préélémentaire
+2024p.dme.elementaire;9130;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 6;B33;Élémentaire
+2024p.dme.college;10450;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 6;B34;Formations en collège
+2024p.dme.lycee_gt;13020;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 6;B35;Formations générales et technologiques en lycée
+2024p.dme.lycee_pro;14700;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 6;B36;Formations professionnelles en lycée
+2024p.part_apprentissage_2d_dans_DIE;1.9;data/raw/depp_compte_education/depp_series_chrono_structure_die_par_niveau_366606.xlsx;Structure DIE par niveau fin;U19;Apprentissage du second degré | 2024p
+2024p.die_totale;197.09938793656303;data/raw/depp_compte_education/depp_series_chrono_die_par_niveau_part_pib_508145.xlsx;Part DIE dans PIB par niveau ;AU10;DIE en Md€ 2024 | 2024p
+apprentis_secondaire_31-12-2024;392035;data/raw/effectifs_nationaux/depp_ni_2026-35_apprentissage_31-12-2025_donnees.xlsx;Figure 2;C12;Secondaire | 2024
+apprentis_secondaire_31-12-2025;391937;data/raw/effectifs_nationaux/depp_ni_2026-35_apprentissage_31-12-2025_donnees.xlsx;Figure 2;D12;Secondaire | 2025
+2024p.final.1d.etat;54.9;data/raw/depp_compte_education/depp_series_chrono_die_financeur_initial_final_par_niveau_366603.xlsx;DIE 1er degré;U28;État (%)
+2024p.final.1d.ct;38.6;data/raw/depp_compte_education/depp_series_chrono_die_financeur_initial_final_par_niveau_366603.xlsx;DIE 1er degré;U30;Collectivités territoriales (%)
+2024p.final.1d.apu;0;data/raw/depp_compte_education/depp_series_chrono_die_financeur_initial_final_par_niveau_366603.xlsx;DIE 1er degré;U31;Autres administrations publiques (%)
+2024p.final.2d.etat;65.3;data/raw/depp_compte_education/depp_series_chrono_die_financeur_initial_final_par_niveau_366603.xlsx;DIE 2nd degré;U28;État (%)
+2024p.final.2d.ct;20.2;data/raw/depp_compte_education/depp_series_chrono_die_financeur_initial_final_par_niveau_366603.xlsx;DIE 2nd degré;U30;Collectivités territoriales (%)
+2024p.final.2d.apu;0.2;data/raw/depp_compte_education/depp_series_chrono_die_financeur_initial_final_par_niveau_366603.xlsx;DIE 2nd degré;U31;Autres administrations publiques (%)

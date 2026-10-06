@@ -1,0 +1,51 @@
+﻿id;libelle;valeur;unite;source_ou_calcul;note
+die_tot_2024p;DIE totale 2024p;197099.388;M€;NI 25.52 xlsx, Figure 5, B35;
+die_2nd_2024p;DIE second degré (apprentissage compris) 2024p;73122.098;M€;NI 25.52 xlsx, Figure 5, B32;
+pub_2nd_2024p;Financement public initial du 2nd degré (État+CT+APU) 2024p;65134.762;M€;NI 25.52 xlsx, Figure 4, C32:C34 x B32 Figure 5;
+ent_2nd_2024p;Financement initial des entreprises (dont OPCO) au 2nd degré 2024p;3304.79;M€;NI 25.52 xlsx, Figure 4, C35 (4,51955 %) x DIE 2nd degré;
+part_app_sec_2024p;Part de l'apprentissage du 2nd degré dans la DIE 2024p (arrondie à 0,1 pt);1.9;%;Séries chrono DEPP 366606, onglet « Structure DIE par niveau fin », ligne « Apprentissage du second degré », col. 2024p;
+die_app_sec_2024p_partDIE;DIE apprentissage 2nd degré = part x DIE;3744.888;M€;calcul;arrondi de la part : +/-0,05 pt, soit +/-99 M€
+cout_apprenti_sec_2024p;Dépense moyenne par apprenti du 2nd degré 2024p;9500;€;Séries chrono DEPP 481445, ligne « dont Apprentissage* » (second degré), col. 2024p;
+eff_app_sec_civil_2024;Apprentis niveaux 3-4, année civile 2024 (2/3 x 31/12/2023 + 1/3 x 31/12/2024);387763.667;apprentis;"RERS 2026 chap. 6, fiche 6.01 (stocks 31/12/2023 : 221 060 + 164 568 ; 31/12/2024 : 221 549 + 170 486)";convention DEPP des effectifs en année civile
+die_app_sec_2024p_coutxeff;DIE apprentissage 2nd degré = dépense par apprenti x effectifs;3683.755;M€;calcul;
+cfa_tot_2024p;CFA (publics + privés subventionnés + non subventionnés), tous niveaux;9696.862;M€;RERS 2026 10.04 T2, I11+I21+I27;
+cfa_pub_2024p;dont État + CT + APU (financement final);894.954;M€;RERS 2026 10.04 T2, D+E+F lignes 11, 21, 27;
+cfa_part_pub_2024p;Part publique du financement des CFA, tous niveaux;9.229;%;calcul;
+cfa_ent_2024p;dont entreprises et autres financeurs privés (OPCO);8719.018;M€;RERS 2026 10.04 T2, H11+H21+H27;
+cfa_men_2024p;dont ménages;82.89;M€;RERS 2026 10.04 T2, G11+G21+G27;
+na_max_2024p;Financement privé des producteurs du 2nd degré hors CFA (collèges-lycées publics et PSC, hors contrat, enseignement spécial);860.484;M€;RERS 2026 10.04 T2, H10+H15+H20+H26;majorant du financement « entreprises » du 2nd degré hors apprentissage (inclut aussi STS/CPGE et GRETA)
+part_sec_npec;Part des niveaux 3-4 dans les NPEC (stocks 31/12/2024 x NPEC moyens pondérés);34.358;%;calcul;
+part_sec_cout;Part des niveaux 3-4 dans les coûts des OFA (stocks x coût de revient 2024);35.099;%;calcul;
+ent_app_sec_C1;Financement OPCO de l'apprentissage niveaux 3-4 (variante C1 : OPCO DARES x part NPEC);2992.608;M€;Jaune PLF 2026 tableau 3 (8,71 Md€) x part_sec_npec;
+ent_app_sec_C2;Variante C2 : entreprises des CFA (DEPP) x part des coûts de revient;3060.249;M€;RERS 10.04 T2 x part_sec_cout;
+men_app_sec;Ménages, apprentissage 2nd degré (CFA ménages x part des coûts niveaux 3-4);29.093;M€;calcul;
+P_min_cxe;Borne basse : tout le financement « entreprises » du 2nd degré va à l'apprentissage (DIE app = 3684);296.075;M€;DIE_app - E_2nd - ménages CFA (tous niveaux);
+P_max_cxe;Borne haute : tout le privé hors CFA du 2nd degré est hors apprentissage (DIE app = 3684);1239.449;M€;DIE_app - (E_2nd - na_max), ménages = 0;
+P_C1_cxe;Estimation centrale C1 (DIE app = 3684);662.054;M€;DIE_app - ent_app_sec_C1 - men_app_sec;
+P_C2_cxe;Estimation centrale C2 (DIE app = 3684);594.413;M€;DIE_app - ent_app_sec_C2 - men_app_sec;
+P_min_part;Borne basse : tout le financement « entreprises » du 2nd degré va à l'apprentissage (DIE app = 3745);357.208;M€;DIE_app - E_2nd - ménages CFA (tous niveaux);
+P_max_part;Borne haute : tout le privé hors CFA du 2nd degré est hors apprentissage (DIE app = 3745);1300.582;M€;DIE_app - (E_2nd - na_max), ménages = 0;
+P_C1_part;Estimation centrale C1 (DIE app = 3745);723.187;M€;DIE_app - ent_app_sec_C1 - men_app_sec;
+P_C2_part;Estimation centrale C2 (DIE app = 3745);655.546;M€;DIE_app - ent_app_sec_C2 - men_app_sec;
+NA_implicite_C1;Financement « entreprises » du 2nd degré hors apprentissage impliqué par C1;312.182;M€;à comparer au solde de la taxe d'apprentissage : 522 M€ en 2025, tous niveaux (SOLTéA);
+P_naif_prorata;Prorata naïf : part publique des CFA tous niveaux x DIE app (incohérent avec E_2nd);345.627;M€;calcul;implique un financement entreprises de l'apprentissage > E_2nd : à écarter comme estimation
+eff_2nd_implicite_2024p;Effectif implicite du 2nd degré 2024p (DIE / 11 660 €);6271191.906;élèves;NI 25.52 xlsx Figure 5 B32 / dépense moyenne 11 660 € (RERS 2026 10.05 T2);
+pub_par_eleve_2nd_avec_apprentis;Dépense publique par élève du 2nd degré, apprentis compris;10386.345;€;calcul;
+pub_par_eleve_scolaire_P300;Dépense publique par élève sous statut scolaire si P = 0.30 Md€;11019.895;€;(pub_2nd - P) / (eff_2nd - eff_app);
+pub_par_eleve_scolaire_P500;Dépense publique par élève sous statut scolaire si P = 0.50 Md€;10985.901;€;(pub_2nd - P) / (eff_2nd - eff_app);
+pub_par_eleve_scolaire_P650;Dépense publique par élève sous statut scolaire si P = 0.65 Md€;10960.406;€;(pub_2nd - P) / (eff_2nd - eff_app);
+pub_par_eleve_scolaire_P850;Dépense publique par élève sous statut scolaire si P = 0.85 Md€;10926.412;€;(pub_2nd - P) / (eff_2nd - eff_app);
+pub_par_eleve_scolaire_P1300;Dépense publique par élève sous statut scolaire si P = 1.30 Md€;10849.926;€;(pub_2nd - P) / (eff_2nd - eff_app);
+s_min;Part publique s de l'apprentissage du 2nd degré (min);8.037;%;P / DIE_app;
+s_C2_cxe;Part publique s de l'apprentissage du 2nd degré (C2_cxe);16.136;%;P / DIE_app;
+s_C1_part;Part publique s de l'apprentissage du 2nd degré (C1_part);19.311;%;P / DIE_app;
+s_max;Part publique s de l'apprentissage du 2nd degré (max);34.73;%;P / DIE_app;
+s_central_retenu;Part publique centrale retenue (milieu des variantes C1/C2);17.5;%;hypothèse H-G4-2 : 16 à 19 % selon les variantes, bornes 8 à 35 %;
+pub_par_eleve_scolaire_s175_implicite;Dépense publique par élève sous statut scolaire 2024p, s = 17,5 %, apprentis implicites;10971.496;€;(pub_2nd - s x 3 745) / (eff_2nd - 394 199);
+pub_par_eleve_scolaire_s175_sifa;Idem, apprentis SIFA pondérés (387 764) et DIE_app = 3 684 M€;10961.314;€;(pub_2nd - s x 3 684) / (eff_2nd - 387 764);
+ent_2nd_2025p;Financement initial des entreprises (dont OPCO) au 2nd degré 2025p;3421.293;M€;NI 26.42 xlsx, Figure 4, C35 x Figure 5, B33;
+die_app_sec_2025p_Ha;DIE apprentissage 2nd degré 2025p (H-a : part de 2024p dans le 2nd degré);3777.235;M€;calcul;
+P_min_2025p;Borne basse 2025p (même raisonnement qu'en 2024p : ménages = total CFA 2024p, 82,9 M€);273.052;M€;DIE_app_2025 - E_2nd_2025 - ménages CFA;plus basse qu'en 2024p car le financement entreprises du 2nd degré augmente de 117 M€
+pub_par_eleve_scolaire_2025p_s80;Dépense publique initiale par élève sous statut scolaire 2025p, s = 8.0 %;11118.104;€;(pub_2nd_2025 - s x DIE_app_2025) / (N_2025 - 392 002);
+pub_par_eleve_scolaire_2025p_s175;Dépense publique initiale par élève sous statut scolaire 2025p, s = 17.5 %;11056.962;€;(pub_2nd_2025 - s x DIE_app_2025) / (N_2025 - 392 002);
+pub_par_eleve_scolaire_2025p_s350;Dépense publique initiale par élève sous statut scolaire 2025p, s = 35.0 %;10944.332;€;(pub_2nd_2025 - s x DIE_app_2025) / (N_2025 - 392 002);

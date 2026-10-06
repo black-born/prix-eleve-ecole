@@ -1,0 +1,152 @@
+﻿cle;valeur;fichier;onglet;cellule;libelle_verifie
+net.agreges;4080;data/raw/couts_personnels/DEPP_NI_26-36_donnees.xlsx;Figure 1;D8;Professeurs agrégés et de chaire supérieure
+net.certifies;3130;data/raw/couts_personnels/DEPP_NI_26-36_donnees.xlsx;Figure 1;D5;Professeurs certifiés
+net.eps;3180;data/raw/couts_personnels/DEPP_NI_26-36_donnees.xlsx;Figure 1;D6;Professeurs d'EPS
+net.plp;3390;data/raw/couts_personnels/DEPP_NI_26-36_donnees.xlsx;Figure 1;D7;Professeurs de lycée professionnel
+net.pe;2850;data/raw/couts_personnels/DEPP_NI_26-36_donnees.xlsx;Figure 1;D4;Professeurs des écoles
+net.2d;3310;data/raw/couts_personnels/DEPP_NI_26-36_donnees.xlsx;Figure 6 - Web ;H7;2d degré
+eff.certifies;266805;data/raw/couts_personnels/DEPP_NI_26-36_donnees.xlsx;Figure 7 - Web;B6;Professeurs certifiés
+eff.eps;33116;data/raw/couts_personnels/DEPP_NI_26-36_donnees.xlsx;Figure 7 - Web;B7;Professeurs d'EPS
+eqtp.contractuels;2350;data/raw/couts_personnels/DEPP_Panorama_personnels_2025-2026_chapitre7_donnees.xlsx;7.3;G21;Contractuels et maîtres délégués
+eqtp.fonct2d.public;3450;data/raw/couts_personnels/DEPP_Panorama_personnels_2025-2026_chapitre7_donnees.xlsx;7.3;G19;Public
+2025p.part_ct.1d;38.4097486976944;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;B33;Collectivités territoriales
+2025p.die.1d;59.9992152854459;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 5;B32;Premier degré
+2025p.part_ct.2d;19.6283398533566;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;C33;Collectivités territoriales
+2025p.die.2d;73.7536925001837;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 5;B33;Second degré
+2024p.part_ct.1d;38.3259928006445;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 4;B33;Collectivités territoriales
+2024p.die.1d;58.5230279761405;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 5;B31;Premier degré
+2024p.part_ct.2d;20.1245195306777;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 4;C33;Collectivités territoriales
+2024p.die.2d;73.1220976220622;data/raw/depp_compte_education/depp_ni_2025-52_compte_education_2024_donnees.xlsx;Figure 5;B32;Second degré
+2024p.ct.ecoles_publiques;20608.0915075757;data/raw/depp_compte_education/depp_rers2026_10-04_producteurs_education_donnees.xlsx;10.04 Tableau 2;E9;Écoles maternelles et élémentaires (y compris primaires)
+2024p.ct.ecoles_privees;1141.80736067918;data/raw/depp_compte_education/depp_rers2026_10-04_producteurs_education_donnees.xlsx;10.04 Tableau 2;E19;Écoles maternelles et élémentaires (y compris primaires)
+geo.college.01;1720;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C12;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.02;1730;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C13;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.03;2020;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C14;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.04;2480;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C15;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.05;2330;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C16;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.06;1780;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C17;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.07;2330;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C18;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.08;1880;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C19;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.09;2240;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C20;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.10;1480;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C21;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.11;2200;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C22;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.12;2080;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C23;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.13;2430;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C24;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.14;1800;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C25;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.15;2840;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C26;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.16;2130;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C27;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.17;1850;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C28;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.18;2190;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C29;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.19;1840;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C30;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.21;2100;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C31;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.22;1760;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C32;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.23;2800;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C33;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.24;2050;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C34;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.25;2060;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C35;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.26;2710;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C36;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.27;3000;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C37;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.28;2140;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C38;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.29;1670;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C39;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.2A;1800;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C40;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.2B;1800;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C41;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.30;1630;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C42;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.31;2480;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C43;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.32;2090;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C44;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.33;2930;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C45;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.34;2040;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C46;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.35;1650;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C47;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.36;2130;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C48;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.37;1780;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C49;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.38;2290;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C50;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.39;2240;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C51;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.40;2280;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C52;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.41;2080;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C53;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.42;1450;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C54;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.43;1500;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C55;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.44;1770;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C56;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.45;2080;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C57;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.46;3310;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C58;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.47;2310;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C59;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.48;3530;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C60;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.49;1490;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C61;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.50;2120;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C62;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.51;1650;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C63;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.52;2870;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C64;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.53;1700;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C65;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.54;1870;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C66;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.55;2250;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C67;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.56;1770;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C68;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.57;1470;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C69;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.58;2000;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C70;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.59;1760;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C71;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.60;1730;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C72;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.61;2900;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C73;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.62;2050;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C74;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.63;1650;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C75;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.64;1800;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C76;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.65;1810;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C77;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.66;1490;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C78;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.67;1840;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C79;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.68;1840;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C80;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.69;1670;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C81;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.70;2240;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C82;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.71;2070;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C83;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.72;1900;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C84;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.73;2210;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C85;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.74;2450;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C86;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.75;1480;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C87;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.76;2150;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C88;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.77;2460;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C89;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.78;1780;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C90;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.79;1590;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C91;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.80;1890;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C92;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.81;1630;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C93;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.82;1880;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C94;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.83;2130;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C95;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.84;1640;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C96;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.85;1630;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C97;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.86;1960;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C98;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.87;1750;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C99;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.88;2100;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C100;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.89;2020;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C101;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.90;1470;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C102;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.91;2360;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C103;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.92;2740;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C104;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.93;2190;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C105;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.94;2550;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C106;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.95;2020;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C107;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.971;2040;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C108;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.972;2550;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C109;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.973;1820;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C110;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.974;1700;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C111;Dépenses totales annuelles des départements et CTU par collégien
+geo.college.France;2010;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.1;C113;France | Dépenses totales annuelles des départements et CTU par collégien
+geo.lycee.Guadeloupe;3090;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.4;C12;Dépenses totales annuelles des régions et CTU par lycéen
+geo.lycee.Martinique;4150;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.4;C13;Dépenses totales annuelles des régions et CTU par lycéen
+geo.lycee.Guyane;5830;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.4;C14;Dépenses totales annuelles des régions et CTU par lycéen
+geo.lycee.La Réunion;2870;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.4;C15;Dépenses totales annuelles des régions et CTU par lycéen
+geo.lycee.Île-de-France;2380;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.4;C16;Dépenses totales annuelles des régions et CTU par lycéen
+geo.lycee.Centre-Val de Loire;3220;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.4;C17;Dépenses totales annuelles des régions et CTU par lycéen
+geo.lycee.Bourgogne-Franche-Comté;4020;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.4;C18;Dépenses totales annuelles des régions et CTU par lycéen
+geo.lycee.Normandie;3790;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.4;C19;Dépenses totales annuelles des régions et CTU par lycéen
+geo.lycee.Hauts-de-France;2550;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.4;C20;Dépenses totales annuelles des régions et CTU par lycéen
+geo.lycee.Grand Est;3310;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.4;C21;Dépenses totales annuelles des régions et CTU par lycéen
+geo.lycee.Pays de la Loire;3050;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.4;C22;Dépenses totales annuelles des régions et CTU par lycéen
+geo.lycee.Bretagne;3100;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.4;C23;Dépenses totales annuelles des régions et CTU par lycéen
+geo.lycee.Nouvelle-Aquitaine;3590;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.4;C24;Dépenses totales annuelles des régions et CTU par lycéen
+geo.lycee.Occitanie;3310;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.4;C25;Dépenses totales annuelles des régions et CTU par lycéen
+geo.lycee.Auvergne-Rhône-Alpes;2900;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.4;C26;Dépenses totales annuelles des régions et CTU par lycéen
+geo.lycee.Provence-Alpes-Côte d'Azur;2410;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.4;C27;Dépenses totales annuelles des régions et CTU par lycéen
+geo.lycee.Corse;3950;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.4;C28;Dépenses totales annuelles des régions et CTU par lycéen
+geo.lycee.France;3000;data/raw/depp_compte_education/depp_geo_ecole2026_depense_departements_regions_par_collegien_lyceen_donnees.xlsx;22.4;C29;France | Dépenses totales annuelles des régions et CTU par lycéen
+dger.public.Total 1er cycle;3049;data/raw/budget_etat/DGER_effectifs_enseignement_agricole_rentree2024.xlsx;3- Voie sco par filières;E29;Total 1er cycle | 2024
+dger.public.Total 2ème cycle général;17294;data/raw/budget_etat/DGER_effectifs_enseignement_agricole_rentree2024.xlsx;3- Voie sco par filières;E33;Total 2ème cycle général et tec | 2024
+dger.public.Total 2ème cycle professionnel;29647;data/raw/budget_etat/DGER_effectifs_enseignement_agricole_rentree2024.xlsx;3- Voie sco par filières;E37;Total 2ème cycle professionnel | 2024
+dger.prive.Total 1er cycle;29016;data/raw/budget_etat/DGER_effectifs_enseignement_agricole_rentree2024.xlsx;3- Voie sco par filières;E48;Total 1er cycle | 2024
+dger.prive.Total 2ème cycle général;6678;data/raw/budget_etat/DGER_effectifs_enseignement_agricole_rentree2024.xlsx;3- Voie sco par filières;E52;Total 2ème cycle général et tec | 2024
+dger.prive.Total 2ème cycle professionnel;54314;data/raw/budget_etat/DGER_effectifs_enseignement_agricole_rentree2024.xlsx;3- Voie sco par filières;E56;Total 2ème cycle professionnel | 2024
+2024p.ct.fournitures;185.754397871885;data/raw/depp_compte_education/depp_rers2026_10-02_financement_DIE_donnees.xlsx;10.02 Tableau 4;F18;Fournitures et livres scolaires | Collectivités territoriales
+2024p.ct.transports;2484.78300359011;data/raw/depp_compte_education/depp_rers2026_10-02_financement_DIE_donnees.xlsx;10.02 Tableau 4;F17;Achats de biens et services liés | Collectivités territoriales
+2025p.dme.1d;9440;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;C82;2025p
+2025p.dme.2d;11780;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 7;D82;2025p
+2025p.part_apu.1d;1.42421658773526;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;B34;Autres administrations publiques
+2025p.part_apu.2d;1.98950464936992;data/raw/depp_compte_education/depp_ni_2026-42_compte_education_2025_donnees.xlsx;Figure 4;C34;Autres administrations publiques

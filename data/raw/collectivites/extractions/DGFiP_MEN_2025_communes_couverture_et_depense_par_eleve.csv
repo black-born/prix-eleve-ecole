@@ -1,0 +1,37 @@
+﻿indicateur;valeur
+Élèves des écoles publiques, rentrée 2024 (jeu fr-en-ecoles-effectifs-nb_classes);5462329.0
+Élèves des écoles publiques, rentrée 2025;5365524.0
+dont non appariés à une commune (UAI absente de l annuaire actuel), rentrée 2024;57174.0
+dont non appariés, rentrée 2025;23507.0
+Élèves du public appariés, année civile 2025 (2/3 R2024 + 1/3 R2025);5384108.999999999
+dont dans des communes à comptabilité fonctionnelle (fonction 20/21/28/29 > 0 en 2025);3765722.666666666
+Part des élèves du public couverts par la comptabilité fonctionnelle;0.6994142701543871
+Nombre de communes ayant au moins une école publique;20729
+dont communes couvertes;3336
+Dépense écoles des communes couvertes, fonctionnement, M€;10626.05155975
+Dépense écoles des communes couvertes, investissement (20, 21, 23), M€;3507.79012251
+Dépense écoles des communes couvertes, total, M€;14133.841682260001
+Dépense moyenne par élève du public (communes couvertes), total, €;3752.193786186946
+Dépense moyenne par élève du public (communes couvertes), fonctionnement, €;2820.924390667644
+Dépense moyenne par élève du public (communes couvertes), investissement, €;931.269395519302
+Médiane communale de la dépense par élève du public, total, €;2983.2170258871183
+Médiane communale de la dépense par élève du public, fonctionnement, €;2399.287639204902
+Élèves du public dans des communes non couvertes (année civile 2025);1618386.333333333
+Communes non couvertes ayant une école publique;17393
+Extrapolation type OFGL (total couvert / part couverte), M€;20208.11168056398
+Communes couvertes [0.0, 100.0) élèves publics : nb communes | élèves | dépense M€ | € par élève (total) | € par élève (fonct.);17 | 1180 | 7.2 | 6088 | 3482
+Communes couvertes [100.0, 200.0) élèves publics : nb communes | élèves | dépense M€ | € par élève (total) | € par élève (fonct.);171 | 27539 | 136.9 | 4970 | 3514
+Communes couvertes [200.0, 300.0) élèves publics : nb communes | élèves | dépense M€ | € par élève (total) | € par élève (fonct.);426 | 108694 | 377.7 | 3475 | 2542
+Communes couvertes [300.0, 500.0) élèves publics : nb communes | élèves | dépense M€ | € par élève (total) | € par élève (fonct.);999 | 391777 | 1180.7 | 3014 | 2166
+Communes couvertes [500.0, 1000.0) élèves publics : nb communes | élèves | dépense M€ | € par élève (total) | € par élève (fonct.);915 | 630824 | 2107.7 | 3341 | 2434
+Communes couvertes [1000.0, 2000.0) élèves publics : nb communes | élèves | dépense M€ | € par élève (total) | € par élève (fonct.);407 | 558586 | 1928.4 | 3452 | 2612
+Communes couvertes [2000.0, 5000.0) élèves publics : nb communes | élèves | dépense M€ | € par élève (total) | € par élève (fonct.);300 | 927501 | 3433.0 | 3701 | 2766
+Communes couvertes [5000.0, 1000000000.0) élèves publics : nb communes | élèves | dépense M€ | € par élève (total) | € par élève (fonct.);105 | 1134504 | 4958.1 | 4370 | 3383
+Communes NON couvertes [0.0, 100.0) élèves publics : nb communes | élèves;11495 | 559350
+Communes NON couvertes [100.0, 200.0) élèves publics : nb communes | élèves;4377 | 609348
+Communes NON couvertes [200.0, 300.0) élèves publics : nb communes | élèves;1220 | 288975
+Communes NON couvertes [300.0, 500.0) élèves publics : nb communes | élèves;257 | 89287
+Communes NON couvertes [500.0, 1000.0) élèves publics : nb communes | élèves;21 | 14901
+Communes NON couvertes [1000.0, 2000.0) élèves publics : nb communes | élèves;11 | 15257
+Communes NON couvertes [2000.0, 5000.0) élèves publics : nb communes | élèves;10 | 25370
+Communes NON couvertes [5000.0, 1000000000.0) élèves publics : nb communes | élèves;2 | 15898

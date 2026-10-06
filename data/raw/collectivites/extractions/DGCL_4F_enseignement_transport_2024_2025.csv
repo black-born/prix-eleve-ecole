@@ -1,0 +1,61 @@
+﻿tableau;sous_tableau;champ;ligne;libelle;fonct_2025;invest_2025;total_2025;fonct_2024;invest_2024;total_2024;cellules_2025;cellules_2024
+F1 Comm;;Communes >= 3 500 hab. (Paris inclus), budgets principaux;16;Enseignement, formation et apprentissage;10832.33;3575.046;14407.376;10736.781;3372.465;14109.246;B16:D16;P16:R16
+F1 Comm;;Communes >= 3 500 hab. (Paris inclus), budgets principaux;17;Services communs (enseignement);1475.242;321.428;1796.67;1402.327;329.424;1731.751;B17:D17;P17:R17
+F1 Comm;;Communes >= 3 500 hab. (Paris inclus), budgets principaux;18;Enseignement du premier degré;5499.228;2867.08;8366.307;5533.276;2716.338;8249.614;B18:D18;P18:R18
+F1 Comm;;Communes >= 3 500 hab. (Paris inclus), budgets principaux;19;Enseignement du second degré;86.43;25.866;112.295;89.023;24.815;113.839;B19:D19;P19:R19
+F1 Comm;;Communes >= 3 500 hab. (Paris inclus), budgets principaux;20;Enseignement supérieur, professionnel et continu;153.471;23.393;176.864;159.867;28.562;188.429;B20:D20;P20:R20
+F1 Comm;;Communes >= 3 500 hab. (Paris inclus), budgets principaux;21;Hébergement et restauration scolaires;3063.953;297.705;3361.658;3015.629;245.24;3260.869;B21:D21;P21:R21
+F1 Comm;;Communes >= 3 500 hab. (Paris inclus), budgets principaux;22;Autres services annexes de l'enseignement;554.006;39.575;593.581;536.659;28.085;564.744;B22:D22;P22:R22
+F1 Comm;;Communes >= 3 500 hab. (Paris inclus), budgets principaux;54;Transports scolaires;59.194;1.933;61.127;63.627;0.619;64.246;B54:D54;P54:R54
+F1 Comm;;Communes >= 3 500 hab. (Paris inclus), budgets principaux;65;TOTAL (communes >= 3 500 h.);65650.338;22551.19;88201.528;64600.04;21086.005;85686.046;B65:D65;P65:R65
+F1 Comm;;Communes >= 3 500 hab. (Paris inclus), budgets principaux;66;Charges financières (communes >= 3 500 h.);1342.57;;;1398.053;;1398.053;B66:D66;P66:R66
+F1 Comm;;Communes >= 3 500 hab. (Paris inclus), budgets principaux;67;Communes hors champ (< 3500 habitants);17050.428;9266.689;26317.118;16803.828;8769.174;25573.002;B67:D67;P67:R67
+F2 GFP;;GFP ayant au moins une commune >= 3 500 hab. (Métropole de Lyon incluse), budgets principaux;16;Enseignement, formation et apprentissage;856.586;460.631;1317.217;843.774;459.151;1302.925;B16:D16;P16:R16
+F2 GFP;;GFP ayant au moins une commune >= 3 500 hab. (Métropole de Lyon incluse), budgets principaux;17;Services communs (enseignement);133.941;12.59;146.531;135.613;12.875;148.488;B17:D17;P17:R17
+F2 GFP;;GFP ayant au moins une commune >= 3 500 hab. (Métropole de Lyon incluse), budgets principaux;18;Enseignement du premier degré;201.761;133.75;335.511;191.031;128.108;319.138;B18:D18;P18:R18
+F2 GFP;;GFP ayant au moins une commune >= 3 500 hab. (Métropole de Lyon incluse), budgets principaux;19;Enseignement du second degré;72.23;54.88;127.11;79.27;76.287;155.557;B19:D19;P19:R19
+F2 GFP;;GFP ayant au moins une commune >= 3 500 hab. (Métropole de Lyon incluse), budgets principaux;20;Enseignement supérieur, professionnel et continu;135.606;216.96;352.566;134.976;206.69;341.666;B20:D20;P20:R20
+F2 GFP;;GFP ayant au moins une commune >= 3 500 hab. (Métropole de Lyon incluse), budgets principaux;21;Hébergement et restauration scolaires;246.344;32.418;278.761;239.815;27.896;267.711;B21:D21;P21:R21
+F2 GFP;;GFP ayant au moins une commune >= 3 500 hab. (Métropole de Lyon incluse), budgets principaux;22;Autres services annexes de l'enseignement;66.704;10.034;76.738;63.069;7.296;70.365;B22:D22;P22:R22
+F2 GFP;;GFP ayant au moins une commune >= 3 500 hab. (Métropole de Lyon incluse), budgets principaux;54;Transports scolaires;207.851;1.322;209.172;210.829;0.959;211.788;B54:D54;P54:R54
+F2 GFP;;GFP ayant au moins une commune >= 3 500 hab. (Métropole de Lyon incluse), budgets principaux;65;TOTAL (GFP dans le champ);30842.536;14398.325;45240.861;30237.983;13228.981;43466.964;B65:D65;P65:R65
+F2 GFP;;GFP ayant au moins une commune >= 3 500 hab. (Métropole de Lyon incluse), budgets principaux;66;Charges financières (GFP dans le champ);746.09;;;771.131;;771.131;B66:D66;P66:R66
+F2 GFP;;GFP ayant au moins une commune >= 3 500 hab. (Métropole de Lyon incluse), budgets principaux;67;GFP hors champ;1962.541;620.612;2583.154;1940.056;600.052;2540.108;B67:D67;P67:R67
+F3 Dept;;Départements, budgets principaux;13;Enseignement, formation et apprentissage;3912.046;2610.399;6522.445;3958.039;2705.309;6663.348;B13:D13;P13:R13
+F3 Dept;;Départements, budgets principaux;14;Services communs;577.782;8.04;585.822;628.208;7.734;635.943;B14:D14;P14:R14
+F3 Dept;;Départements, budgets principaux;15;Enseignement du premier degré;2.003;89.806;91.809;2.759;80.616;83.375;B15:D15;P15:R15
+F3 Dept;;Départements, budgets principaux;16;Enseignement du second degré;3118.067;2412.497;5530.564;3109.937;2490.882;5600.819;B16:D16;P16:R16
+F3 Dept;;Départements, budgets principaux;17;Enseignement supérieur, professionnel et continu;101.803;69.578;171.381;100.083;95.494;195.577;B17:D17;P17:R17
+F3 Dept;;Départements, budgets principaux;18;Autres services annexes de l'enseignement;112.391;30.477;142.869;117.052;30.582;147.634;B18:D18;P18:R18
+F3 Dept;;Départements, budgets principaux;53;Transports scolaires;261.994;0.044;262.038;274.64;0.041;274.681;B53:D53;P53:R53
+F3 Dept;;Départements, budgets principaux;65;TOTAL;65743.734;11201.306;76945.04;64954.719;12178.661;77133.38;B65:D65;P65:R65
+F3 Dept;;Départements, budgets principaux;66;Charges financières (fonctionnement);811.557;;811.557;837.687;;837.687;B66:D66;P66:R66
+F4 Reg+CTU;;Régions et CTU, budgets principaux;12;Enseignement, formation et apprentissage;8538.282;3350.504;11888.786;8763.791;3423.302;12187.094;B12:D12;P12:R12
+F4 Reg+CTU;;Régions et CTU, budgets principaux;13;Services communs (enseignement);50.64;32.914;83.554;60.779;28.779;89.558;B13:D13;P13:R13
+F4 Reg+CTU;;Régions et CTU, budgets principaux;14;Enseignement du premier degré;0.702;0.907;1.609;1.194;2.255;3.449;B14:D14;P14:R14
+F4 Reg+CTU;;Régions et CTU, budgets principaux;15;Enseignement du second degré;4338.512;2535.834;6874.346;4329.368;2570.486;6899.854;B15:D15;P15:R15
+F4 Reg+CTU;;Régions et CTU, budgets principaux;16;Enseignement supérieur, professionnel et continu;3953.418;503.183;4456.601;4176.39;520.506;4696.896;B16:D16;P16:R16
+F4 Reg+CTU;;Régions et CTU, budgets principaux;17;dont : enseignement supérieur;108.46;239.833;348.293;108.178;250.572;358.75;B17:D17;P17:R17
+F4 Reg+CTU;;Régions et CTU, budgets principaux;18;: formation professionnelle;2326.152;13.428;2339.58;2546.896;25.552;2572.448;B18:D18;P18:R18
+F4 Reg+CTU;;Régions et CTU, budgets principaux;19;: apprentissage;87.906;163.301;251.207;96.529;167.0;263.528;B19:D19;P19:R19
+F4 Reg+CTU;;Régions et CTU, budgets principaux;20;: formation sanitaire et sociale;1430.9;86.621;1517.521;1424.787;77.383;1502.169;B20:D20;P20:R20
+F4 Reg+CTU;;Régions et CTU, budgets principaux;21;Autres services annexes de l'enseignement;195.009;277.666;472.675;196.06;301.277;497.336;B21:D21;P21:R21
+F4 Reg+CTU;;Régions et CTU, budgets principaux;42;Transports scolaires;1619.174;1.541;1620.715;1640.135;2.819;1642.954;B42:D42;P42:R42
+F4 Reg+CTU;;Régions et CTU, budgets principaux;61;Total;24299.729;13591.989;37891.719;24022.848;14540.289;38563.137;B61:D61;P61:R61
+F4 Reg+CTU;;Régions et CTU, budgets principaux;62;Charges financières (fonctionnement);1041.169;;1041.169;1089.405;;1089.405;B62:D62;P62:R62
+F5 Ens;;Ensemble collectivités et GFP dans le champ, budgets principaux;11;Enseignement, formation et apprentissage;24022.472;9786.711;33809.183;24302.386;9960.227;34234.147;B11:D11;M11:O11
+F5 Ens;;Ensemble collectivités et GFP dans le champ, budgets principaux;12;Services communs (enseignement);2163.335;383.258;2546.594;2226.927;378.813;2578.645;B12:D12;M12:O12
+F5 Ens;;Ensemble collectivités et GFP dans le champ, budgets principaux;13;Enseignement du premier degré;5724.795;2929.154;8653.949;5728.26;2927.317;8652.672;B13:D13;M13:O13
+F5 Ens;;Ensemble collectivités et GFP dans le champ, budgets principaux;14;Enseignement du second degré;7624.86;5049.434;12674.294;7607.598;5162.47;12820.473;B14:D14;M14:O14
+F5 Ens;;Ensemble collectivités et GFP dans le champ, budgets principaux;15;Enseignement supérieur, professionnel et continu;4350.067;808.015;5158.082;4571.316;851.252;5389.825;B15:D15;M15:O15
+F5 Ens;;Ensemble collectivités et GFP dans le champ, budgets principaux;16;Autres services annexes de l'enseignement;4159.415;616.849;4776.264;912.841;367.239;1263.953;B16:D16;M16:O16
+F5 Ens;;Ensemble collectivités et GFP dans le champ, budgets principaux;37;Transports scolaires;2155.638;3.164;2158.801;2189.231;4.439;2188.928;B37:D37;M37:O37
+F5 Ens;;Ensemble collectivités et GFP dans le champ, budgets principaux;47;TOTAL;184957.115;59162.778;244119.892;183815.591;61033.936;242845.29;B47:D47;M47:O47
+F5 Ens;;Ensemble collectivités et GFP dans le champ, budgets principaux;48;Charges financières (fonctionnement);4023.05;0.0;1852.726;4096.277;0.0;4008.053;B48:D48;M48:O48
+F5 Ens;;Ensemble collectivités et GFP dans le champ, budgets principaux;49;Communes et GFP hors champ;18667.117;9314.73;27981.847;17164.627;15824.623;17764.679;B49:D49;M49:O49
+F6 BA et Synd;F6a budgets annexes;F6a budgets annexes (lignes 5-19) / F6b syndicats (lignes 27-41), selon code activité;8;Enseignement, formation et apprentissage;122.327;12.868;135.195;120.183;10.635;130.818;B8:D8;M8:O8
+F6 BA et Synd;F6a budgets annexes;F6a budgets annexes (lignes 5-19) / F6b syndicats (lignes 27-41), selon code activité;16;Transports, routes et voiries;6204.469;2151.097;8355.566;5966.715;1636.779;7603.494;B16:D16;M16:O16
+F6 BA et Synd;F6a budgets annexes;F6a budgets annexes (lignes 5-19) / F6b syndicats (lignes 27-41), selon code activité;18;Ensemble des activités (b);20468.579;9307.388;29775.967;19790.536;8873.711;28664.247;B18:D18;M18:O18
+F6 BA et Synd;F6b syndicats;F6a budgets annexes (lignes 5-19) / F6b syndicats (lignes 27-41), selon code activité;30;Enseignement, formation et apprentissage;455.348;75.157;530.505;455.634;56.38;512.014;B30:D30;M30:O30
+F6 BA et Synd;F6b syndicats;F6a budgets annexes (lignes 5-19) / F6b syndicats (lignes 27-41), selon code activité;38;Transports, routes et voiries;2180.403;1326.74;3507.143;2057.107;1239.342;3296.449;B38:D38;M38:O38
+F6 BA et Synd;F6b syndicats;F6a budgets annexes (lignes 5-19) / F6b syndicats (lignes 27-41), selon code activité;40;Ensemble des activités (b);13345.874;8587.202;21933.076;12904.217;8516.658;21420.875;B40:D40;M40:O40

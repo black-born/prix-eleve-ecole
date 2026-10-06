@@ -1,0 +1,20 @@
+établissements : 1895 | couples UAI x RNB : 3107 | RNB uniques : 2508
+  batiment_construction : 10/2508 RNB, 10 lignes
+  batiment_construction : 260/2508 RNB, 252 lignes
+  batiment_construction : 510/2508 RNB, 494 lignes
+  batiment_construction : 760/2508 RNB, 740 lignes
+  batiment_construction : 1010/2508 RNB, 986 lignes
+  batiment_construction : 1260/2508 RNB, 1230 lignes
+  batiment_construction : 1510/2508 RNB, 1474 lignes
+  batiment_construction : 1760/2508 RNB, 1722 lignes
+  batiment_construction : 2010/2508 RNB, 1968 lignes
+  batiment_construction : 2260/2508 RNB, 2213 lignes
+  batiment_construction : 2508/2508 RNB, 2457 lignes
+groupes de bâtiments : 1318
+  batiment_groupe_complet : 10/1318
+  batiment_groupe_complet : 260/1318
+  batiment_groupe_complet : 510/1318
+  batiment_groupe_complet : 760/1318
+  batiment_groupe_complet : 1010/1318
+  batiment_groupe_complet : 1260/1318
+terminé : 3127 lignes

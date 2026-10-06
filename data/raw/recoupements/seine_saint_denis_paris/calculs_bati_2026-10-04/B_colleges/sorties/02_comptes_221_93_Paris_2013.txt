@@ -1,0 +1,131 @@
+============================== 93 2013 <StringArray>
+['DEP SEINE-SAINT-DENIS']
+Length: 1, dtype: str
+--- par sous-fonction (M€) ---
+nature  F_achats_charges_externes  F_autres  F_interventions  F_personnel  I_autres  I_equipement  I_subventions_equipement_versees
+f                                                                                                                                  
+20                           0.59      0.00             0.00         1.05       0.0          0.00                              0.00
+221                          4.74      0.29            34.35        54.26       0.0         60.76                              0.57
+222                          0.12      0.00             0.50         0.00       0.0          0.00                              0.00
+23                           0.00      0.00             0.06         0.00       0.0          0.00                              0.00
+28                           0.22      0.00             0.00         0.00       0.0          0.02                              0.00
+--- 221 Collèges (et 1675 toutes fonctions), par poste (M€) ---
+poste
+F1 Personnel (621, 631, 633, 64)                                                                54.26
+F11 Autres charges de fonctionnement                                                             0.29
+F2 Énergie et eau (60611-60613, 60621-60622)                                                     0.04
+F3 Entretien, réparations, maintenance, nettoyage (6152x, 6155, 6156, 6283)                      2.92
+F5 Locations et charges locatives (613, 614)                                                     0.06
+F6 Autres achats et charges externes (60-62)                                                     1.71
+F7 Dotations de fonctionnement aux collèges publics (655111)                                    26.70
+F8 Dotations de fonctionnement aux collèges privés (655112)                                      6.69
+F9 Autres subventions et participations (65x)                                                    0.96
+I1 Terrains, constructions, rénovations, gros travaux, avances (211-214, 217, 231x, 236-238)    34.68
+I3 Mobilier, informatique, matériel (215x, 218x)                                                 4.95
+I4 Études, logiciels, incorporels (20 hors 204)                                                  1.11
+I5 Subventions d'équipement versées (204, 2324)                                                  0.57
+I6 Autres immobilisations (21, 23)                                                              20.03
+I7 Autres investissements (13, 26, 27, 45x hors 455, 481)                                        0.00
+--- 221, par compte (M€, |montant| >= 0,1 M€) ---
+nature                            compte  libelle                                                                                                f  
+F_achats_charges_externes         60623   Alimentation                                                                                           221     0.40
+                                  60632   Fournitures de petit équipement                                                                        221     0.25
+                                  61521   Terrains                                                                                               221     0.13
+                                  61522   Bâtiments                                                                                              221     2.79
+                                  616     Primes d'assurances                                                                                    221     0.24
+                                  6241    Transports de biens                                                                                    221     0.16
+                                  6282    Frais de gardiennage                                                                                   221     0.12
+                                  6288    Autres                                                                                                 221     0.40
+F_autres                          6713    NaN                                                                                                    221     0.27
+F_interventions                   65511   Dotation de fonctionnement des collèges                                                                221    26.70
+                                  65512   Dotation de fonctionnement des lycées                                                                  221     6.69
+                                  65737   SNCF                                                                                                   221     0.42
+                                  6574    Subventions de fonctionnement aux personnes, aux associations et aux autres organismes de droit privé  221     0.47
+F_personnel                       6336    Cotisations au CNFPT et au centre de gestion de la fonction publique territoriale                      221     0.47
+                                  64111   Rémunération principale                                                                                221    26.26
+                                  64112   Supplément familial de traitement et indemnité de résidence                                            221     1.35
+                                  64113   NBI                                                                                                    221     0.67
+                                  64118   Autres indemnités                                                                                      221     6.68
+                                  64131   Rémunérations                                                                                          221     2.79
+                                  64168   Autres emplois aidés                                                                                   221     0.68
+                                  6451    Cotisations à l'URSSAF                                                                                 221     6.07
+                                  6453    Cotisations aux caisses de retraite                                                                    221     8.94
+                                  6488    Autres                                                                                                 221     0.26
+I_equipement                      2031    Frais d'études                                                                                         221     0.85
+                                  2051    Concessions et droits similaires                                                                       221     0.26
+                                  2111    Terrains nus                                                                                           221     1.67
+                                  2128    Autres agencements et aménagements                                                                     221     1.56
+                                  21312   Bâtiments scolaires                                                                                    221     8.73
+                                  2153    Réseaux divers                                                                                         221     0.93
+                                  2157    Matériel et outillage technique                                                                        221     0.10
+                                  2182    Matériel de transport                                                                                  221     0.20
+                                  21838   Autre matériel informatique                                                                            221     2.49
+                                  21841   Matériel de bureau et mobilier scolaires                                                               221     0.93
+                                  2188    Autres                                                                                                 221     0.29
+                                  231312  NaN                                                                                                    221    22.72
+                                  235     Part investissement - Marchés de partenariat                                                           221    20.03
+I_subventions_equipement_versees  204121  Biens mobiliers, matériel et études                                                                    221     0.14
+                                  204122  Bâtiments et installations                                                                             221     0.11
+                                  20431   Biens mobiliers, matériel et études                                                                    221     0.15
+--- 1675 : lignes brutes ---
+Empty DataFrame
+Columns: [f, compte, bedeb, becre, obnetdeb, obnetcre, onbdeb, onbcre, oobdeb, oobcre, sd, sc]
+Index: []
+============================== Paris 2013 <StringArray>
+['DEP PARIS']
+Length: 1, dtype: str
+--- par sous-fonction (M€) ---
+nature  F_achats_charges_externes  F_autres  F_interventions  F_personnel  I_autres  I_equipement  I_subventions_equipement_versees
+f                                                                                                                                  
+201                          0.00      0.00             0.00         0.00      0.00          0.00                              0.00
+21                           0.00      0.00             0.00         0.00      0.00          0.00                              0.00
+221                          2.44      0.43            41.99        28.84      0.00         18.63                              3.53
+222                          0.03      0.00             0.03         0.00      2.17          0.00                              0.05
+23                           0.00      0.00             0.00         0.00      0.00          0.00                             14.74
+28                           0.82      0.01             0.15        19.59      0.00          1.10                              0.00
+--- 221 Collèges (et 1675 toutes fonctions), par poste (M€) ---
+poste
+F1 Personnel (621, 631, 633, 64)                                                                28.84
+F11 Autres charges de fonctionnement                                                             0.07
+F3 Entretien, réparations, maintenance, nettoyage (6152x, 6155, 6156, 6283)                      2.07
+F4 Contrats de prestations de services (611)                                                     0.24
+F5 Locations et charges locatives (613, 614)                                                     0.00
+F6 Autres achats et charges externes (60-62)                                                     0.13
+F7 Dotations de fonctionnement aux collèges publics (655111)                                    18.96
+F8 Dotations de fonctionnement aux collèges privés (655112)                                     18.06
+F9 Autres subventions et participations (65x)                                                    5.33
+I1 Terrains, constructions, rénovations, gros travaux, avances (211-214, 217, 231x, 236-238)    17.83
+I3 Mobilier, informatique, matériel (215x, 218x)                                                 0.71
+I4 Études, logiciels, incorporels (20 hors 204)                                                  0.09
+I5 Subventions d'équipement versées (204, 2324)                                                  3.53
+I7 Autres investissements (13, 26, 27, 45x hors 455, 481)                                        0.00
+--- 221, par compte (M€, |montant| >= 0,1 M€) ---
+nature                            compte   libelle                                                                                                f  
+F_achats_charges_externes         611      Contrats de prestations de services                                                                    221     0.24
+                                  61522    Bâtiments                                                                                              221     2.02
+F_autres                          65888    Autres                                                                                                 221     0.36
+F_interventions                   65511    Dotation de fonctionnement des collèges                                                                221    18.96
+                                  65512    Dotation de fonctionnement des lycées                                                                  221    18.06
+                                  65737    SNCF                                                                                                   221     4.72
+                                  6574     Subventions de fonctionnement aux personnes, aux associations et aux autres organismes de droit privé  221     0.25
+F_personnel                       6218     Autre personnel extérieur                                                                              221     2.89
+                                  6331     Versement mobilité                                                                                     221     0.38
+                                  64111    Rémunération principale                                                                                221    13.13
+                                  64112    Supplément familial de traitement et indemnité de résidence                                            221     0.65
+                                  64113    NBI                                                                                                    221     0.32
+                                  64118    Autres indemnités                                                                                      221     2.63
+                                  64131    Rémunérations                                                                                          221     0.86
+                                  6414     Personnel rémunéré à la vacation                                                                       221     0.10
+                                  6451     Cotisations à l'URSSAF                                                                                 221     2.56
+                                  6453     Cotisations aux caisses de retraite                                                                    221     4.98
+                                  6488     Autres                                                                                                 221     0.26
+I_equipement                      21831    Matériel informatique scolaire                                                                         221     0.71
+                                  231312   NaN                                                                                                    221    10.03
+                                  2317312  NaN                                                                                                    221     7.80
+I_subventions_equipement_versees  20422    Bâtiments et installations                                                                             221     0.39
+                                  20431    Biens mobiliers, matériel et études                                                                    221     2.63
+                                  20432    Bâtiments et installations                                                                             221     0.50
+--- 1675 : lignes brutes ---
+Empty DataFrame
+Columns: [f, compte, bedeb, becre, obnetdeb, obnetcre, onbdeb, onbcre, oobdeb, oobcre, sd, sc]
+Index: []

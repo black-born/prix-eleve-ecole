@@ -1,0 +1,121 @@
+élèves accueillis (moy. 2021-2023) : {'75': 83545.0, '77': 54497.0, '78': 52046.0, '91': 51021.0, '92': 50299.0, '93': 62108.0, '94': 47970.0, '95': 49865.0}
+                                    sum  count      min        max
+type_de_decision                                                  
+Affectation                6.553234e+08  20069      1.0  2914299.0
+Désaffectation            -2.625750e+05     12 -53283.0    -1335.0
+Revalo. sur même exercice  6.350000e+04      1  63500.0    63500.0
+cat  DGF (fonctionnement)  aides aux familles (demi-pension, équipement)  autres subventions  maintenance, contrôles, entretien (fonctionnement)  travaux de maintenance (investissement)  équipements pédagogiques (investissement)
+dep                                                                                                                                                                                                                                 
+75             35523416.0                                      8601872.0           2484066.0                                         11046524.0                                 5635332.0                                  7261013.0
+77             30326770.0                                      6066783.0           1379737.0                                          6289763.0                                 1517693.0                                  8143537.0
+78             26026594.0                                      7000439.0           1357092.0                                          5697381.0                                 1364576.0                                  5890770.0
+91             24097620.0                                      6616683.0           1044730.0                                          4838581.0                                 1792311.0                                  7258161.0
+92             23376046.0                                      3392557.0           1168831.0                                          6742307.0                                 2524658.0                                  3561016.0
+93             32515082.0                                      5245296.0           1762903.0                                          7274325.0                                 2474284.0                                  5310623.0
+94             25484241.0                                      4212356.0           1259072.0                                          5043331.0                                 2352240.0                                  5061242.0
+95             23380154.0                                      5490613.0           1168905.0                                          5659654.0                                 1676827.0                                  5414435.0
+                           sum  count         min          max
+type_de_decision                                              
+Affectation       2.168706e+09   1266         0.0  109848000.0
+Désaffectation   -4.647976e+07     39 -10000000.0     -10000.0
+Revalorisation    7.256594e+08    262      1966.3   44300000.0
+                                 sum  count
+source_attribution                         
+                        1.259505e+09    496
+PARIS                   4.024800e+07      3
+UAI                     4.757006e+08    815
+code postal             3.071200e+03      1
+commune                 4.909712e+06     13
+numero                  7.319680e+08    201
+numero 99               2.935248e+08     29
+numero interne          2.026012e+06      8
+plusieurs départements  4.000000e+07      4
+                          sum  count
+dep_attribue                        
+75               1.287734e+08    216
+77               2.669894e+08    124
+78               2.398064e+08    139
+91               9.653792e+07     84
+92               1.264639e+08    122
+93               1.365921e+08     99
+94               1.677835e+08    144
+95               1.319089e+08    117
+non attribuable  1.259505e+09    496
+regional         2.935248e+08     29
+                                                                                                                                    dossier dep_attribue source_attribution            m
+1071                                                                                                 PPI 2011 - PARIS 12EME CMR PAUL VALERY           75              PARIS  39635000.00
+1425                                                                                                      AFFECTATION DEPOLLUTION VINCENNES           94            commune   6000000.00
+171                                                                                PPI / PPR 2011 - EPINAY SUR SEINE LYC JACQUES FEYDER P 4           93            commune   4000000.00
+102                                                                                                                              SPL 77 ACC           77     numero interne   1200000.00
+138                                                                                                  PPI 2011 - PARIS 12EME CMR PAUL VALERY           75              PARIS    600000.00
+262                                                                                                                                  THD 95           95     numero interne    503654.40
+1474                                         SUGER A SAINT-DENIS - TRAVAUX DE SECURISATION SAS D'ENTREE DES ELEVES ET AMENAGEMENT DU PARVIS           93            commune    300000.00
+155                                      PARTICIPATION RESTAURATION SCOLAIRE COLLEGE DE NOAILLES POUR HEBERGEMENT LYCEE DE NERVAL LUZARCHES           95            commune    250000.00
+419                       EXPLOITATION OPE DE CONCEPTION REALISATION LIEE A LA RENOV THERMIQUE LYC LEONARD DE VINCI A TREMBLAY EN FRANCE 93           93     numero interne    152000.00
+1411                                         EUGENE DELACROIX A MAISONS-ALFORT - TRAVAUX DE RECONSTRUCTION D'UN MUR DE CLOTURE PERIPHERIQUE           94            commune    120000.00
+1565                                                                               PPI / PPR 2011 - EPINAY SUR SEINE LYC JACQUES FEYDER P 4           93            commune     60785.00
+1349                                                EXPLOIT.OP.DE CONCEPTION REALISATION LIEE A LA RENOVATION THERMIQUE 95 PONTOISE GALILEE           95     numero interne     55402.00
+1227                                                                                            AC TX SSI 94 CACHAN BAT LEONARD DE VINCI DO           94            commune     55000.00
+1333                                       EXPLOITATION OPE DE CONCEPTION REALISATION LIEE A LA RENOV THERMIQUE 91 LES ULIS LYC L'ESSOURIAU           91     numero interne     50276.00
+1368                                                                                                   AUFFRAY CLICHY 92 TVX REAMGT LAVERIE           92     numero interne     40000.00
+632                                                                                       LOCATION AERODROME DE CERNY/LYCEE ALEXANDRE DENIS           91            commune     31000.00
+1067                                                                                      LOCATION AERODROME DE CERNY/LYCEE ALEXANDRE DENIS           91            commune     31000.00
+1484                                                                    AE PROTOCOLE TRANSACTIONNEL GRDF POUR ERPD CONFLANS SAINTE HONORINE           78            commune     25926.68
+1520                                                                                      LOCATION AERODROME DE CERNY/LYCEE ALEXANDRE DENIS           91            commune     25000.00
+1251  ADHESION DE LA RIDF AU SIPPEREC (Syndicat intercommunal de la Périphérie de paris pour l’électricité et les réseaux de communication)           75              PARIS     13000.00
+1503                                             EXPLOIT.OP.DE CONCEPTION REALISATION LIEE A LA RENOVATION THERMIQUE 95 ISLE ADAM FRAGONARD           95     numero interne     12340.00
+950                                              EXPLOIT.OP.DE CONCEPTION REALISATION LIEE A LA RENOVATION THERMIQUE 95 ISLE ADAM FRAGONARD           95     numero interne     12340.00
+25                                                                                        LOCATION AERODROME DE CERNY/LYCEE ALEXANDRE DENIS           91            commune     11000.00
+1306                                                                                                      AFFECTATION DEPOLLUTION VINCENNES           94            commune  -6000000.00
+                                                                    dossier             m
+481                          MCH CHAUFFAGE FONCT EPLE CMR P2P3PFI 2023-2033  1.098480e+08
+414                                MCH CHAUFFAGE INV EPLE P2P3PFI 2023-2033  6.931200e+07
+652               MANUELS ET RESSOURCES PEDAGOGIQUES-COMMANDE D'ORDINATEURS  5.500000e+07
+1136                                                    SUPPORTS NUMERIQUES  5.000000e+07
+1532                                                    SUPPORTS NUMERIQUES  5.000000e+07
+444                                             ACCORDS CADRES 2023 TRAVAUX  3.000000e+07
+643              GROS TRVX RENOV MODERNISATION CLOS COUVERT STRUCTURE (CCS)  2.824322e+07
+944                                                     ACCORDS CADRES 2022  2.500000e+07
+1496                                              AFFECT ACC CADRE 2021 TVX  2.500000e+07
+244                                             ACCORDS CADRES 2023 TRAVAUX  2.274000e+07
+1389                              RENOVATION THERMIQUE DU PPI TOITS FACADES  2.000000e+07
+1325                                              AFFECT ACC CADRE 2021 TVX  2.000000e+07
+145   COMMANDE ORDINATEURS LYCEENS ET ACTIONS ACCOMPAGNEMENT ECOSYSTEME NUM  1.600000e+07
+1236                                              AFFECT ACC CADRE 2021 TVX  1.500000e+07
+1329                                              AFFECT ACC CADRE 2021 TVX  1.500000e+07
+227                                     EQUIPEMENTS INDIVIDUELS DES LYCEENS  1.500000e+07
+536                                             ACCORDS CADRES 2023 TRAVAUX  1.500000e+07
+893                               EQUIPEMENTS INDIVIDUELS MANUELS SCOLAIRES  1.500000e+07
+380                                             ACCORDS CADRES 2023 TRAVAUX  1.500000e+07
+1028                                                    ACCORDS CADRES 2022  1.500000e+07
+865                                                     ACCORDS CADRES 2022  1.470000e+07
+1328                                                    SUPPORTS NUMERIQUES  1.288400e+07
+1560                                                  MAC INFORMATIQUE EPLE  1.267000e+07
+1223                                                    SUPPORTS NUMERIQUES  1.210100e+07
+62                                              ACCORDS CADRES 2023 TRAVAUX  1.190000e+07
+1399                                   CONV 17MANHAN A3 OUEST 12 LYCEES PPI  1.100000e+07
+1424                                                  MAC INFORMATIQUE EPLE  1.082000e+07
+1106                 ILE DE FRANCE - LYCEES DIVERS - ACCESSIBILITE HANDICAP  1.000000e+07
+1070                                                    ACCORDS CADRES 2022  1.000000e+07
+26                                    CONV 17 MANHAN A3 EST : 13 LYCEES PPI  1.000000e+07
+896                                      Manuels et ressources pédagogiques  1.000000e+07
+621                  ILE DE FRANCE - LYCEES DIVERS - ACCESSIBILITE HANDICAP  1.000000e+07
+941                                   CONV 17 MANHAN A3 EST : 13 LYCEES PPI  1.000000e+07
+345                                     EQUIPEMENTS INDIVIDUELS DES LYCEENS  8.000000e+06
+319                REGION PLAN ESPACES SANITAIRES DANS LES EPLE FRANCILIENS  7.998000e+06
+1564                                             MAC MOBILIER SCOLAIRE EPLE  7.114000e+06
+1255                                                         EQUIPEMENT THD  7.000000e+06
+917                                                AC BATIMENTS DEMONTABLES  7.000000e+06
+1497                                              MAC BATIMENTS DEMONTABLES  7.000000e+06
+1327                   INVESTISSEMENT MAINTENANCE GR PROG2019/2020/2021 CPI  6.576415e+06
+                 dep  eleves_accueillis_moy_2021_2023  lyceens_prebac_moy_2021_2023  operations_directes_attribuees_MEUR  EUR_par_eleve_par_an_operations_directes  EUR_par_lyceen_postbac_inclus_par_an_operations_directes  EUR_par_lyceen_prebac_par_an_operations_directes  subventions_investissement_MEUR  EUR_par_eleve_par_an_subv_invest  DGF_et_entretien_MEUR  EUR_par_eleve_par_an_DGF_entretien  aides_familles_EUR_par_eleve_par_an
+0                 75                          83544.7                       46346.3                                128.8                                     513.8                                                     632.5                                             926.2                             12.9                              51.5                   46.6                               185.8                                 34.3
+1                 77                          54497.0                       49931.7                                267.0                                    1633.1                                                    1633.1                                            1782.4                              9.7                              59.1                   36.6                               224.0                                 37.1
+2                 78                          52045.7                       46230.3                                239.8                                    1535.9                                                    1569.1                                            1729.1                              7.3                              46.5                   31.7                               203.2                                 44.8
+3                 91                          51021.3                       46575.0                                 96.5                                     630.7                                                     630.7                                             690.9                              9.1                              59.1                   28.9                               189.0                                 43.2
+4                 92                          50299.3                       41700.0                                126.5                                     838.1                                                     894.9                                            1010.9                              6.1                              40.3                   30.1                               199.6                                 22.5
+5                 93                          62108.3                       54939.3                                136.6                                     733.1                                                     756.9                                             828.7                              7.8                              41.8                   39.8                               213.5                                 28.2
+6                 94                          47970.0                       41015.0                                167.8                                    1165.9                                                    1189.1                                            1363.6                              7.4                              51.5                   30.5                               212.1                                 29.3
+7                 95                          49865.3                       45949.0                                131.9                                     881.8                                                     881.8                                             956.9                              7.1                              47.4                   29.0                               194.1                                 36.7
+8  IDF (attribuable)                         451351.7                      372686.7                               1294.9                                     956.3                                                    1007.3                                            1158.1                             67.2                              49.7                  273.3                               201.9                                  NaN
+opérations directes non attribuables : 1259.5 M€ ; numéro 99 (régional) : 293.5 M€ ; total : 2847.9 M€

@@ -1,0 +1,30 @@
+﻿etape;libelle;M€;source_ou_note
+A0;DGFiP 2025 : communes couvertes, périmètre « écoles » (fonctions 20, 21x, 28x, 29), BP, F + I;14145.4;extractions/DGFiP_2025_enseignement_synthese_niveau_perimetre_BP.csv
+A1;+ communes non couvertes, extrapolation M1 (coût moyen par élève, hors COM, écoles fermées appariées);5882.5;bloc C
+A2;+ GFP, part imputable aux élèves des communes couvertes (la part des non couverts est réputée comprise dans M1);495.4;bloc D
+A3;+ syndicats (code activité 03/23) : réputés compris dans M1 (SIVOS des petites communes);0.0;pour mémoire 530.5 M€ (DGCL 4F, F6 D30)
+A4;+ budgets annexes à code activité 03/23 (tous niveaux, toutes collectivités);135.2;DGCL 4F, F6 D8
+A5;+ caisses des écoles : dépenses non financées par les communes ni par les familles;49.0;OFGL rapport 2026, annexe 7A (631 - 434 - 148)
+A6;- participations des familles (7067, 7066, 74881) des communes couvertes;-1257.7;balance agrégée, fonctions 20, 21, 28, 29
+A7;- participations des familles des GFP (périmètre écoles) et des syndicats (fonction 2);-125.6;balance agrégée
+A8;- participations des familles des communes non couvertes (même montant par élève);-523.6;calcul
+A9;"- fournitures scolaires (6067 ; activité « fournitures et livres », hors producteurs DEPP), y.c. extrapolation";-199.1;calcul
+A=;TOTAL A : reconstitution comptable 2025 (net des familles, sans quote-part d'administration générale);18601.5;somme A0-A9
+A';Sensibilité : si M1 ne couvre que la part communale, ajouter GFP non couverts et syndicats;1015.7;bloc D + F6 D30
+B1;Remplacer M1 par le bloc « petites communes » de la DEPP (4,2 Md€ cité par la Cour des comptes, porté en 2025, base 2022);-997.6;bloc C, M5bis
+B2;+ GFP imputables aux élèves des communes non couvertes;485.2;bloc D
+B3;+ syndicats (code activité 03/23);530.5;DGCL 4F, F6 D30
+B4;+ quote-part d'administration générale des communes couvertes (règle du Dossier DEPP n° 206), variante centrale, part « écoles »;3151.0;bloc E
+B=;TOTAL B : reconstitution « à la DEPP » 2025;21770.6;A= + B1 à B4
+B-bas;Variante basse de B : bloc petites communes M5 (ratio 2025 des communes de 3 500-9 999 hab.) et quote-part AG basse (020, F);20613.1;blocs C, D, E
+B-haut;Variante haute de B : bloc petites communes base 2022, quote-part AG haute (A00, F + I) appliquée aussi au bloc des petites communes;23523.7;blocs C, D, E
+P1;Pour mémoire : versements des communes couvertes identifiables vers le privé ou d'autres communes (6558 + 65748, périmètre écoles), compris dans A0;505.2;"6558 = 350.1 ; 65748 = 155.1"
+P2;"Pour mémoire : DEPP, CT -> écoles privées sous contrat 2024p (forfait communal ; loi Goblet : pas d'autre aide communale)";1141.8;RERS 2026, 10.04 T2 E19
+D1;DEPP : CT, écoles publiques + privées, financement final 2024p (RERS 2026, 10.04);21749.9;E9 + E19
+D2;DEPP : même agrégat porté en 2025 (croissance du financement initial des communes, NI 26.42);22294.8;bloc F
+D3;"Pour mémoire : DEPP, CT, financement initial du 1er degré 2025p (y.c. transports, fournitures ; hors subventions reçues de l'État)";23045.5;NI 26.42, Fig. 4 B33 x Fig. 5 B32
+R1;Écart D2 - TOTAL A (reconstitution comptable);3693.3;M€
+R2;Écart D2 - TOTAL B (reconstitution « à la DEPP »);524.2;M€
+R3;Écart D2 - TOTAL A, par élève du public (5,38 M, année civile 2025);686.5;€ par élève
+R4;Écart D2 - TOTAL A, par élève du 1er degré public + privé sous contrat (année civile 2025);593.2;€ par élève
+R5;Écart D2 - TOTAL B, par élève du 1er degré public + privé sous contrat;84.2;€ par élève

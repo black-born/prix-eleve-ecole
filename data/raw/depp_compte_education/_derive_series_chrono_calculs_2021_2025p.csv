@@ -1,0 +1,192 @@
+﻿indicateur;niveau;annee;valeur;unite;formule;note
+Part publique du financement des CFA (tous niveaux), financement final;CFA (2nd degré + supérieur);2024p;9.229313;%;(État + CT + APU) / Total, RERS 2026 10.04 T2 lignes 11+21+27 (cols D,E,F / I);"Total CFA 9696.9 M€ ; État 303.6 ; CT 381.9 ; APU 209.4 ; ménages 82.9 ; entreprises 8719.0"
+Part des entreprises dans le financement des CFA (tous niveaux), financement final;CFA (2nd degré + supérieur);2024p;89.915874;%;Entreprises / Total, RERS 2026 10.04 T2;
+Part publique (État + CT + APU), financement initial;1er degré;2021;94.5;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement initial;1er degré;2022;94.5;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement initial;1er degré;2023;94.5;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement initial;1er degré;2024p;95.0;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement final;1er degré;2021;92.7;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement final;1er degré;2022;92.8;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement final;1er degré;2023;93.0;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement final;1er degré;2024p;93.5;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement initial;2nd degré (apprentissage compris);2021;89.6;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement initial;2nd degré (apprentissage compris);2022;89.1;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement initial;2nd degré (apprentissage compris);2023;88.7;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement initial;2nd degré (apprentissage compris);2024p;89.1;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement final;2nd degré (apprentissage compris);2021;86.3;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement final;2nd degré (apprentissage compris);2022;85.6;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement final;2nd degré (apprentissage compris);2023;85.5;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement final;2nd degré (apprentissage compris);2024p;85.7;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement initial;Tous niveaux;2021;83.0;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement initial;Tous niveaux;2022;82.2;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement initial;Tous niveaux;2023;81.8;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement initial;Tous niveaux;2024p;82.0;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement final;Tous niveaux;2021;79.5;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement final;Tous niveaux;2022;78.8;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement final;Tous niveaux;2023;78.6;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+Part publique (État + CT + APU), financement final;Tous niveaux;2024p;78.9;% de la DIE du niveau;somme des parts arrondies à 0,1 pt;
+DIE du niveau (pleine précision);1er degré;2021;54.734373;Md€ constants 2024;DIE (508145 l.10) × (DIE/PIB 1er l.15) / (DIE/PIB l.11);
+DIE du niveau (pleine précision);2nd degré (apprentissage compris);2021;71.318004;Md€ constants 2024;DIE × (DIE/PIB 2nd l.16) / (DIE/PIB l.11);
+DIE du niveau (pleine précision);1er degré;2022;55.932313;Md€ constants 2024;DIE (508145 l.10) × (DIE/PIB 1er l.15) / (DIE/PIB l.11);
+DIE du niveau (pleine précision);2nd degré (apprentissage compris);2022;72.132903;Md€ constants 2024;DIE × (DIE/PIB 2nd l.16) / (DIE/PIB l.11);
+DIE du niveau (pleine précision);1er degré;2023;56.534357;Md€ constants 2024;DIE (508145 l.10) × (DIE/PIB 1er l.15) / (DIE/PIB l.11);
+DIE du niveau (pleine précision);2nd degré (apprentissage compris);2023;72.394475;Md€ constants 2024;DIE × (DIE/PIB 2nd l.16) / (DIE/PIB l.11);
+DIE du niveau (pleine précision);1er degré;2024p;58.523028;Md€ constants 2024;DIE (508145 l.10) × (DIE/PIB 1er l.15) / (DIE/PIB l.11);
+DIE du niveau (pleine précision);2nd degré (apprentissage compris);2024p;73.122098;Md€ constants 2024;DIE × (DIE/PIB 2nd l.16) / (DIE/PIB l.11);
+Dépense PUBLIQUE par élève, financement initial;1er degré;2021;7758.45;€ constants 2024;dépense par élève (481445) × part publique (366603);
+Dépense PUBLIQUE par élève, financement final;1er degré;2021;7610.67;€ constants 2024;dépense par élève (481445) × part publique (366603);
+Dépense PUBLIQUE par élève, financement initial;2nd degré (apprentissage compris);2021;10277.12;€ constants 2024;dépense par élève (481445) × part publique (366603);
+Dépense PUBLIQUE par élève, financement final;2nd degré (apprentissage compris);2021;9898.61;€ constants 2024;dépense par élève (481445) × part publique (366603);
+Dépense PUBLIQUE par élève, financement initial;1er degré;2022;8023.05;€ constants 2024;dépense par élève (481445) × part publique (366603);
+Dépense PUBLIQUE par élève, financement final;1er degré;2022;7878.72;€ constants 2024;dépense par élève (481445) × part publique (366603);
+Dépense PUBLIQUE par élève, financement initial;2nd degré (apprentissage compris);2022;10273.23;€ constants 2024;dépense par élève (481445) × part publique (366603);
+Dépense PUBLIQUE par élève, financement final;2nd degré (apprentissage compris);2022;9869.68;€ constants 2024;dépense par élève (481445) × part publique (366603);
+Dépense PUBLIQUE par élève, financement initial;1er degré;2023;8183.7;€ constants 2024;dépense par élève (481445) × part publique (366603);
+Dépense PUBLIQUE par élève, financement final;1er degré;2023;8053.8;€ constants 2024;dépense par élève (481445) × part publique (366603);
+Dépense PUBLIQUE par élève, financement initial;2nd degré (apprentissage compris);2023;10244.85;€ constants 2024;dépense par élève (481445) × part publique (366603);
+Dépense PUBLIQUE par élève, financement final;2nd degré (apprentissage compris);2023;9875.25;€ constants 2024;dépense par élève (481445) × part publique (366603);
+Dépense PUBLIQUE par élève, financement initial;1er degré;2024p;8626.0;€ constants 2024;dépense par élève (481445) × part publique (366603);
+Dépense PUBLIQUE par élève, financement final;1er degré;2024p;8489.8;€ constants 2024;dépense par élève (481445) × part publique (366603);
+Dépense PUBLIQUE par élève, financement initial;2nd degré (apprentissage compris);2024p;10389.06;€ constants 2024;dépense par élève (481445) × part publique (366603);
+Dépense PUBLIQUE par élève, financement final;2nd degré (apprentissage compris);2024p;9992.62;€ constants 2024;dépense par élève (481445) × part publique (366603);
+Effectif implicite (année civile);1er degré;2021;6666793.293819;élèves;DIE 1er / dépense par élève 1er;
+Effectif implicite (année civile);2nd degré (apprentissage compris);2021;6217785.840544;élèves;DIE 2nd / dépense par élève 2nd;
+DIE du sous-niveau;Préélémentaire;2021;19.908544;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Préélémentaire;2021;2381404.752725;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;
+DIE du sous-niveau;Élémentaire;2021;34.697748;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Élémentaire;2021;4267865.639429;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;
+DIE du sous-niveau;Premier cycle;2021;36.214589;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Premier cycle;2021;3574984.114099;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;à manier avec prudence (voir NOTES : la part « premier cycle » semble inclure l'enseignement spécial du 2nd degré)
+DIE du sous-niveau;Second cycle général et technologique;2021;21.23578;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Second cycle général et technologique;2021;1657750.193726;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;
+DIE du sous-niveau;Second cycle professionnel;2021;10.61789;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Second cycle professionnel;2021;727252.739097;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;
+DIE du sous-niveau;Apprentissage du second degré;2021;3.412893;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Apprentissage du second degré;2021;330067.041715;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;
+Apprentis du 2nd degré implicites (DIE apprentissage / dépense par apprenti);Apprentissage du second degré;2021;330067.041715;apprentis;part 366606 l.19 × DIE / dépense par apprenti 481445 l.22;"fourchette d'arrondi [320 899 ; 339 236]"
+Apprentis niveaux 3+4, SIFA, pondération année civile 2/3 (31/12/N-1) + 1/3 (31/12/N);Apprentissage du second degré;2021;322347.333333;apprentis;SIFA 310608 lignes 11+15;écart implicite / SIFA : +2.4 %
+Effectif implicite (année civile);1er degré;2022;6588022.746962;élèves;DIE 1er / dépense par élève 1er;
+Effectif implicite (année civile);2nd degré (apprentissage compris);2022;6256106.055749;élèves;DIE 2nd / dépense par élève 2nd;
+DIE du sous-niveau;Préélémentaire;2022;20.405609;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Préélémentaire;2022;2364496.939799;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;
+DIE du sous-niveau;Élémentaire;2022;35.564061;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Élémentaire;2022;4228782.4835;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;
+DIE du sous-niveau;Premier cycle;2022;36.535756;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Premier cycle;2022;3571432.681662;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;à manier avec prudence (voir NOTES : la part « premier cycle » semble inclure l'enseignement spécial du 2nd degré)
+DIE du sous-niveau;Second cycle général et technologique;2022;21.377304;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Second cycle général et technologique;2022;1663603.442617;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;
+DIE du sous-niveau;Second cycle professionnel;2022;10.494313;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Second cycle professionnel;2022;711478.846738;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;
+DIE du sous-niveau;Apprentissage du second degré;2022;3.692443;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Apprentissage du second degré;2022;365950.788823;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;
+Apprentis du 2nd degré implicites (DIE apprentissage / dépense par apprenti);Apprentissage du second degré;2022;365950.788823;apprentis;part 366606 l.19 × DIE / dépense par apprenti 481445 l.22;"fourchette d'arrondi [356 321 ; 375 581]"
+Apprentis niveaux 3+4, SIFA, pondération année civile 2/3 (31/12/N-1) + 1/3 (31/12/N);Apprentissage du second degré;2022;362065.666667;apprentis;SIFA 310608 lignes 11+15;écart implicite / SIFA : +1.1 %
+Effectif implicite (année civile);1er degré;2023;6528216.706486;élèves;DIE 1er / dépense par élève 1er;
+Effectif implicite (année civile);2nd degré (apprentissage compris);2023;6267919.873551;élèves;DIE 2nd / dépense par élève 2nd;
+DIE du sous-niveau;Préélémentaire;2023;20.206648;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Préélémentaire;2023;2322603.205976;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;
+DIE du sous-niveau;Élémentaire;2023;36.333107;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Élémentaire;2023;4205220.748534;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;
+DIE du sous-niveau;Premier cycle;2023;36.721697;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Premier cycle;2023;3575627.716638;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;à manier avec prudence (voir NOTES : la part « premier cycle » semble inclure l'enseignement spécial du 2nd degré)
+DIE du sous-niveau;Second cycle général et technologique;2023;21.566711;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Second cycle général et technologique;2023;1670543.046543;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;
+DIE du sous-niveau;Second cycle professionnel;2023;10.491913;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Second cycle professionnel;2023;712765.851123;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;
+DIE du sous-niveau;Apprentissage du second degré;2023;3.691599;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Apprentissage du second degré;2023;371762.249155;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;
+Apprentis du 2nd degré implicites (DIE apprentissage / dépense par apprenti);Apprentissage du second degré;2023;371762.249155;apprentis;part 366606 l.19 × DIE / dépense par apprenti 481445 l.22;"fourchette d'arrondi [361 979 ; 381 545]"
+Apprentis niveaux 3+4, SIFA, pondération année civile 2/3 (31/12/N-1) + 1/3 (31/12/N);Apprentissage du second degré;2023;380095.333333;apprentis;SIFA 310608 lignes 11+15;écart implicite / SIFA : -2.2 %
+Effectif implicite (année civile);1er degré;2024p;6445267.398253;élèves;DIE 1er / dépense par élève 1er;
+Effectif implicite (année civile);2nd degré (apprentissage compris);2024p;6271191.905837;élèves;DIE 2nd / dépense par élève 2nd;
+DIE du sous-niveau;Préélémentaire;2024p;20.695436;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Préélémentaire;2024p;2302050.693364;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;
+DIE du sous-niveau;Élémentaire;2024p;37.843082;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Élémentaire;2024p;4144915.934701;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;
+DIE du sous-niveau;Premier cycle;2024p;37.251784;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Premier cycle;2024p;3564764.049762;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;à manier avec prudence (voir NOTES : la part « premier cycle » semble inclure l'enseignement spécial du 2nd degré)
+DIE du sous-niveau;Second cycle général et technologique;2024p;21.680933;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Second cycle général et technologique;2024p;1665202.202229;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;
+DIE du sous-niveau;Second cycle professionnel;2024p;10.643367;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Second cycle professionnel;2024p;724038.56793;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;
+DIE du sous-niveau;Apprentissage du second degré;2024p;3.744888;Md€ constants 2024;part (366606, arrondie à 0,1 pt) × DIE totale;incertitude d'arrondi ± 0,05 pt de DIE
+Effectif implicite du sous-niveau;Apprentissage du second degré;2024p;394198.775873;élèves;DIE du sous-niveau / dépense par élève du sous-niveau;
+Apprentis du 2nd degré implicites (DIE apprentissage / dépense par apprenti);Apprentissage du second degré;2024p;394198.775873;apprentis;part 366606 l.19 × DIE / dépense par apprenti 481445 l.22;"fourchette d'arrondi [383 825 ; 404 572]"
+Apprentis niveaux 3+4, SIFA, pondération année civile 2/3 (31/12/N-1) + 1/3 (31/12/N);Apprentissage du second degré;2024p;387763.666667;apprentis;SIFA 310608 lignes 11+15;écart implicite / SIFA : +1.7 %
+Financement des entreprises du 2nd degré;2nd degré (apprentissage compris);2024p;3.290494;Md€ constants 2024;part entreprises (4,5 %) × DIE 2nd;
+Borne basse de la part non-entreprises de l'apprentissage du 2nd degré;Apprentissage du second degré;2024p;12.133712;%;(DIE apprentissage − financement entreprises de tout le 2nd degré) / DIE apprentissage;sensible aux arrondis des parts (1,9 % et 4,5 %)
+Dépense par élève hors apprentis, tous financeurs;2nd degré hors apprentissage;2024p;11804.881802;€ 2024;(DIE 2nd − DIE apprentissage) / (effectif 2nd − apprentis implicites);
+Dépense par élève hors apprentis, tous financeurs;1er + 2nd degrés hors apprentissage;2024p;10379.608265;€ 2024;(DIE 1er + DIE 2nd − DIE apprentissage) / (N1 + N2 − apprentis);
+Dépense par élève, tous financeurs (contrôle : RERS 2026 publie 10 350 €);1er + 2nd degrés (apprentis compris);2024p;10352.341202;€ 2024;(DIE 1er + DIE 2nd) / (N1 + N2);
+Dépense PUBLIQUE par élève apprentis compris, financement initial;1er + 2nd degrés;2024p;9495.462744;€ 2024;(part pub 1er × DIE 1er + part pub 2nd × DIE 2nd) / (N1 + N2);
+Dépense PUBLIQUE par élève hors apprentis, financement initial;2nd degré hors apprentissage;2024p;11085.905248;€ 2024;(part pub 2nd × DIE 2nd − s × DIE apprentissage) / (N2 − apprentis);"s = 0 % (borne théorique) ; apprentis implicites ; écart vs apprentis compris +6.7 %"
+Dépense PUBLIQUE par élève hors apprentis, financement initial;1er + 2nd degrés hors apprentissage;2024p;9799.230042;€ 2024;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 0 % (borne théorique) ; apprentis implicites ; écart vs apprentis compris +3.2 %"
+Dépense PUBLIQUE par élève hors apprentis, financement initial;2nd degré hors apprentissage;2024p;11073.779833;€ 2024;(part pub 2nd × DIE 2nd − s × DIE apprentissage) / (N2 − apprentis);"s = 0 % (borne théorique) ; apprentis SIFA pondérés ; écart vs apprentis compris +6.6 %"
+Dépense PUBLIQUE par élève hors apprentis, financement initial;1er + 2nd degrés hors apprentissage;2024p;9794.115218;€ 2024;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 0 % (borne théorique) ; apprentis SIFA pondérés ; écart vs apprentis compris +3.1 %"
+Dépense PUBLIQUE par élève hors apprentis, financement initial;2nd degré hors apprentissage;2024p;11027.094992;€ 2024;(part pub 2nd × DIE 2nd − s × DIE apprentissage) / (N2 − apprentis);"s = 9.2 % (structure des CFA, RERS 2026 10.04 T2) ; apprentis implicites ; écart vs apprentis compris +6.1 %"
+Dépense PUBLIQUE par élève hors apprentis, financement initial;1er + 2nd degrés hors apprentissage;2024p;9771.181011;€ 2024;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 9.2 % (structure des CFA, RERS 2026 10.04 T2) ; apprentis implicites ; écart vs apprentis compris +2.9 %"
+Dépense PUBLIQUE par élève hors apprentis, financement initial;2nd degré hors apprentissage;2024p;11015.033901;€ 2024;(part pub 2nd × DIE 2nd − s × DIE apprentissage) / (N2 − apprentis);"s = 9.2 % (structure des CFA, RERS 2026 10.04 T2) ; apprentis SIFA pondérés ; écart vs apprentis compris +6.0 %"
+Dépense PUBLIQUE par élève hors apprentis, financement initial;1er + 2nd degrés hors apprentissage;2024p;9766.080827;€ 2024;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 9.2 % (structure des CFA, RERS 2026 10.04 T2) ; apprentis SIFA pondérés ; écart vs apprentis compris +2.8 %"
+Part publique du 2nd degré hors apprentissage, financement initial;2nd degré hors apprentissage;2024p;93.411312;%;(P2 − s × DIE apprentissage) / (DIE 2nd − DIE apprentissage);s = 9.2 % (structure des CFA, RERS 2026 10.04 T2)
+Dépense PUBLIQUE par élève du sous-niveau, financement initial;Préélémentaire;2024p;8540.5;€ 2024;dépense par élève du sous-niveau × part publique du niveau;hypothèse : part publique uniforme au sein du niveau
+Dépense PUBLIQUE par élève du sous-niveau, financement initial;Élémentaire;2024p;8673.5;€ 2024;dépense par élève du sous-niveau × part publique du niveau;hypothèse : part publique uniforme au sein du niveau
+Dépense PUBLIQUE par élève du sous-niveau, financement initial;Premier cycle (collège);2024p;9761.482122;€ 2024;dépense par élève du sous-niveau × part publique du niveau;hypothèse : part publique uniforme au sein du niveau
+Dépense PUBLIQUE par élève du sous-niveau, financement initial;Second cycle général et technologique;2024p;12162.152845;€ 2024;dépense par élève du sous-niveau × part publique du niveau;hypothèse : part publique uniforme au sein du niveau
+Dépense PUBLIQUE par élève du sous-niveau, financement initial;Second cycle professionnel;2024p;13731.462889;€ 2024;dépense par élève du sous-niveau × part publique du niveau;hypothèse : part publique uniforme au sein du niveau
+Dépense PUBLIQUE par élève hors apprentis, financement initial;2nd degré hors apprentissage;2024p;10990.323503;€ 2024;(part pub 2nd × DIE 2nd − s × DIE apprentissage) / (N2 − apprentis);"s = 15 % (haut de la fourchette compatible avec la part des entreprises du 2nd degré) ; apprentis implicites ; écart vs apprentis compris +5.8 %"
+Dépense PUBLIQUE par élève hors apprentis, financement initial;1er + 2nd degrés hors apprentissage;2024p;9753.643175;€ 2024;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 15 % (haut de la fourchette compatible avec la part des entreprises du 2nd degré) ; apprentis implicites ; écart vs apprentis compris +2.7 %"
+Dépense PUBLIQUE par élève hors apprentis, financement initial;2nd degré hors apprentissage;2024p;10978.302632;€ 2024;(part pub 2nd × DIE 2nd − s × DIE apprentissage) / (N2 − apprentis);"s = 15 % (haut de la fourchette compatible avec la part des entreprises du 2nd degré) ; apprentis SIFA pondérés ; écart vs apprentis compris +5.7 %"
+Dépense PUBLIQUE par élève hors apprentis, financement initial;1er + 2nd degrés hors apprentissage;2024p;9748.552145;€ 2024;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 15 % (haut de la fourchette compatible avec la part des entreprises du 2nd degré) ; apprentis SIFA pondérés ; écart vs apprentis compris +2.7 %"
+Dépense PUBLIQUE par élève hors apprentis, financement initial;2nd degré hors apprentissage;2024p;10862.881177;€ 2024;(part pub 2nd × DIE 2nd − s × DIE apprentissage) / (N2 − apprentis);"s = 35 % (borne haute) ; apprentis implicites ; écart vs apprentis compris +4.6 %"
+Dépense PUBLIQUE par élève hors apprentis, financement initial;1er + 2nd degrés hors apprentissage;2024p;9692.860685;€ 2024;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 35 % (borne haute) ; apprentis implicites ; écart vs apprentis compris +2.1 %"
+Dépense PUBLIQUE par élève hors apprentis, financement initial;2nd degré hors apprentissage;2024p;10850.999699;€ 2024;(part pub 2nd × DIE 2nd − s × DIE apprentissage) / (N2 − apprentis);"s = 35 % (borne haute) ; apprentis SIFA pondérés ; écart vs apprentis compris +4.4 %"
+Dépense PUBLIQUE par élève hors apprentis, financement initial;1er + 2nd degrés hors apprentissage;2024p;9687.801382;€ 2024;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 35 % (borne haute) ; apprentis SIFA pondérés ; écart vs apprentis compris +2.0 %"
+Dépense PUBLIQUE par élève apprentis compris, financement final;1er + 2nd degrés;2024p;9230.923956;€ 2024;(part pub 1er × DIE 1er + part pub 2nd × DIE 2nd) / (N1 + N2);
+Dépense PUBLIQUE par élève hors apprentis, financement final;2nd degré hors apprentissage;2024p;10662.874071;€ 2024;(part pub 2nd × DIE 2nd − s × DIE apprentissage) / (N2 − apprentis);"s = 0 % (borne théorique) ; apprentis implicites ; écart vs apprentis compris +6.7 %"
+Dépense PUBLIQUE par élève hors apprentis, financement final;1er + 2nd degrés hors apprentissage;2024p;9526.228451;€ 2024;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 0 % (borne théorique) ; apprentis implicites ; écart vs apprentis compris +3.2 %"
+Dépense PUBLIQUE par élève hors apprentis, financement final;2nd degré hors apprentissage;2024p;10651.211354;€ 2024;(part pub 2nd × DIE 2nd − s × DIE apprentissage) / (N2 − apprentis);"s = 0 % (borne théorique) ; apprentis SIFA pondérés ; écart vs apprentis compris +6.6 %"
+Dépense PUBLIQUE par élève hors apprentis, financement final;1er + 2nd degrés hors apprentissage;2024p;9521.256122;€ 2024;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 0 % (borne théorique) ; apprentis SIFA pondérés ; écart vs apprentis compris +3.1 %"
+Dépense PUBLIQUE par élève hors apprentis, financement final;2nd degré hors apprentissage;2024p;10604.063815;€ 2024;(part pub 2nd × DIE 2nd − s × DIE apprentissage) / (N2 − apprentis);"s = 9.2 % (structure des CFA, RERS 2026 10.04 T2) ; apprentis implicites ; écart vs apprentis compris +6.1 %"
+Dépense PUBLIQUE par élève hors apprentis, financement final;1er + 2nd degrés hors apprentissage;2024p;9498.179419;€ 2024;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 9.2 % (structure des CFA, RERS 2026 10.04 T2) ; apprentis implicites ; écart vs apprentis compris +2.9 %"
+Dépense PUBLIQUE par élève hors apprentis, financement final;2nd degré hors apprentissage;2024p;10592.465423;€ 2024;(part pub 2nd × DIE 2nd − s × DIE apprentissage) / (N2 − apprentis);"s = 9.2 % (structure des CFA, RERS 2026 10.04 T2) ; apprentis SIFA pondérés ; écart vs apprentis compris +6.0 %"
+Dépense PUBLIQUE par élève hors apprentis, financement final;1er + 2nd degrés hors apprentissage;2024p;9493.221732;€ 2024;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 9.2 % (structure des CFA, RERS 2026 10.04 T2) ; apprentis SIFA pondérés ; écart vs apprentis compris +2.8 %"
+Part publique du 2nd degré hors apprentissage, financement final;2nd degré hors apprentissage;2024p;89.827785;%;(P2 − s × DIE apprentissage) / (DIE 2nd − DIE apprentissage);s = 9.2 % (structure des CFA, RERS 2026 10.04 T2)
+Dépense PUBLIQUE par élève du sous-niveau, financement final;Préélémentaire;2024p;8405.65;€ 2024;dépense par élève du sous-niveau × part publique du niveau;hypothèse : part publique uniforme au sein du niveau
+Dépense PUBLIQUE par élève du sous-niveau, financement final;Élémentaire;2024p;8536.55;€ 2024;dépense par élève du sous-niveau × part publique du niveau;hypothèse : part publique uniforme au sein du niveau
+Dépense PUBLIQUE par élève du sous-niveau, financement final;Premier cycle (collège);2024p;9387.003506;€ 2024;dépense par élève du sous-niveau × part publique du niveau;hypothèse : part publique uniforme au sein du niveau
+Dépense PUBLIQUE par élève du sous-niveau, financement final;Second cycle général et technologique;2024p;11695.577574;€ 2024;dépense par élève du sous-niveau × part publique du niveau;hypothèse : part publique uniforme au sein du niveau
+Dépense PUBLIQUE par élève du sous-niveau, financement final;Second cycle professionnel;2024p;13204.684358;€ 2024;dépense par élève du sous-niveau × part publique du niveau;hypothèse : part publique uniforme au sein du niveau
+Dépense PUBLIQUE par élève hors apprentis, financement final;2nd degré hors apprentissage;2024p;10567.292327;€ 2024;(part pub 2nd × DIE 2nd − s × DIE apprentissage) / (N2 − apprentis);"s = 15 % (haut de la fourchette compatible avec la part des entreprises du 2nd degré) ; apprentis implicites ; écart vs apprentis compris +5.8 %"
+Dépense PUBLIQUE par élève hors apprentis, financement final;1er + 2nd degrés hors apprentissage;2024p;9480.641583;€ 2024;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 15 % (haut de la fourchette compatible avec la part des entreprises du 2nd degré) ; apprentis implicites ; écart vs apprentis compris +2.7 %"
+Dépense PUBLIQUE par élève hors apprentis, financement final;2nd degré hors apprentissage;2024p;10555.734154;€ 2024;(part pub 2nd × DIE 2nd − s × DIE apprentissage) / (N2 − apprentis);"s = 15 % (haut de la fourchette compatible avec la part des entreprises du 2nd degré) ; apprentis SIFA pondérés ; écart vs apprentis compris +5.6 %"
+Dépense PUBLIQUE par élève hors apprentis, financement final;1er + 2nd degrés hors apprentissage;2024p;9475.69305;€ 2024;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 15 % (haut de la fourchette compatible avec la part des entreprises du 2nd degré) ; apprentis SIFA pondérés ; écart vs apprentis compris +2.7 %"
+Dépense PUBLIQUE par élève hors apprentis, financement final;2nd degré hors apprentissage;2024p;10439.850001;€ 2024;(part pub 2nd × DIE 2nd − s × DIE apprentissage) / (N2 − apprentis);"s = 35 % (borne haute) ; apprentis implicites ; écart vs apprentis compris +4.5 %"
+Dépense PUBLIQUE par élève hors apprentis, financement final;1er + 2nd degrés hors apprentissage;2024p;9419.859094;€ 2024;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 35 % (borne haute) ; apprentis implicites ; écart vs apprentis compris +2.0 %"
+Dépense PUBLIQUE par élève hors apprentis, financement final;2nd degré hors apprentissage;2024p;10428.43122;€ 2024;(part pub 2nd × DIE 2nd − s × DIE apprentissage) / (N2 − apprentis);"s = 35 % (borne haute) ; apprentis SIFA pondérés ; écart vs apprentis compris +4.4 %"
+Dépense PUBLIQUE par élève hors apprentis, financement final;1er + 2nd degrés hors apprentissage;2024p;9414.942286;€ 2024;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 35 % (borne haute) ; apprentis SIFA pondérés ; écart vs apprentis compris +2.0 %"
+Part publique initiale 2025p (NI 26.42 Figure 4, B32:B34 / C32:C34);1er degré;2025p;94.932308;%;État + CT + APU;
+Part publique initiale 2025p (NI 26.42 Figure 4, B32:B34 / C32:C34);2nd degré (apprentissage compris);2025p;88.88161;%;État + CT + APU;
+DIE apprentissage du 2nd degré 2025p (estimée);Apprentissage du second degré;2025p;3.777235;Md€ courants 2025;DIE 2nd 2025p × (DIE apprentissage / DIE 2nd) 2024p;"hypothèse H-a : part = 5.12 % ; coût implicite par apprenti 9 636 €"
+Apprentis niveaux 3+4, SIFA, pondération année civile 2025;Apprentissage du second degré;2025p;392002.333333;apprentis;2/3 × 392 035 (31/12/2024) + 1/3 × 391 937 (31/12/2025);
+Dépense PUBLIQUE par élève 2025p, financement initial;1er degré;2025p;8961.609866;€ courants 2025;dépense par élève × part publique;
+Dépense PUBLIQUE par élève 2025p, financement initial;2nd degré (apprentissage compris);2025p;10470.253699;€ courants 2025;dépense par élève × part publique;
+Dépense PUBLIQUE par élève 2025p, financement initial;1er + 2nd degrés (apprentis compris);2025p;9710.256515;€ courants 2025;(P1 + P2) / (N1 + N2);
+Dépense PUBLIQUE par élève hors apprentis 2025p, financement initial;2nd degré hors apprentissage;2025p;11169.592291;€ courants 2025;(P2 − s × DIE apprentissage) / (N2 − apprentis SIFA pondérés);"s = 0 % ; écart +6.7 %"
+Dépense PUBLIQUE par élève hors apprentis 2025p, financement initial;1er + 2nd degrés hors apprentissage;2025p;10021.627835;€ courants 2025;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 0 % ; écart +3.2 %"
+Dépense PUBLIQUE par élève hors apprentis 2025p, financement initial;2nd degré hors apprentissage;2025p;11110.192486;€ courants 2025;(P2 − s × DIE apprentissage) / (N2 − apprentis SIFA pondérés);"s = 9.2 % ; écart +6.1 %"
+Dépense PUBLIQUE par élève hors apprentis 2025p, financement initial;1er + 2nd degrés hors apprentissage;2025p;9993.110914;€ courants 2025;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 9.2 % ; écart +2.9 %"
+Dépense PUBLIQUE par élève hors apprentis 2025p, financement initial;2nd degré hors apprentissage;2025p;11073.052379;€ courants 2025;(P2 − s × DIE apprentissage) / (N2 − apprentis SIFA pondérés);"s = 15 % ; écart +5.8 %"
+Dépense PUBLIQUE par élève hors apprentis 2025p, financement initial;1er + 2nd degrés hors apprentissage;2025p;9975.280527;€ courants 2025;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 15 % ; écart +2.7 %"
+Dépense PUBLIQUE par élève hors apprentis 2025p, financement initial;2nd degré hors apprentissage;2025p;10944.332496;€ courants 2025;(P2 − s × DIE apprentissage) / (N2 − apprentis SIFA pondérés);"s = 35 % ; écart +4.5 %"
+Dépense PUBLIQUE par élève hors apprentis 2025p, financement initial;1er + 2nd degrés hors apprentissage;2025p;9913.484116;€ courants 2025;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 35 % ; écart +2.1 %"
+Dépense PUBLIQUE par élève 2025p, financement final (estimé, H-b);1er degré;2025p;8820.009866;€ courants 2025;dépense par élève × part publique;
+Dépense PUBLIQUE par élève 2025p, financement final (estimé, H-b);2nd degré (apprentissage compris);2025p;10069.733699;€ courants 2025;dépense par élève × part publique;
+Dépense PUBLIQUE par élève 2025p, financement final (estimé, H-b);1er + 2nd degrés (apprentis compris);2025p;9440.170529;€ courants 2025;(P1 + P2) / (N1 + N2);
+Dépense PUBLIQUE par élève hors apprentis 2025p, financement final (estimé, H-b);2nd degré hors apprentissage;2025p;10742.3204;€ courants 2025;(P2 − s × DIE apprentissage) / (N2 − apprentis SIFA pondérés);"s = 0 % ; écart +6.7 %"
+Dépense PUBLIQUE par élève hors apprentis 2025p, financement final (estimé, H-b);1er + 2nd degrés hors apprentissage;2025p;9742.881209;€ courants 2025;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 0 % ; écart +3.2 %"
+Dépense PUBLIQUE par élève hors apprentis 2025p, financement final (estimé, H-b);2nd degré hors apprentissage;2025p;10682.920595;€ courants 2025;(P2 − s × DIE apprentissage) / (N2 − apprentis SIFA pondérés);"s = 9.2 % ; écart +6.1 %"
+Dépense PUBLIQUE par élève hors apprentis 2025p, financement final (estimé, H-b);1er + 2nd degrés hors apprentissage;2025p;9714.364288;€ courants 2025;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 9.2 % ; écart +2.9 %"
+Dépense PUBLIQUE par élève hors apprentis 2025p, financement final (estimé, H-b);2nd degré hors apprentissage;2025p;10645.780487;€ courants 2025;(P2 − s × DIE apprentissage) / (N2 − apprentis SIFA pondérés);"s = 15 % ; écart +5.7 %"
+Dépense PUBLIQUE par élève hors apprentis 2025p, financement final (estimé, H-b);1er + 2nd degrés hors apprentissage;2025p;9696.533901;€ courants 2025;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 15 % ; écart +2.7 %"
+Dépense PUBLIQUE par élève hors apprentis 2025p, financement final (estimé, H-b);2nd degré hors apprentissage;2025p;10517.060604;€ courants 2025;(P2 − s × DIE apprentissage) / (N2 − apprentis SIFA pondérés);"s = 35 % ; écart +4.4 %"
+Dépense PUBLIQUE par élève hors apprentis 2025p, financement final (estimé, H-b);1er + 2nd degrés hors apprentissage;2025p;9634.73749;€ courants 2025;(P1 + P2 − s × DIE apprentissage) / (N1 + N2 − apprentis);"s = 35 % ; écart +2.1 %"

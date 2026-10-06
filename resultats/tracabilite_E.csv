@@ -1,0 +1,61 @@
+﻿cle;valeur;fichier;onglet;cellule;libelle_verifie
+1d.public.2023;5486460;data/raw/effectifs_nationaux/depp_ni_2025-58_effectifs_1er_degre_rentree2025_donnees.xlsx;Figure 7 en ligne;F42;France | Constat 2023
+1d.public.2024;5411649;data/raw/effectifs_nationaux/depp_ni_2025-58_effectifs_1er_degre_rentree2025_donnees.xlsx;Figure 7 en ligne;G42;France | Constat 2024
+1d.public.2025;5315627;data/raw/effectifs_nationaux/depp_ni_2025-58_effectifs_1er_degre_rentree2025_donnees.xlsx;Figure 7 en ligne;H42;"France | Constat
+2025"
+1d.prive_sc.2023;853453;data/raw/effectifs_nationaux/depp_ni_2025-58_effectifs_1er_degre_rentree2025_donnees.xlsx;Figure 7 en ligne;O42;France | Constat 2023
+1d.prive_sc.2024;850131;data/raw/effectifs_nationaux/depp_ni_2025-58_effectifs_1er_degre_rentree2025_donnees.xlsx;Figure 7 en ligne;P42;France | Constat 2024
+1d.prive_sc.2025;839289;data/raw/effectifs_nationaux/depp_ni_2025-58_effectifs_1er_degre_rentree2025_donnees.xlsx;Figure 7 en ligne;Q42;"France | Constat
+2025"
+1d.ensemble.2023;6339913;data/raw/effectifs_nationaux/depp_ni_2025-58_effectifs_1er_degre_rentree2025_donnees.xlsx;Figure 7 en ligne;X42;France | Constat 2023
+1d.ensemble.2024;6261780;data/raw/effectifs_nationaux/depp_ni_2025-58_effectifs_1er_degre_rentree2025_donnees.xlsx;Figure 7 en ligne;Y42;France | Constat 2024
+1d.ensemble.2025;6154916;data/raw/effectifs_nationaux/depp_ni_2025-58_effectifs_1er_degre_rentree2025_donnees.xlsx;Figure 7 en ligne;Z42;"France | Constat
+2025"
+2d.ensemble_2d.public.2023;4465150;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;C32;Ensemble second degré | Effectifs en 2023
+2d.ensemble_2d.public.2024;4444244;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;D32;Ensemble second degré | Effectifs en 2024
+2d.ensemble_2d.public.2025;4431283;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;E32;Ensemble second degré | Effectifs en 2025
+2d.ensemble_2d.prive_sc.2023;1191536;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;H32;Ensemble second degré | Effectifs en 2023
+2d.ensemble_2d.prive_sc.2024;1191447;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;I32;Ensemble second degré | Effectifs en 2024
+2d.ensemble_2d.prive_sc.2025;1189696;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;J32;Ensemble second degré | Effectifs en 2025
+2d.ensemble_2d.ensemble.2023;5656686;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;M32;Ensemble second degré | Effectifs en 2023
+2d.ensemble_2d.ensemble.2024;5635691;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;N32;Ensemble second degré | Effectifs en 2024
+2d.ensemble_2d.ensemble.2025;5620979;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;O32;Ensemble second degré | Effectifs en 2025
+2d.college_y_c_segpa.public.2023;2677841;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;C13;"Formations en collège
+y compris Segpa et ULIS | Effectifs en 2023"
+2d.college_y_c_segpa.public.2024;2659254;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;D13;"Formations en collège
+y compris Segpa et ULIS | Effectifs en 2024"
+2d.college_y_c_segpa.public.2025;2636789;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;E13;"Formations en collège
+y compris Segpa et ULIS | Effectifs en 2025"
+2d.college_y_c_segpa.prive_sc.2023;726979;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;H13;"Formations en collège
+y compris Segpa et ULIS | Effectifs en 2023"
+2d.college_y_c_segpa.prive_sc.2024;727578;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;I13;"Formations en collège
+y compris Segpa et ULIS | Effectifs en 2024"
+2d.college_y_c_segpa.prive_sc.2025;723139;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;J13;"Formations en collège
+y compris Segpa et ULIS | Effectifs en 2025"
+2d.college_y_c_segpa.ensemble.2023;3404820;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;M13;"Formations en collège
+y compris Segpa et ULIS | Effectifs en 2023"
+2d.college_y_c_segpa.ensemble.2024;3386832;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;N13;"Formations en collège
+y compris Segpa et ULIS | Effectifs en 2024"
+2d.college_y_c_segpa.ensemble.2025;3359928;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;O13;"Formations en collège
+y compris Segpa et ULIS | Effectifs en 2025"
+2d.lycee_gt.public.2023;1272211;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;C30;Ensemble formations générales et technologiques en lycée | Effectifs en 2023
+2d.lycee_gt.public.2024;1254072;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;D30;Ensemble formations générales et technologiques en lycée | Effectifs en 2024
+2d.lycee_gt.public.2025;1253787;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;E30;Ensemble formations générales et technologiques en lycée | Effectifs en 2025
+2d.lycee_gt.prive_sc.2023;346609;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;H30;Ensemble formations générales et technologiques en lycée | Effectifs en 2023
+2d.lycee_gt.prive_sc.2024;343382;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;I30;Ensemble formations générales et technologiques en lycée | Effectifs en 2024
+2d.lycee_gt.prive_sc.2025;344610;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;J30;Ensemble formations générales et technologiques en lycée | Effectifs en 2025
+2d.lycee_gt.ensemble.2023;1618820;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;M30;Ensemble formations générales et technologiques en lycée | Effectifs en 2023
+2d.lycee_gt.ensemble.2024;1597454;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;N30;Ensemble formations générales et technologiques en lycée | Effectifs en 2024
+2d.lycee_gt.ensemble.2025;1598397;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;O30;Ensemble formations générales et technologiques en lycée | Effectifs en 2025
+2d.lycee_pro.public.2023;515098;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;C25;Ensemble formations Professionnelles en lycée | Effectifs en 2023
+2d.lycee_pro.public.2024;529614;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;D25;Ensemble formations Professionnelles en lycée | Effectifs en 2024
+2d.lycee_pro.public.2025;539700;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;E25;Ensemble formations Professionnelles en lycée | Effectifs en 2025
+2d.lycee_pro.prive_sc.2023;117948;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;H25;Ensemble formations Professionnelles en lycée | Effectifs en 2023
+2d.lycee_pro.prive_sc.2024;120471;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;I25;Ensemble formations Professionnelles en lycée | Effectifs en 2024
+2d.lycee_pro.prive_sc.2025;121931;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;J25;Ensemble formations Professionnelles en lycée | Effectifs en 2025
+2d.lycee_pro.ensemble.2023;633046;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;M25;Ensemble formations Professionnelles en lycée | Effectifs en 2023
+2d.lycee_pro.ensemble.2024;650085;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;N25;Ensemble formations Professionnelles en lycée | Effectifs en 2024
+2d.lycee_pro.ensemble.2025;661631;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;O25;Ensemble formations Professionnelles en lycée | Effectifs en 2025
+2d.prepa_seconde.ensemble.2023;0;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;M14;Ensemble classe préparatoire à la classe de seconde | Effectifs en 2023
+2d.prepa_seconde.ensemble.2024;1320;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;N14;Ensemble classe préparatoire à la classe de seconde | Effectifs en 2024
+2d.prepa_seconde.ensemble.2025;1023;data/raw/effectifs_nationaux/depp_ni_2025-59_effectifs_2nd_degre_rentree2025_donnees.xlsx;Figure 10 en ligne;O14;Ensemble classe préparatoire à la classe de seconde | Effectifs en 2025

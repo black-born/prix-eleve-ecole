@@ -1,0 +1,340 @@
+=== Dénominateurs (collégiens du public, année civile) ===
+              2022       2023       2024       2025
+75         55012.0    53735.0    52291.0    50732.0
+77         74443.0    74761.0    75179.0    75282.0
+78         68006.0    68350.0    68497.0    68174.0
+91         64866.0    65511.0    65790.0    66111.0
+92         56958.0    56433.0    55972.0    55232.0
+93         78636.0    78903.0    78941.0    79018.0
+94         56561.0    56842.0    57001.0    56930.0
+95         64622.0    65405.0    66037.0    66558.0
+FR_ALL   2680225.0  2680293.0  2669290.0  2649470.0
+FR_OFGL  2629588.0  2630416.0  2620273.0  2601522.0
+=== Rentrées (collégiens du public) ===
+r     2019   2020   2021   2022   2023   2024   2025
+dep                                                 
+75   56786  56506  55432  54173  52858  51158  49880
+77   73458  74130  74376  74578  75127  75282  75282
+78   67033  67871  67900  68218  68615  68260  68002
+91   63683  64216  64570  65459  65615  66141  66051
+92   57247  57730  57163  56549  56202  55512  54672
+93   78186  78959  78523  78862  78986  78851  79351
+94   56345  57007  56472  56740  57045  56913  56963
+95   63060  64222  64333  65199  65818  66476  66722
+France hors COM : {2019: 2675843, 2020: 2689111, 2021: 2678986, 2022: 2682702, 2023: 2675476, 2024: 2656918, 2025: 2634574}
+=== Fonction 221 : M€ ===
+annee                                                                                               2022     2023     2024     2025  total_2022_2025
+entite                                                      agregat                                                                                 
+Essonne                                                     Achats et charges externes             25.81    41.80    37.66    37.55           142.82
+                                                            Autres dépenses d'investissement        0.00     0.00     0.00     0.00             0.00
+                                                            Autres dépenses de fonctionnement       4.69     1.53     0.28     1.89             8.39
+                                                            Charges financières                     0.00     0.00     0.00     0.00             0.00
+                                                            Dépenses d'intervention                20.70    19.94    19.77    18.38            78.80
+                                                            Dépenses d'investissement hors remb    68.38    81.29    69.80    62.94           282.41
+                                                            Dépenses d'équipement                  68.10    80.91    69.55    62.71           281.28
+                                                            Dépenses de fonctionnement             95.56   107.85   103.32   101.70           408.43
+                                                            Dépenses totales hors remb            163.94   189.14   173.12   164.64           690.84
+                                                            Frais de personnel                     44.37    44.57    45.61    43.88           178.43
+                                                            Subventions d'équipement versées        0.28     0.38     0.25     0.22             1.13
+France (départements + Paris + Métropole de Lyon, hors CTU) Achats et charges externes            434.97   558.00   552.15   534.44          2079.56
+                                                            Autres dépenses d'investissement        7.24     6.05     4.94     5.38            23.61
+                                                            Autres dépenses de fonctionnement      73.93    76.27    84.35    89.52           324.08
+                                                            Charges financières                    14.42    14.26    13.31    12.01            54.00
+                                                            Dépenses d'intervention              1155.67  1327.68  1263.78  1227.86          4975.00
+                                                            Dépenses d'investissement hors remb  2535.29  2570.44  2583.14  2477.55         10166.42
+                                                            Dépenses d'équipement                2422.93  2460.96  2475.83  2370.68          9730.41
+                                                            Dépenses de fonctionnement           2913.13  3291.22  3268.61  3266.60         12739.55
+                                                            Dépenses totales hors remb           5448.41  5861.66  5851.75  5744.15         22905.97
+                                                            Frais de personnel                   1234.13  1315.00  1355.02  1402.77          5306.91
+                                                            Subventions d'équipement versées      105.11   103.42   102.36   101.49           412.39
+Hauts-de-Seine                                              Achats et charges externes             35.54    56.87    62.41    47.57           202.39
+                                                            Autres dépenses d'investissement        0.00     0.00     0.00     0.00             0.00
+                                                            Autres dépenses de fonctionnement       1.04     2.69     0.56     6.34            10.62
+                                                            Charges financières                     0.48     0.39     0.30     0.12             1.29
+                                                            Dépenses d'intervention                24.50    27.76    27.57    27.06           106.90
+                                                            Dépenses d'investissement hors remb   111.06    78.26   111.37   119.93           420.62
+                                                            Dépenses d'équipement                 108.64    75.89   109.78   118.80           413.11
+                                                            Dépenses de fonctionnement            100.32   125.66   128.78   116.47           471.22
+                                                            Dépenses totales hors remb            211.38   203.92   240.15   236.40           891.84
+                                                            Frais de personnel                     38.76    37.95    37.94    35.37           150.02
+                                                            Subventions d'équipement versées        2.41     2.37     1.59     1.14             7.51
+Paris (Ville de Paris)                                      Achats et charges externes              1.83     2.16     2.39     2.67             9.05
+                                                            Autres dépenses d'investissement        0.00     0.00     0.00     0.00             0.00
+                                                            Autres dépenses de fonctionnement      -0.00     0.00     0.00     0.00             0.00
+                                                            Charges financières                     0.00     0.00     0.00     0.00             0.00
+                                                            Dépenses d'intervention                38.22    38.43    37.97    34.16           148.78
+                                                            Dépenses d'investissement hors remb    14.37    18.03    19.12    19.06            70.58
+                                                            Dépenses d'équipement                  11.87    14.94    15.11    15.86            57.78
+                                                            Dépenses de fonctionnement             68.33    69.51    69.74    67.68           275.25
+                                                            Dépenses totales hors remb             82.70    87.54    88.86    86.74           345.83
+                                                            Frais de personnel                     28.28    28.92    29.38    30.84           117.42
+                                                            Subventions d'équipement versées        2.50     3.09     4.01     3.20            12.80
+Seine-Saint-Denis                                           Achats et charges externes             27.64    39.87    36.53    31.25           135.29
+                                                            Autres dépenses d'investissement        0.00     0.96     0.51     0.00             1.47
+                                                            Autres dépenses de fonctionnement       0.37     0.61     0.14     0.62             1.74
+                                                            Charges financières                     6.17     6.63     6.34     5.65            24.78
+                                                            Dépenses d'intervention                27.97    24.40    20.91    19.79            93.07
+                                                            Dépenses d'investissement hors remb    62.32    79.14    86.76    97.73           325.94
+                                                            Dépenses d'équipement                  61.22    76.96    86.13    97.38           321.69
+                                                            Dépenses de fonctionnement            130.19   143.05   137.81   131.90           542.94
+                                                            Dépenses totales hors remb            192.51   222.19   224.56   229.63           868.88
+                                                            Frais de personnel                     68.04    71.54    73.89    74.58           288.06
+                                                            Subventions d'équipement versées        1.10     1.21     0.12     0.35             2.78
+Seine-et-Marne                                              Achats et charges externes             20.49    32.95    27.27    21.56           102.27
+                                                            Autres dépenses d'investissement        0.00     0.00     0.00     0.00             0.00
+                                                            Autres dépenses de fonctionnement       0.45     0.89     5.93     0.65             7.92
+                                                            Charges financières                     0.00     0.00     0.00     0.00             0.00
+                                                            Dépenses d'intervention                20.97    21.88    18.14    47.06           108.05
+                                                            Dépenses d'investissement hors remb    89.19    96.03   102.36   100.21           387.79
+                                                            Dépenses d'équipement                  88.92    95.86   101.13    99.54           385.45
+                                                            Dépenses de fonctionnement             41.91    55.72    51.33    69.27           218.24
+                                                            Dépenses totales hors remb            131.10   151.75   153.69   169.48           606.03
+                                                            Frais de personnel                      0.00     0.00     0.00     0.00             0.00
+                                                            Subventions d'équipement versées        0.28     0.17     1.23     0.67             2.34
+Val-d'Oise                                                  Achats et charges externes             20.86    23.44    21.40    24.28            89.99
+                                                            Autres dépenses d'investissement        0.02     0.00     0.00     0.00             0.02
+                                                            Autres dépenses de fonctionnement       2.20     0.00     0.11     0.00             2.30
+                                                            Charges financières                     0.00     0.00     0.00     0.00             0.00
+                                                            Dépenses d'intervention                21.56    22.85    23.25    24.67            92.33
+                                                            Dépenses d'investissement hors remb    68.72    59.23    81.00    52.67           261.62
+                                                            Dépenses d'équipement                  68.59    59.09    80.88    52.57           261.12
+                                                            Dépenses de fonctionnement             44.62    46.29    44.77    93.81           229.48
+                                                            Dépenses totales hors remb            113.34   105.52   125.76   146.48           491.10
+                                                            Frais de personnel                      0.00     0.00     0.00    44.86            44.86
+                                                            Subventions d'équipement versées        0.12     0.14     0.12     0.10             0.48
+Val-de-Marne                                                Achats et charges externes              8.94     8.10     7.62    14.11            38.77
+                                                            Autres dépenses d'investissement        0.00     0.00     0.00     0.55             0.55
+                                                            Autres dépenses de fonctionnement       0.00     0.00     0.00     0.33             0.34
+                                                            Charges financières                     0.00     0.00     0.00     0.00             0.00
+                                                            Dépenses d'intervention                26.50    28.24    28.63    20.87           104.24
+                                                            Dépenses d'investissement hors remb    88.09    83.91    68.48    68.60           309.08
+                                                            Dépenses d'équipement                  87.96    82.66    68.38    67.93           306.93
+                                                            Dépenses de fonctionnement             73.03    78.21    79.32    79.33           309.89
+                                                            Dépenses totales hors remb            161.12   162.11   147.80   147.94           618.97
+                                                            Frais de personnel                     37.58    41.87    43.07    44.02           166.54
+                                                            Subventions d'équipement versées        0.13     1.25     0.10     0.12             1.60
+Yvelines                                                    Achats et charges externes             14.26    22.54    22.47    20.75            80.02
+                                                            Autres dépenses d'investissement        0.00     0.00     0.00     0.00             0.00
+                                                            Autres dépenses de fonctionnement      36.85    39.68    38.74    37.92           153.18
+                                                            Charges financières                     0.00     0.00     0.00     0.00             0.00
+                                                            Dépenses d'intervention                16.12    16.53    14.64    15.35            62.64
+                                                            Dépenses d'investissement hors remb    40.22    57.84    70.86   107.44           276.35
+                                                            Dépenses d'équipement                  34.58    50.99    68.74   103.00           257.31
+                                                            Dépenses de fonctionnement             67.22    78.75    75.85    74.03           295.84
+                                                            Dépenses totales hors remb            107.44   136.58   146.72   181.46           572.20
+                                                            Frais de personnel                      0.00     0.00     0.00     0.00             0.00
+                                                            Subventions d'équipement versées        5.64     6.84     2.13     4.43            19.04
+=== Fonction 221 : € par collégien du public ===
+annee                                                                                              2022    2023    2024    2025  moy_2022_2025
+entite                                                      agregat                                                                           
+Essonne                                                     Achats et charges externes            398.0   638.0   572.0   568.0          545.0
+                                                            Autres dépenses d'investissement        0.0     0.0     0.0     0.0            0.0
+                                                            Autres dépenses de fonctionnement      72.0    23.0     4.0    29.0           32.0
+                                                            Charges financières                     0.0     0.0     0.0     0.0            0.0
+                                                            Dépenses d'intervention               319.0   304.0   301.0   278.0          300.0
+                                                            Dépenses d'investissement hors remb  1054.0  1241.0  1061.0   952.0         1077.0
+                                                            Dépenses d'équipement                1050.0  1235.0  1057.0   949.0         1072.0
+                                                            Dépenses de fonctionnement           1473.0  1646.0  1570.0  1538.0         1557.0
+                                                            Dépenses totales hors remb           2527.0  2887.0  2631.0  2490.0         2634.0
+                                                            Frais de personnel                    684.0   680.0   693.0   664.0          680.0
+                                                            Subventions d'équipement versées        4.0     6.0     4.0     3.0            4.0
+France (départements + Paris + Métropole de Lyon, hors CTU) Achats et charges externes            165.0   212.0   211.0   205.0          198.0
+                                                            Autres dépenses d'investissement        3.0     2.0     2.0     2.0            2.0
+                                                            Autres dépenses de fonctionnement      28.0    29.0    32.0    34.0           31.0
+                                                            Charges financières                     5.0     5.0     5.0     5.0            5.0
+                                                            Dépenses d'intervention               439.0   505.0   482.0   472.0          475.0
+                                                            Dépenses d'investissement hors remb   964.0   977.0   986.0   952.0          970.0
+                                                            Dépenses d'équipement                 921.0   936.0   945.0   911.0          928.0
+                                                            Dépenses de fonctionnement           1108.0  1251.0  1247.0  1256.0         1215.0
+                                                            Dépenses totales hors remb           2072.0  2228.0  2233.0  2208.0         2185.0
+                                                            Frais de personnel                    469.0   500.0   517.0   539.0          506.0
+                                                            Subventions d'équipement versées       40.0    39.0    39.0    39.0           39.0
+Hauts-de-Seine                                              Achats et charges externes            624.0  1008.0  1115.0   861.0          901.0
+                                                            Autres dépenses d'investissement        0.0     0.0     0.0     0.0            0.0
+                                                            Autres dépenses de fonctionnement      18.0    48.0    10.0   115.0           47.0
+                                                            Charges financières                     8.0     7.0     5.0     2.0            6.0
+                                                            Dépenses d'intervention               430.0   492.0   493.0   490.0          476.0
+                                                            Dépenses d'investissement hors remb  1950.0  1387.0  1990.0  2171.0         1873.0
+                                                            Dépenses d'équipement                1907.0  1345.0  1961.0  2151.0         1839.0
+                                                            Dépenses de fonctionnement           1761.0  2227.0  2301.0  2109.0         2098.0
+                                                            Dépenses totales hors remb           3711.0  3613.0  4290.0  4280.0         3971.0
+                                                            Frais de personnel                    680.0   672.0   678.0   640.0          668.0
+                                                            Subventions d'équipement versées       42.0    42.0    28.0    21.0           33.0
+Paris (Ville de Paris)                                      Achats et charges externes             33.0    40.0    46.0    53.0           43.0
+                                                            Autres dépenses d'investissement        0.0     0.0     0.0     0.0            0.0
+                                                            Autres dépenses de fonctionnement      -0.0     0.0     0.0     0.0            0.0
+                                                            Charges financières                     0.0     0.0     0.0     0.0            0.0
+                                                            Dépenses d'intervention               695.0   715.0   726.0   673.0          703.0
+                                                            Dépenses d'investissement hors remb   261.0   336.0   366.0   376.0          333.0
+                                                            Dépenses d'équipement                 216.0   278.0   289.0   313.0          273.0
+                                                            Dépenses de fonctionnement           1242.0  1294.0  1334.0  1334.0         1300.0
+                                                            Dépenses totales hors remb           1503.0  1629.0  1699.0  1710.0         1633.0
+                                                            Frais de personnel                    514.0   538.0   562.0   608.0          554.0
+                                                            Subventions d'équipement versées       45.0    57.0    77.0    63.0           60.0
+Seine-Saint-Denis                                           Achats et charges externes            351.0   505.0   463.0   396.0          429.0
+                                                            Autres dépenses d'investissement        0.0    12.0     6.0     0.0            5.0
+                                                            Autres dépenses de fonctionnement       5.0     8.0     2.0     8.0            6.0
+                                                            Charges financières                    78.0    84.0    80.0    72.0           79.0
+                                                            Dépenses d'intervention               356.0   309.0   265.0   250.0          295.0
+                                                            Dépenses d'investissement hors remb   792.0  1003.0  1099.0  1237.0         1033.0
+                                                            Dépenses d'équipement                 778.0   975.0  1091.0  1232.0         1020.0
+                                                            Dépenses de fonctionnement           1656.0  1813.0  1746.0  1669.0         1721.0
+                                                            Dépenses totales hors remb           2448.0  2816.0  2845.0  2906.0         2754.0
+                                                            Frais de personnel                    865.0   907.0   936.0   944.0          913.0
+                                                            Subventions d'équipement versées       14.0    15.0     2.0     4.0            9.0
+Seine-et-Marne                                              Achats et charges externes            275.0   441.0   363.0   286.0          341.0
+                                                            Autres dépenses d'investissement        0.0     0.0     0.0     0.0            0.0
+                                                            Autres dépenses de fonctionnement       6.0    12.0    79.0     9.0           26.0
+                                                            Charges financières                     0.0     0.0     0.0     0.0            0.0
+                                                            Dépenses d'intervention               282.0   293.0   241.0   625.0          361.0
+                                                            Dépenses d'investissement hors remb  1198.0  1285.0  1362.0  1331.0         1294.0
+                                                            Dépenses d'équipement                1194.0  1282.0  1345.0  1322.0         1286.0
+                                                            Dépenses de fonctionnement            563.0   745.0   683.0   920.0          728.0
+                                                            Dépenses totales hors remb           1761.0  2030.0  2044.0  2251.0         2022.0
+                                                            Frais de personnel                      0.0     0.0     0.0     0.0            0.0
+                                                            Subventions d'équipement versées        4.0     2.0    16.0     9.0            8.0
+Val-d'Oise                                                  Achats et charges externes            323.0   358.0   324.0   365.0          343.0
+                                                            Autres dépenses d'investissement        0.0     0.0     0.0     0.0            0.0
+                                                            Autres dépenses de fonctionnement      34.0     0.0     2.0     0.0            9.0
+                                                            Charges financières                     0.0     0.0     0.0     0.0            0.0
+                                                            Dépenses d'intervention               334.0   349.0   352.0   371.0          352.0
+                                                            Dépenses d'investissement hors remb  1063.0   906.0  1227.0   791.0          996.0
+                                                            Dépenses d'équipement                1061.0   903.0  1225.0   790.0          994.0
+                                                            Dépenses de fonctionnement            690.0   708.0   678.0  1409.0          874.0
+                                                            Dépenses totales hors remb           1754.0  1613.0  1904.0  2201.0         1870.0
+                                                            Frais de personnel                      0.0     0.0     0.0   674.0          171.0
+                                                            Subventions d'équipement versées        2.0     2.0     2.0     2.0            2.0
+Val-de-Marne                                                Achats et charges externes            158.0   143.0   134.0   248.0          171.0
+                                                            Autres dépenses d'investissement        0.0     0.0     0.0    10.0            2.0
+                                                            Autres dépenses de fonctionnement       0.0     0.0     0.0     6.0            1.0
+                                                            Charges financières                     0.0     0.0     0.0     0.0            0.0
+                                                            Dépenses d'intervention               469.0   497.0   502.0   367.0          459.0
+                                                            Dépenses d'investissement hors remb  1557.0  1476.0  1201.0  1205.0         1360.0
+                                                            Dépenses d'équipement                1555.0  1454.0  1200.0  1193.0         1350.0
+                                                            Dépenses de fonctionnement           1291.0  1376.0  1392.0  1394.0         1363.0
+                                                            Dépenses totales hors remb           2849.0  2852.0  2593.0  2599.0         2723.0
+                                                            Frais de personnel                    664.0   737.0   756.0   773.0          733.0
+                                                            Subventions d'équipement versées        2.0    22.0     2.0     2.0            7.0
+Yvelines                                                    Achats et charges externes            210.0   330.0   328.0   304.0          293.0
+                                                            Autres dépenses d'investissement        0.0     0.0     0.0     0.0            0.0
+                                                            Autres dépenses de fonctionnement     542.0   580.0   566.0   556.0          561.0
+                                                            Charges financières                     0.0     0.0     0.0     0.0            0.0
+                                                            Dépenses d'intervention               237.0   242.0   214.0   225.0          229.0
+                                                            Dépenses d'investissement hors remb   591.0   846.0  1035.0  1576.0         1012.0
+                                                            Dépenses d'équipement                 508.0   746.0  1004.0  1511.0          942.0
+                                                            Dépenses de fonctionnement            988.0  1152.0  1107.0  1086.0         1084.0
+                                                            Dépenses totales hors remb           1580.0  1998.0  2142.0  2662.0         2096.0
+                                                            Frais de personnel                      0.0     0.0     0.0     0.0            0.0
+                                                            Subventions d'équipement versées       83.0   100.0    31.0    65.0           70.0
+annee                                                                                                                                           2022     2023     2024     2025  total_2022_2025
+entite                                           agregat                                                                                                                                        
+Essonne                                          Remboursement en capital des marchés de partenariat (1675, fonction 221) [DGFiP]               0.00     0.00     0.00     0.00             0.00
+France (départements + Paris + ML + CTU) [DGFiP] Dépenses d'équipement [DGFiP, avec CTU]                                                     2467.46  2521.48  2537.32  2412.00          9938.26
+                                                 Dépenses de fonctionnement [DGFiP, avec CTU]                                                2958.65  3336.59  3312.32  3314.70         12922.26
+                                                 Remboursement en capital des marchés de partenariat (1675, fonction 221) [DGFiP, avec CTU]    29.60    29.88    30.86    30.83           121.17
+Hauts-de-Seine                                   Remboursement en capital des marchés de partenariat (1675, fonction 221) [DGFiP]               2.73     2.82     2.91     1.98            10.44
+Paris (Ville de Paris)                           Remboursement en capital des marchés de partenariat (1675, fonction 221) [DGFiP]               0.00     0.00     0.00     0.00             0.00
+Seine-Saint-Denis                                Remboursement en capital des marchés de partenariat (1675, fonction 221) [DGFiP]              16.11    16.03    16.36    16.69            65.19
+Seine-et-Marne                                   Remboursement en capital des marchés de partenariat (1675, fonction 221) [DGFiP]               0.00     0.00     0.00     0.00             0.00
+Val-d'Oise                                       Remboursement en capital des marchés de partenariat (1675, fonction 221) [DGFiP]               0.00     0.00     0.00     0.00             0.00
+Val-de-Marne                                     Remboursement en capital des marchés de partenariat (1675, fonction 221) [DGFiP]               0.00     0.00     0.00     0.00             0.00
+Yvelines                                         Remboursement en capital des marchés de partenariat (1675, fonction 221) [DGFiP]               0.00     0.00     0.00     0.00             0.00
+annee                                                                                                                                          2022    2023    2024    2025  moy_2022_2025
+entite                                           agregat                                                                                                                                  
+Essonne                                          Remboursement en capital des marchés de partenariat (1675, fonction 221) [DGFiP]               0.0     0.0     0.0     0.0            0.0
+France (départements + Paris + ML + CTU) [DGFiP] Dépenses d'équipement [DGFiP, avec CTU]                                                      921.0   941.0   951.0   910.0          931.0
+                                                 Dépenses de fonctionnement [DGFiP, avec CTU]                                                1104.0  1245.0  1241.0  1251.0         1210.0
+                                                 Remboursement en capital des marchés de partenariat (1675, fonction 221) [DGFiP, avec CTU]    11.0    11.0    12.0    12.0           11.0
+Hauts-de-Seine                                   Remboursement en capital des marchés de partenariat (1675, fonction 221) [DGFiP]              48.0    50.0    52.0    36.0           46.0
+Paris (Ville de Paris)                           Remboursement en capital des marchés de partenariat (1675, fonction 221) [DGFiP]               0.0     0.0     0.0     0.0            0.0
+Seine-Saint-Denis                                Remboursement en capital des marchés de partenariat (1675, fonction 221) [DGFiP]             205.0   203.0   207.0   211.0          207.0
+Seine-et-Marne                                   Remboursement en capital des marchés de partenariat (1675, fonction 221) [DGFiP]               0.0     0.0     0.0     0.0            0.0
+Val-d'Oise                                       Remboursement en capital des marchés de partenariat (1675, fonction 221) [DGFiP]               0.0     0.0     0.0     0.0            0.0
+Val-de-Marne                                     Remboursement en capital des marchés de partenariat (1675, fonction 221) [DGFiP]               0.0     0.0     0.0     0.0            0.0
+Yvelines                                         Remboursement en capital des marchés de partenariat (1675, fonction 221) [DGFiP]               0.0     0.0     0.0     0.0            0.0
+annee                                                                                                         2022   2023   2024   2025  total_2022_2025
+entite                 agregat                                                                                                                          
+Essonne                Remboursement en capital des marchés de partenariat (1675, toutes fonctions) [DGFiP]   0.00   0.00   0.00   0.00             0.00
+Hauts-de-Seine         Remboursement en capital des marchés de partenariat (1675, toutes fonctions) [DGFiP]   8.17   8.26   8.35   7.42            32.20
+Paris (Ville de Paris) Remboursement en capital des marchés de partenariat (1675, toutes fonctions) [DGFiP]   2.14   2.41   2.33   2.22             9.10
+Seine-Saint-Denis      Remboursement en capital des marchés de partenariat (1675, toutes fonctions) [DGFiP]  16.11  16.03  16.36  16.69            65.19
+Seine-et-Marne         Remboursement en capital des marchés de partenariat (1675, toutes fonctions) [DGFiP]   0.00   0.00   0.00   0.00             0.00
+Val-d'Oise             Remboursement en capital des marchés de partenariat (1675, toutes fonctions) [DGFiP]   0.00   0.00   0.00   0.00             0.00
+Val-de-Marne           Remboursement en capital des marchés de partenariat (1675, toutes fonctions) [DGFiP]   0.00   0.00   0.00   0.00             0.00
+Yvelines               Remboursement en capital des marchés de partenariat (1675, toutes fonctions) [DGFiP]   0.00   0.00   0.00   0.00             0.00
+annee                                                                                                         2022   2023   2024   2025  moy_2022_2025
+entite                 agregat                                                                                                                        
+Essonne                Remboursement en capital des marchés de partenariat (1675, toutes fonctions) [DGFiP]    0.0    0.0    0.0    0.0            0.0
+Hauts-de-Seine         Remboursement en capital des marchés de partenariat (1675, toutes fonctions) [DGFiP]  143.0  146.0  149.0  134.0          143.0
+Paris (Ville de Paris) Remboursement en capital des marchés de partenariat (1675, toutes fonctions) [DGFiP]   39.0   45.0   45.0   44.0           43.0
+Seine-Saint-Denis      Remboursement en capital des marchés de partenariat (1675, toutes fonctions) [DGFiP]  205.0  203.0  207.0  211.0          207.0
+Seine-et-Marne         Remboursement en capital des marchés de partenariat (1675, toutes fonctions) [DGFiP]    0.0    0.0    0.0    0.0            0.0
+Val-d'Oise             Remboursement en capital des marchés de partenariat (1675, toutes fonctions) [DGFiP]    0.0    0.0    0.0    0.0            0.0
+Val-de-Marne           Remboursement en capital des marchés de partenariat (1675, toutes fonctions) [DGFiP]    0.0    0.0    0.0    0.0            0.0
+Yvelines               Remboursement en capital des marchés de partenariat (1675, toutes fonctions) [DGFiP]    0.0    0.0    0.0    0.0            0.0
+=== Fonction 24 (93 et Paris), M€ ===
+annee                                                       2022  2023  2024   2025  total_2022_2025
+entite                 agregat                                                                      
+Paris (Ville de Paris) Dépenses d'investissement hors remb  1.46  0.23  2.74  13.50            17.92
+                       Dépenses d'équipement                1.46  0.23  2.74  13.50            17.92
+                       Dépenses de fonctionnement           5.41  7.25  7.92   7.46            28.04
+                       Frais de personnel                   2.89  3.15  3.63   3.67            13.34
+Seine-Saint-Denis      Dépenses d'investissement hors remb  0.00  0.00  0.08   0.56             0.64
+                       Dépenses d'équipement                0.00  0.00  0.00   0.00             0.00
+                       Dépenses de fonctionnement           0.00  0.00  0.00   0.00             0.00
+                       Frais de personnel                   0.00  0.00  0.00   0.00             0.00
+=== Fonction 20 (93 et Paris), M€ ===
+annee                                                        2022   2023   2024   2025  total_2022_2025
+entite                 agregat                                                                         
+Paris (Ville de Paris) Dépenses d'investissement hors remb   0.88   0.90   1.54   1.86             5.19
+                       Dépenses d'équipement                 0.88   0.90   1.54   1.86             5.19
+                       Dépenses de fonctionnement           62.90  69.06  74.10  78.13           284.19
+                       Frais de personnel                   61.77  67.15  72.13  76.20           277.26
+Seine-Saint-Denis      Dépenses d'investissement hors remb   0.00   0.00   0.00   0.00             0.00
+                       Dépenses d'équipement                 0.00   0.00   0.00   0.00             0.00
+                       Dépenses de fonctionnement            1.14   1.14   0.00   0.00             2.28
+                       Frais de personnel                    1.08   1.04   0.00   0.00             2.12
+=== Fonction 201 (93 et Paris), M€ ===
+annee                                                        2022   2023   2024   2025  total_2022_2025
+entite                 agregat                                                                         
+Paris (Ville de Paris) Dépenses d'investissement hors remb   0.88   0.90   1.54   1.86             5.19
+                       Dépenses d'équipement                 0.88   0.90   1.54   1.86             5.19
+                       Dépenses de fonctionnement           62.90  69.06  74.10  78.13           284.19
+                       Frais de personnel                   61.77  67.15  72.13  76.20           277.26
+Seine-Saint-Denis      Dépenses d'investissement hors remb   0.00   0.00   0.00   0.00             0.00
+                       Dépenses d'équipement                 0.00   0.00   0.00   0.00             0.00
+                       Dépenses de fonctionnement            0.00   0.00   0.00   0.00             0.00
+                       Frais de personnel                    0.00   0.00   0.00   0.00             0.00
+=== Fonction 22 (93 et Paris), M€ ===
+annee                                                         2022    2023    2024    2025  total_2022_2025
+entite                 agregat                                                                             
+Paris (Ville de Paris) Dépenses d'investissement hors remb   15.06   18.60   20.06   19.72            73.44
+                       Dépenses d'équipement                 12.46   15.04   15.68   16.27            59.45
+                       Dépenses de fonctionnement            73.59   75.57   76.02   73.92           299.10
+                       Frais de personnel                    29.47   30.13   30.45   31.87           121.91
+Seine-Saint-Denis      Dépenses d'investissement hors remb   62.32   79.14   86.76   97.73           325.94
+                       Dépenses d'équipement                 61.22   76.96   86.13   97.38           321.69
+                       Dépenses de fonctionnement           130.19  143.05  137.81  131.90           542.94
+                       Frais de personnel                    68.04   71.54   73.89   74.58           288.06
+=== Fonction 28 (93 et Paris), M€ ===
+annee                                                         2022    2023    2024    2025  total_2022_2025
+entite                 agregat                                                                             
+Paris (Ville de Paris) Dépenses d'investissement hors remb   13.91   11.65    7.69    7.63            40.88
+                       Dépenses d'équipement                 13.01   10.73    7.02    7.44            38.19
+                       Dépenses de fonctionnement           110.60  134.69  152.68  163.11           561.08
+                       Frais de personnel                     6.43    7.24    7.45    7.73            28.86
+Seine-Saint-Denis      Dépenses d'investissement hors remb    0.00    0.00    0.00    0.00             0.00
+                       Dépenses d'équipement                  0.00    0.00    0.00    0.00             0.00
+                       Dépenses de fonctionnement             0.10    0.00   11.11   11.02            22.23
+                       Frais de personnel                     0.00    0.00    0.00    0.00             0.00
+=== Fonction 2 (93 et Paris), M€ ===
+annee                                                         2022    2023    2024    2025  total_2022_2025
+entite                 agregat                                                                             
+Paris (Ville de Paris) Dépenses d'investissement hors remb  113.23   98.21  100.43  109.04           420.91
+                       Dépenses d'équipement                 83.91   89.18   82.54   95.16           350.80
+                       Dépenses de fonctionnement           736.34  784.62  834.79  864.47          3220.22
+                       Frais de personnel                   509.65  532.52  563.24  585.33          2190.74
+Seine-Saint-Denis      Dépenses d'investissement hors remb   62.32   79.14   86.84   98.29           326.58
+                       Dépenses d'équipement                 61.22   76.96   86.13   97.38           321.69
+                       Dépenses de fonctionnement           131.43  144.19  148.91  142.92           567.45
+                       Frais de personnel                    69.12   72.59   73.89   74.58           290.18

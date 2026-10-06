@@ -1,0 +1,31 @@
+﻿poste;enveloppe;montant_M€;reparti_M€;hors_champ_M€;cle_de_repartition;population
+etat_enseignants;P140 actions 01-03 (enseignement préélémentaire, élémentaire, besoins particuliers dont RASED);22800.2;22800.2;0.0;ETP d'enseignants de l'école;écoles publiques
+etat_remplacement_formation;P140 actions 04, 05, 07 (formation, remplacement, situations diverses);2684.8;2684.8;0.0;élèves;écoles publiques
+etat_pilotage_admin;P140 action 06 (pilotage et encadrement pédagogique : inspection, conseillers pédagogiques…);1682.3;1682.3;0.0;élèves;écoles publiques
+etat_enseignants;P141 actions 01, 02, 03, 05, 06 (enseignement collège, lycée GT, lycée pro, post-bac, besoins particuliers);30774.2;28759.9;2014.3;"heures d'enseignement × indice de coût des corps ; part post-bac (STS, CPGE) hors champ";collèges et lycées publics
+etat_pilotage_admin;P141 action 12 (pilotage, administration, encadrement pédagogique);4353.9;4109.5;244.4;"ETP « autres personnels » (direction, administratifs…) × part des élèves du secondaire ; part post-bac hors champ";collèges et lycées publics
+etat_remplacement_formation;P141 actions 10, 11, 13 (formation, remplacement, situations diverses);2643.9;2643.9;0.0;élèves;collèges et lycées publics
+etat_inclusion_sante_social;P141 actions 07-08 (insertion, information et orientation);352.8;352.8;0.0;élèves;collèges et lycées publics
+etat_enseignants;P139 actions 01-02 (privé, préélémentaire et élémentaire);1972.4;1972.4;-0.0;ETP d'enseignants de l'école;écoles privées sous contrat
+etat_enseignants;P139 actions 03, 04, 05, 06 (privé : collège, lycée GT, lycée pro, post-bac);5198.5;4842.6;355.9;"heures d'enseignement × indice de coût des corps ; part post-bac hors champ";collèges et lycées privés sous contrat
+etat_enseignants;P139 action 07 (dispositifs spécifiques de scolarisation : ULIS, Segpa, UPE2A… des 1er et 2nd degrés);210.7;210.7;0.0;élèves;établissements privés sous contrat
+etat_aides_familles;P139 action 08 (actions sociales en faveur des élèves du privé : bourses, fonds sociaux);78.1;78.1;0.0;élèves;collèges et lycées privés sous contrat
+etat_forfait_prive_internats;P139 action 09 (fonctionnement des établissements : forfait d'externat part État, personnels non enseignants);697.4;697.4;0.0;élèves;collèges et lycées privés sous contrat
+etat_remplacement_formation;P139 actions 10-12 (formation, remplacement, soutien);359.6;359.6;0.0;élèves;établissements privés sous contrat
+etat_vie_scolaire;P230 action 01 (vie scolaire : CPE, assistants d'éducation);2868.5;2756.1;112.4;"ETP de vie scolaire de l'établissement × part des élèves du secondaire ; part post-bac hors champ";collèges et lycées publics
+etat_inclusion_sante_social;P230 action 02 (santé scolaire);691.2;691.2;0.0;élèves;élèves du public
+etat_inclusion_sante_social;P230 actions 03 et 07 (inclusion des élèves handicapés / AESH, scolarisation à 3 ans);2968.6;2968.6;0.0;élèves;tous les élèves
+etat_inclusion_sante_social;P230 action 04, titre 2 (assistants de service social);244.6;244.6;0.0;élèves;élèves du 2nd degré public
+etat_aides_familles;P230 action 04, hors titre 2 (bourses nationales, primes, fonds sociaux de l'enseignement public);799.4;799.4;0.0;élèves;élèves du 2nd degré public
+etat_forfait_prive_internats;P230 action 05 (internat, établissements à la charge de l'État);86.9;86.9;0.0;élèves;élèves du 2nd degré public
+etat_activites_educatives;P230 action 06 (actions éducatives complémentaires aux enseignements);184.8;184.8;0.0;élèves;tous les élèves
+etat_soutien_administration;P214 actions 01-10 (administration centrale et académique, examens, systèmes d'information…);2728.3;2728.3;0.0;élèves;tous les élèves
+ct_ecoles;Collectivités → écoles publiques (DEPP RERS 2026 10.04, 2024p porté en 2025);20817.3;20817.3;0.0;élèves × dépense de fonctionnement « écoles » par élève de la commune (DGFiP 2025);écoles publiques
+ct_ecoles;"Collectivités → écoles privées sous contrat (forfait communal ; DEPP 2024p porté en 2025)";1153.4;1153.4;0.0;élèves;écoles privées sous contrat
+ct_colleges;Départements (et CTU, Paris, Métropole de Lyon) → collèges publics, DGFiP 2025;6199.3;6199.3;0.0;collégiens × dépense par collégien du département (Géographie de l'École 2026);collèges publics
+ct_colleges;Départements → collèges privés sous contrat (dotations), DGFiP 2025;432.0;432.0;0.0;collégiens;collèges privés sous contrat
+ct_lycees;Régions → lycées publics, DGFiP 2025 (hors part post-bac et lycées agricoles);5846.3;5846.3;0.0;lycéens × dépense par lycéen de la région (Géographie de l'École 2026);lycées publics
+ct_lycees;Régions → lycées privés sous contrat (sous-fonction 223), DGFiP 2025 (hors post-bac et agricole);437.8;437.8;0.0;lycéens;lycées privés sous contrat
+ct_ecoles;Collectivités → fournitures et livres scolaires des écoles publiques (DEPP 2024p porté en 2025 × part des écoles dans le compte 6067, DGFiP 2025);171.0;171.0;0.0;élèves × dépense de fonctionnement « écoles » par élève de la commune (DGFiP 2025);écoles publiques
+ct_transports;Collectivités → transports scolaires (DEPP 2024p porté en 2025);2510.0;2510.0;0.0;élèves;tous les élèves
+apu_par_eleve;Autres administrations publiques (surtout allocation de rentrée scolaire des CAF) : dépense moyenne × part « autres APU » (DEPP 2025p);2162.7;2162.7;0.0;élèves (1er degré : élèves de 6 ans et plus);tous les élèves

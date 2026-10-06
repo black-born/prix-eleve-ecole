@@ -1,0 +1,22 @@
+﻿territoire;type;etablissements;eleves;depense_par_eleve;dont_enseignants_€;dont_vie_scolaire_direction_encadrement_€;dont_autres_credits_etat_€;dont_commune_€;dont_departement_€;dont_region_€;dont_transports_scolaires_€;dont_caf_autres_apu_€
+Paris;école maternelle;273;33885;15676;4620;311;1060;9473;0;0;211;0
+Paris;école élémentaire;273;53112;16047;4781;311;1060;9473;0;0;211;211
+Paris;école primaire;80;16596;15797;4609;311;1060;9473;0;0;211;132
+Paris;collège;114;50392;10841;5888;1322;1493;0;1692;0;211;235
+Paris;lycée général et technologique;44;30595;12577;6455;1581;1493;0;0;2603;211;234
+Paris;lycée polyvalent;20;8123;15101;9013;1560;1493;0;26;2563;211;234
+Paris;lycée professionnel;25;7598;16796;10192;2127;1493;0;121;2418;211;234
+Seine-Saint-Denis;école maternelle;403;64709;9417;4411;311;1061;3424;0;0;211;0
+Seine-Saint-Denis;école élémentaire;412;105033;9911;4722;311;1060;3395;0;0;211;211
+Seine-Saint-Denis;école primaire;47;13780;9969;4479;311;1061;3783;0;0;211;124
+Seine-Saint-Denis;collège;130;78410;11902;6019;1440;1493;0;2504;0;211;235
+Seine-Saint-Denis;lycée général et technologique;21;22633;12405;6607;1256;1493;0;0;2603;211;234
+Seine-Saint-Denis;lycée polyvalent;33;26250;13562;7730;1291;1493;0;15;2587;211;234
+Seine-Saint-Denis;lycée professionnel;14;7504;15324;9225;1562;1493;0;94;2506;211;234
+France;école maternelle;12365;1219995;9529;4071;311;1061;3875;0;0;211;0
+France;école élémentaire;14279;2144678;9981;4338;311;1060;3849;0;0;211;211
+France;école primaire;16161;2046954;9792;4166;311;1061;3910;0;0;211;133
+France;collège;5325;2634043;11451;5723;1458;1493;0;2331;1;211;234
+France;lycée général et technologique;872;776354;12962;6286;1474;1493;0;3;3260;211;234
+France;lycée polyvalent;768;710065;14443;7624;1614;1493;0;27;3240;211;234
+France;lycée professionnel;762;314309;17588;10275;2124;1493;0;98;3154;211;234

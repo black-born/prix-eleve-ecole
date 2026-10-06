@@ -1,0 +1,49 @@
+﻿rentree;fichier;champ;secteur;nb_etablissements;somme_eleves_open_data;total_national_DEPP;ecart_%
+2024;ecoles;open data complet;public;43166;5462329;5411649;0.94
+2024;ecoles;open data complet;prive_sc;4689;862368;850131;1.44
+2024;ecoles;open data complet;ensemble;47855;6324697;6261780;1.0
+2024;ecoles;hors COM (champ DEPP);public;42811;5411627;5411649;-0.0
+2024;ecoles;hors COM (champ DEPP);prive_sc;4602;850123;850131;-0.0
+2024;ecoles;hors COM (champ DEPP);ensemble;47413;6261750;6261780;-0.0
+2024;colleges;open data complet;public;6364;2685094;2659254;0.97
+2024;colleges;open data complet;prive_sc;2022;735697;727578;1.12
+2024;colleges;open data complet;ensemble;8386;3420791;3386832;1.0
+2024;colleges;hors COM (champ DEPP);public;6292;2659221;2659254;-0.0
+2024;colleges;hors COM (champ DEPP);prive_sc;1991;727577;727578;-0.0
+2024;colleges;hors COM (champ DEPP);ensemble;8283;3386798;3386832;-0.0
+2024;lycees_gt;open data complet;public;1665;1264025;1254072;0.79
+2024;lycees_gt;open data complet;prive_sc;867;347044;343382;1.07
+2024;lycees_gt;open data complet;ensemble;2532;1611069;1597454;0.85
+2024;lycees_gt;hors COM (champ DEPP);public;1645;1255373;1254072;0.1
+2024;lycees_gt;hors COM (champ DEPP);prive_sc;857;343395;343382;0.0
+2024;lycees_gt;hors COM (champ DEPP);ensemble;2502;1598768;1597454;0.08
+2024;lycees_pro;open data complet;public;1643;537038;529614;1.4
+2024;lycees_pro;open data complet;prive_sc;563;124106;120471;3.02
+2024;lycees_pro;open data complet;ensemble;2206;661144;650085;1.7
+2024;lycees_pro;hors COM (champ DEPP);public;1616;529604;529614;-0.0
+2024;lycees_pro;hors COM (champ DEPP);prive_sc;548;120469;120471;-0.0
+2024;lycees_pro;hors COM (champ DEPP);ensemble;2164;650073;650085;-0.0
+2025;ecoles;open data complet;public;42749;5365524;5315627;0.94
+2025;ecoles;open data complet;prive_sc;4669;851294;839289;1.43
+2025;ecoles;open data complet;ensemble;47418;6216818;6154916;1.01
+2025;ecoles;hors COM (champ DEPP);public;42396;5315615;5315627;-0.0
+2025;ecoles;hors COM (champ DEPP);prive_sc;4583;839284;839289;-0.0
+2025;ecoles;hors COM (champ DEPP);ensemble;46979;6154899;6154916;-0.0
+2025;colleges;open data complet;public;6382;2662694;2636789;0.98
+2025;colleges;open data complet;prive_sc;2013;730958;723139;1.08
+2025;colleges;open data complet;ensemble;8395;3393652;3359928;1.0
+2025;colleges;hors COM (champ DEPP);public;6292;2636776;2636789;-0.0
+2025;colleges;hors COM (champ DEPP);prive_sc;1984;723139;723139;0.0
+2025;colleges;hors COM (champ DEPP);ensemble;8276;3359915;3359928;-0.0
+2025;lycees_gt;open data complet;public;1675;1263331;1253787;0.76
+2025;lycees_gt;open data complet;prive_sc;862;348209;344610;1.04
+2025;lycees_gt;open data complet;ensemble;2537;1611540;1598397;0.82
+2025;lycees_gt;hors COM (champ DEPP);public;1653;1254790;1253787;0.08
+2025;lycees_gt;hors COM (champ DEPP);prive_sc;852;344626;344610;0.0
+2025;lycees_gt;hors COM (champ DEPP);ensemble;2505;1599416;1598397;0.06
+2025;lycees_pro;open data complet;public;1649;547155;539700;1.38
+2025;lycees_pro;open data complet;prive_sc;565;125505;121931;2.93
+2025;lycees_pro;open data complet;ensemble;2214;672660;661631;1.67
+2025;lycees_pro;hors COM (champ DEPP);public;1620;539688;539700;-0.0
+2025;lycees_pro;hors COM (champ DEPP);prive_sc;550;121928;121931;-0.0
+2025;lycees_pro;hors COM (champ DEPP);ensemble;2170;661616;661631;-0.0

@@ -1,0 +1,166 @@
+﻿niveau;territoire;rentree;source;eleves;etablissements;classes;eleves_par_etablissement;eleves_par_classe
+collèges publics (niveau collège);France;2019;fr-en-college-effectifs-niveau-sexe-lv;2675843.0;6238.0;;428.96;
+collèges publics (niveau collège);France;2020;fr-en-college-effectifs-niveau-sexe-lv;2689111.0;6240.0;;430.95;
+collèges publics (niveau collège);France;2021;fr-en-college-effectifs-niveau-sexe-lv;2678986.0;6248.0;;428.77;
+collèges publics (niveau collège);France;2022;fr-en-college-effectifs-niveau-sexe-lv;2682702.0;6269.0;;427.93;
+collèges publics (niveau collège);France;2023;fr-en-college-effectifs-niveau-sexe-lv;2675476.0;6275.0;;426.37;
+collèges publics (niveau collège);France;2024;fr-en-college-effectifs-niveau-sexe-lv;2656918.0;6287.0;;422.61;
+collèges publics (niveau collège);France;2025;fr-en-college-effectifs-niveau-sexe-lv;2634574.0;6287.0;;419.05;
+collèges publics (niveau collège);Paris;2019;fr-en-college-effectifs-niveau-sexe-lv;56786.0;142.0;;399.9;
+collèges publics (niveau collège);Paris;2020;fr-en-college-effectifs-niveau-sexe-lv;56506.0;142.0;;397.93;
+collèges publics (niveau collège);Paris;2021;fr-en-college-effectifs-niveau-sexe-lv;55432.0;142.0;;390.37;
+collèges publics (niveau collège);Paris;2022;fr-en-college-effectifs-niveau-sexe-lv;54173.0;141.0;;384.21;
+collèges publics (niveau collège);Paris;2023;fr-en-college-effectifs-niveau-sexe-lv;52858.0;140.0;;377.56;
+collèges publics (niveau collège);Paris;2024;fr-en-college-effectifs-niveau-sexe-lv;51158.0;140.0;;365.41;
+collèges publics (niveau collège);Paris;2025;fr-en-college-effectifs-niveau-sexe-lv;49880.0;140.0;;356.29;
+collèges publics (niveau collège);Seine-Saint-Denis;2019;fr-en-college-effectifs-niveau-sexe-lv;78186.0;143.0;;546.76;
+collèges publics (niveau collège);Seine-Saint-Denis;2020;fr-en-college-effectifs-niveau-sexe-lv;78959.0;143.0;;552.16;
+collèges publics (niveau collège);Seine-Saint-Denis;2021;fr-en-college-effectifs-niveau-sexe-lv;78523.0;142.0;;552.98;
+collèges publics (niveau collège);Seine-Saint-Denis;2022;fr-en-college-effectifs-niveau-sexe-lv;78862.0;149.0;;529.28;
+collèges publics (niveau collège);Seine-Saint-Denis;2023;fr-en-college-effectifs-niveau-sexe-lv;78986.0;148.0;;533.69;
+collèges publics (niveau collège);Seine-Saint-Denis;2024;fr-en-college-effectifs-niveau-sexe-lv;78851.0;150.0;;525.67;
+collèges publics (niveau collège);Seine-Saint-Denis;2025;fr-en-college-effectifs-niveau-sexe-lv;79351.0;145.0;;547.25;
+collèges publics (établissements de type collège, ancien jeu);France;2015;fr-en-effectifs-second-degre (obsolète);2589456.0;5290.0;;489.5;
+collèges publics (établissements de type collège, ancien jeu);France;2016;fr-en-effectifs-second-degre (obsolète);2580435.0;5294.0;;487.43;
+collèges publics (établissements de type collège, ancien jeu);France;2017;fr-en-effectifs-second-degre (obsolète);2598358.0;5294.0;;490.81;
+collèges publics (établissements de type collège, ancien jeu);France;2018;fr-en-effectifs-second-degre (obsolète);2622482.0;5290.0;;495.74;
+collèges publics (établissements de type collège, ancien jeu);France;2019;fr-en-effectifs-second-degre (obsolète);2653376.0;5289.0;;501.68;
+collèges publics (établissements de type collège, ancien jeu);Paris;2015;fr-en-effectifs-second-degre (obsolète);56322.0;115.0;;489.76;
+collèges publics (établissements de type collège, ancien jeu);Paris;2016;fr-en-effectifs-second-degre (obsolète);55977.0;115.0;;486.76;
+collèges publics (établissements de type collège, ancien jeu);Paris;2017;fr-en-effectifs-second-degre (obsolète);55653.0;115.0;;483.94;
+collèges publics (établissements de type collège, ancien jeu);Paris;2018;fr-en-effectifs-second-degre (obsolète);55785.0;114.0;;489.34;
+collèges publics (établissements de type collège, ancien jeu);Paris;2019;fr-en-effectifs-second-degre (obsolète);55989.0;114.0;;491.13;
+collèges publics (établissements de type collège, ancien jeu);Seine-Saint-Denis;2015;fr-en-effectifs-second-degre (obsolète);72033.0;125.0;;576.26;
+collèges publics (établissements de type collège, ancien jeu);Seine-Saint-Denis;2016;fr-en-effectifs-second-degre (obsolète);72871.0;125.0;;582.97;
+collèges publics (établissements de type collège, ancien jeu);Seine-Saint-Denis;2017;fr-en-effectifs-second-degre (obsolète);74001.0;125.0;;592.01;
+collèges publics (établissements de type collège, ancien jeu);Seine-Saint-Denis;2018;fr-en-effectifs-second-degre (obsolète);76049.0;128.0;;594.13;
+collèges publics (établissements de type collège, ancien jeu);Seine-Saint-Denis;2019;fr-en-effectifs-second-degre (obsolète);77882.0;130.0;;599.09;
+lycéens GT du public;France;2019;lycee_gt / lycee_pro;1274935.0;1620.0;;787.0;
+lycéens GT du public;France;2020;lycee_gt / lycee_pro;1264053.0;1639.0;;771.23;
+lycéens GT du public;France;2021;lycee_gt / lycee_pro;1273056.0;1639.0;;776.73;
+lycéens GT du public;France;2022;lycee_gt / lycee_pro;1274442.0;1632.0;;780.91;
+lycéens GT du public;France;2023;lycee_gt / lycee_pro;1271414.0;1636.0;;777.15;
+lycéens GT du public;France;2024;lycee_gt / lycee_pro;1254635.0;1643.0;;763.62;
+lycéens GT du public;France;2025;lycee_gt / lycee_pro;1254039.0;1651.0;;759.56;
+lycéens GT du public;Paris;2019;lycee_gt / lycee_pro;35696.0;65.0;;549.17;
+lycéens GT du public;Paris;2020;lycee_gt / lycee_pro;35524.0;65.0;;546.52;
+lycéens GT du public;Paris;2021;lycee_gt / lycee_pro;35539.0;64.0;;555.3;
+lycéens GT du public;Paris;2022;lycee_gt / lycee_pro;35161.0;63.0;;558.11;
+lycéens GT du public;Paris;2023;lycee_gt / lycee_pro;34683.0;62.0;;559.4;
+lycéens GT du public;Paris;2024;lycee_gt / lycee_pro;34072.0;61.0;;558.56;
+lycéens GT du public;Paris;2025;lycee_gt / lycee_pro;33975.0;61.0;;556.97;
+lycéens GT du public;Seine-Saint-Denis;2019;lycee_gt / lycee_pro;34941.0;48.0;;727.94;
+lycéens GT du public;Seine-Saint-Denis;2020;lycee_gt / lycee_pro;35344.0;58.0;;609.38;
+lycéens GT du public;Seine-Saint-Denis;2021;lycee_gt / lycee_pro;36589.0;59.0;;620.15;
+lycéens GT du public;Seine-Saint-Denis;2022;lycee_gt / lycee_pro;37056.0;50.0;;741.12;
+lycéens GT du public;Seine-Saint-Denis;2023;lycee_gt / lycee_pro;37430.0;51.0;;733.92;
+lycéens GT du public;Seine-Saint-Denis;2024;lycee_gt / lycee_pro;36982.0;50.0;;739.64;
+lycéens GT du public;Seine-Saint-Denis;2025;lycee_gt / lycee_pro;37836.0;50.0;;756.72;
+lycéens du public (GT + pro, niveaux lycée);France;2019;lycee_gt + lycee_pro;1789433.0;;;;
+lycéens du public (GT + pro, niveaux lycée);France;2020;lycee_gt + lycee_pro;1781300.0;;;;
+lycéens du public (GT + pro, niveaux lycée);France;2021;lycee_gt + lycee_pro;1781217.0;;;;
+lycéens du public (GT + pro, niveaux lycée);France;2022;lycee_gt + lycee_pro;1779862.0;;;;
+lycéens du public (GT + pro, niveaux lycée);France;2023;lycee_gt + lycee_pro;1786505.0;;;;
+lycéens du public (GT + pro, niveaux lycée);France;2024;lycee_gt + lycee_pro;1784239.0;;;;
+lycéens du public (GT + pro, niveaux lycée);France;2025;lycee_gt + lycee_pro;1792958.0;;;;
+lycéens du public (GT + pro, niveaux lycée);Paris;2019;lycee_gt + lycee_pro;47875.0;;;;
+lycéens du public (GT + pro, niveaux lycée);Paris;2020;lycee_gt + lycee_pro;47507.0;;;;
+lycéens du public (GT + pro, niveaux lycée);Paris;2021;lycee_gt + lycee_pro;47232.0;;;;
+lycéens du public (GT + pro, niveaux lycée);Paris;2022;lycee_gt + lycee_pro;46731.0;;;;
+lycéens du public (GT + pro, niveaux lycée);Paris;2023;lycee_gt + lycee_pro;46552.0;;;;
+lycéens du public (GT + pro, niveaux lycée);Paris;2024;lycee_gt + lycee_pro;46054.0;;;;
+lycéens du public (GT + pro, niveaux lycée);Paris;2025;lycee_gt + lycee_pro;46052.0;;;;
+lycéens du public (GT + pro, niveaux lycée);Seine-Saint-Denis;2019;lycee_gt + lycee_pro;52257.0;;;;
+lycéens du public (GT + pro, niveaux lycée);Seine-Saint-Denis;2020;lycee_gt + lycee_pro;52504.0;;;;
+lycéens du public (GT + pro, niveaux lycée);Seine-Saint-Denis;2021;lycee_gt + lycee_pro;53776.0;;;;
+lycéens du public (GT + pro, niveaux lycée);Seine-Saint-Denis;2022;lycee_gt + lycee_pro;54474.0;;;;
+lycéens du public (GT + pro, niveaux lycée);Seine-Saint-Denis;2023;lycee_gt + lycee_pro;55491.0;;;;
+lycéens du public (GT + pro, niveaux lycée);Seine-Saint-Denis;2024;lycee_gt + lycee_pro;55946.0;;;;
+lycéens du public (GT + pro, niveaux lycée);Seine-Saint-Denis;2025;lycee_gt + lycee_pro;57546.0;;;;
+lycéens professionnels du public;France;2019;lycee_gt / lycee_pro;514498.0;1620.0;;317.59;
+lycéens professionnels du public;France;2020;lycee_gt / lycee_pro;517247.0;1621.0;;319.09;
+lycéens professionnels du public;France;2021;lycee_gt / lycee_pro;508161.0;1620.0;;313.68;
+lycéens professionnels du public;France;2022;lycee_gt / lycee_pro;505420.0;1617.0;;312.57;
+lycéens professionnels du public;France;2023;lycee_gt / lycee_pro;515091.0;1614.0;;319.14;
+lycéens professionnels du public;France;2024;lycee_gt / lycee_pro;529604.0;1616.0;;327.73;
+lycéens professionnels du public;France;2025;lycee_gt / lycee_pro;538919.0;1619.0;;332.87;
+lycéens professionnels du public;Paris;2019;lycee_gt / lycee_pro;12179.0;52.0;;234.21;
+lycéens professionnels du public;Paris;2020;lycee_gt / lycee_pro;11983.0;52.0;;230.44;
+lycéens professionnels du public;Paris;2021;lycee_gt / lycee_pro;11693.0;52.0;;224.87;
+lycéens professionnels du public;Paris;2022;lycee_gt / lycee_pro;11570.0;51.0;;226.86;
+lycéens professionnels du public;Paris;2023;lycee_gt / lycee_pro;11869.0;48.0;;247.27;
+lycéens professionnels du public;Paris;2024;lycee_gt / lycee_pro;11982.0;48.0;;249.62;
+lycéens professionnels du public;Paris;2025;lycee_gt / lycee_pro;12077.0;48.0;;251.6;
+lycéens professionnels du public;Seine-Saint-Denis;2019;lycee_gt / lycee_pro;17316.0;45.0;;384.8;
+lycéens professionnels du public;Seine-Saint-Denis;2020;lycee_gt / lycee_pro;17160.0;45.0;;381.33;
+lycéens professionnels du public;Seine-Saint-Denis;2021;lycee_gt / lycee_pro;17187.0;45.0;;381.93;
+lycéens professionnels du public;Seine-Saint-Denis;2022;lycee_gt / lycee_pro;17418.0;45.0;;387.07;
+lycéens professionnels du public;Seine-Saint-Denis;2023;lycee_gt / lycee_pro;18061.0;46.0;;392.63;
+lycéens professionnels du public;Seine-Saint-Denis;2024;lycee_gt / lycee_pro;18964.0;46.0;;412.26;
+lycéens professionnels du public;Seine-Saint-Denis;2025;lycee_gt / lycee_pro;19710.0;47.0;;419.36;
+lycées publics (établissements de type lycée, post-bac compris, ancien jeu);France;2015;fr-en-effectifs-second-degre (obsolète);1998646.0;2455.0;;814.11;
+lycées publics (établissements de type lycée, post-bac compris, ancien jeu);France;2016;fr-en-effectifs-second-degre (obsolète);2041432.0;2442.0;;835.97;
+lycées publics (établissements de type lycée, post-bac compris, ancien jeu);France;2017;fr-en-effectifs-second-degre (obsolète);2062916.0;2422.0;;851.74;
+lycées publics (établissements de type lycée, post-bac compris, ancien jeu);France;2018;fr-en-effectifs-second-degre (obsolète);2052407.0;2411.0;;851.27;
+lycées publics (établissements de type lycée, post-bac compris, ancien jeu);France;2019;fr-en-effectifs-second-degre (obsolète);2042034.0;2404.0;;849.43;
+lycées publics (établissements de type lycée, post-bac compris, ancien jeu);Paris;2015;fr-en-effectifs-second-degre (obsolète);65446.0;95.0;;688.91;
+lycées publics (établissements de type lycée, post-bac compris, ancien jeu);Paris;2016;fr-en-effectifs-second-degre (obsolète);65954.0;95.0;;694.25;
+lycées publics (établissements de type lycée, post-bac compris, ancien jeu);Paris;2017;fr-en-effectifs-second-degre (obsolète);66281.0;95.0;;697.69;
+lycées publics (établissements de type lycée, post-bac compris, ancien jeu);Paris;2018;fr-en-effectifs-second-degre (obsolète);65591.0;95.0;;690.43;
+lycées publics (établissements de type lycée, post-bac compris, ancien jeu);Paris;2019;fr-en-effectifs-second-degre (obsolète);66068.0;93.0;;710.41;
+lycées publics (établissements de type lycée, post-bac compris, ancien jeu);Seine-Saint-Denis;2015;fr-en-effectifs-second-degre (obsolète);52629.0;65.0;;809.68;
+lycées publics (établissements de type lycée, post-bac compris, ancien jeu);Seine-Saint-Denis;2016;fr-en-effectifs-second-degre (obsolète);55109.0;66.0;;834.98;
+lycées publics (établissements de type lycée, post-bac compris, ancien jeu);Seine-Saint-Denis;2017;fr-en-effectifs-second-degre (obsolète);57034.0;67.0;;851.25;
+lycées publics (établissements de type lycée, post-bac compris, ancien jeu);Seine-Saint-Denis;2018;fr-en-effectifs-second-degre (obsolète);57229.0;67.0;;854.16;
+lycées publics (établissements de type lycée, post-bac compris, ancien jeu);Seine-Saint-Denis;2019;fr-en-effectifs-second-degre (obsolète);57616.0;67.0;;859.94;
+écoles publiques;France;2009;fr-en-ecoles-effectifs-nb_classes;5800756.0;49171.0;247041.0;117.97;23.48
+écoles publiques;France;2010;fr-en-ecoles-effectifs-nb_classes;5822500.0;48716.0;247217.0;119.52;23.55
+écoles publiques;France;2011;fr-en-ecoles-effectifs-nb_classes;5810673.0;48138.0;246332.0;120.71;23.59
+écoles publiques;France;2012;fr-en-ecoles-effectifs-nb_classes;5820937.0;47672.0;245937.0;122.1;23.67
+écoles publiques;France;2013;fr-en-ecoles-effectifs-nb_classes;5863202.0;47305.0;247251.0;123.94;23.71
+écoles publiques;France;2014;fr-en-ecoles-effectifs-nb_classes;5880883.0;46962.0;248088.0;125.23;23.7
+écoles publiques;France;2015;fr-en-ecoles-effectifs-nb_classes;5885268.0;46435.0;248646.0;126.74;23.67
+écoles publiques;France;2016;fr-en-ecoles-effectifs-nb_classes;5872797.0;45877.0;249238.0;128.01;23.56
+écoles publiques;France;2017;fr-en-ecoles-effectifs-nb_classes;5842701.0;45401.0;251475.0;128.69;23.23
+écoles publiques;France;2018;fr-en-ecoles-effectifs-nb_classes;5807757.0;44902.0;255072.0;129.34;22.77
+écoles publiques;France;2019;fr-en-ecoles-effectifs-nb_classes;5764866.0;44455.0;258611.0;129.68;22.29
+écoles publiques;France;2020;fr-en-ecoles-effectifs-nb_classes;5691715.0;44262.0;260853.0;128.59;21.82
+écoles publiques;France;2021;fr-en-ecoles-effectifs-nb_classes;5613805.0;43904.0;261626.0;127.87;21.46
+écoles publiques;France;2022;fr-en-ecoles-effectifs-nb_classes;5564108.0;43568.0;261824.0;127.71;21.25
+écoles publiques;France;2023;fr-en-ecoles-effectifs-nb_classes;5486451.0;43163.0;260495.0;127.11;21.06
+écoles publiques;France;2024;fr-en-ecoles-effectifs-nb_classes;5411627.0;42811.0;259268.0;126.41;20.87
+écoles publiques;France;2025;fr-en-ecoles-effectifs-nb_classes;5315615.0;42396.0;257190.0;125.38;20.67
+écoles publiques;Paris;2009;fr-en-ecoles-effectifs-nb_classes;137251.0;660.0;5473.0;207.96;25.08
+écoles publiques;Paris;2010;fr-en-ecoles-effectifs-nb_classes;137282.0;659.0;5489.0;208.32;25.01
+écoles publiques;Paris;2011;fr-en-ecoles-effectifs-nb_classes;136663.0;662.0;5493.0;206.44;24.88
+écoles publiques;Paris;2012;fr-en-ecoles-effectifs-nb_classes;136540.0;662.0;5505.0;206.25;24.8
+écoles publiques;Paris;2013;fr-en-ecoles-effectifs-nb_classes;135941.0;662.0;5530.0;205.35;24.58
+écoles publiques;Paris;2014;fr-en-ecoles-effectifs-nb_classes;135122.0;662.0;5531.0;204.11;24.43
+écoles publiques;Paris;2015;fr-en-ecoles-effectifs-nb_classes;132857.0;662.0;5495.0;200.69;24.18
+écoles publiques;Paris;2016;fr-en-ecoles-effectifs-nb_classes;130205.0;662.0;5464.0;196.68;23.83
+écoles publiques;Paris;2017;fr-en-ecoles-effectifs-nb_classes;127280.0;656.0;5438.0;194.02;23.41
+écoles publiques;Paris;2018;fr-en-ecoles-effectifs-nb_classes;125185.0;654.0;5532.0;191.41;22.63
+écoles publiques;Paris;2019;fr-en-ecoles-effectifs-nb_classes;122415.0;651.0;5587.0;188.04;21.91
+écoles publiques;Paris;2020;fr-en-ecoles-effectifs-nb_classes;118692.0;649.0;5600.0;182.88;21.2
+écoles publiques;Paris;2021;fr-en-ecoles-effectifs-nb_classes;112631.0;645.0;5576.0;174.62;20.2
+écoles publiques;Paris;2022;fr-en-ecoles-effectifs-nb_classes;108538.0;638.0;5536.0;170.12;19.61
+écoles publiques;Paris;2023;fr-en-ecoles-effectifs-nb_classes;105848.0;631.0;5384.0;167.75;19.66
+écoles publiques;Paris;2024;fr-en-ecoles-effectifs-nb_classes;103593.0;626.0;5257.0;165.48;19.71
+écoles publiques;Paris;2025;fr-en-ecoles-effectifs-nb_classes;101071.0;620.0;5114.0;163.02;19.76
+écoles publiques;Seine-Saint-Denis;2009;fr-en-ecoles-effectifs-nb_classes;174485.0;799.0;7381.0;218.38;23.64
+écoles publiques;Seine-Saint-Denis;2010;fr-en-ecoles-effectifs-nb_classes;176733.0;802.0;7507.0;220.37;23.54
+écoles publiques;Seine-Saint-Denis;2011;fr-en-ecoles-effectifs-nb_classes;178679.0;804.0;7567.0;222.24;23.61
+écoles publiques;Seine-Saint-Denis;2012;fr-en-ecoles-effectifs-nb_classes;180559.0;803.0;7577.0;224.86;23.83
+écoles publiques;Seine-Saint-Denis;2013;fr-en-ecoles-effectifs-nb_classes;182719.0;811.0;7685.0;225.3;23.78
+écoles publiques;Seine-Saint-Denis;2014;fr-en-ecoles-effectifs-nb_classes;185497.0;817.0;7772.0;227.05;23.87
+écoles publiques;Seine-Saint-Denis;2015;fr-en-ecoles-effectifs-nb_classes;188318.0;821.0;7932.0;229.38;23.74
+écoles publiques;Seine-Saint-Denis;2016;fr-en-ecoles-effectifs-nb_classes;189950.0;827.0;8055.0;229.69;23.58
+écoles publiques;Seine-Saint-Denis;2017;fr-en-ecoles-effectifs-nb_classes;190826.0;830.0;8162.0;229.91;23.38
+écoles publiques;Seine-Saint-Denis;2018;fr-en-ecoles-effectifs-nb_classes;191627.0;839.0;8190.0;228.4;23.4
+écoles publiques;Seine-Saint-Denis;2019;fr-en-ecoles-effectifs-nb_classes;192261.0;849.0;8905.0;226.46;21.59
+écoles publiques;Seine-Saint-Denis;2020;fr-en-ecoles-effectifs-nb_classes;191191.0;852.0;9136.0;224.4;20.93
+écoles publiques;Seine-Saint-Denis;2021;fr-en-ecoles-effectifs-nb_classes;187497.0;854.0;9289.0;219.55;20.18
+écoles publiques;Seine-Saint-Denis;2022;fr-en-ecoles-effectifs-nb_classes;186344.0;859.0;9333.0;216.93;19.97
+écoles publiques;Seine-Saint-Denis;2023;fr-en-ecoles-effectifs-nb_classes;185782.0;863.0;9378.0;215.27;19.81
+écoles publiques;Seine-Saint-Denis;2024;fr-en-ecoles-effectifs-nb_classes;183522.0;862.0;9432.0;212.9;19.46
+écoles publiques;Seine-Saint-Denis;2025;fr-en-ecoles-effectifs-nb_classes;181230.0;861.0;9309.0;210.49;19.47

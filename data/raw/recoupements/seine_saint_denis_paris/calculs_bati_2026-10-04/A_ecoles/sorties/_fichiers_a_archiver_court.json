@@ -1,0 +1,554 @@
+[
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2021_Q1_communes_75_92_93_94_fonction2_budget_fonction_compte_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2021 : extraction API (communes de Paris, des Hauts-de-Seine, de la Seine-Saint-Denis et du Val-de-Marne, fonction 2, par budget, fonction et compte (classes 1, 2, 6, 7)) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2021 ; jeu publié le 22/12/2022 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec8/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2021_Q2a_communes_75_92_93_94_toutes_fonctions_personnel64_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2021 : extraction API (mêmes communes, toutes fonctions, personnel (64) par budget et fonction) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2021 ; jeu publié le 22/12/2022 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec8/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2021_Q2b_communes_75_92_93_94_toutes_fonctions_fonctionnement_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2021 : extraction API (mêmes communes, toutes fonctions, fonctionnement (classe 6 hors 66, 675, 676, 68) par budget et fonction) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2021 ; jeu publié le 22/12/2022 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec8/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2021_Q2c_communes_75_92_93_94_toutes_fonctions_equipement_20_21_23_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2021 : extraction API (mêmes communes, toutes fonctions, équipement (20, 21, 23) par budget et fonction) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2021 ; jeu publié le 22/12/2022 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec8/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2021_Q2d_communes_75_92_93_94_toutes_fonctions_comptes_bati_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2021 : extraction API (mêmes communes, toutes fonctions, comptes liés aux bâtiments (6061x, 60621, 60631, 6152x, 6156, 6283, 6132, 614, 616) par budget, fonction et compte) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2021 ; jeu publié le 22/12/2022 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec8/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2021_Q3_communes_France_fonctions_ecoles_par_commune_compte_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2021 : extraction API (toutes les communes, fonctions « écoles » 20, 21, 28, 29 (et 90x/93x), comptes 6, 20, 21, 23, par commune et compte) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2021 ; jeu publié le 22/12/2022 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec8/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2021_Q3b_communes_France_fonctions_25x_par_commune_fonction_compte_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2021 : extraction API (toutes les communes, fonctions 25x, par commune, fonction et compte) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2021 ; jeu publié le 22/12/2022 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec8/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2021_Q3c_communes_France_fonction2_non_ventilee_par_commune_compte_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2021 : extraction API (toutes les communes, fonction 2 non ventilée (2, 902, 932), par commune et compte) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2021 ; jeu publié le 22/12/2022 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec8/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2021_Q4_communes_75_92_93_94_comptes_1675_235_marches_partenariat_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2021 : extraction API (communes de 75, 92, 93, 94 : comptes 1675 et 235 (marchés de partenariat), par fonction) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2021 ; jeu publié le 22/12/2022 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec8/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2022_Q1_communes_75_92_93_94_fonction2_budget_fonction_compte_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2022 : extraction API (communes de Paris, des Hauts-de-Seine, de la Seine-Saint-Denis et du Val-de-Marne, fonction 2, par budget, fonction et compte (classes 1, 2, 6, 7)) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2022 ; jeu mis à jour le 07/12/2023 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-2022/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2022_Q2a_communes_75_92_93_94_toutes_fonctions_personnel64_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2022 : extraction API (mêmes communes, toutes fonctions, personnel (64) par budget et fonction) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2022 ; jeu mis à jour le 07/12/2023 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-2022/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2022_Q2b_communes_75_92_93_94_toutes_fonctions_fonctionnement_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2022 : extraction API (mêmes communes, toutes fonctions, fonctionnement (classe 6 hors 66, 675, 676, 68) par budget et fonction) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2022 ; jeu mis à jour le 07/12/2023 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-2022/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2022_Q2c_communes_75_92_93_94_toutes_fonctions_equipement_20_21_23_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2022 : extraction API (mêmes communes, toutes fonctions, équipement (20, 21, 23) par budget et fonction) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2022 ; jeu mis à jour le 07/12/2023 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-2022/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2022_Q2d_communes_75_92_93_94_toutes_fonctions_comptes_bati_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2022 : extraction API (mêmes communes, toutes fonctions, comptes liés aux bâtiments (6061x, 60621, 60631, 6152x, 6156, 6283, 6132, 614, 616) par budget, fonction et compte) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2022 ; jeu mis à jour le 07/12/2023 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-2022/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2022_Q3_communes_France_fonctions_ecoles_par_commune_compte_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2022 : extraction API (toutes les communes, fonctions « écoles » 20, 21, 28, 29 (et 90x/93x), comptes 6, 20, 21, 23, par commune et compte) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2022 ; jeu mis à jour le 07/12/2023 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-2022/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2022_Q3b_communes_France_fonctions_25x_par_commune_fonction_compte_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2022 : extraction API (toutes les communes, fonctions 25x, par commune, fonction et compte) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2022 ; jeu mis à jour le 07/12/2023 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-2022/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2022_Q3c_communes_France_fonction2_non_ventilee_par_commune_compte_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2022 : extraction API (toutes les communes, fonction 2 non ventilée (2, 902, 932), par commune et compte) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2022 ; jeu mis à jour le 07/12/2023 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-2022/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2022_Q4_communes_75_92_93_94_comptes_1675_235_marches_partenariat_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2022 : extraction API (communes de 75, 92, 93, 94 : comptes 1675 et 235 (marchés de partenariat), par fonction) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2022 ; jeu mis à jour le 07/12/2023 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-2022/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2023_Q1_communes_75_92_93_94_fonction2_budget_fonction_compte_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2023 : extraction API (communes de Paris, des Hauts-de-Seine, de la Seine-Saint-Denis et du Val-de-Marne, fonction 2, par budget, fonction et compte (classes 1, 2, 6, 7)) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2023 ; jeu mis à jour le 06/12/2024 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-epl-avec-fonction-2023/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2023_Q2a_communes_75_92_93_94_toutes_fonctions_personnel64_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2023 : extraction API (mêmes communes, toutes fonctions, personnel (64) par budget et fonction) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2023 ; jeu mis à jour le 06/12/2024 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-epl-avec-fonction-2023/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2023_Q2b_communes_75_92_93_94_toutes_fonctions_fonctionnement_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2023 : extraction API (mêmes communes, toutes fonctions, fonctionnement (classe 6 hors 66, 675, 676, 68) par budget et fonction) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2023 ; jeu mis à jour le 06/12/2024 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-epl-avec-fonction-2023/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2023_Q2c_communes_75_92_93_94_toutes_fonctions_equipement_20_21_23_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2023 : extraction API (mêmes communes, toutes fonctions, équipement (20, 21, 23) par budget et fonction) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2023 ; jeu mis à jour le 06/12/2024 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-epl-avec-fonction-2023/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2023_Q2d_communes_75_92_93_94_toutes_fonctions_comptes_bati_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2023 : extraction API (mêmes communes, toutes fonctions, comptes liés aux bâtiments (6061x, 60621, 60631, 6152x, 6156, 6283, 6132, 614, 616) par budget, fonction et compte) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2023 ; jeu mis à jour le 06/12/2024 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-epl-avec-fonction-2023/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2023_Q3_communes_France_fonctions_ecoles_par_commune_compte_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2023 : extraction API (toutes les communes, fonctions « écoles » 20, 21, 28, 29 (et 90x/93x), comptes 6, 20, 21, 23, par commune et compte) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2023 ; jeu mis à jour le 06/12/2024 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-epl-avec-fonction-2023/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2023_Q3b_communes_France_fonctions_25x_par_commune_fonction_compte_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2023 : extraction API (toutes les communes, fonctions 25x, par commune, fonction et compte) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2023 ; jeu mis à jour le 06/12/2024 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-epl-avec-fonction-2023/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2023_Q3c_communes_France_fonction2_non_ventilee_par_commune_compte_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2023 : extraction API (toutes les communes, fonction 2 non ventilée (2, 902, 932), par commune et compte) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2023 ; jeu mis à jour le 06/12/2024 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-epl-avec-fonction-2023/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2023_Q4_communes_75_92_93_94_comptes_1675_235_marches_partenariat_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2023 : extraction API (communes de 75, 92, 93, 94 : comptes 1675 et 235 (marchés de partenariat), par fonction) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2023 ; jeu mis à jour le 06/12/2024 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-epl-avec-fonction-2023/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2024_Q1_communes_75_92_93_94_fonction2_budget_fonction_compte_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2024 : extraction API (communes de Paris, des Hauts-de-Seine, de la Seine-Saint-Denis et du Val-de-Marne, fonction 2, par budget, fonction et compte (classes 1, 2, 6, 7)) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2024 ; jeu mis à jour le 09/12/2025 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec-la-presentation-croisee-nature-fonction-2024/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2024_Q2a_communes_75_92_93_94_toutes_fonctions_personnel64_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2024 : extraction API (mêmes communes, toutes fonctions, personnel (64) par budget et fonction) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2024 ; jeu mis à jour le 09/12/2025 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec-la-presentation-croisee-nature-fonction-2024/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2024_Q2b_communes_75_92_93_94_toutes_fonctions_fonctionnement_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2024 : extraction API (mêmes communes, toutes fonctions, fonctionnement (classe 6 hors 66, 675, 676, 68) par budget et fonction) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2024 ; jeu mis à jour le 09/12/2025 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec-la-presentation-croisee-nature-fonction-2024/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2024_Q2c_communes_75_92_93_94_toutes_fonctions_equipement_20_21_23_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2024 : extraction API (mêmes communes, toutes fonctions, équipement (20, 21, 23) par budget et fonction) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2024 ; jeu mis à jour le 09/12/2025 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec-la-presentation-croisee-nature-fonction-2024/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2024_Q2d_communes_75_92_93_94_toutes_fonctions_comptes_bati_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2024 : extraction API (mêmes communes, toutes fonctions, comptes liés aux bâtiments (6061x, 60621, 60631, 6152x, 6156, 6283, 6132, 614, 616) par budget, fonction et compte) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2024 ; jeu mis à jour le 09/12/2025 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec-la-presentation-croisee-nature-fonction-2024/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2024_Q3_communes_France_fonctions_ecoles_par_commune_compte_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2024 : extraction API (toutes les communes, fonctions « écoles » 20, 21, 28, 29 (et 90x/93x), comptes 6, 20, 21, 23, par commune et compte) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2024 ; jeu mis à jour le 09/12/2025 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec-la-presentation-croisee-nature-fonction-2024/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2024_Q3b_communes_France_fonctions_25x_par_commune_fonction_compte_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2024 : extraction API (toutes les communes, fonctions 25x, par commune, fonction et compte) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2024 ; jeu mis à jour le 09/12/2025 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec-la-presentation-croisee-nature-fonction-2024/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2024_Q3c_communes_France_fonction2_non_ventilee_par_commune_compte_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2024 : extraction API (toutes les communes, fonction 2 non ventilée (2, 902, 932), par commune et compte) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2024 ; jeu mis à jour le 09/12/2025 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec-la-presentation-croisee-nature-fonction-2024/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2024_Q4_communes_75_92_93_94_comptes_1675_235_marches_partenariat_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2024 : extraction API (communes de 75, 92, 93, 94 : comptes 1675 et 235 (marchés de partenariat), par fonction) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2024 ; jeu mis à jour le 09/12/2025 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec-la-presentation-croisee-nature-fonction-2024/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2025_Q1_communes_75_92_93_94_fonction2_budget_fonction_compte_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2025 : extraction API (communes de Paris, des Hauts-de-Seine, de la Seine-Saint-Denis et du Val-de-Marne, fonction 2, par budget, fonction et compte (classes 1, 2, 6, 7)) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2025 ; jeu mis à jour le 13/07/2026 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec-la-presentation-croisee-nature-fonction-2025/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2025_Q2a_communes_75_92_93_94_toutes_fonctions_personnel64_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2025 : extraction API (mêmes communes, toutes fonctions, personnel (64) par budget et fonction) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2025 ; jeu mis à jour le 13/07/2026 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec-la-presentation-croisee-nature-fonction-2025/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2025_Q2b_communes_75_92_93_94_toutes_fonctions_fonctionnement_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2025 : extraction API (mêmes communes, toutes fonctions, fonctionnement (classe 6 hors 66, 675, 676, 68) par budget et fonction) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2025 ; jeu mis à jour le 13/07/2026 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec-la-presentation-croisee-nature-fonction-2025/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2025_Q2c_communes_75_92_93_94_toutes_fonctions_equipement_20_21_23_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2025 : extraction API (mêmes communes, toutes fonctions, équipement (20, 21, 23) par budget et fonction) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2025 ; jeu mis à jour le 13/07/2026 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec-la-presentation-croisee-nature-fonction-2025/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2025_Q2d_communes_75_92_93_94_toutes_fonctions_comptes_bati_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2025 : extraction API (mêmes communes, toutes fonctions, comptes liés aux bâtiments (6061x, 60621, 60631, 6152x, 6156, 6283, 6132, 614, 616) par budget, fonction et compte) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2025 ; jeu mis à jour le 13/07/2026 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec-la-presentation-croisee-nature-fonction-2025/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2025_Q3_communes_France_fonctions_ecoles_par_commune_compte_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2025 : extraction API (toutes les communes, fonctions « écoles » 20, 21, 28, 29 (et 90x/93x), comptes 6, 20, 21, 23, par commune et compte) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2025 ; jeu mis à jour le 13/07/2026 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec-la-presentation-croisee-nature-fonction-2025/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2025_Q3b_communes_France_fonctions_25x_par_commune_fonction_compte_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2025 : extraction API (toutes les communes, fonctions 25x, par commune, fonction et compte) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2025 ; jeu mis à jour le 13/07/2026 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec-la-presentation-croisee-nature-fonction-2025/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2025_Q3c_communes_France_fonction2_non_ventilee_par_commune_compte_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2025 : extraction API (toutes les communes, fonction 2 non ventilée (2, 902, 932), par commune et compte) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2025 ; jeu mis à jour le 13/07/2026 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec-la-presentation-croisee-nature-fonction-2025/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DGFiP_2025_Q4_communes_75_92_93_94_comptes_1675_235_marches_partenariat_API.csv",
+"titre": "Balances comptables des collectivités et des EPL, présentation croisée nature-fonction 2025 : extraction API (communes de 75, 92, 93, 94 : comptes 1675 et 235 (marchés de partenariat), par fonction) – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "exercice 2025 ; jeu mis à jour le 13/07/2026 ; extrait le 04/10/2026",
+"url": "https://data.economie.gouv.fr/explore/dataset/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec-la-presentation-croisee-nature-fonction-2025/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DEPP_effectifs_par_ecole_rentrees2020-2025_API.csv",
+"titre": "Effectifs d'élèves par école (fr-en-ecoles-effectifs-nb_classes), rentrées 2020 à 2025, extraction API – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DEPP, ministère de l'Éducation nationale (data.education.gouv.fr)",
+"date": "jeu mis à jour le 27/08/2026 ; extrait le 04/10/2026",
+"url": "https://data.education.gouv.fr/explore/dataset/fr-en-ecoles-effectifs-nb_classes/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/DEPP_effectifs_classes_par_departement_secteur_rentrees2015-2025_API.csv",
+"titre": "Effectifs d'élèves par école : écoles, classes et élèves agrégés par département et secteur, rentrées 2015 à 2025 – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "DEPP, ministère de l'Éducation nationale (data.education.gouv.fr)",
+"date": "jeu mis à jour le 27/08/2026 ; extrait le 04/10/2026",
+"url": "https://data.education.gouv.fr/explore/dataset/fr-en-ecoles-effectifs-nb_classes/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/MEN_annuaire_education_ecoles_UAI_commune_API.csv",
+"titre": "Annuaire de l'éducation (fr-en-annuaire-education), écoles : UAI, commune Insee, statut, date d'ouverture – requête API exacte : brut/_urls_requetes.txt",
+"producteur": "Ministère de l'Éducation nationale (data.education.gouv.fr)",
+"date": "extrait le 04/10/2026",
+"url": "https://data.education.gouv.fr/explore/dataset/fr-en-annuaire-education/",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/brut/_urls_requetes.txt",
+"titre": "Liste des requêtes API (URL complètes) ayant produit les extractions du dossier brut/",
+"producteur": "calcul de l'auteur",
+"date": "04/10/2026",
+"url": "",
+"officiel": false
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/catalog_search.json",
+"titre": "Catalogue data.economie.gouv.fr : jeux « balances … nature-fonction » 2012-2025",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "consulté le 04/10/2026",
+"url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets?where=search(%22nature-fonction%22)%20or%20search(%22avec%20fonction%22)&limit=50",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/meta_dgfip_2024.json",
+"titre": "Métadonnées du jeu DGFiP nature-fonction 2024",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "consulté le 04/10/2026",
+"url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec-la-presentation-croisee-nature-fonction-2024",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/meta_dgfip_2025.json",
+"titre": "Métadonnées du jeu DGFiP nature-fonction 2025",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "consulté le 04/10/2026",
+"url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec-la-presentation-croisee-nature-fonction-2025",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/meta_balances-comptables-des-collectivites-et-des-epl-avec-fonction-2023.json",
+"titre": "Métadonnées du jeu DGFiP nature-fonction 2023",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "consulté le 04/10/2026",
+"url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/balances-comptables-des-collectivites-et-des-epl-avec-fonction-2023",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/meta_balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-2022.json",
+"titre": "Métadonnées du jeu DGFiP nature-fonction 2022",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "consulté le 04/10/2026",
+"url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-2022",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/meta_balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec8.json",
+"titre": "Métadonnées du jeu DGFiP nature-fonction 2021",
+"producteur": "DGFiP (data.economie.gouv.fr)",
+"date": "consulté le 04/10/2026",
+"url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec8",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/meta_effectifs.json",
+"titre": "Métadonnées du jeu DEPP « Effectifs d'élèves par école »",
+"producteur": "DEPP (data.education.gouv.fr)",
+"date": "consulté le 04/10/2026",
+"url": "https://data.education.gouv.fr/api/explore/v2.1/catalog/datasets/fr-en-ecoles-effectifs-nb_classes",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/ofgl_catalog.json",
+"titre": "Catalogue data.ofgl.fr (94 jeux) : aucun jeu « comptes des communes, présentation fonctionnelle »",
+"producteur": "OFGL (data.ofgl.fr)",
+"date": "consulté le 04/10/2026",
+"url": "https://data.ofgl.fr/api/explore/v2.1/catalog/datasets?limit=100",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/sources_officielles/OFGL_CapSur21_investissements_scolaires_2023.pdf",
+"titre": "Cap sur… n° 21 : Les investissements scolaires des collectivités locales",
+"producteur": "OFGL",
+"date": "octobre-novembre 2023",
+"url": "https://www.collectivites-locales.gouv.fr/files/files/Etudes-et-statistiques/OFGL/Les%20chantiers%20de%20l'OFGL/OFGL_cap_sur_21_investissements_scolaires_collectivites_30-10-2023.pdf",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/sources_officielles/CRC_IDF_VilleParis_ecole_elementaire_2025_IDR2025-64.pdf",
+"titre": "Ville de Paris – L'école élémentaire, rapport d'observations définitives (IDR2025-64)",
+"producteur": "Chambre régionale des comptes Île-de-France",
+"date": "20/11/2025",
+"url": "https://www.ccomptes.fr/sites/default/files/2025-11/IDR2025-64.pdf",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/sources_officielles/AN_l16b1938_rapport_suivi_SSD_2023.pdf",
+"titre": "Rapport d'information n° 1938 (suivi du rapport n° 1014 sur l'action de l'État en Seine-Saint-Denis)",
+"producteur": "Assemblée nationale, Comité d'évaluation et de contrôle",
+"date": "30/11/2023",
+"url": "https://www.assemblee-nationale.fr/dyn/16/rapports/cec/l16b1938_rapport-information.pdf",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/sources_officielles/AN_l15b1014_rapport_SSD_2018.pdf",
+"titre": "Rapport d'information n° 1014 sur l'action de l'État en Seine-Saint-Denis",
+"producteur": "Assemblée nationale, Comité d'évaluation et de contrôle",
+"date": "31/05/2018",
+"url": "https://www.assemblee-nationale.fr/dyn/15/rapports/cec/l15b1014_rapport-information.pdf",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/sources_officielles/DGFiP_Notice_balance_fonctionnelle.pdf",
+"titre": "Notice : les balances comptables des collectivités et des EPL avec la présentation croisée nature-fonction",
+"producteur": "DGFiP, service des collectivités locales",
+"date": "octobre 2018 (pièce jointe du jeu 2025)",
+"url": "https://data.economie.gouv.fr/api/explore/v2.1/catalog/datasets/balances-comptables-des-collectivites-et-des-etablissements-publics-locaux-avec-la-presentation-croisee-nature-fonction-2025/attachments/notice_balance_fonctionnelle_pdf",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/docs_communes/Paris_CA2025_rapport_financier.pdf",
+"titre": "Compte administratif 2025, rapport financier",
+"producteur": "Ville de Paris",
+"date": "01/07/2026",
+"url": "https://cdn.paris.fr/paris/2026/07/01/ca-2025-rapport-financier_-gk9Q.pdf",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/docs_communes/Paris_CA2024_rapport_financier.pdf",
+"titre": "Compte administratif 2024, rapport financier",
+"producteur": "Ville de Paris",
+"date": "30/06/2025",
+"url": "https://cdn.paris.fr/paris/2025/06/30/ca-2024-rapport-financier-rFhS.pdf",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/docs_communes/Paris_CA2023_rapport_financier.pdf",
+"titre": "Compte administratif 2023, rapport financier",
+"producteur": "Ville de Paris",
+"date": "03/07/2024",
+"url": "https://cdn.paris.fr/paris/2024/07/03/rapport-ca-2023-consolide-vf-pour-intro-pxNk.pdf",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/docs_communes/paris_ca_page.html",
+"titre": "Page « Comptes administratifs de la Ville » (liens vers les documents)",
+"producteur": "Ville de Paris",
+"date": "consultée le 04/10/2026",
+"url": "https://www.paris.fr/pages/comptes-administratifs-de-la-ville-retrouvez-toutes-les-infos-27793",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/docs_communes/Bobigny_CA2024_memoire_presentation.pdf",
+"titre": "Budget de la Ville – CA 2024 – Mémoire de présentation (séance du conseil municipal)",
+"producteur": "Ville de Bobigny, direction des finances et des achats",
+"date": "2025 (fichier daté du 11/04/2025)",
+"url": "https://www.bobigny.fr/fileadmin/images/PDF/vie_municipale_et_citoyenne/vie_municipale/budget/2025/Budget_de_la_Ville_-_CA_2024_-_M%C3%A9moire_de_pr%C3%A9sentation.pdf",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/docs_communes/Pantin_education_une_priorite.html",
+"titre": "« L'éducation, une priorité » (site officiel de la Ville de Pantin)",
+"producteur": "Ville de Pantin",
+"date": "30/08/2024",
+"url": "https://www.pantin.fr/la-ville/aller-plus-loin/leducation-une-priorite-5874",
+"officiel": true
+},
+{
+"fichier_local": "C:/Users/chret/AppData/Local/Temp/claude/c--Users-chret-Documents-EtatEcole/5b29c961-d5a9-4d19-af60-f12e126ef8ef/scratchpad/analyse_bati/A_ecoles/docs_communes/Pantin_inauguration_ecole_Diderot.html",
+"titre": "« Inauguration de la nouvelle école Diderot » (site officiel de la Ville de Pantin)",
+"producteur": "Ville de Pantin",
+"date": "23/08/2024",
+"url": "https://www.pantin.fr/la-ville/en-ce-moment/inauguration-de-la-nouvelle-ecole-diderot-5863",
+"officiel": true
+}
+]

@@ -1,0 +1,20 @@
+# Environnement local
+.claude/
+__pycache__/
+*.pyc
+
+# Données brutes : non publiées (fichiers de tiers, volumineux). Elles se retéléchargent grâce aux URL et aux
+# empreintes des SOURCES.md de chaque dossier et de l'annexe A de sources.md (voir README, « Données brutes »).
+/data/raw/**
+!/data/raw/**/
+# … sauf la documentation, les extractions de l'auteur et ses calculs
+!/data/raw/**/*.md
+!/data/raw/**/extractions/**
+!/data/raw/**/TRANSCRIPTION_*
+!/data/raw/**/_derive_*
+!/data/raw/recoupements/seine_saint_denis_paris/calculs_*/**
+
+# Fichiers de tiers non redistribuables (presse, télévision, syndicats, études d'instituts privés), exclus même
+# s'ils correspondent à un motif ci-dessus (git ignore la casse sous Windows) : URL et empreintes dans leurs SOURCES.md
+/data/raw/recoupements/seine_saint_denis_paris/debat_public/
+/data/raw/recoupements/seine_saint_denis_paris/etudes/

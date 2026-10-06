@@ -1,0 +1,38 @@
+﻿indicateur;valeur;emplacement
+DIE premier degré 2025p, Md€;59.9992152854459;NI 26.42 xlsx, Figure 5, B32
+DIE second degré (apprentissage compris) 2025p, Md€;73.7536925001837;NI 26.42 xlsx, Figure 5, B33
+Part des collectivités territoriales, financement initial, premier degré 2025p, %;38.4097486976944;NI 26.42 xlsx, Figure 4, B33
+Part des collectivités territoriales, financement initial, second degré 2025p, %;19.6283398533566;NI 26.42 xlsx, Figure 4, C33
+Montant CT premier degré 2025p (calcul = part x DIE), M€;23045.54781172841;calcul dérivé
+Montant CT second degré 2025p (calcul = part x DIE), M€;14476.625418335634;calcul dérivé
+Dépense moyenne par élève premier degré 2025p, €;9440.0;NI 26.42 xlsx, Figure 6, E31
+Dépense moyenne par élève second degré 2025p, €;11780.0;NI 26.42 xlsx, Figure 6, E33
+Part CT par élève premier degré 2025p (calcul), €;3625.880277062351;calcul dérivé
+Part CT par élève second degré 2025p (calcul), €;2312.2184347254074;calcul dérivé
+Part CT dans la DIE totale, financement initial 2025p, %;22.8641740952149;NI 26.42 xlsx, Figure 2, C6
+dont communes, %;13.1333563316933;NI 26.42 xlsx, Figure 2, C7
+dont départements, %;3.58224733124194;NI 26.42 xlsx, Figure 2, C8
+dont régions, %;6.14857043227963;NI 26.42 xlsx, Figure 2, C9
+Financement initial CT, DIE totale 2025p, M€ courants;45539.041907138;NI 26.42 xlsx, Figure 3bis, F6
+Financement initial CT, DIE totale 2024 (définitif), M€ courants;45327.8607248712;NI 26.42 xlsx, Figure 3bis, E6
+Financement initial communes 2025p (calcul = part de la DIE x DIE), M€;26157.973687557078;calcul dérivé (Figure 2 x Figure 3bis F10)
+Financement initial départements 2025p (calcul = part de la DIE x DIE), M€;7134.83507691189;calcul dérivé (Figure 2 x Figure 3bis F10)
+Financement initial régions 2025p (calcul = part de la DIE x DIE), M€;12246.233142668829;calcul dérivé (Figure 2 x Figure 3bis F10)
+CT, financement final 2024p, Enseignement premier degré, M€;16684.0573753431;RERS 2026 xlsx 10.02, onglet « 10.02 Tableau 4 », F8
+CT, financement final 2024p, Enseignement second degré, M€;12120.0466020816;RERS 2026 xlsx 10.02, onglet « 10.02 Tableau 4 », F9
+CT, financement final 2024p, Enseignement supérieur, M€;2926.00437795951;RERS 2026 xlsx 10.02, onglet « 10.02 Tableau 4 », F10
+CT, financement final 2024p, Enseignement extrascolaire, M€;4605.73138362499;RERS 2026 xlsx 10.02, onglet « 10.02 Tableau 4 », F11
+CT, financement final 2024p, Hébergement, restauration (tous niveaux), M€;5929.22528067026;RERS 2026 xlsx 10.02, onglet « 10.02 Tableau 4 », F13
+CT, financement final 2024p, Médecine scolaire, M€;17.6918854814959;RERS 2026 xlsx 10.02, onglet « 10.02 Tableau 4 », F14
+CT, financement final 2024p, Orientation, M€;16.1142813136218;RERS 2026 xlsx 10.02, onglet « 10.02 Tableau 4 », F15
+CT, financement final 2024p, Administration générale, M€;121.809841291592;RERS 2026 xlsx 10.02, onglet « 10.02 Tableau 4 », F16
+CT, financement final 2024p, Transports scolaires, M€;2484.78300359011;RERS 2026 xlsx 10.02, onglet « 10.02 Tableau 4 », F17
+CT, financement final 2024p, Fournitures et livres scolaires, M€;185.754397871885;RERS 2026 xlsx 10.02, onglet « 10.02 Tableau 4 », F18
+CT, financement final 2024p, Ensemble DIE, M€;45091.2184292282;RERS 2026 xlsx 10.02, onglet « 10.02 Tableau 4 », F20
+CT, financement final 2024p des producteurs, Écoles maternelles et élémentaires publiques, M€;20608.0915075757;RERS 2026 xlsx 10.04, onglet « 10.04 Tableau 2 », E9
+CT, financement final 2024p des producteurs, Collèges et lycées publics, M€;12715.2875810331;RERS 2026 xlsx 10.04, onglet « 10.04 Tableau 2 », E10
+CT, financement final 2024p des producteurs, Écoles privées sous contrat, M€;1141.80736067918;RERS 2026 xlsx 10.04, onglet « 10.04 Tableau 2 », E19
+CT, financement final 2024p des producteurs, Collèges et lycées privés sous contrat, M€;1031.48934838598;RERS 2026 xlsx 10.04, onglet « 10.04 Tableau 2 », E20
+CT, financement final 2024p des producteurs, Centres d'enseignement spécial, M€;15.492598537072;RERS 2026 xlsx 10.04, onglet « 10.04 Tableau 2 », E15
+CT, financement final 2024p des producteurs, Centres de formation artistique, M€;1935.83268500857;RERS 2026 xlsx 10.04, onglet « 10.04 Tableau 2 », E14
+CT, financement final 2024p des producteurs, Total producteurs, M€;42420.6810277662;RERS 2026 xlsx 10.04, onglet « 10.04 Tableau 2 », E31

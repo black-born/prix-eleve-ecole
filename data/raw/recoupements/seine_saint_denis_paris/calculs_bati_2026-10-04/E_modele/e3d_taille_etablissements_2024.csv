@@ -1,0 +1,19 @@
+﻿type (public);territoire;etablissements;eleves;eleves_par_etablissement;taille_moyenne_ponderee_par_eleves;etudiants_postbac_dans_ces_UAI;UAI_sans_donnee_hebergement;eleves_et_etudiants_par_etablissement
+écoles;Paris;626;103593;165.5;186.0;;;
+écoles;Seine-Saint-Denis;862;183522;212.9;244.4;;;
+écoles;France;42805;5411627;126.4;187.8;;;
+collèges;Paris;114;50392;442.0;491.9;0.0;0.0;442.0
+collèges;Seine-Saint-Denis;130;78410;603.2;626.6;0.0;0.0;603.2
+collèges;France;5325;2634043;494.7;572.5;0.0;0.0;494.7
+lycées (GT + polyvalents + professionnels);Paris;89;46316;520.4;683.3;18401.0;0.0;727.2
+lycées (GT + polyvalents + professionnels);Seine-Saint-Denis;68;56387;829.2;968.6;5324.0;0.0;907.5
+lycées (GT + polyvalents + professionnels);France;2402;1800728;749.7;980.9;225434.0;18.0;843.5
+lycées GT;Paris;44;30595;695.3;809.0;13709.0;0.0;1006.9
+lycées GT;Seine-Saint-Denis;21;22633;1077.8;1121.5;3905.0;0.0;1263.7
+lycées GT;France;872;776354;890.3;1032.0;136419.0;1.0;1046.8
+lycées polyvalents;Paris;20;8123;406.2;536.8;4447.0;0.0;628.5
+lycées polyvalents;Seine-Saint-Denis;33;26250;795.5;942.6;1268.0;0.0;833.9
+lycées polyvalents;France;768;710065;924.6;1138.2;81186.0;2.0;1030.3
+lycées professionnels;Paris;25;7598;303.9;333.9;245.0;0.0;313.7
+lycées professionnels;Seine-Saint-Denis;14;7504;536.0;598.4;151.0;0.0;546.8
+lycées professionnels;France;762;314309;412.5;499.3;7829.0;15.0;422.8

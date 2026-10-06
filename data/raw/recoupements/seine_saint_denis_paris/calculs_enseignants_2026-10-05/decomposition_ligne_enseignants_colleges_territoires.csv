@@ -1,0 +1,4 @@
+;colleges;eleves;ligne_enseignants_par_eleve;facteur_heures_par_eleve;indice_corps_pondere_heures;indice_corps_pondere_etp;heures_par_eleve_vs_France_%;indice_vs_France_%
+Paris;114.0;50392.0;5887.6549;6066.85;0.9705;0.971;0.0149;2.8627
+Seine-Saint-Denis;130.0;78410.0;6018.846;6401.45;0.9402;0.9404;5.531;-0.3417
+France;5325.0;2634043.0;5722.9471;6065.9448;0.9435;0.9436;0.0;0.0

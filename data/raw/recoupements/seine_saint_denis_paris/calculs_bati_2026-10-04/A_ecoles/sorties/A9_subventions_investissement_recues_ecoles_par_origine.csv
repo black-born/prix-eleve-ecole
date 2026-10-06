@@ -1,0 +1,109 @@
+﻿dep;annee;origine;montant
+75;2021;Région (1312, 1322, 1332);0.93
+75;2021;Union européenne (1317, 1327, 1337);0.93
+75;2021;État, établissements publics nationaux (dont ANRU) et dotations de l'État (1311, 1321, 1331, 134x : DETR, DSIL, etc.);19.9
+75;2022;État, établissements publics nationaux (dont ANRU) et dotations de l'État (1311, 1321, 1331, 134x : DETR, DSIL, etc.);1.03
+75;2023;Union européenne (1317, 1327, 1337);0.62
+75;2023;État, établissements publics nationaux (dont ANRU) et dotations de l'État (1311, 1321, 1331, 134x : DETR, DSIL, etc.);10.58
+75;2024;Union européenne (1317, 1327, 1337);0.06
+75;2024;État, établissements publics nationaux (dont ANRU) et dotations de l'État (1311, 1321, 1331, 134x : DETR, DSIL, etc.);0.03
+75;2025;État, établissements publics nationaux (dont ANRU) et dotations de l'État (1311, 1321, 1331, 134x : DETR, DSIL, etc.);0.09
+92;2021;Autres (1318, 1328, 1338, 138x...);0.48
+92;2021;Autres établissements publics locaux (1316, 1326);4.58
+92;2021;Communes (1314, 1324, 1334);0.07
+92;2021;Département (1313, 1323, 1333);11.71
+92;2021;Groupements de collectivités : EPT, Métropole, etc. (1315, 1325, 1335);0.53
+92;2021;Région (1312, 1322, 1332);2.64
+92;2021;État, établissements publics nationaux (dont ANRU) et dotations de l'État (1311, 1321, 1331, 134x : DETR, DSIL, etc.);2.94
+92;2022;Autres (1318, 1328, 1338, 138x...);0.93
+92;2022;Autres établissements publics locaux (1316, 1326);4.57
+92;2022;Communes (1314, 1324, 1334);0.01
+92;2022;Département (1313, 1323, 1333);11.91
+92;2022;Groupements de collectivités : EPT, Métropole, etc. (1315, 1325, 1335);0.7
+92;2022;Région (1312, 1322, 1332);3.81
+92;2022;Union européenne (1317, 1327, 1337);0.27
+92;2022;État, établissements publics nationaux (dont ANRU) et dotations de l'État (1311, 1321, 1331, 134x : DETR, DSIL, etc.);5.89
+92;2023;Autres (1318, 1328, 1338, 138x...);1.52
+92;2023;Autres établissements publics locaux (1316, 1326);6.72
+92;2023;Communes (1314, 1324, 1334);0.03
+92;2023;Département (1313, 1323, 1333);17.23
+92;2023;Groupements de collectivités : EPT, Métropole, etc. (1315, 1325, 1335);2.58
+92;2023;Région (1312, 1322, 1332);3.47
+92;2023;Union européenne (1317, 1327, 1337);0.2
+92;2023;État, établissements publics nationaux (dont ANRU) et dotations de l'État (1311, 1321, 1331, 134x : DETR, DSIL, etc.);10.1
+92;2024;Autres (1318, 1328, 1338, 138x...);1.79
+92;2024;Autres établissements publics locaux (1316, 1326);0.16
+92;2024;Communes (1314, 1324, 1334);0.01
+92;2024;Département (1313, 1323, 1333);18.52
+92;2024;Groupements de collectivités : EPT, Métropole, etc. (1315, 1325, 1335);3.74
+92;2024;Région (1312, 1322, 1332);2.02
+92;2024;État, établissements publics nationaux (dont ANRU) et dotations de l'État (1311, 1321, 1331, 134x : DETR, DSIL, etc.);10.63
+92;2025;Autres (1318, 1328, 1338, 138x...);0.9
+92;2025;Autres établissements publics locaux (1316, 1326);0.38
+92;2025;Communes (1314, 1324, 1334);0.08
+92;2025;Département (1313, 1323, 1333);19.68
+92;2025;Groupements de collectivités : EPT, Métropole, etc. (1315, 1325, 1335);4.56
+92;2025;Région (1312, 1322, 1332);4.24
+92;2025;État, établissements publics nationaux (dont ANRU) et dotations de l'État (1311, 1321, 1331, 134x : DETR, DSIL, etc.);10.47
+93;2021;Autres (1318, 1328, 1338, 138x...);9.55
+93;2021;Autres établissements publics locaux (1316, 1326);0.1
+93;2021;Département (1313, 1323, 1333);0.05
+93;2021;Groupements de collectivités : EPT, Métropole, etc. (1315, 1325, 1335);0.85
+93;2021;Région (1312, 1322, 1332);2.06
+93;2021;Union européenne (1317, 1327, 1337);0.06
+93;2021;État, établissements publics nationaux (dont ANRU) et dotations de l'État (1311, 1321, 1331, 134x : DETR, DSIL, etc.);14.19
+93;2022;Autres (1318, 1328, 1338, 138x...);17.06
+93;2022;Autres établissements publics locaux (1316, 1326);0.36
+93;2022;Département (1313, 1323, 1333);0.13
+93;2022;Groupements de collectivités : EPT, Métropole, etc. (1315, 1325, 1335);1.15
+93;2022;Région (1312, 1322, 1332);2.23
+93;2022;État, établissements publics nationaux (dont ANRU) et dotations de l'État (1311, 1321, 1331, 134x : DETR, DSIL, etc.);15.39
+93;2023;Autres (1318, 1328, 1338, 138x...);4.62
+93;2023;Autres établissements publics locaux (1316, 1326);0.03
+93;2023;Département (1313, 1323, 1333);0.03
+93;2023;Groupements de collectivités : EPT, Métropole, etc. (1315, 1325, 1335);2.23
+93;2023;Région (1312, 1322, 1332);3.82
+93;2023;Union européenne (1317, 1327, 1337);0.06
+93;2023;État, établissements publics nationaux (dont ANRU) et dotations de l'État (1311, 1321, 1331, 134x : DETR, DSIL, etc.);12.21
+93;2024;Autres (1318, 1328, 1338, 138x...);8.49
+93;2024;Autres établissements publics locaux (1316, 1326);0.33
+93;2024;Communes (1314, 1324, 1334);0.23
+93;2024;Groupements de collectivités : EPT, Métropole, etc. (1315, 1325, 1335);1.71
+93;2024;Région (1312, 1322, 1332);8.14
+93;2024;État, établissements publics nationaux (dont ANRU) et dotations de l'État (1311, 1321, 1331, 134x : DETR, DSIL, etc.);33.0
+93;2025;Autres (1318, 1328, 1338, 138x...);9.16
+93;2025;Autres établissements publics locaux (1316, 1326);0.02
+93;2025;Département (1313, 1323, 1333);0.08
+93;2025;Groupements de collectivités : EPT, Métropole, etc. (1315, 1325, 1335);2.39
+93;2025;Région (1312, 1322, 1332);6.32
+93;2025;État, établissements publics nationaux (dont ANRU) et dotations de l'État (1311, 1321, 1331, 134x : DETR, DSIL, etc.);27.71
+94;2021;Autres (1318, 1328, 1338, 138x...);1.14
+94;2021;Autres établissements publics locaux (1316, 1326);0.06
+94;2021;Groupements de collectivités : EPT, Métropole, etc. (1315, 1325, 1335);2.38
+94;2021;Région (1312, 1322, 1332);1.21
+94;2021;Union européenne (1317, 1327, 1337);0.12
+94;2021;État, établissements publics nationaux (dont ANRU) et dotations de l'État (1311, 1321, 1331, 134x : DETR, DSIL, etc.);1.75
+94;2022;Communes (1314, 1324, 1334);0.02
+94;2022;Groupements de collectivités : EPT, Métropole, etc. (1315, 1325, 1335);0.74
+94;2022;Région (1312, 1322, 1332);2.08
+94;2022;Union européenne (1317, 1327, 1337);0.51
+94;2022;État, établissements publics nationaux (dont ANRU) et dotations de l'État (1311, 1321, 1331, 134x : DETR, DSIL, etc.);2.95
+94;2023;Autres (1318, 1328, 1338, 138x...);2.41
+94;2023;Autres établissements publics locaux (1316, 1326);0.0
+94;2023;Communes (1314, 1324, 1334);0.08
+94;2023;Groupements de collectivités : EPT, Métropole, etc. (1315, 1325, 1335);3.63
+94;2023;Région (1312, 1322, 1332);1.17
+94;2023;Union européenne (1317, 1327, 1337);0.12
+94;2023;État, établissements publics nationaux (dont ANRU) et dotations de l'État (1311, 1321, 1331, 134x : DETR, DSIL, etc.);11.46
+94;2024;Autres (1318, 1328, 1338, 138x...);0.83
+94;2024;Autres établissements publics locaux (1316, 1326);0.65
+94;2024;Département (1313, 1323, 1333);0.08
+94;2024;Groupements de collectivités : EPT, Métropole, etc. (1315, 1325, 1335);3.77
+94;2024;Région (1312, 1322, 1332);2.94
+94;2024;État, établissements publics nationaux (dont ANRU) et dotations de l'État (1311, 1321, 1331, 134x : DETR, DSIL, etc.);4.87
+94;2025;Autres (1318, 1328, 1338, 138x...);7.84
+94;2025;Autres établissements publics locaux (1316, 1326);2.08
+94;2025;Département (1313, 1323, 1333);0.44
+94;2025;Groupements de collectivités : EPT, Métropole, etc. (1315, 1325, 1335);4.34
+94;2025;Région (1312, 1322, 1332);4.31
+94;2025;État, établissements publics nationaux (dont ANRU) et dotations de l'État (1311, 1321, 1331, 134x : DETR, DSIL, etc.);9.05

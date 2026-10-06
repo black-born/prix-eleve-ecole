@@ -1,0 +1,12 @@
+﻿territoire;grandeur;etablissements;min;max
+Paris;part du département par collégien (€);140;1692.33;1692.33
+Paris;part de la région par lycéen (€);92;2602.96;2602.96
+Paris;lycées publics ayant des élèves de niveau collège (nombre / élèves de niveau collège);23;665.0;
+Seine-Saint-Denis;part du département par collégien (€);150;2504.19;2504.19
+Seine-Saint-Denis;part de la région par lycéen (€);68;2602.96;2602.96
+Seine-Saint-Denis;lycées publics ayant des élèves de niveau collège (nombre / élèves de niveau collège);20;441.0;
+Île-de-France (région académique);part du département par collégien (€);1039;1692.33;3133.1
+Île-de-France (région académique);part de la région par lycéen (€);465;2602.96;2602.96
+Île-de-France (région académique);lycées publics ayant des élèves de niveau collège (nombre / élèves de niveau collège);119;3248.0;
+Paris;"écoles publiques : communes (nombre) ; écart max intra-commune de la part communale par élève (€)";1;0.0001;
+Seine-Saint-Denis;"écoles publiques : communes (nombre) ; écart max intra-commune de la part communale par élève (€)";39;0.0001;

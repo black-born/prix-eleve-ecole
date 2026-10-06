@@ -1,0 +1,1842 @@
+<title>Dépense publique par élève</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<style>
+/*LEAFLET_CSS*/
+</style>
+<style>
+/* Mise en page : en-tête et chiffres clés ; rangée de filtres ; la carte (large) et la fiche de l'établissement
+   (étroite) côte à côte ; le tableau de tous les établissements affichés ; les précautions de lecture. */
+:root {
+  --bg: #f2f4f5;
+  --surface: #fcfdfd;
+  --sea: #d6e2e9;
+  --land: #f3f3ef;
+  --land-line: #c4cace;
+  --region-line: #8b959c;
+  --label: #2f373d;
+  --label-2: #5b656d;
+  --halo: rgba(243, 243, 239, 0.75);
+  --ink: #13181c;
+  --ink-2: #4b555d;
+  --placeholder: #6b747c;
+  --line-strong: #8a959d;
+  --hairline: #dfe4e7;
+  --chip-on-bg: #13181c;
+  --chip-on-fg: #fcfdfd;
+  --focus: #256abf;
+  --row-sel: #e4edf8;
+  --tip-bg: #fcfdfd;
+  --hist: #8a959d;
+  --mark: #13181c;
+  --dot-line: rgba(19, 24, 28, 0.38);
+  /* Dépense par élève : rampe séquentielle bleue (pas 300 → 700), 5 classes. */
+  --seq-0: #6da7ec; --seq-1: #3987e5; --seq-2: #256abf; --seq-3: #184f95; --seq-4: #0d366b;
+  /* Écart à la moyenne du groupe : orange en dessous, gris neutre, bleu au-dessus (3 pas par bras). */
+  --div-0: #752601; --div-1: #cb4801; --div-2: #fe743e; --div-3: #c4c3bc; --div-4: #6da7ec; --div-5: #2a78d6; --div-6: #104281;
+  /* Décomposition de la dépense : palette catégorielle, ordre fixe. */
+  --cat-1: #2a78d6; --cat-2: #eb6834; --cat-3: #1baf7a; --cat-4: #eda100; --cat-5: #e87ba4;
+  --font-display: "Barlow Semi Condensed", "Arial Narrow", "Roboto Condensed", system-ui, sans-serif;
+  --font-body: "Source Sans 3", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --radius: 10px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0e1113; --surface: #171b1e; --sea: #0d151b; --land: #1f2529; --land-line: #3a434a; --region-line: #6b7781;
+    --label: #d3dadf; --label-2: #a3adb5; --halo: rgba(31, 37, 41, 0.75);
+    --ink: #eef1f3; --ink-2: #b3bcc3; --placeholder: #8b949b; --line-strong: #6b7680; --hairline: #2b3237; --chip-on-bg: #eef1f3;
+    --chip-on-fg: #13181c; --focus: #6da7ec; --row-sel: #1c2a3b; --tip-bg: #1f2428; --hist: #646f78; --mark: #eef1f3;
+    --dot-line: rgba(238, 241, 243, 0.32);
+    --seq-0: #1c5cab; --seq-1: #2a78d6; --seq-2: #5598e7; --seq-3: #86b6ef; --seq-4: #b7d3f6;
+    --div-0: #ffbfa9; --div-1: #f16224; --div-2: #b44205; --div-3: #4f4f4a; --div-4: #256abf; --div-5: #5598e7; --div-6: #b7d3f6;
+    --cat-1: #3987e5; --cat-2: #d95926; --cat-3: #199e70; --cat-4: #c98500; --cat-5: #d55181;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0e1113; --surface: #171b1e; --sea: #0d151b; --land: #1f2529; --land-line: #3a434a; --region-line: #6b7781;
+  --label: #d3dadf; --label-2: #a3adb5; --halo: rgba(31, 37, 41, 0.75);
+  --ink: #eef1f3; --ink-2: #b3bcc3; --placeholder: #8b949b; --line-strong: #6b7680; --hairline: #2b3237; --chip-on-bg: #eef1f3;
+  --chip-on-fg: #13181c; --focus: #6da7ec; --row-sel: #1c2a3b; --tip-bg: #1f2428; --hist: #646f78; --mark: #eef1f3;
+  --dot-line: rgba(238, 241, 243, 0.32);
+  --seq-0: #1c5cab; --seq-1: #2a78d6; --seq-2: #5598e7; --seq-3: #86b6ef; --seq-4: #b7d3f6;
+  --div-0: #ffbfa9; --div-1: #f16224; --div-2: #b44205; --div-3: #4f4f4a; --div-4: #256abf; --div-5: #5598e7; --div-6: #b7d3f6;
+  --cat-1: #3987e5; --cat-2: #d95926; --cat-3: #199e70; --cat-4: #c98500; --cat-5: #d55181;
+  color-scheme: dark;
+}
+*, *::before, *::after { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { background: var(--bg); color: var(--ink); font-family: var(--font-body); font-size: 0.9375rem; line-height: 1.5; margin: 0; }
+.page { max-width: 1360px; margin-inline: auto; padding-inline: clamp(16px, 3vw, 32px); padding-block: 28px 48px; display: grid; gap: 18px; }
+h1, h2, h3 { font-family: var(--font-display); text-wrap: balance; margin: 0; }
+p { margin: 0; }
+.eyebrow { font-family: var(--font-display); font-weight: 600; font-size: 0.78rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-2); }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0; }
+
+/* En-tête */
+.masthead { display: grid; gap: 10px; }
+h1 { font-weight: 700; font-size: clamp(1.9rem, 1.2rem + 2.4vw, 2.85rem); line-height: 1.04; letter-spacing: -0.005em; }
+.lede { max-width: 72ch; color: var(--ink-2); font-size: 1.02rem; }
+.kpis { display: flex; flex-wrap: wrap; gap: 12px 34px; margin: 8px 0 0; }
+.kpi { display: grid; gap: 1px; min-width: 0; }
+.kpi dt { font-size: 0.82rem; color: var(--ink-2); }
+.kpi dd { margin: 0; font-size: 1.7rem; font-weight: 700; line-height: 1.15; }
+.kpi dd small { font-size: 0.95rem; font-weight: 600; color: var(--ink-2); }
+.kpi .note { font-size: 0.78rem; color: var(--ink-2); }
+
+/* Filtres : sur téléphone et sur les écrans peu hauts, repliés sous un résumé (la recherche reste visible). */
+.filters { display: grid; gap: 12px; padding: 12px 14px; background: var(--surface); border: 1px solid var(--hairline); border-radius: var(--radius); }
+.filters-row { display: flex; flex-wrap: wrap; align-items: flex-end; gap: 14px 22px; }
+.filters details > summary { display: none; }
+.filters details > .filters-row { margin-top: 0; }
+@media (max-width: 600px), (max-height: 950px) {
+  .filters details > summary { display: list-item; cursor: pointer; font-weight: 600; font-size: 0.92rem; padding: 4px 0; }
+  .filters details > summary .resume { font-weight: 400; color: var(--ink-2); }
+  .filters details[open] > .filters-row { margin-top: 10px; }
+}
+fieldset { border: 0; margin: 0; padding: 0; min-width: 0; }
+legend, .field > span { display: block; font-family: var(--font-display); font-weight: 600; font-size: 0.74rem; letter-spacing: 0.07em; text-transform: uppercase; color: var(--ink-2); margin: 0 0 5px; padding: 0; }
+.chip-row { display: flex; flex-wrap: wrap; gap: 6px; }
+.chip { font: inherit; font-size: 0.9rem; line-height: 1.2; padding: 6px 11px; border-radius: 999px; border: 1px solid var(--line-strong); background: transparent; color: var(--ink); cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--chip-on-bg); border-color: var(--chip-on-bg); color: var(--chip-on-fg); }
+.chip[aria-pressed="true"]::before { content: "✓\00a0" / ""; font-weight: 700; }
+.field { display: block; min-width: 0; }
+.field.grow { flex: 1 1 220px; }
+select, input[type="search"] { font: inherit; font-size: 0.95rem; padding: 6px 10px; border: 1px solid var(--line-strong); border-radius: 8px; background: var(--surface); color: var(--ink); max-width: 100%; }
+input::placeholder { color: var(--placeholder); opacity: 1; }
+.field.grow input { width: 100%; }
+.field.grow label { display: block; margin-bottom: 5px; }
+.q-info { font-size: 0.82rem; color: var(--ink-2); margin-top: 4px; }
+.seg { display: inline-flex; flex-wrap: wrap; }
+.seg button { font: inherit; font-size: 0.9rem; line-height: 1.2; padding: 6px 11px; border: 1px solid var(--line-strong); background: transparent; color: var(--ink); cursor: pointer; }
+.seg button:first-child { border-radius: 8px 0 0 8px; }
+.seg button:last-child { border-radius: 0 8px 8px 0; }
+.seg button + button { margin-left: -1px; }
+.seg button[aria-pressed="true"] { background: var(--chip-on-bg); border-color: var(--chip-on-bg); color: var(--chip-on-fg); }
+.seg button[aria-pressed="true"]::before { content: "✓\00a0" / ""; font-weight: 700; }
+.filters .hint { font-size: 0.82rem; color: var(--ink-2); margin-top: 10px; }
+.link-btn { font: inherit; font-size: 0.9rem; background: none; border: 0; padding: 6px 2px; color: var(--ink); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+button:focus-visible, select:focus-visible, input:focus-visible, a:focus-visible, summary:focus-visible, [tabindex]:focus-visible, .leaflet-container:focus-visible { outline: 2px solid var(--focus); outline-offset: 2px; }
+.leaflet-container[data-pointeur]:focus-visible { outline: none; }
+
+/* Carte */
+.workspace { display: grid; grid-template-columns: minmax(0, 1fr) minmax(300px, 390px); gap: 18px; align-items: start; }
+@media (max-width: 960px) { .workspace { grid-template-columns: minmax(0, 1fr); } }
+.map-card { margin: 0; background: var(--surface); border: 1px solid var(--hairline); border-radius: var(--radius); padding: 10px 10px 14px; min-width: 0; display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; scroll-margin-top: 12px; }
+/* Au-dessus de la carte : le choix de l'affichage, puis « Aller à » (liste déroulante sur téléphone). */
+.map-top { display: flex; flex-wrap: wrap; gap: 8px 22px; align-items: center; padding-inline: 2px; }
+.vue { display: flex; flex-wrap: wrap; gap: 4px 10px; align-items: center; }
+.vue-lab { font-family: var(--font-display); font-weight: 600; font-size: 0.74rem; letter-spacing: 0.07em; text-transform: uppercase; color: var(--ink-2); }
+.vue .seg { flex-wrap: nowrap; }
+.goto { display: flex; flex-wrap: wrap; gap: 6px 10px; align-items: center; font-size: 0.86rem; }
+.goto span, .goto-tel span { color: var(--ink-2); }
+.goto-tel { display: none; }
+@media (max-width: 600px) {
+  .vue, .vue .seg { width: 100%; }
+  .vue .seg button { flex: 1 1 0; min-width: 0; }
+  .goto { display: none; }
+  .goto-tel { display: flex; align-items: center; gap: 8px; font-size: 0.86rem; width: 100%; }
+  .goto-tel span { white-space: nowrap; flex: none; }
+  .goto-tel select { font-size: 0.9rem; padding: 4px 8px; flex: 1 1 auto; min-width: 0; }
+}
+.goto button { font: inherit; font-size: 0.86rem; background: none; border: 0; padding: 2px 0; color: var(--ink); text-decoration: underline; text-underline-offset: 3px; cursor: pointer; }
+.map-wrap { position: relative; }
+#carte { height: clamp(380px, min(70vh, 115vw), 780px); border-radius: 8px; background: var(--sea); }
+.leaflet-container { font-family: var(--font-body); background: var(--sea); }
+.leaflet-control-zoom a, .leaflet-bar a { background: var(--surface); color: var(--ink); border-color: var(--hairline); }
+.leaflet-bar a:hover, .leaflet-bar a:focus { background: var(--row-sel); color: var(--ink); }
+.leaflet-bar a.leaflet-disabled { background: var(--surface); color: var(--line-strong); }
+.leaflet-bar { border: 1px solid var(--line-strong) !important; box-shadow: none !important; }
+.leaflet-control-attribution { background: color-mix(in srgb, var(--surface) 85%, transparent) !important; color: var(--ink-2); font-size: 11px; }
+.leaflet-control-attribution a { color: var(--ink-2); }
+@media (min-width: 601px) { .leaflet-bottom.leaflet-right { left: 170px; } }
+.leaflet-control-scale-line { background: color-mix(in srgb, var(--surface) 80%, transparent); color: var(--ink); border-color: var(--ink-2); text-shadow: none; }
+.carte-ign .leaflet-tile-pane { filter: saturate(0.35); opacity: 0.8; }
+:root[data-theme="dark"] .carte-ign .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(0.85) saturate(0.6); opacity: 1; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .carte-ign .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(0.85) saturate(0.6); opacity: 1; } }
+.lab { position: absolute; left: 0; top: 0; white-space: nowrap; font-family: var(--font-display); line-height: 1; color: var(--label); pointer-events: none;
+  text-shadow: 0 0 2px var(--halo), 0 0 3px var(--halo); }
+.lab-dep { font-size: 12px; font-weight: 500; letter-spacing: 0.03em; color: var(--label-2); }
+/* Vue par département : noms posés sur les aplats de couleur, avec un halo plus marqué. */
+.sur-aplat .lab, .sur-aplat .lab-dep { color: var(--ink); text-shadow: 1px 0 0 var(--surface), -1px 0 0 var(--surface), 0 1px 0 var(--surface), 0 -1px 0 var(--surface),
+  1px 1px 0 var(--surface), -1px -1px 0 var(--surface), 1px -1px 0 var(--surface), -1px 1px 0 var(--surface), 0 0 4px var(--surface); }
+.sur-aplat .lab-dep { color: var(--ink-2); font-weight: 600; }
+.lab-com { font-size: 12.5px; font-weight: 600; }
+.lab-big { font-size: 14px; font-weight: 700; }
+.lab-arr { font-size: 11.5px; font-weight: 500; color: var(--label-2); }
+.chargement { position: absolute; inset: 0; display: grid; place-items: center; text-align: center; padding: 20px; color: var(--ink-2); font-size: 0.95rem; z-index: 800; pointer-events: none; }
+.vide { position: absolute; inset: 0; display: grid; place-content: center; justify-items: center; gap: 8px; text-align: center; padding: 24px; z-index: 800; pointer-events: none; border-radius: 8px; background: color-mix(in srgb, var(--surface) 60%, transparent); }
+.vide p { max-width: 36ch; background: var(--surface); color: var(--ink); border: 1px solid var(--hairline); border-radius: 8px; padding: 10px 14px; }
+.vide button { pointer-events: auto; font: inherit; padding: 6px 12px; border-radius: 8px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink); cursor: pointer; }
+.tip { position: absolute; left: 0; top: 0; pointer-events: none; background: var(--tip-bg); color: var(--ink); border: 1px solid var(--hairline); border-radius: 8px; padding: 7px 10px; font-size: 0.84rem; line-height: 1.35; box-shadow: 0 6px 18px rgba(0, 0, 0, 0.16); width: max-content; max-width: 270px; z-index: 1001; }
+#vide:not([hidden]) ~ #tip { display: none; }
+.tip-v { font-weight: 700; font-size: 1rem; }
+.tip-n { font-weight: 600; }
+.tip-m { color: var(--ink-2); }
+.bandeau { display: flex; flex-wrap: wrap; gap: 6px 12px; align-items: center; justify-content: space-between; padding: 8px 10px; border: 1px solid var(--hairline); border-radius: 8px; font-size: 0.9rem; }
+.bandeau button { font: inherit; font-size: 0.9rem; padding: 5px 12px; border-radius: 8px; border: 1px solid var(--line-strong); background: transparent; color: var(--ink); cursor: pointer; }
+.map-foot { display: flex; flex-wrap: wrap; gap: 10px 28px; align-items: flex-start; justify-content: space-between; padding-inline: 4px; }
+.legend { display: grid; gap: 6px; min-width: 0; }
+.legend-title { font-weight: 600; font-size: 0.86rem; }
+.legend-rows { display: flex; flex-wrap: wrap; gap: 4px 16px; font-size: 0.84rem; }
+.legend-row { display: inline-flex; align-items: center; gap: 6px; }
+.legend-row .count { color: var(--ink-2); font-variant-numeric: tabular-nums; }
+.legend-note { font-size: 0.8rem; color: var(--ink-2); }
+.map-foot .legend { flex: 1 1 420px; }
+.legend-sym { display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: center; font-size: 0.84rem; color: var(--ink-2); }
+.legend-sym > span { display: inline-flex; align-items: center; gap: 6px; }
+.legend-sym svg { overflow: visible; }
+.map-hint { font-size: 0.8rem; color: var(--ink-2); padding-inline: 4px; }
+.dep-details { font-size: 0.86rem; padding-inline: 4px; min-width: 0; }
+.dep-details summary { cursor: pointer; font-weight: 600; }
+.dep-details .table-scroll { max-height: 360px; overflow: auto; margin-top: 8px; }
+table.dep-table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+.dep-table th, .dep-table td { padding: 4px 6px; border-bottom: 1px solid var(--hairline); text-align: right; white-space: nowrap; }
+.dep-table th:first-child, .dep-table td:first-child { text-align: left; white-space: normal; }
+.dep-table tr.is-sel td { background: var(--row-sel); }
+@media (max-width: 600px) { .dep-table th:nth-child(n+4), .dep-table td:nth-child(n+4) { display: none; } }
+.dep-table .row-btn { font-weight: 500; }
+.dep-table thead th { white-space: normal; vertical-align: bottom; position: sticky; top: 0; background: var(--surface); font-family: var(--font-display); font-weight: 600; font-size: 0.74rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-2); }
+
+/* Fiche */
+.panel { background: var(--surface); border: 1px solid var(--hairline); border-radius: var(--radius); padding: 16px 18px 18px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; min-width: 0; }
+.panel-head { display: flex; justify-content: space-between; align-items: flex-start; gap: 10px; }
+.close { font: 600 1.25rem/1 var(--font-body); width: 32px; height: 32px; flex: none; border-radius: 8px; border: 1px solid var(--line-strong); background: transparent; color: var(--ink); cursor: pointer; }
+.panel h2 { font-size: 1.45rem; font-weight: 700; line-height: 1.12; }
+.place { color: var(--ink-2); font-size: 0.9rem; }
+.hero { display: grid; gap: 0; }
+.hero-v { font-size: 2.6rem; font-weight: 700; line-height: 1.05; }
+.hero-u { color: var(--ink-2); font-size: 0.9rem; }
+.compare { font-size: 0.95rem; }
+.panel h3 { font-size: 1rem; font-weight: 700; letter-spacing: 0.01em; }
+.block { display: grid; gap: 8px; }
+.hist { margin: 0; display: grid; gap: 6px; }
+.hist svg { display: block; width: 100%; max-width: 420px; height: auto; }
+.hist text { font-family: var(--font-body); font-size: 11px; fill: var(--ink-2); }
+.hist .bar { fill: var(--hist); }
+.hist .mean { stroke: var(--ink); stroke-width: 1px; }
+.hist .here { stroke: var(--mark); stroke-width: 3px; }
+.hist .here-tri { fill: var(--mark); }
+.hist figcaption { font-size: 0.88rem; }
+.stack { display: flex; gap: 2px; height: 14px; }
+.stack span { display: block; height: 100%; min-width: 2px; }
+.stack span:first-child { border-radius: 4px 0 0 4px; }
+.stack span:last-child { border-radius: 0 4px 4px 0; }
+.stack span:only-child { border-radius: 4px; }
+.comp { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; font-size: 0.9rem; }
+.comp li { display: grid; grid-template-columns: 12px minmax(0, 1fr) auto 3.2em; gap: 2px 8px; align-items: baseline; }
+.comp .sw { width: 12px; height: 12px; border-radius: 3px; align-self: center; }
+.comp .val, .comp .pct { font-variant-numeric: tabular-nums; text-align: right; white-space: nowrap; }
+.comp .pct { color: var(--ink-2); }
+.comp .det { grid-column: 2 / 5; color: var(--ink-2); font-size: 0.82rem; }
+.comp .det span { display: block; }
+.c1 { background: var(--cat-1); } .c2 { background: var(--cat-2); } .c3 { background: var(--cat-3); } .c4 { background: var(--cat-4); } .c5 { background: var(--cat-5); }
+.facts { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 12px; margin: 0; font-size: 0.9rem; }
+.facts dt { color: var(--ink-2); }
+.facts dd { margin: 0; text-align: right; font-variant-numeric: tabular-nums; }
+.facts .wide { grid-column: 1 / -1; text-align: left; color: var(--ink-2); font-size: 0.82rem; margin-top: -4px; }
+.warn { font-size: 0.86rem; border-left: 3px solid var(--line-strong); padding: 2px 0 2px 10px; color: var(--ink-2); }
+.warn strong { color: var(--ink); }
+.memes { display: flex; flex-wrap: wrap; gap: 4px 12px; font-size: 0.88rem; }
+.panel a { color: var(--ink); text-underline-offset: 3px; }
+.panel-actions { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; }
+.refs { width: 100%; border-collapse: collapse; font-size: 0.88rem; font-variant-numeric: tabular-nums; }
+.refs th, .refs td { padding: 4px 4px; border-bottom: 1px solid var(--hairline); text-align: right; }
+.refs th:first-child, .refs td:first-child { text-align: left; }
+.refs thead th { font-family: var(--font-display); font-weight: 600; font-size: 0.74rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-2); }
+
+/* Tableau */
+.table-card { background: var(--surface); border: 1px solid var(--hairline); border-radius: var(--radius); padding: 14px 16px; display: grid; gap: 10px; min-width: 0; }
+.table-head { display: flex; flex-wrap: wrap; gap: 4px 16px; align-items: baseline; justify-content: space-between; }
+.table-head h2 { font-size: 1.3rem; font-weight: 700; }
+.table-head p { color: var(--ink-2); font-size: 0.9rem; }
+.table-note { font-size: 0.86rem; color: var(--ink-2); }
+.table-scroll { overflow-x: auto; }
+table.list { border-collapse: collapse; width: 100%; min-width: 820px; font-size: 0.9rem; font-variant-numeric: tabular-nums; }
+.list th { font-family: var(--font-display); font-weight: 600; font-size: 0.76rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--ink-2); text-align: left; border-bottom: 1px solid var(--line-strong); padding: 6px 8px; white-space: nowrap; vertical-align: bottom; }
+.list th button { font: inherit; letter-spacing: inherit; text-transform: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; text-align: inherit; }
+.list th[aria-sort="ascending"] button::after { content: " ↑" / ""; }
+.list th[aria-sort="descending"] button::after { content: " ↓" / ""; }
+.list td { padding: 7px 8px; border-bottom: 1px solid var(--hairline); vertical-align: top; }
+.list .num { text-align: right; white-space: nowrap; }
+.list .nw { white-space: nowrap; }
+.sub-tel { display: none; }
+@media (min-width: 900px) { .sub-type { display: none; } }
+@media (max-width: 600px) {
+  table.list { min-width: 0; }
+  .list thead th, .list thead th.num { white-space: normal; }
+  .list th:nth-child(n+3), .list td:nth-child(n+3) { display: none; }
+  .sub-tel { display: inline; }
+}
+.list tr.is-sel td { background: var(--row-sel); }
+.row-btn { font: inherit; font-weight: 600; color: var(--ink); background: none; border: 0; padding: 0; text-align: left; cursor: pointer; }
+.row-btn:hover { text-decoration: underline; text-underline-offset: 3px; }
+.sub { display: block; color: var(--ink-2); font-size: 0.82rem; }
+.badge { display: inline-block; margin-left: 6px; padding: 0 6px; border-radius: 999px; border: 1px solid var(--line-strong); font-size: 0.74rem; color: var(--ink-2); vertical-align: 1px; }
+.pager { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; font-size: 0.9rem; }
+.pager button { font: inherit; padding: 5px 12px; border-radius: 8px; border: 1px solid var(--line-strong); background: transparent; color: var(--ink); cursor: pointer; }
+.pager button[aria-disabled="true"] { opacity: 0.45; cursor: default; }
+.empty { padding: 18px 8px; color: var(--ink-2); }
+
+/* Précautions */
+.notes { display: grid; gap: 10px; max-width: 84ch; }
+.notes h2 { font-size: 1.3rem; font-weight: 700; }
+.notes ul { margin: 0; padding-left: 1.2em; display: grid; gap: 6px; }
+.sigles { margin: 0; display: grid; grid-template-columns: max-content minmax(0, 1fr); gap: 2px 12px; font-size: 0.9rem; }
+.sigles dt { font-weight: 600; }
+.sigles dd { margin: 0; color: var(--ink-2); }
+.sources { font-size: 0.82rem; color: var(--ink-2); }
+.sources a { color: inherit; }
+@media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; } }
+</style>
+
+<div class="page" lang="fr">
+  <header class="masthead">
+    <p class="eyebrow">Projet de sociologie · estimations de l'auteur à partir de données publiques · France, 2025</p>
+    <h1>Dépense publique par élève</h1>
+    <p class="lede">Ce que l'État, les collectivités et les CAF dépensent par élève dans chaque école, collège et lycée public ou privé sous contrat, d'après une estimation établissement par établissement. Ces montants ne sont publiés par aucune administration. L'enseignement supérieur n'est pas couvert. Choisissez un département ou un établissement, sur la carte ou dans les tableaux, pour voir sa fiche.</p>
+    <dl class="kpis" aria-live="polite">
+      <div class="kpi"><dt>Établissements affichés</dt><dd id="kpi-n">–</dd></div>
+      <div class="kpi"><dt>Élèves (rentrée 2024)</dt><dd id="kpi-e">–</dd></div>
+      <div class="kpi"><dt>Dépense publique estimée par élève</dt><dd id="kpi-v">–</dd><span class="note" id="kpi-v-note">moyenne des établissements affichés, pondérée par les élèves</span></div>
+    </dl>
+  </header>
+
+  <section class="filters" aria-label="Filtres">
+    <details id="filtres-plus" open>
+      <summary>Filtres et couleurs <span class="resume" id="filtres-resume"></span></summary>
+      <div class="filters-row">
+        <fieldset>
+          <legend>Type d'établissement</legend>
+          <div class="chip-row">
+            <button type="button" class="chip" id="t-M" data-group="t" data-value="M" aria-pressed="true">Maternelle</button>
+            <button type="button" class="chip" id="t-E" data-group="t" data-value="E" aria-pressed="true">Élémentaire</button>
+            <button type="button" class="chip" id="t-P" data-group="t" data-value="P" aria-pressed="true">Primaire</button>
+            <button type="button" class="chip" id="t-C" data-group="t" data-value="C" aria-pressed="true">Collège</button>
+            <button type="button" class="chip" id="t-G" data-group="t" data-value="G" aria-pressed="true">Lycée général et techno.</button>
+            <button type="button" class="chip" id="t-V" data-group="t" data-value="V" aria-pressed="true">Lycée polyvalent</button>
+            <button type="button" class="chip" id="t-L" data-group="t" data-value="L" aria-pressed="true">Lycée professionnel</button>
+            <button type="button" class="chip" id="t-A" data-group="t" data-value="A" aria-pressed="true">EREA et autres</button>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>Secteur</legend>
+          <div class="chip-row">
+            <button type="button" class="chip" id="s-0" data-group="s" data-value="0" aria-pressed="true">Public</button>
+            <button type="button" class="chip" id="s-1" data-group="s" data-value="1" aria-pressed="true">Privé sous contrat</button>
+          </div>
+        </fieldset>
+        <label class="field"><span>Région</span><select id="f-region"><option value="">Toutes les régions</option></select></label>
+        <fieldset>
+          <legend>Couleur de la carte</legend>
+          <div class="seg">
+            <button type="button" id="m-montant" data-mode="montant" aria-pressed="true">Dépense par élève</button>
+            <button type="button" id="m-ecart" data-mode="ecart" aria-pressed="false">Écart à son groupe</button>
+          </div>
+        </fieldset>
+        <fieldset id="fond-choix" hidden>
+          <legend>Fond de carte</legend>
+          <div class="seg">
+            <button type="button" id="b-ign" data-fond="ign" aria-pressed="true">Plan IGN</button>
+            <button type="button" id="b-simple" data-fond="simple" aria-pressed="false">Simple</button>
+          </div>
+        </fieldset>
+        <button type="button" class="link-btn" id="f-reset">Réinitialiser les filtres</button>
+      </div>
+      <p class="hint">Primaire : école qui a à la fois des classes maternelles et élémentaires. EREA et autres : établissements régionaux d'enseignement adapté, avec les quatre lycées d'enseignement adapté (LEA) et quelques autres établissements du second degré. Groupe : établissements du même type et du même secteur. L'enseignement supérieur (universités, grandes écoles, BTS et classes préparatoires des lycées) n'est pas couvert : l'approche par établissement ne l'estime pas.</p>
+    </details>
+    <div class="field grow">
+      <label for="f-q"><span class="eyebrow">Rechercher</span></label>
+      <input id="f-q" type="search" placeholder="Nom, commune ou UAI" autocomplete="off" spellcheck="false" aria-describedby="q-info">
+      <p class="q-info" id="q-info" aria-live="polite"></p>
+    </div>
+  </section>
+
+  <main class="workspace">
+    <figure class="map-card" id="zone-carte">
+      <div class="map-top">
+        <div class="vue" role="group" aria-labelledby="vue-lab">
+          <span class="vue-lab" id="vue-lab">Afficher</span>
+          <div class="seg">
+            <button type="button" id="v-dep" data-vue="dep" aria-pressed="true">Moyennes par département</button>
+            <button type="button" id="v-etab" data-vue="etab" aria-pressed="false">Chaque établissement</button>
+          </div>
+        </div>
+        <nav class="goto" aria-label="Aller à un territoire">
+          <span>Aller à :</span>
+          <button type="button" data-terr="metro">France métropolitaine</button>
+          <button type="button" data-terr="971">Guadeloupe</button>
+          <button type="button" data-terr="972">Martinique</button>
+          <button type="button" data-terr="973">Guyane</button>
+          <button type="button" data-terr="974">La Réunion</button>
+          <button type="button" data-terr="976">Mayotte</button>
+          <button type="button" data-terr="978">Saint-Martin et Saint-Barthélemy</button>
+        </nav>
+        <label class="goto-tel"><span>Aller à</span>
+          <select id="goto-sel">
+            <option value="">un territoire…</option>
+            <option value="metro">France métropolitaine</option>
+            <option value="971">Guadeloupe</option>
+            <option value="972">Martinique</option>
+            <option value="973">Guyane</option>
+            <option value="974">La Réunion</option>
+            <option value="976">Mayotte</option>
+            <option value="978">Saint-Martin et Saint-Barthélemy</option>
+          </select>
+        </label>
+      </div>
+      <div class="map-wrap">
+        <div id="carte" role="region" aria-label="Carte des établissements" aria-describedby="carte-desc"></div>
+        <p id="carte-desc" class="sr-only">Chaque département est coloré selon la dépense publique estimée par élève de ses établissements affichés. Les mêmes données figurent dans les tableaux sous la carte.</p>
+        <div class="chargement" id="chargement">Chargement des établissements…</div>
+        <div class="vide" id="vide" hidden>
+          <p>Aucun établissement ne correspond aux filtres. L'enseignement supérieur n'est pas couvert.</p>
+          <button type="button" id="vide-reset">Réinitialiser les filtres</button>
+        </div>
+        <div class="tip" id="tip" hidden></div>
+      </div>
+      <div class="bandeau" id="bandeau" hidden></div>
+      <figcaption class="map-foot">
+        <div class="legend" id="legende"></div>
+        <div class="legend-sym" id="symboles" aria-hidden="true"></div>
+      </figcaption>
+      <p class="map-hint">Molette ou pincement pour zoomer, glisser pour se déplacer ; les noms de communes apparaissent en zoomant. « Afficher » choisit ce que montre la carte : la moyenne de chaque département (cliquez sur un département pour sa fiche) ou chaque établissement (cliquez sur un point). Rechercher ou choisir un établissement passe à « Chaque établissement ».</p>
+      <details class="dep-details" id="dep-details">
+        <summary>Valeurs par département (établissements affichés)</summary>
+        <div class="table-scroll">
+          <table class="dep-table">
+            <thead><tr><th scope="col">Département ou collectivité</th><th scope="col">Dépense par élève</th><th scope="col">À structure égale</th><th scope="col">Établissements</th><th scope="col">Élèves</th></tr></thead>
+            <tbody id="dep-corps"></tbody>
+          </table>
+        </div>
+      </details>
+    </figure>
+
+    <aside class="panel" id="fiche" aria-label="Fiche du département ou de l'établissement choisi" tabindex="-1"></aside>
+  </main>
+  <p id="annonce" class="sr-only" aria-live="polite"></p>
+
+  <section class="table-card" aria-labelledby="t-titre">
+    <div class="table-head">
+      <h2 id="t-titre">Les établissements affichés</h2>
+      <p id="t-compte"></p>
+    </div>
+    <p class="table-note">Cliquez sur un en-tête pour trier. Dépense publique estimée par élève en 2025, élèves de la rentrée 2024. Les valeurs les plus élevées concernent surtout de petits établissements (« moins de 50 élèves ») et des structures particulières (EREA, lycées professionnels) ; les écarts les plus bas, surtout des écoles de communes dont les comptes 2025 donnent une faible dépense par élève ; « non classé » : la comparaison avec le groupe n'a pas de sens (voir la fiche).</p>
+    <div class="table-scroll">
+      <table class="list">
+        <thead><tr id="t-entetes"></tr></thead>
+        <tbody id="t-corps"></tbody>
+      </table>
+    </div>
+    <nav class="pager" aria-label="Pages du tableau">
+      <button type="button" id="p-prec">Précédents</button>
+      <span id="p-info"></span>
+      <button type="button" id="p-suiv">Suivants</button>
+    </nav>
+  </section>
+
+  <section class="notes" aria-labelledby="n-titre">
+    <h2 id="n-titre">Comment lire ces chiffres</h2>
+    <ul>
+      <li><strong>Une estimation de l'auteur, pas le budget de l'établissement.</strong> Aucune source publique ne donne la dépense totale d'une école ou d'un lycée (quelques collectivités publient seulement leurs dotations à chaque établissement). Les budgets exécutés en 2025 par l'État, les départements et les régions, et le financement des écoles par les communes (compte de l'éducation), sont répartis entre établissements avec des clés. Pour les collectivités, ces clés (dépense par élève de la commune, par collégien du département, par lycéen de la région) sont recalées sur le total à répartir : les montants d'une fiche ne sont donc pas les dépenses inscrites dans les comptes de la collectivité.</li>
+      <li><strong>Écoles</strong> : les enseignants au prorata des postes de l'école. Le financement communal est réparti selon la dépense par élève de chaque commune en 2025 (ses comptes) ; à défaut de comptes utilisables, pour un tiers des écoliers du public, selon la moyenne des communes ; dans le privé, c'est un montant national par élève. Toutes les écoles publiques d'une commune reçoivent donc la même dépense communale par élève : les agents propres aux classes maternelles (ATSEM) ne sont pas attribués aux seules écoles qui en ont. Cette ligne « commune » est la plus fragile : les communes ne rangent pas toutes leurs dépenses de la même façon, et l'investissement y suit le fonctionnement ; à Paris, elle est vraisemblablement surestimée (voir l'analyse « Seine-Saint-Denis et Paris » du dossier).</li>
+      <li><strong>Collèges et lycées</strong> : les enseignants au prorata des heures de cours et du coût moyen des corps (agrégés, certifiés, contractuels…) ; dans le public, la vie scolaire et la direction au prorata de leurs personnels, et la dépense par élève du département ou de la région ; dans le privé, des montants nationaux par élève. Les heures et les personnels qui servent les étudiants de BTS et de classes préparatoires sont retirés. Le reste (remplacement, formation, AESH, bourses, administration centrale et académique) est réparti à parts égales entre élèves.</li>
+      <li><strong>Ce que mesurent surtout les écarts</strong> : entre écoles publiques, d'abord la dépense par élève de leur commune (environ les trois quarts des écarts), puis le nombre d'enseignants par élève ; entre collèges et lycées publics, les heures d'enseignement et les personnels par élève, mais aussi la dépense du département ou de la région (environ un tiers des écarts entre lycées généraux et technologiques) ; dans le privé, le nombre d'enseignants (écoles) ou les heures d'enseignement (collèges et lycées) par élève. Les lycées professionnels, où une partie des cours se fait en ateliers et en petits groupes, et les petits établissements ressortent plus chers. L'ancienneté et les primes des enseignants (dont celles de l'éducation prioritaire) ne sont pas connues par établissement : chaque poste est compté au coût moyen national de son corps. Les majorations de traitement outre-mer non plus : la part de l'État est sous-estimée dans les DROM.</li>
+      <li><strong>Établissements non classés</strong> : la dépense est affichée, mais l'établissement n'est pas comparé à son groupe quand aucun enseignant n'est publié pour une école, ou quand les personnels de vie scolaire ou de direction d'un collège ou d'un lycée public ne sont pas publiés (l'une des deux catégories au moins ; ils sont parfois rattachés à un autre établissement), quand une école privée n'est sous contrat que pour une partie de ses classes, ou plus du tout en 2026 (les élèves des classes hors contrat sont comptés), ou quand le groupe compte moins de 10 établissements.</li>
+      <li><strong>Moyennes par département</strong> : moyenne des établissements affichés, pondérée par les élèves. Elle dépend de la part des lycées, des écoles et du privé dans chaque département. La colonne « À structure égale » compare la dépense du département à ce qu'elle serait si chacun de ses établissements avait la dépense par élève moyenne, en France, de son type et de son secteur.</li>
+      <li><strong>Public et privé sous contrat</strong> : seule la dépense publique est comptée. Dans le privé, les familles et les organismes gestionnaires paient une partie des locaux et des personnels. Les maîtres du privé ne sont pas fonctionnaires : l'État cotise pour leur retraite aux régimes de droit commun, à des taux bien inférieurs à la contribution de 78,6&#8239;% du traitement versée pour les fonctionnaires en 2025. L'écart ne mesure donc ni un coût total ni une efficacité.</li>
+      <li><strong>Élèves et petits établissements</strong> : ce sont les élèves de la rentrée 2024 (écoles, collèges, lycées et EREA ; les apprentis et les étudiants ne sont pas comptés). Sous 50 élèves, l'estimation est fragile. L'allocation de rentrée scolaire n'est comptée que pour les élèves de 6 ans et plus : rien en maternelle.</li>
+      <li><strong>Enseignement supérieur</strong> : il n'est pas couvert (universités, grandes écoles, BTS et classes préparatoires des lycées). La part des heures et des personnels des lycées qui sert leurs étudiants est retirée.</li>
+    </ul>
+    <h3>Sigles</h3>
+    <dl class="sigles">
+      <dt>AESH</dt><dd>accompagnants des élèves en situation de handicap</dd>
+      <dt>ATSEM</dt><dd>agents territoriaux spécialisés des écoles maternelles (personnel communal)</dd>
+      <dt>BTS, CPGE</dt><dd>brevet de technicien supérieur, classes préparatoires aux grandes écoles (enseignement supérieur dans les lycées)</dd>
+      <dt>CAF</dt><dd>caisses d'allocations familiales</dd>
+      <dt>DEPP</dt><dd>direction de l'évaluation, de la prospective et de la performance (service statistique du ministère de l'Éducation nationale)</dd>
+      <dt>DGFiP</dt><dd>direction générale des finances publiques (comptes des collectivités)</dd>
+      <dt>EREA, LEA</dt><dd>établissement régional d'enseignement adapté ; lycée d'enseignement adapté (quatre LEA sont comptés avec les EREA)</dd>
+      <dt>ETP</dt><dd>équivalent temps plein</dd>
+      <dt>H/E</dt><dd>heures d'enseignement hebdomadaires par élève</dd>
+      <dt>IGN</dt><dd>Institut national de l'information géographique et forestière</dd>
+      <dt>Insee</dt><dd>Institut national de la statistique et des études économiques</dd>
+      <dt>IPS</dt><dd>indice de position sociale des élèves (DEPP) ; plus il est élevé, plus le public est favorisé</dd>
+      <dt>REP, REP+</dt><dd>réseaux d'éducation prioritaire (REP+ : renforcés)</dd>
+      <dt>Segpa</dt><dd>section d'enseignement général et professionnel adapté (collège)</dd>
+      <dt>UAI</dt><dd>identifiant national de l'établissement</dd>
+      <dt>ULIS, UEEA</dt><dd>unités localisées pour l'inclusion scolaire ; unités d'enseignement élémentaire autisme (dispositifs pour élèves en situation de handicap)</dd>
+    </dl>
+    <p class="sources">Calcul de l'auteur (projet de sociologie), approche « établissement par établissement » du dossier <em>Combien coûte un élève à la puissance publique&#8239;?</em> Budgets 2025 : rapport annuel de performances de la mission « Enseignement scolaire » ; balances comptables 2025 des communes, des départements et des régions (DGFiP) ; compte de l'éducation de la DEPP ; dépense par collégien des départements et par lycéen des régions : DEPP, <em>Géographie de l'École</em> 2026. Données par établissement, rentrée 2024, ministère de l'Éducation nationale (data.education.gouv.fr, Licence Ouverte) : effectifs des écoles (jeu mis à jour le 27/08/2026), des collèges et des lycées (27/07/2026) ; personnels du premier degré (24/06/2026) et du second degré (23/07/2026) ; heures d'enseignement H/E (09/06/2026) ; indices de position sociale des écoles (07/08/2026), des collèges (01/09/2026), des lycées (10/06/2026) et des EREA (03/08/2026) ; annuaire de l'éducation (03/10/2026). Établissements absents de l'annuaire actuel : mairie de leur commune (centre de la commune pour une commune déléguée ou une mairie partagée). Coût relatif des corps d'enseignants : salaires moyens publiés par la DEPP (<em>Note d'information</em> 26.36 ; <em>Panorama statistique des personnels de l'enseignement scolaire 2025-2026</em>). Fond de carte : <a href="https://www.data.gouv.fr/datasets/contours-administratifs" target="_blank" rel="noopener">« Contours administratifs »</a> (data.gouv.fr), édition 2025, généralisation à 100&#8239;m, coordonnées arrondies pour cette page ; positions des mairies et des centres des communes : API Découpage administratif, qui les tire du même jeu ; noms et populations des communes : Insee, par la même API ; données rediffusées sous licence <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="noopener">ODbL</a>. Dans la version locale du dossier, fond « Plan IGN » de l'IGN (Géoplateforme, Licence Ouverte).</p>
+  </section>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script type="text/plain" id="donnees">DONNEES_GZ_BASE64</script>
+<script type="text/plain" id="fond">FOND_GZ_BASE64</script>
+<script>
+(function () {
+  "use strict";
+
+  /* ---------------------------------------------------------------- outils */
+  /* espace insécable ordinaire (plus lisible que l'espace fine aux petites tailles) */
+  function format(opts) {
+    var nf = new Intl.NumberFormat("fr-FR", opts);
+    return { format: function (x) { return nf.format(x).replace(/[  ]/g, " "); } };
+  }
+  var nf0 = format({ maximumFractionDigits: 0 });
+  var nf1 = format({ minimumFractionDigits: 1, maximumFractionDigits: 1 });
+  var nf2 = format({ minimumFractionDigits: 2, maximumFractionDigits: 2 });
+  var ESP = " ";
+  function eur(v) { return nf0.format(Math.round(v)) + ESP + "€"; }
+  function pct(x) { var r = Math.round(x * 10) / 10; return (r > 0 ? "+" : r < 0 ? "−" : "") + nf1.format(Math.abs(r)) + ESP + "%"; }
+  /* arrondit chaque valeur à l'unité en conservant le total donné (méthode du plus fort reste, comme le script 07) */
+  function arrondiSomme(vals, total) {
+    var base = vals.map(function (v) { return Math.floor(v); }), reste = total - base.reduce(function (s, v) { return s + v; }, 0);
+    var ordre = vals.map(function (v, i) { return i; }).sort(function (i, j) { return (vals[j] - base[j]) - (vals[i] - base[i]) || i - j; });
+    for (var k = 0; reste > 0 && k < ordre.length; k++, reste--) base[ordre[k]] += 1;
+    for (k = ordre.length - 1; reste < 0 && k >= 0; k--, reste++) base[ordre[k]] -= 1;
+    return base;
+  }
+  function partTexte(p) { return p > 0 && p < 0.5 ? "moins de 1" + ESP + "%" : p < 100 && p > 99.5 ? "plus de 99" + ESP + "%" : nf0.format(p) + ESP + "%"; }
+  /* typographie française : espace insécable avant « : ; ! ? » et à l'intérieur des guillemets */
+  function typo(s) { return String(s).replace(/ ([:;!?»])/g, " $1").replace(/« /g, "« "); }
+  function cle(s) {
+    return String(s).replace(/œ/g, "oe").replace(/Œ/g, "OE").replace(/æ/g, "ae").replace(/Æ/g, "AE").normalize("NFD")
+      .replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim()
+      .replace(/\bste\b/g, "sainte").replace(/\bst\b/g, "saint");
+  }
+  function el(tag, cls, text) { var e = document.createElement(tag); if (cls) e.className = cls; if (text != null) e.textContent = typo(text); return e; }
+  function css(nom) { return getComputedStyle(document.documentElement).getPropertyValue(nom).trim(); }
+  function reduit() { return window.matchMedia("(prefers-reduced-motion: reduce)").matches; }
+  var mqEtroit = window.matchMedia("(max-width: 960px)"), mqTel = window.matchMedia("(max-width: 600px)");
+  function etroit() { return mqEtroit.matches; }
+  function corrigerTextes(racine) {
+    var w = document.createTreeWalker(racine, NodeFilter.SHOW_TEXT), n;
+    while ((n = w.nextNode())) { var t = typo(n.nodeValue); if (t !== n.nodeValue) n.nodeValue = t; }
+  }
+  function ecouter(mq, f) { try { mq.addEventListener("change", f); } catch (e) { /* navigateur ancien */ } }
+
+  function decoder(id) {
+    var bin = atob(document.getElementById(id).textContent.trim());
+    var octets = new Uint8Array(bin.length);
+    for (var i = 0; i < bin.length; i++) octets[i] = bin.charCodeAt(i);
+    if (window.DecompressionStream) {
+      var flux = new Blob([octets]).stream().pipeThrough(new DecompressionStream("gzip"));
+      return new Response(flux).text().then(JSON.parse);
+    }
+    return new Promise(function (ok, ko) {
+      var s = document.createElement("script");
+      s.src = "https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js";
+      s.onload = function () { ok(JSON.parse(window.pako.ungzip(octets, { to: "string" }))); };
+      s.onerror = ko;
+      document.head.appendChild(s);
+    });
+  }
+
+  var TYPE = { M: "École maternelle", E: "École élémentaire", P: "École primaire", C: "Collège", G: "Lycée général et technologique",
+               V: "Lycée polyvalent", L: "Lycée professionnel", A: "EREA", X: "Autre établissement du second degré" };
+  var TYPE_COURT = { M: "Maternelle", E: "Élémentaire", P: "Primaire", C: "Collège", G: "Lycée gén. et techno.", V: "Lycée polyvalent",
+                     L: "Lycée pro.", A: "EREA", X: "Autre (2nd degré)" };
+  var TYPE_PL = { M: "écoles maternelles", E: "écoles élémentaires", P: "écoles primaires", C: "collèges", G: "lycées généraux et technologiques",
+                  V: "lycées polyvalents", L: "lycées professionnels", A: "EREA", X: "autres établissements du second degré" };
+  var FEMININ = { M: 1, E: 1, P: 1 };
+  var SECT = ["Public", "Privé sous contrat"];
+  function sectPl(t, s) { return FEMININ[t] ? (s ? "privées sous contrat" : "publiques") : (s ? "privés sous contrat" : "publics"); }
+  function groupe(o) { return TYPE_PL[o.t] + " " + sectPl(o.t, o.s); }
+  function ecole(o) { return o.t === "M" || o.t === "E" || o.t === "P"; }
+  function accord(t, masc, fem) { return FEMININ[t] ? fem : masc; }
+  var ORDRE_TYPES = ["M", "E", "P", "C", "G", "V", "L", "A", "X"];
+  var PUCES = ["M", "E", "P", "C", "G", "V", "L", "A"];
+  function puce(t) { return t === "X" ? "A" : t; }   /* la pastille « EREA et autres » couvre les deux types */
+  var SEQ = [8000, 11000, 14000, 17000];
+  var DIV = [-20, -10, -3, 3, 10, 20];
+  function classe(v, seuils) { var k = 0; while (k < seuils.length && v >= seuils[k]) k++; return k; }
+  function labelsBornes(b) {
+    var l = ["moins de " + eur(b[0])];
+    for (var k = 1; k < b.length; k++) l.push(nf0.format(b[k - 1]) + " à " + eur(b[k]));
+    l.push(eur(b[b.length - 1]) + " et plus");
+    return l;
+  }
+  var SEQ_LAB = labelsBornes(SEQ);
+  var DIV_LAB = ["moins de −20" + ESP + "%", "−20 à −10" + ESP + "%", "−10 à −3" + ESP + "%", "−3 à +3" + ESP + "%",
+                 "+3 à +10" + ESP + "%", "+10 à +20" + ESP + "%", "+20" + ESP + "% et plus"];
+  var TERR = { metro: "métropole", "971": "Guadeloupe", "972": "Martinique", "973": "Guyane", "974": "La Réunion", "976": "Mayotte",
+               "978": "Saint-Martin et Saint-Barthélemy" };
+  var TERR_SUR = { metro: "la métropole", "971": "la Guadeloupe", "972": "la Martinique", "973": "la Guyane", "974": "La Réunion",
+                   "976": "Mayotte", "978": "Saint-Martin et Saint-Barthélemy" };
+  function territoire(code) { return code.length === 2 ? "metro" : (code === "977" ? "978" : code); }
+
+  var chargement = document.getElementById("chargement");
+  corrigerTextes(document.querySelector(".page"));
+  var plus = document.getElementById("filtres-plus");
+  var mqPli = window.matchMedia("(max-width: 600px), (max-height: 950px)");
+  if (mqPli.matches) plus.open = false;
+  ecouter(mqPli, function (e) { if (!e.matches) plus.open = true; });
+  Promise.all([decoder("donnees"), decoder("fond")]).then(function (res) {
+    try { demarrer(res[0], res[1]); } catch (err) {
+      chargement.textContent = "La carte n'a pas pu s'afficher (erreur du script de la page).";
+      if (window.console) console.error(err);
+    }
+  }, function (err) {
+    chargement.textContent = "La carte n'a pas pu être chargée : ce navigateur ne sait pas décompresser les données. Essayez un navigateur récent.";
+    if (window.console) console.error(err);
+  });
+
+  function demarrer(D, F) {
+    /* ---------------------------------------------------------------- données */
+    var depNom = {};
+    F.deps.features.forEach(function (f) { depNom[f.properties.code] = f.properties.nom; });
+    var rows = new Array(D.n);
+    for (var i = 0; i < D.n; i++) {
+      var o = {
+        i: i, u: D.uai[i], n: D.nom[i], c: D.communes[D.com[i]], d: D.deps[D.dep[i]], r: D.regions[D.reg[i]],
+        t: D.typ[i], s: D.sec[i], lat: D.lat[i] == null ? null : D.lat[i] / 1e5, lon: D.lon[i] == null ? null : D.lon[i] / 1e5,
+        ap: D.ap[i], apc: D.apc[i], e: D.e[i], n1: D.n1[i], n2: D.n2[i], n3: D.n3[i], cls: D.cls[i], pb: D.pb[i], pbns: D.pbns[i],
+        etp: D.etp[i] == null ? null : D.etp[i] / 10, he: D.he[i] == null ? null : D.he[i] / 100,
+        cov: D.cov[i] == null ? null : D.cov[i] / 1000, ix: D.ix[i] == null ? null : D.ix[i] / 1000,
+        ips: D.ips[i] == null ? null : D.ips[i] / 10, ipsS: D.ipsS[i], rep: D.rep[i], v: D.v[i], nc: D.nc[i], ts: D.ts[i],
+        g: [D.g1[i], D.g2[i], D.g3[i], D.g4c[i] + D.g4d[i] + D.g4r[i] + D.g4t[i], D.g5[i]],
+        g4: [D.g4c[i], D.g4d[i], D.g4r[i], D.g4t[i]], k: [D.kc[i], D.kd[i], D.kr[i]],
+        ecart: D.ecart[i] == null ? null : D.ecart[i] / 10
+      };
+      o.ref = D.refs[o.t + "|" + o.s];
+      o.q = classe(o.v, SEQ); o.qd = o.ecart == null ? null : classe(o.ecart, DIV);
+      o.tri = cle(o.n); o.rcle = cle(o.r); o.dn = depNom[o.d] || ""; o.terr = territoire(o.d);
+      o.cle = " " + cle([o.n, o.c, o.dn, o.d, o.u].join(" ")) + " ";
+      rows[i] = o;
+    }
+    var parUai = {};
+    rows.forEach(function (o) { parUai[o.u] = o; });
+    /* valeurs des établissements comparés de chaque groupe (rang et histogramme) */
+    var parGroupe = {};
+    rows.forEach(function (o) { if (!o.nc) { var k = o.t + "|" + o.s; (parGroupe[k] = parGroupe[k] || []).push(o.v); } });
+    Object.keys(parGroupe).forEach(function (k) { parGroupe[k].sort(function (a, b) { return a - b; }); });
+
+    /* établissements au même point : un petit écart à l'affichage pour les distinguer */
+    var memesPos = {};
+    rows.forEach(function (o) { if (o.lat != null) { var k = o.lat + "," + o.lon; (memesPos[k] = memesPos[k] || []).push(o); } });
+    Object.keys(memesPos).forEach(function (k) {
+      var g = memesPos[k];
+      g.forEach(function (o, j) {
+        o.memes = g.length > 1 ? g : null;
+        var ang = j * 2.39996, ray = g.length > 1 ? Math.sqrt(j + 0.5) : 0;
+        o.ox = Math.cos(ang) * ray; o.oy = Math.sin(ang) * ray;
+      });
+    });
+
+    /* ---------------------------------------------------------------- état */
+    /* vue : « dep » (moyennes par département) ou « etab » (chaque établissement), au choix de l'utilisateur */
+    var state = { t: new Set(PUCES), s: new Set([0, 1]), region: "", q: [], mode: "montant", vue: "dep",
+                  sel: null, selDep: null, sort: { key: "n", dir: 1 }, page: 0 };
+    var visible = rows.slice();
+    var PAGE = 20;
+
+    /* ---------------------------------------------------------------- carte */
+    var anim = !reduit();
+    var map = L.map("carte", { zoomSnap: 0.25, zoomDelta: 0.5, wheelPxPerZoomLevel: 100, minZoom: 3, maxZoom: 17,
+                               worldCopyJump: false, attributionControl: true, zoomControl: false,
+                               zoomAnimation: anim, fadeAnimation: anim, markerZoomAnimation: anim, inertia: anim });
+    L.control.zoom({ zoomInTitle: "Zoom avant", zoomOutTitle: "Zoom arrière" }).addTo(map);
+    map.attributionControl.setPrefix(false);
+    map.attributionControl.addAttribution(typo("Fond : « Contours administratifs » 2025, data.gouv.fr, ODbL · communes : API Découpage administratif · calculs : auteur"));
+    var echelle = L.control.scale({ imperial: false, maxWidth: 140 }).addTo(map);
+    L.DomEvent.disableClickPropagation(echelle.getContainer());
+    map.createPane("fond").style.zIndex = 250;
+    map.createPane("points").style.zIndex = 420;
+    var paneLab = map.createPane("etiquettes");
+    paneLab.style.zIndex = 440; paneLab.style.pointerEvents = "none"; paneLab.classList.add("leaflet-zoom-hide");
+    map.createPane("anneaux").style.zIndex = 450;   /* anneaux de sélection et de survol au-dessus des noms */
+    /* contour de focus : seulement au clavier (Leaflet donne le focus à la carte au premier clic) */
+    var conteneur = map.getContainer();
+    conteneur.addEventListener("pointerdown", function () { conteneur.dataset.pointeur = "1"; });
+    conteneur.addEventListener("blur", function () { delete conteneur.dataset.pointeur; });
+    document.addEventListener("keydown", function (e) { if (e.key === "Tab") delete conteneur.dataset.pointeur; }, true);
+    /* sur téléphone, l'échelle passe au-dessus de l'attribution, quelle que soit sa hauteur */
+    function ajusterEchelle() {
+      var att = conteneur.querySelector(".leaflet-control-attribution"), sc = echelle.getContainer();
+      sc.style.marginBottom = mqTel.matches && att ? (att.offsetHeight + 6) + "px" : "";
+    }
+    window.addEventListener("resize", ajusterEchelle);
+
+    var rendFond = L.canvas({ pane: "fond", padding: 0.5 });
+    var couleurs = {};
+    function lireCouleurs() {
+      ["--land", "--land-line", "--region-line", "--surface", "--dot-line", "--mark", "--ink", "--ink-2"].forEach(function (k) { couleurs[k] = css(k); });
+      couleurs.seq = [0, 1, 2, 3, 4].map(function (k) { return css("--seq-" + k); });
+      couleurs.div = [0, 1, 2, 3, 4, 5, 6].map(function (k) { return css("--div-" + k); });
+    }
+    lireCouleurs();
+
+    function vueDep() { return state.vue === "dep"; }
+    var aggDep = {}, bornesDep = [8000, 9000, 10000, 11000], moyenneAffichee = null;
+    function agreger() {
+      aggDep = {};
+      var se = 0, sv = 0;
+      visible.forEach(function (o) {
+        var a = aggDep[o.d] || (aggDep[o.d] = { n: 0, e: 0, ve: 0, ve2: 0, re: 0, g: [0, 0, 0, 0, 0], g4: [0, 0, 0, 0], grp: {}, prive: 0, sec: 0, regs: {} });
+        a.n += 1; a.e += o.e; a.ve += o.v * o.e; se += o.e; sv += o.v * o.e;
+        if (D.tailles[o.t + "|" + o.s] >= D.seuil_groupe) { a.ve2 += o.v * o.e; a.re += o.ref * o.e; }   /* groupes comparables seulement */
+        for (var k = 0; k < 5; k++) a.g[k] += o.g[k] * o.e;
+        for (k = 0; k < 4; k++) a.g4[k] += o.g4[k] * o.e;
+        var cg = o.t + "|" + o.s, sg = a.grp[cg] || (a.grp[cg] = { n: 0, e: 0, ve: 0 });
+        sg.n += 1; sg.e += o.e; sg.ve += o.v * o.e;
+        if (o.s) a.prive += o.e;
+        if (!ecole(o)) a.sec += o.e;
+        a.regs[o.r] = (a.regs[o.r] || 0) + o.e;
+      });
+      moyenneAffichee = se ? sv / se : null;
+      /* classes fixes autour de la moyenne des établissements affichés : −10, −3, +3, +10 % */
+      if (moyenneAffichee) bornesDep = [0.9, 0.97, 1.03, 1.1].map(function (f) { return Math.round(moyenneAffichee * f / 10) * 10; });
+      Object.keys(aggDep).forEach(function (k) {
+        var a = aggDep[k];
+        a.m = a.e ? a.ve / a.e : null;
+        a.ec = a.re ? 100 * (a.ve2 / a.re - 1) : null;   /* à structure égale : dépense / dépense au coût moyen national de chaque groupe */
+        a.q = a.m == null ? null : classe(a.m, bornesDep);
+        a.qd = a.ec == null ? null : classe(a.ec, DIV);
+        a.r = Object.keys(a.regs).sort(function (x, y) { return a.regs[y] - a.regs[x]; })[0];
+      });
+    }
+
+    var fondIgn = null, ignActif = false;
+    var couchesDeps = L.geoJSON(F.deps, { renderer: rendFond, interactive: false, style: styleDeps }).addTo(map);
+    var regsMetro = { type: "FeatureCollection", features: F.regs.features.filter(function (f) { return +f.properties.code >= 11; }) };
+    var couchesRegs = L.geoJSON(regsMetro, { renderer: rendFond, interactive: false, style: styleRegs }).addTo(map);
+    var coucheParDep = {};
+    couchesDeps.eachLayer(function (l) { coucheParDep[l.feature.properties.code] = l; });
+    function couleurDep(code) {
+      var a = aggDep[code];
+      if (!a || a.m == null) return null;
+      return state.mode === "montant" ? couleurs.seq[a.q] : couleurs.div[a.qd];
+    }
+    function styleDeps(f) {
+      var dep = vueDep(), fill = dep ? couleurDep(f.properties.code) : null, sel = f.properties.code === state.selDep;
+      return { fillColor: fill || couleurs["--land"], fillOpacity: ignActif && !dep ? 0 : 1,
+               color: sel ? couleurs["--mark"] : dep ? couleurs["--surface"] : couleurs["--land-line"],
+               weight: sel ? (dep ? 2.6 : 2) : dep ? 1 : (ignActif ? 0.8 : 0.7), opacity: 1 };
+    }
+    function styleRegs() { return { fill: false, color: couleurs["--region-line"], weight: 1.4, opacity: 1 }; }
+    var contourSel = null;
+    function restylerFond() {
+      couchesDeps.setStyle(styleDeps); couchesRegs.setStyle(styleRegs); couchesRegs.bringToFront();
+      if (contourSel) { map.removeLayer(contourSel); contourSel = null; }
+      if (vueDep() && state.selDep && coucheParDep[state.selDep]) {   /* vue par département : redessiné au-dessus des noms de lieux */
+        contourSel = L.geoJSON(coucheParDep[state.selDep].feature, { renderer: rendAnneaux, interactive: false,
+          style: { fill: false, color: couleurs["--mark"], weight: vueDep() ? 2.6 : 2, opacity: 1 } }).addTo(map);
+      }
+      if (state.selDep && coucheParDep[state.selDep]) coucheParDep[state.selDep].bringToFront();
+      if (fondIgn) {
+        var voirIgn = ignActif && !vueDep();
+        if (voirIgn && !map.hasLayer(fondIgn)) fondIgn.addTo(map);
+        else if (!voirIgn && map.hasLayer(fondIgn)) map.removeLayer(fondIgn);
+      }
+    }
+
+    /* territoires, départements et régions : emprises pour « Aller à », la fiche d'un département et le filtre de région */
+    var emprises = {}, empriseDep = {}, depFeatures = F.deps.features;
+    depFeatures.forEach(function (f) {
+      var b = L.geoJSON(f).getBounds(), k = territoire(f.properties.code);
+      f._b = b; empriseDep[f.properties.code] = b;
+      emprises[k] = emprises[k] ? emprises[k].extend(b) : L.latLngBounds(b.getSouthWest(), b.getNorthEast());
+    });
+    var empriseRegion = {};
+    F.regs.features.forEach(function (f) { empriseRegion[cle(f.properties.nom)] = L.geoJSON(f).getBounds(); });
+    rows.forEach(function (o) {   /* une région académique peut déborder de la région (Guadeloupe : Saint-Martin, Saint-Barthélemy) */
+      if (o.lat == null) return;
+      var b = empriseRegion[o.rcle];
+      if (b) b.extend([o.lat, o.lon]); else empriseRegion[o.rcle] = L.latLngBounds([o.lat, o.lon], [o.lat, o.lon]);
+    });
+    function aller(b, maxZoom, minZoom) {
+      if (!b) return;
+      var z = Math.min(maxZoom || 12, map.getBoundsZoom(b, false, L.point(48, 48)));
+      if (minZoom) z = Math.max(z, minZoom);
+      if (reduit()) map.setView(b.getCenter(), z, { animate: false }); else map.flyTo(b.getCenter(), z, { duration: 0.6 });
+    }
+    map.fitBounds(emprises.metro, { padding: [10, 10] });
+    ajusterEchelle();
+    function dansPolygone(g, x, y) {
+      var dedans = false;
+      for (var p = 0; p < g.coordinates.length; p++) for (var r = 0; r < g.coordinates[p].length; r++) {
+        var a = g.coordinates[p][r];
+        for (var i = 0, j = a.length - 1; i < a.length; j = i++) {
+          var yi = a[i][1], yj = a[j][1];
+          if ((yi > y) !== (yj > y) && x < (a[j][0] - a[i][0]) * (y - yi) / (yj - yi) + a[i][0]) dedans = !dedans;
+        }
+      }
+      return dedans;
+    }
+    function depSous(ll) {
+      for (var i = 0; i < depFeatures.length; i++) {
+        var f = depFeatures[i];
+        if (f._b.contains(ll) && dansPolygone(f.geometry, ll.lng, ll.lat)) return f;
+      }
+      return null;
+    }
+
+    /* projection à l'échelle 0, une fois pour toutes */
+    rows.forEach(function (o) {
+      if (o.lat == null) return;
+      var p = map.project([o.lat, o.lon], 0);
+      o.X0 = p.x; o.Y0 = p.y;
+    });
+    var ordre = rows.filter(function (o) { return o.lat != null; }).sort(function (a, b) { return b.e - a.e; });
+
+    function rayonBase(e) { return 1.6 + Math.sqrt(e) * 0.075; }
+    function facteurZoom(z) { return Math.max(0.5, Math.min(2.2, 0.55 + 0.16 * (z - 5))); }
+
+    /* calque des points : un seul canevas, redessiné à chaque fin de déplacement (Leaflet efface le canevas puis
+       appelle _draw, qui dessine habituellement les couches vectorielles : ici, les points) */
+    var Points = L.Canvas.extend({
+      initialize: function (options) {
+        L.Canvas.prototype.initialize.call(this, options);
+        this.idx = null;
+      },
+      _draw: function () { this.dessiner(); },
+      /* aucune couche Leaflet sur ce canevas : chaque mouvement de souris est relayé à la carte, sans limitation de fréquence */
+      _onMouseMove: function (e) {
+        var m = this._map;
+        if (m && !m.dragging.moving() && !m._animatingZoom) this._fireEvent(false, e);
+      },
+      dessiner: function () {
+        var ctx = this._ctx, b = this._bounds, m = this._map;
+        if (!ctx || !b || !m) return;
+        ctx.save(); ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.clearRect(0, 0, this._container.width, this._container.height); ctx.restore();
+        this.idx = null;
+        if (!vueDep()) {
+          var z = m.getZoom(), s = Math.pow(2, z), org = m.getPixelOrigin(), fz = facteurZoom(z);
+          var minX = b.min.x - 12, minY = b.min.y - 12, maxX = b.max.x + 12, maxY = b.max.y + 12;
+          var CELL = 24, grille = {}, montant = state.mode === "montant";
+          var pal = montant ? couleurs.seq : couleurs.div;
+          for (var k = 0; k < ordre.length; k++) {
+            var o = ordre[k];
+            if (!o.vis) continue;
+            var r = rayonBase(o.e) * fz;
+            var x = o.X0 * s - org.x + o.ox * r * 1.25, y = o.Y0 * s - org.y + o.oy * r * 1.25;
+            o.px = x; o.py = y; o.pr = r;
+            if (x < minX || x > maxX || y < minY || y > maxY) { o.dessine = false; continue; }
+            o.dessine = true;
+            ctx.beginPath();
+            ctx.arc(x, y, r, 0, 6.2832);
+            if (!montant && o.nc) {             /* non classé, en mode écart : cercle neutre en pointillé */
+              ctx.fillStyle = couleurs["--surface"]; ctx.fill();
+              ctx.setLineDash([2, 1.6]);
+              ctx.lineWidth = Math.max(1, Math.min(2, r * 0.35)); ctx.strokeStyle = couleurs["--ink-2"]; ctx.stroke();
+              ctx.setLineDash([]);
+            } else if (o.s === 1 && r >= 2.6) { /* privé : anneau, avec un liseré comme les disques */
+              var lw = Math.max(1.3, Math.min(3.2, r * 0.45)), coul = pal[montant ? o.q : o.qd];
+              ctx.fillStyle = couleurs["--surface"]; ctx.globalAlpha = 0.9; ctx.fill(); ctx.globalAlpha = 1;
+              if (r >= 3) { ctx.lineWidth = lw + 1.6; ctx.strokeStyle = couleurs["--dot-line"]; ctx.stroke(); }
+              ctx.lineWidth = lw; ctx.strokeStyle = coul; ctx.stroke();
+            } else {
+              ctx.fillStyle = pal[montant ? o.q : o.qd]; ctx.fill();
+              if (r >= 3) { ctx.lineWidth = 0.8; ctx.strokeStyle = couleurs["--dot-line"]; ctx.stroke(); }
+            }
+            var gk = Math.floor(x / CELL) + ":" + Math.floor(y / CELL);
+            (grille[gk] = grille[gk] || []).push(o);
+          }
+          this.idx = { grille: grille, CELL: CELL };
+        }
+        placerAnneaux();
+      },
+      proche: function (x, y, tol) {
+        if (!this.idx) return null;
+        var C = this.idx.CELL, gx = Math.floor(x / C), gy = Math.floor(y / C), best = null, bd = Infinity;
+        for (var i = gx - 1; i <= gx + 1; i++) for (var j = gy - 1; j <= gy + 1; j++) {
+          var l = this.idx.grille[i + ":" + j];
+          if (!l) continue;
+          for (var k = 0; k < l.length; k++) {
+            var o = l[k], d = Math.hypot(o.px - x, o.py - y) - o.pr;
+            if (d < bd) { bd = d; best = o; }
+          }
+        }
+        return best && bd <= tol ? best : null;
+      },
+      compter: function (x0, y0, x1, y1) {   /* points dont le centre est dans le rectangle (calque) */
+        if (!this.idx) return 0;
+        var C = this.idx.CELL, n = 0;
+        for (var i = Math.floor(x0 / C); i <= Math.floor(x1 / C); i++) for (var j = Math.floor(y0 / C); j <= Math.floor(y1 / C); j++) {
+          var l = this.idx.grille[i + ":" + j];
+          if (!l) continue;
+          for (var k = 0; k < l.length; k++) if (l[k].px >= x0 && l[k].px <= x1 && l[k].py >= y0 && l[k].py <= y1) n++;
+        }
+        return n;
+      }
+    });
+    var points = new Points({ pane: "points", padding: 0.2 });
+
+    var rendAnneaux = L.svg({ pane: "anneaux", padding: 0.2 });
+    var anneauSurvol = null, anneauSel = null;
+    function anneau(o, fort) {
+      if (!o || o.px == null) return null;
+      var ll = map.layerPointToLatLng([o.px, o.py]);
+      return L.circleMarker(ll, { renderer: rendAnneaux, interactive: false, fill: false, color: couleurs["--mark"],
+                                  weight: fort ? 2.6 : 1.5, radius: o.pr + (fort ? 4 : 3) }).addTo(map);
+    }
+    function placerAnneaux() {
+      if (anneauSel) { map.removeLayer(anneauSel); anneauSel = null; }
+      if (state.sel && state.sel.vis && state.sel.dessine && !vueDep()) anneauSel = anneau(state.sel, true);
+    }
+    map.addLayer(points);
+
+    /* survol, info-bulle, clic */
+    var tip = document.getElementById("tip"), survole = null, depSurvole = null;
+    function autresAuPoint(o) {
+      var vis = 0, cach = 0;
+      (o.memes || []).forEach(function (x) { if (x !== o) { if (x.vis) vis++; else cach++; } });
+      return { vis: vis, cach: cach };
+    }
+    function natureDuPoint(o) {
+      return o.ap === 1 ? (o.apc ? "centre de la commune" : "mairie de la commune") : o.ap === 2 ? "position de la commune selon l'annuaire" : null;
+    }
+    function texteAuPoint(o) {
+      var a = autresAuPoint(o), n = a.vis + a.cach;
+      if (!n) return null;
+      var t = n + " autre" + (n > 1 ? "s" : "") + " établissement" + (n > 1 ? "s" : "") + " au même point", nat = natureDuPoint(o);
+      if (nat) t += " (" + nat + ")";
+      if (a.cach) t += ", dont " + a.cach + " masqué" + (a.cach > 1 ? "s" : "") + " par les filtres";
+      return t;
+    }
+    function survol(o, ev) {
+      if (anneauSurvol) { map.removeLayer(anneauSurvol); anneauSurvol = null; }
+      survole = o;
+      conteneur.style.cursor = o ? "pointer" : "";
+      if (!o) { tip.hidden = true; return; }
+      anneauSurvol = anneau(o, false);
+      tip.replaceChildren();
+      tip.append(el("div", "tip-v", "≈ " + eur(o.v) + " par élève"));
+      if (o.nc) tip.append(el("div", "tip-m", "Non classé : " + D.non_classe[o.nc]));
+      else if (state.mode === "ecart") tip.append(el("div", "tip-m", pct(o.ecart) + " par rapport à la moyenne des " + groupe(o)));
+      tip.append(el("div", "tip-n", o.n));
+      tip.append(el("div", "tip-m", o.c + " · " + TYPE_COURT[o.t] + " · " + SECT[o.s] + " · " + nf0.format(o.e) + ESP + "élèves"));
+      if (o.e < 50) tip.append(el("div", "tip-m", "Moins de 50 élèves : estimation fragile"));
+      var ap = texteAuPoint(o);
+      if (ap) tip.append(el("div", "tip-m", ap));
+      tip.hidden = false;
+      if (ev) placerBulle(ev);
+    }
+    function survolDep(f, ev) {
+      if (depSurvole && depSurvole !== f) {
+        couchesDeps.resetStyle(coucheParDep[depSurvole.properties.code]); couchesRegs.bringToFront();
+        if (state.selDep && coucheParDep[state.selDep]) coucheParDep[state.selDep].bringToFront();
+      }
+      depSurvole = f;
+      conteneur.style.cursor = f ? "pointer" : "";
+      if (!f) { tip.hidden = true; return; }
+      var a = aggDep[f.properties.code];
+      coucheParDep[f.properties.code].setStyle({ color: couleurs["--mark"], weight: 2.4 }).bringToFront();
+      tip.replaceChildren();
+      tip.append(el("div", "tip-n", f.properties.nom + " (" + f.properties.code + ")"));
+      if (a && a.m != null) {
+        if (state.mode === "montant") {
+          tip.append(el("div", "tip-v", "≈ " + eur(a.m) + " par élève"));
+          tip.append(el("div", "tip-m", a.ec == null ? "Pas de comparaison à structure égale (groupes de moins de 10 établissements)"
+                                                     : "À structure égale : " + pct(a.ec) + " par rapport à la moyenne nationale"));
+        } else {
+          tip.append(el("div", "tip-v", a.ec == null ? "Pas de comparaison à structure égale" : pct(a.ec) + " à structure égale"));
+          tip.append(el("div", "tip-m", "Moyenne : ≈ " + eur(a.m) + " par élève"));
+        }
+        tip.append(el("div", "tip-m", nf0.format(a.n) + " établissement" + (a.n > 1 ? "s" : "") + " affiché" + (a.n > 1 ? "s" : "") + ", " + nf0.format(a.e) + ESP + "élèves"));
+      } else tip.append(el("div", "tip-m", "Aucun établissement affiché"));
+      tip.append(el("div", "tip-m", "Cliquez pour afficher sa fiche"));
+      tip.hidden = false;
+      if (ev) placerBulle(ev);
+    }
+    function finSurvol() { survol(null); survolDep(null); }
+    function placerBulle(ev) {
+      /* la bulle reste au-dessus des contrôles du bas (échelle, attribution) */
+      var cp = ev.containerPoint, w = tip.offsetWidth, h = tip.offsetHeight, W = map.getSize(), bas = W.y;
+      Array.prototype.forEach.call(conteneur.querySelectorAll(".leaflet-bottom"), function (c) { bas = Math.min(bas, W.y - c.offsetHeight); });
+      bas -= 4;
+      var left = cp.x + 14 + w > W.x ? cp.x - 14 - w : cp.x + 14;
+      var top = cp.y + 14 + h > bas ? cp.y - 14 - h : cp.y + 14;
+      top = Math.min(top, bas - h);
+      tip.style.transform = "translate(" + Math.max(0, left) + "px," + Math.max(0, top) + "px)";
+    }
+    function surControle(pe) { var c = pe && pe.target; return !!(c && c.closest && c.closest(".leaflet-control")); }
+    map.on("mousemove", function (ev) {
+      var pe = ev.originalEvent;
+      if (surControle(pe) || !visible.length) { finSurvol(); return; }
+      if (pe && pe.pointerType === "touch") return;
+      if (vueDep()) {
+        var f = depSous(ev.latlng);
+        if (f !== depSurvole) survolDep(f, ev); else if (f) placerBulle(ev);
+        return;
+      }
+      var o = points.proche(ev.layerPoint.x, ev.layerPoint.y, 8);
+      if (o !== survole) survol(o, ev); else if (o) placerBulle(ev);
+    });
+    map.on("mouseout movestart zoomstart", finSurvol);
+    conteneur.addEventListener("mouseleave", finSurvol);   /* le canevas des points ne relaie pas la sortie de la carte */
+    map.on("movestart zoomstart", function () { points.idx = null; });   /* positions périmées jusqu'au prochain dessin */
+    map.on("click", function (ev) {
+      var pe = ev.originalEvent, tactile = !!(pe && pe.pointerType === "touch");
+      if (surControle(pe) || !visible.length) return;
+      if (vueDep()) {
+        var f = depSous(ev.latlng);
+        if (f) { finSurvol(); choisirDep(f.properties.code, "carte"); }
+        return;
+      }
+      var o = points.proche(ev.layerPoint.x, ev.layerPoint.y, tactile ? 18 : 8);
+      if (o) { choisir(o, "carte"); if (tactile) survol(null); }
+    });
+    map.on("zoomend", function () { cles(); });
+    map.on("zoomend moveend viewreset", function () { placerAnneaux(); });
+    map.on("moveend", function () { if (vueDep()) legende(); });
+    function decrire() {
+      var montant = state.mode === "montant", t;
+      if (vueDep()) t = "Chaque département est coloré selon " + (montant ? "la dépense publique estimée par élève de ses établissements affichés" : "l'écart de la dépense publique par élève de ses établissements affichés à la moyenne nationale, à structure égale (mêmes types, mêmes secteurs)") + ". Cliquez sur un département pour afficher sa fiche, ou choisissez « Chaque établissement ».";
+      else t = "Chaque point est un établissement, coloré selon " + (montant ? "la dépense publique estimée par élève" : "l'écart de sa dépense par élève à la moyenne de son groupe (même type, même secteur)") + ", plein pour le public et en anneau pour le privé sous contrat.";
+      document.getElementById("carte-desc").textContent = typo(t + " Les mêmes données figurent dans les tableaux sous la carte.");
+    }
+
+    /* choix de la vue : moyennes par département ou chaque établissement (jamais de bascule au zoom) */
+    var rafVue = 0;
+    function dessinerVue() {
+      if (rafVue) cancelAnimationFrame(rafVue);
+      rafVue = requestAnimationFrame(function () { rafVue = 0; points.dessiner(); etiquettes(); });
+    }
+    function annulerDessinVue() { if (rafVue) { cancelAnimationFrame(rafVue); rafVue = 0; } }
+    map.on("movestart", annulerDessinVue);   /* le déplacement redessinera à son terme */
+    function changerVue(v) {
+      if (state.vue === v) return;
+      state.vue = v;
+      Array.prototype.forEach.call(document.querySelectorAll("[data-vue]"), function (b) { b.setAttribute("aria-pressed", b.dataset.vue === v ? "true" : "false"); });
+      finSurvol(); restylerFond(); legende(); cles(); decrire(); dessinerVue();
+      annonce.textContent = typo(v === "dep" ? "Affichage : moyennes par département." : "Affichage : chaque établissement.");
+    }
+    Array.prototype.forEach.call(document.querySelectorAll("[data-vue]"), function (b) {
+      b.addEventListener("click", function () { changerVue(b.dataset.vue); });
+    });
+
+    /* ---------------------------------------------------------------- étiquettes (départements, communes) */
+    var mesure = document.createElement("canvas").getContext("2d");
+    var POLICE = { dep: "500 12px 'Barlow Semi Condensed'", com: "600 12.5px 'Barlow Semi Condensed'",
+                   big: "700 14px 'Barlow Semi Condensed'", arr: "500 11.5px 'Barlow Semi Condensed'" };
+    var HAUT = { dep: 14, com: 14, big: 16, arr: 13 };
+    var LARG = {};
+    function largeur(txt, style) {
+      var k = style + "|" + txt;
+      if (!(k in LARG)) { mesure.font = POLICE[style]; LARG[k] = mesure.measureText(txt).width * 1.03; }
+      return LARG[k];
+    }
+    var etiqDep = F.deps.features.map(function (f) { return { nom: f.properties.nom, ll: [f.properties.lab[1], f.properties.lab[0]] }; });
+    var communes = F.communes;  /* [nom, lon, lat (mairie), population, arrondissement municipal] triés par population */
+    function seuilPop(z) { return z < 5 ? Infinity : z < 6 ? 200000 : z < 7 ? 100000 : z < 8 ? 40000 : z < 9 ? 15000 : z < 10 ? 5000 : z < 11 ? 2000 : z < 12 ? 700 : 0; }
+    function etiquettes() {
+      paneLab.replaceChildren();
+      var dep = vueDep();
+      paneLab.classList.toggle("sur-aplat", dep);
+      if ((ignActif && !dep) || !visible.length) return;
+      var z = map.getZoom(), taille = map.getSize();
+      var seuil = Math.min(seuilPop(z - Math.max(0, Math.log2(900 / taille.x))), 200000);
+      var hautGauche = map.containerPointToLayerPoint([2, 2]), basDroit = map.containerPointToLayerPoint([taille.x - 2, taille.y - 2]);
+      var boites = [], cr = conteneur.getBoundingClientRect();
+      Array.prototype.forEach.call(conteneur.querySelectorAll(".leaflet-control"), function (c) {   /* zoom, échelle, attribution */
+        var r = c.getBoundingClientRect();
+        if (!r.width || !r.height) return;
+        var a = map.containerPointToLayerPoint([r.left - cr.left - 4, r.top - cr.top - 4]);
+        boites.push({ x0: a.x, y0: a.y, x1: a.x + r.width + 8, y1: a.y + r.height + 8 });
+      });
+      var n = 0, i = 0;
+      function libre(bx, petite) {
+        if (bx.x0 < hautGauche.x || bx.y0 < hautGauche.y || bx.x1 > basDroit.x || bx.y1 > basDroit.y) return false;
+        for (var k = 0; k < boites.length; k++) {
+          var c = boites[k];
+          if (bx.x0 < c.x1 && bx.x1 > c.x0 && bx.y0 < c.y1 && bx.y1 > c.y0) return false;
+        }
+        return !(petite && points.compter(bx.x0, bx.y0, bx.x1, bx.y1) > 2);   /* petite commune : ne pas cacher les points */
+      }
+      function poser(nom, ll, style, commune, petite) {
+        var p = map.latLngToLayerPoint(ll), w = largeur(nom, style), h = HAUT[style];
+        /* une commune : au-dessus de sa mairie, sinon dessous, à droite, à gauche ; un département : centré */
+        var essais = commune ? [[p.x - w / 2, p.y - h - 4], [p.x - w / 2, p.y + 4], [p.x + 6, p.y - h / 2], [p.x - w - 6, p.y - h / 2]]
+                             : [[p.x - w / 2, p.y - h / 2]];
+        for (var k = 0; k < essais.length; k++) {
+          var x0 = essais[k][0], y0 = essais[k][1], bx = { x0: x0 - 3, y0: y0 - 2, x1: x0 + w + 3, y1: y0 + h + 2 };
+          if (!libre(bx, petite)) continue;
+          boites.push(bx);
+          var s = el("span", "lab lab-" + style, nom);
+          s.style.left = Math.round(x0) + "px"; s.style.top = Math.round(y0) + "px";
+          paneLab.append(s);
+          return true;
+        }
+        return false;
+      }
+      var vb = map.getBounds().pad(0.05), S = vb.getSouth(), N = vb.getNorth(), W = vb.getWest(), E = vb.getEast();
+      function passeCommunes(min) {   /* communes par population décroissante, à partir de la dernière examinée */
+        for (; i < communes.length && n < 450; i++) {
+          var c = communes[i];
+          if (c[3] < min) return;
+          if (c[2] < S || c[2] > N || c[1] < W || c[1] > E) continue;   /* hors de la vue */
+          if (c[4] && z < 11.5) continue;
+          if (!c[4] && (c[0] === "Paris" || c[0] === "Lyon" || c[0] === "Marseille") && z >= 12) continue;
+          if (poser(c[0], [c[2], c[1]], c[4] ? "arr" : (c[3] >= 100000 ? "big" : "com"), true, !dep && !c[4] && c[3] < 5000)) n++;
+        }
+      }
+      passeCommunes(Math.max(seuil, 100000));          /* d'abord les grandes villes */
+      if (z >= 6.5 && (dep || z < 9)) etiqDep.forEach(function (e) { poser(e.nom, e.ll, "dep", false, !dep); });
+      passeCommunes(seuil);
+    }
+    var rafNoms = 0;
+    function planifierNoms() { if (!rafNoms) rafNoms = requestAnimationFrame(function () { rafNoms = 0; etiquettes(); }); }
+    map.on("zoomend moveend viewreset", planifierNoms);   /* une fois par image, après le redessin des points (index à jour) */
+    if (document.fonts && document.fonts.ready) document.fonts.ready.then(function () { LARG = {}; etiquettes(); });
+
+    /* fond IGN : seulement hors de l'hébergement de l'artefact (la page publiée n'autorise pas les images externes) */
+    var choixFond = document.getElementById("fond-choix");
+    if (location.protocol === "file:") {
+      var test = new Image();
+      test.onload = function () {
+        fondIgn = L.tileLayer("https://data.geopf.fr/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2&STYLE=normal&TILEMATRIXSET=PM&FORMAT=image/png&TILEMATRIX={z}&TILEROW={y}&TILECOL={x}",
+          { maxZoom: 19, attribution: "Plan IGN © IGN – Géoplateforme" });
+        choixFond.hidden = false;
+        activerIgn(true);
+      };
+      test.src = "https://data.geopf.fr/wmts?SERVICE=WMTS&REQUEST=GetTile&VERSION=1.0.0&LAYER=GEOGRAPHICALGRIDSYSTEMS.PLANIGNV2&STYLE=normal&TILEMATRIXSET=PM&FORMAT=image/png&TILEMATRIX=5&TILEROW=11&TILECOL=16";
+    }
+    function activerIgn(oui) {
+      ignActif = !!(oui && fondIgn);
+      conteneur.classList.toggle("carte-ign", ignActif);
+      restylerFond();
+      Array.prototype.forEach.call(choixFond.querySelectorAll("button"), function (b) { b.setAttribute("aria-pressed", (b.dataset.fond === "ign") === ignActif ? "true" : "false"); });
+      etiquettes(); ajusterEchelle();
+    }
+    Array.prototype.forEach.call(choixFond.querySelectorAll("button"), function (b) {
+      b.addEventListener("click", function () { activerIgn(b.dataset.fond === "ign"); });
+    });
+
+    /* thème : relire les couleurs et redessiner */
+    function changerTheme() {
+      lireCouleurs(); restylerFond(); points.dessiner(); legende();
+      if (survole) { var o = survole; survole = null; survol(o); }
+      if (depSurvole) { var f = depSurvole; depSurvole = null; survolDep(f); }
+    }
+    try { window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", changerTheme); } catch (e) { /* navigateur ancien */ }
+    new MutationObserver(changerTheme).observe(document.documentElement, { attributes: true, attributeFilter: ["data-theme"] });
+
+    function allerTerritoire(k) { aller(emprises[k], k === "metro" ? 7 : 11); }
+    Array.prototype.forEach.call(document.querySelectorAll(".goto button"), function (b) {
+      b.addEventListener("click", function () { allerTerritoire(b.dataset.terr); });
+    });
+    var selTerr = document.getElementById("goto-sel");
+    selTerr.addEventListener("change", function () { if (selTerr.value) allerTerritoire(selTerr.value); selTerr.value = ""; });
+
+    /* ---------------------------------------------------------------- filtres */
+    var selRegion = document.getElementById("f-region");
+    D.regions.forEach(function (r) { var op = el("option", null, r); op.value = r; selRegion.append(op); });
+    selRegion.addEventListener("change", function () {
+      state.region = selRegion.value; state.page = 0; maj();
+      aller(state.region ? empriseRegion[cle(state.region)] : emprises.metro, state.region ? 11 : 7);
+    });
+    var champ = document.getElementById("f-q"), qInfo = document.getElementById("q-info"), minuteur = null;
+    champ.addEventListener("input", function () {
+      clearTimeout(minuteur);
+      minuteur = setTimeout(function () {
+        var q = cle(champ.value);
+        state.q = q ? q.split(" ") : []; state.page = 0;
+        if (q) changerVue("etab");   /* une recherche vise des établissements */
+        maj(true);
+      }, 180);
+    });
+    Array.prototype.forEach.call(document.querySelectorAll(".chip"), function (b) {
+      b.addEventListener("click", function () {
+        var set = state[b.dataset.group], v = b.dataset.group === "s" ? +b.dataset.value : b.dataset.value;
+        if (set.has(v)) set.delete(v); else set.add(v);
+        b.setAttribute("aria-pressed", set.has(v) ? "true" : "false");
+        state.page = 0; maj();
+      });
+    });
+    Array.prototype.forEach.call(document.querySelectorAll("[data-mode]"), function (b) {
+      b.addEventListener("click", function () {
+        state.mode = b.dataset.mode;
+        Array.prototype.forEach.call(document.querySelectorAll("[data-mode]"), function (x) { x.setAttribute("aria-pressed", x === b ? "true" : "false"); });
+        finSurvol(); decrire(); restylerFond(); points.dessiner(); legende(); resumeFiltres();
+      });
+    });
+    function reinitialiser() {
+      state.t = new Set(PUCES); state.s = new Set([0, 1]); state.region = ""; state.q = []; state.page = 0;
+      Array.prototype.forEach.call(document.querySelectorAll(".chip"), function (b) { b.setAttribute("aria-pressed", "true"); });
+      selRegion.value = ""; champ.value = "";
+      maj();
+    }
+    document.getElementById("f-reset").addEventListener("click", reinitialiser);
+    document.getElementById("vide-reset").addEventListener("click", function () { reinitialiser(); champ.focus(); });
+    function passe(o) {
+      if (!state.t.has(puce(o.t)) || !state.s.has(o.s) || (state.region && o.r !== state.region)) return false;
+      for (var k = 0; k < state.q.length; k++) {
+        var m = state.q[k];
+        if (/^\d{1,3}$/.test(m)) {   /* nombre court : mot entier, ou ordinal (« Paris 15 » → « 15e ») */
+          if (o.cle.indexOf(" " + m + " ") < 0 && o.cle.indexOf(" " + m + "e ") < 0 && o.cle.indexOf(" " + m + "er ") < 0) return false;
+        } else if (o.cle.indexOf(" " + m) < 0) return false;   /* sinon : début d'un mot */
+      }
+      return true;
+    }
+    function resumeFiltres() {
+      var parts = [];
+      parts.push(state.t.size === PUCES.length ? "tous les types" : state.t.size + " type" + (state.t.size > 1 ? "s" : ""));
+      parts.push(state.s.size === 2 ? "public et privé" : state.s.has(0) ? "public" : state.s.has(1) ? "privé" : "aucun secteur");
+      if (state.region) parts.push(state.region);
+      parts.push(state.mode === "montant" ? "dépense par élève" : "écart à son groupe");
+      document.getElementById("filtres-resume").textContent = typo("(" + parts.join(", ") + ")");
+    }
+
+    /* ---------------------------------------------------------------- chiffres clés, légende, valeurs par département */
+    var annonce = document.getElementById("annonce");
+    function chiffres() {
+      var n = visible.length, e = [0, 0], dep = [0, 0];
+      visible.forEach(function (o) { e[o.s] += o.e; dep[o.s] += o.v * o.e; });
+      var et = e[0] + e[1];
+      document.getElementById("kpi-n").textContent = nf0.format(n);
+      document.getElementById("kpi-e").textContent = nf0.format(et);
+      var dd = document.getElementById("kpi-v");
+      dd.replaceChildren();
+      if (!et) { dd.textContent = "–"; return; }
+      dd.append(document.createTextNode(eur((dep[0] + dep[1]) / et)));
+      var parts = [];
+      if (e[0]) parts.push("public " + eur(dep[0] / e[0]));
+      if (e[1]) parts.push("privé sous contrat " + eur(dep[1] / e[1]));
+      if (parts.length === 2) dd.append(el("small", null, " (" + parts.join(" · ") + ")"));
+    }
+    var NS = "http://www.w3.org/2000/svg";
+    function svgEl(tag, attrs) { var n = document.createElementNS(NS, tag); Object.keys(attrs).forEach(function (k) { n.setAttribute(k, attrs[k]); }); return n; }
+    function pastille(style, carre) {
+      var s = svgEl("svg", { width: "14", height: "14", "aria-hidden": "true" });
+      s.append(carre ? svgEl("rect", { x: "1", y: "1", width: "12", height: "12", rx: "2", style: style })
+                     : svgEl("circle", { cx: "7", cy: "7", r: "6", style: style }));
+      return s;
+    }
+    function legende() {
+      var box = document.getElementById("legende"), dep = vueDep(), montant = state.mode === "montant";
+      box.replaceChildren();
+      document.getElementById("symboles").hidden = dep || !visible.length;
+      if (!visible.length) { box.append(el("p", "legend-note", "Aucun établissement ne correspond aux filtres.")); return; }
+      var lignes = el("div", "legend-rows"), labs, compte, styleDe, sans = 0, nc = 0;
+      if (dep) {
+        box.append(el("div", "legend-title", montant ? "Dépense publique estimée par élève : moyenne des établissements affichés de chaque département, pondérée par les élèves"
+                                                     : "Écart à la moyenne nationale à structure égale, par département"));
+        labs = montant ? labelsBornes(bornesDep) : DIV_LAB;
+        compte = labs.map(function () { return 0; });
+        var vue = map.getBounds();
+        depFeatures.forEach(function (f) {
+          if (!f._b.intersects(vue)) return;
+          var a = aggDep[f.properties.code];
+          if (a && a.m != null && (montant || a.qd != null)) compte[montant ? a.q : a.qd] += 1; else sans += 1;
+        });
+      } else {
+        box.append(el("div", "legend-title", montant ? "Dépense publique estimée par élève" : "Écart à la moyenne de son groupe (même type, même secteur)"));
+        labs = montant ? SEQ_LAB : DIV_LAB;
+        compte = labs.map(function () { return 0; });
+        visible.forEach(function (o) { if (!montant && o.nc) nc += 1; else compte[montant ? o.q : o.qd] += 1; });
+      }
+      styleDe = function (k) { return "fill: var(" + (montant ? "--seq-" : "--div-") + k + "); stroke: var(--dot-line); stroke-width: 0.8"; };
+      labs.forEach(function (lab, k) {
+        var row = el("span", "legend-row");
+        row.append(pastille(styleDe(k), dep));
+        row.append(el("span", null, lab));
+        row.append(el("span", "count", "(" + nf0.format(compte[k]) + ")"));
+        lignes.append(row);
+      });
+      if (dep && sans) {
+        var r1 = el("span", "legend-row");
+        r1.append(pastille("fill: var(--land); stroke: var(--dot-line); stroke-width: 0.8", true));
+        r1.append(el("span", null, montant ? "aucun établissement affiché" : "aucun établissement affiché ou comparable"));
+        r1.append(el("span", "count", "(" + nf0.format(sans) + ")"));
+        lignes.append(r1);
+      }
+      if (!dep && !montant && nc) {
+        var r2 = el("span", "legend-row");
+        r2.append(pastille("fill: var(--surface); stroke: var(--ink-2); stroke-width: 1.5; stroke-dasharray: 2 1.6", false)); r2.append(el("span", null, "non classé (voir la fiche)"));
+        r2.append(el("span", "count", "(" + nf0.format(nc) + ")"));
+        lignes.append(r2);
+      }
+      box.append(lignes);
+      box.append(el("p", "legend-note", dep
+        ? "Entre parenthèses : nombre de départements et de collectivités visibles. " + (montant
+          ? "Classes : −10, −3, +3 et +10" + ESP + "% autour de la moyenne des établissements affichés (" + eur(moyenneAffichee) + ") ; elles diffèrent de celles des établissements. Ces moyennes dépendent aussi de la part des lycées et du privé dans chaque département ; « Écart à son groupe » les compare à structure égale."
+          : "À structure égale : la dépense des établissements affichés du département est rapportée à ce qu'elle serait si chacun avait la dépense par élève moyenne, en France, des établissements de son type et de son secteur.")
+        : "Entre parenthèses : nombre d'établissements qui correspondent aux filtres, dans toute la France." + (montant ? " Pour comparer des établissements du même type et du même secteur, choisissez « Écart à son groupe »." : "")));
+    }
+    function cles() {   /* clé de forme (public, privé) et de taille, en encre neutre */
+      var box = document.getElementById("symboles"), fz = facteurZoom(map.getZoom());
+      box.replaceChildren();
+      var s1 = el("span"); s1.append(pastille("fill: var(--ink-2)", false)); s1.append(document.createTextNode("public")); box.append(s1);
+      var s2 = el("span"); s2.append(pastille("fill: var(--surface); stroke: var(--ink-2); stroke-width: 3", false)); s2.append(document.createTextNode(typo("privé sous contrat (en zoomant)"))); box.append(s2);
+      var s3 = el("span"); s3.append(document.createTextNode(typo("taille :")));
+      [100, 500, 2000].forEach(function (e) {
+        var r = rayonBase(e) * fz, d = Math.ceil(2 * r + 2);
+        var svg = svgEl("svg", { width: String(d), height: String(d), "aria-hidden": "true" });
+        svg.append(svgEl("circle", { cx: String(d / 2), cy: String(d / 2), r: String(r), style: "fill: none; stroke: var(--ink-2); stroke-width: 1" }));
+        s3.append(svg); s3.append(document.createTextNode(nf0.format(e)));
+      });
+      s3.lastChild.nodeValue += " élèves"; box.append(s3);
+    }
+    function valeursDep() {
+      var corps = document.getElementById("dep-corps");
+      corps.replaceChildren();
+      Object.keys(aggDep).sort(function (a, b) { return a < b ? -1 : a > b ? 1 : 0; }).forEach(function (k) {
+        var a = aggDep[k], tr = el("tr"), td = el("td"), b = el("button", "row-btn", (depNom[k] || k) + " (" + k + ")");
+        tr.dataset.dep = k;
+        b.type = "button"; b.addEventListener("click", function () { choisirDep(k, "tableau"); });
+        td.append(b); tr.append(td);
+        tr.append(el("td", null, a.m == null ? "–" : eur(a.m)));
+        tr.append(el("td", null, a.ec == null ? "–" : pct(a.ec)));
+        tr.append(el("td", null, nf0.format(a.n)));
+        tr.append(el("td", null, nf0.format(a.e)));
+        corps.append(tr);
+      });
+      marquerLignes();
+    }
+
+    /* ---------------------------------------------------------------- fiches */
+    var fiche = document.getElementById("fiche"), bandeau = document.getElementById("bandeau");
+    function ficheParDefaut() {
+      fiche.replaceChildren();
+      fiche.append(el("p", "eyebrow", "Fiche"));
+      fiche.append(el("p", null, "Cliquez sur un département pour afficher ses moyennes, ou choisissez un établissement (vue « Chaque établissement », tableau ou recherche) pour afficher sa dépense par élève, sa décomposition et sa position dans son groupe."));
+      var b = el("div", "block");
+      b.append(el("h3", null, "Moyennes nationales estimées, par élève"));
+      var t = el("table", "refs"), th = el("thead"), tr = el("tr");
+      ["Type", "Public", "Privé sous contrat"].forEach(function (x) { tr.append(el("th", null, x)); });
+      th.append(tr); t.append(th);
+      var tb = el("tbody");
+      function ref(k) { return D.refs[k] != null && D.tailles[k] >= D.seuil_groupe ? eur(D.refs[k]) : "–"; }
+      ["M", "E", "P", "C", "G", "V", "L", "A"].forEach(function (k) {
+        var r = el("tr");
+        r.append(el("td", null, TYPE_COURT[k]));
+        r.append(el("td", null, ref(k + "|0")));
+        r.append(el("td", null, ref(k + "|1")));
+        tb.append(r);
+      });
+      t.append(tb); b.append(t);
+      b.append(el("p", "place", "Moyennes pondérées par les élèves ; « – » : moins de 10 établissements. Le privé reçoit moins de dépense publique : voir « Comment lire ces chiffres »."));
+      fiche.append(b);
+    }
+    function enTete(eyebrow) {
+      var head = el("div", "panel-head");
+      head.append(el("p", "eyebrow", eyebrow));
+      var fermer = el("button", "close", "×");
+      fermer.type = "button"; fermer.setAttribute("aria-label", "Fermer la fiche");
+      fermer.addEventListener("click", function () { choisir(null); fiche.focus({ preventScroll: true }); });
+      head.append(fermer);
+      return head;
+    }
+    function decomposition(parts) {
+      var tot = parts.reduce(function (a, p) { return a + Math.max(0, p.v); }, 0) || 1;
+      var frag = document.createDocumentFragment();
+      var barre = el("div", "stack"); barre.setAttribute("aria-hidden", "true");
+      parts.forEach(function (p) { if (p.v > 0) { var sp = el("span", p.c); sp.style.flex = String(p.v / tot); barre.append(sp); } });
+      frag.append(barre);
+      var ul = el("ul", "comp");
+      var pcts = arrondiSomme(parts.map(function (p) { return 100 * Math.max(0, p.v) / tot; }), 100);
+      parts.forEach(function (p, i) {
+        var li = el("li"), sw = el("span", "sw " + p.c), exact = 100 * Math.max(0, p.v) / tot;
+        sw.setAttribute("aria-hidden", "true");
+        li.append(sw); li.append(el("span", null, p.lab)); li.append(el("span", "val", eur(p.v)));
+        li.append(el("span", "pct", exact > 0 && exact < 0.5 ? "<" + ESP + "1" + ESP + "%" : nf0.format(pcts[i]) + ESP + "%"));
+        if (p.det && p.det.length) {
+          var det = el("span", "det");
+          (Array.isArray(p.det) ? p.det : [p.det]).forEach(function (t) { det.append(el("span", null, t)); });
+          li.append(det);
+        }
+        ul.append(li);
+      });
+      frag.append(ul);
+      return frag;
+    }
+    function histogramme(o, vals) {
+      /* axe limité aux 1er et 99e centiles (groupes d'au moins 50 établissements) : les valeurs extrêmes vont aux barres du bord */
+      var n = vals.length, centile = function (p) { return vals[Math.round(p * (n - 1))]; };
+      var lo = n >= 50 ? centile(0.01) : vals[0], hi = n >= 50 ? centile(0.99) : vals[n - 1];
+      var coupeBas = lo > vals[0], coupeHaut = hi < vals[n - 1];
+      var NB = 24, w = 320, h = 92, pas = (hi - lo) / NB || 1;
+      function borne(v) { return Math.min(Math.max(v, lo), hi); }
+      var compte = new Array(NB).fill(0);
+      vals.forEach(function (v) { compte[Math.min(NB - 1, Math.floor((borne(v) - lo) / pas))] += 1; });
+      var max = Math.max.apply(null, compte), X = function (v) { return 6 + (w - 12) * (borne(v) - lo) / ((hi - lo) || 1); };
+      var s = svgEl("svg", { viewBox: "0 0 " + w + " " + h, role: "img",
+        "aria-label": typo("Répartition de la dépense par élève des " + groupe(o) + ", de " + eur(vals[0]) + " à " + eur(vals[n - 1]) + " ; cet établissement : " + eur(o.v) + " ; moyenne : " + eur(o.ref) + ".") });
+      function add(tag, attrs, txt) { var x = svgEl(tag, attrs); if (txt != null) x.textContent = typo(txt); s.append(x); return x; }
+      compte.forEach(function (c, k) {
+        if (!c) return;
+        var hh = Math.max(1.5, 44 * c / max), y = 60 - hh;
+        add("rect", { "class": "bar", x: X(lo + k * pas) + 1, y: y, width: Math.max(1, (w - 12) / NB - 2), height: hh });
+      });
+      var xm = X(o.ref), xe = X(o.v);
+      add("line", { "class": "mean", x1: xm, x2: xm, y1: 12, y2: 62 });
+      add("line", { "class": "here", x1: xe, x2: xe, y1: 10, y2: 62 });
+      add("path", { "class": "here-tri", d: "M" + (xe - 5) + ",3 L" + (xe + 5) + ",3 L" + xe + ",10 Z" });
+      add("text", { x: 6, y: 76 }, (coupeBas ? "≤ " : "") + eur(lo));
+      add("text", { x: w - 6, y: 76, "text-anchor": "end" }, (coupeHaut ? "≥ " : "") + eur(hi));
+      var ancre = xm < 80 ? "start" : xm > w - 80 ? "end" : "middle";
+      add("text", { x: xm, y: 89, "text-anchor": ancre }, "trait fin : moyenne " + eur(o.ref));
+      return s;
+    }
+    var LIB_CLE = {   /* les montants sont recalés sur le total à répartir : ce ne sont pas les dépenses inscrites dans les comptes */
+      commune: ["réparti selon les comptes 2025 de la commune", "réparti selon les comptes 2025 de la commune, dépense par élève plafonnée au 99e centile",
+                "réparti selon les comptes 2025 de la commune, dépense par élève relevée au 1er centile", "réparti selon la moyenne des communes : comptes de la commune non utilisables",
+                "forfait communal : montant national par élève du privé"],
+      departement: ["réparti selon la dépense par collégien du département", null, null,
+                    "réparti selon la moyenne nationale par collégien : territoire absent de la Géographie de l'École", "montant national par collégien du privé"],
+      region: ["réparti selon la dépense par lycéen de la région", null, null,
+               "réparti selon la moyenne nationale par lycéen : territoire absent de la Géographie de l'École", "montant national par lycéen du privé",
+               "réparti selon la dépense par lycéen de la Guadeloupe, même région académique"]
+    };
+    function ficheEtab(o) {
+      fiche.replaceChildren();
+      var ec = ecole(o);
+      fiche.append(enTete(TYPE[o.t] + " · " + SECT[o.s] + (o.rep ? " · " + (o.rep === 2 ? "REP+" : "REP") : "")));
+      var titre = el("div", "block");
+      titre.append(el("h2", null, o.n));
+      titre.append(el("p", "place", o.c + " · " + o.dn + " (" + o.d + ") · " + o.r));
+      fiche.append(titre);
+      var hero = el("div", "hero");
+      hero.append(el("span", "hero-v", "≈ " + eur(o.v)));
+      hero.append(el("span", "hero-u", "de dépense publique par élève en 2025 (estimation de l'auteur, non publiée par le ministère)"));
+      fiche.append(hero);
+
+      /* comparaison avec le groupe */
+      var petitGroupe = D.tailles[o.t + "|" + o.s] < D.seuil_groupe;
+      if (o.nc) {
+        var w0 = el("p", "warn");
+        w0.append(el("strong", null, "Non classé : " + D.non_classe[o.nc] + "."));
+        var sousEst = o.nc === 1 || o.nc === 2;
+        var suite = o.nc === 4 ? ""
+          : petitGroupe ? " Son groupe compte moins de 10 établissements en France : pas de comparaison" + (sousEst ? " ; sa dépense est sous-estimée." : ".")
+          : " Cet établissement n'est pas comparé aux " + groupe(o) + " (moyenne : " + eur(o.ref) + ")"
+            + (sousEst ? " : sa dépense est sous-estimée." : o.nc === 3 ? " : des élèves de classes hors contrat sont comptés, sa dépense par élève est peut-être sous-estimée." : ".");
+        w0.append(document.createTextNode(typo(suite)));
+        fiche.append(w0);
+      } else {
+        var vals = parGroupe[o.t + "|" + o.s], plusBas = 0, plusHauts = 0;
+        vals.forEach(function (v) { if (v < o.v) plusBas++; else if (v > o.v) plusHauts++; });
+        var ecart = Math.abs(o.ecart) < 0.05 ? 0 : o.ecart;
+        var cmp = el("p", "compare");
+        cmp.append(el("strong", null, (ecart > 0 ? "▲ " : ecart < 0 ? "▼ " : "= ") + (ecart === 0 ? "Égale" : nf1.format(Math.abs(ecart)) + ESP + "% " + (ecart > 0 ? "de plus" : "de moins"))));
+        cmp.append(document.createTextNode(typo(" " + (ecart === 0 ? "à" : "que") + " la moyenne des " + groupe(o) + " (" + eur(o.ref) + ").")));
+        fiche.append(cmp);
+        var hist = el("figure", "hist");
+        hist.append(histogramme(o, vals));
+        var p100 = 100 * plusBas / vals.length;
+        var cap = el("figcaption");
+        cap.textContent = typo((plusBas === 0 ? "La dépense par élève la plus faible des " + groupe(o)
+          : plusHauts === 0 ? "La dépense par élève la plus élevée des " + groupe(o)
+          : "Plus élevée que celle de " + (p100 < 1 ? "moins de 1" : p100 > 99 ? "plus de 99" : nf0.format(Math.floor(p100))) + ESP + "% des " + groupe(o))
+          + " " + accord(o.t, "comparés", "comparées") + " (" + nf0.format(vals.length) + " établissements ; trait épais et triangle : cet établissement).");
+        hist.append(cap);
+        fiche.append(hist);
+      }
+
+      /* décomposition */
+      var comp = el("div", "block");
+      comp.append(el("h3", null, "D'où vient cette dépense"));
+      var detColl = [];
+      [["commune", 0], ["departement", 1], ["region", 2]].forEach(function (x) {
+        var montant = o.g4[x[1]], k = o.k[x[1]];
+        if (!montant) return;
+        var nom = x[0] === "departement" ? "département" : x[0] === "region" ? "région" : "commune";
+        var lib = k == null ? null : LIB_CLE[x[0]][k];
+        detColl.push(nom + " " + eur(montant) + (lib ? " (" + lib + ")" : ""));
+      });
+      if (o.g4[3]) detColl.push("transports " + eur(o.g4[3]) + " (même montant pour tous les élèves)");
+      /* crédits répartis à parts égales entre les élèves du groupe (script 04) */
+      var autres = ec ? (o.s ? "remplacement, formation, AESH, actions éducatives, administration centrale et académique"
+                             : "remplacement, formation, santé scolaire, AESH, actions éducatives, administration centrale et académique")
+                      : (o.s ? "remplacement, formation, AESH, actions éducatives, bourses, administration centrale et académique"
+                             : "remplacement, formation, santé scolaire, service social, AESH, orientation, actions éducatives, bourses, internats, administration centrale et académique");
+      var parts = [
+        { v: o.g[0], c: "c1", lab: "Enseignants (État)", garder: true },
+        { v: o.g[1], c: "c2", lab: ec ? "Encadrement pédagogique (État)" : o.s === 1 ? "Vie scolaire, direction (État, forfait d'externat)" : "Vie scolaire, direction (État)",
+          det: ec ? "inspection, conseillers pédagogiques ; réparti par élève des écoles publiques" : o.s === 1 ? "personnels non enseignants du privé ; montant national par élève"
+             : !o.g[1] ? "aucun personnel publié pour cet établissement"
+             : o.nc === 2 ? "seuls les personnels publiés, au prorata : une des deux catégories manque" : "personnels de l'établissement, au prorata", garder: !ec },
+        { v: o.g[2], c: "c3", lab: "Autres crédits de l'État, répartis par élève", det: autres, garder: true },
+        { v: o.g[3], c: "c4", lab: "Collectivités", det: detColl, garder: true },
+        { v: o.g[4], c: "c5", lab: "CAF et autres administrations", det: "surtout l'allocation de rentrée scolaire (élèves de 6 ans et plus)", garder: false }
+      ].filter(function (p) { return p.v > 0 || p.garder; });
+      comp.append(decomposition(parts));
+      if (ec && !o.g[4]) comp.append(el("p", "place", "Aucune allocation de rentrée scolaire : elle n'est versée que pour les élèves de 6 ans et plus."));
+      fiche.append(comp);
+
+      /* repères */
+      var rep = el("div", "block");
+      rep.append(el("h3", null, "Repères"));
+      var dl = el("dl", "facts");
+      function fait(dt, dd, detail) { dl.append(el("dt", null, dt)); dl.append(el("dd", null, dd)); if (detail) dl.append(el("dd", "wide", detail)); }
+      var niv = [];
+      if (ec) {
+        if (o.n1) niv.push(nf0.format(o.n1) + " en maternelle");
+        if (o.n2) niv.push(nf0.format(o.n2) + " en élémentaire");
+        if (o.n3) niv.push(nf0.format(o.n3) + " en ULIS ou UEEA");
+      } else {
+        if (o.n1) niv.push(nf0.format(o.n1) + " au collège (Segpa comprise)");
+        if (o.n2) niv.push(nf0.format(o.n2) + " en voie générale et technologique");
+        if (o.n3) niv.push(nf0.format(o.n3) + " en voie professionnelle");
+      }
+      var detNiv = niv.length > 1 ? "dont " + niv.join(", ") : null;
+      if (ec && o.n1 == null && o.n2 == null) detNiv = "effectifs par niveau non publiés";
+      fait("Élèves (rentrée 2024)", nf0.format(o.e), detNiv);
+      if (ec && o.cls) fait("Classes", nf0.format(o.cls), nf1.format(o.e / o.cls) + " élèves par classe");
+      if (!ec && (o.pb || o.pbns)) fait("Étudiants de BTS et de CPGE", o.pb ? nf0.format(o.pb) : "non publié",
+        (o.pbns ? (o.pb ? "effectif en partie masqué (faible) ; " : "effectif masqué (faible) ; ") : "") + "non comptés : la part des heures et des personnels qui leur revient est retirée");
+      fait(ec ? "Enseignants (équivalents temps plein)" : (o.pb || o.pbns) ? "Enseignants, tous niveaux (ETP, BTS et CPGE compris)" : "Enseignants (équivalents temps plein)",
+           o.etp != null ? nf1.format(o.etp) : "non publié", ec && o.etp ? nf1.format(o.e / o.etp) + " élèves par enseignant" : null);
+      if (!ec) {
+        fait("Heures d'enseignement par élève", o.he != null ? nf2.format(o.he) : "non publié", "indicateur H/E : heures de cours assurées chaque semaine par les enseignants, rapportées aux élèves");
+        fait("Coût relatif des corps d'enseignants", o.ix != null ? nf2.format(o.ix) : "non calculé (1 par défaut)", "1 = salaire net moyen 2024 des enseignants titulaires du second degré ; plus d'agrégés le relève, plus de contractuels l'abaisse");
+      }
+      fait("Indice de position sociale (IPS)", o.ips != null ? nf1.format(o.ips) : o.ipsS === 1 ? "non publié (effectif faible)" : "non disponible",
+           "milieu social moyen des élèves ; plus il est élevé, plus le public est favorisé");
+      fait("UAI (identifiant)", o.u);
+      rep.append(dl);
+      fiche.append(rep);
+
+      /* avertissements */
+      if (o.e < 50) fiche.append(el("p", "warn", "Moins de 50 élèves : estimation fragile."));
+      if (o.cov != null && o.cov === 0) fiche.append(el("p", "warn", "Aucune heure de cours publiée : heures estimées avec les élèves de chaque niveau × le H/E moyen de ce niveau dans le secteur."));
+      else if (o.cov != null && o.cov < 0.9) fiche.append(el("p", "warn", "Heures de cours publiées pour " + nf0.format(Math.floor(100 * o.cov)) + ESP + "% des élèves seulement : celles des autres élèves sont estimées avec la moyenne des établissements du même type et du même secteur."));
+      if (!ec && o.etp == null && o.nc !== 2) fiche.append(el("p", "warn", "Aucun poste d'enseignant publié pour cet établissement : le coût moyen des corps n'a pas pu être calculé."));
+      if (o.t === "M") fiche.append(el("p", "warn", "École maternelle : la dépense de la commune est répartie à parts égales entre tous ses élèves ; les ATSEM, propres aux maternelles, ne lui sont donc pas attribués en totalité."));
+      if (o.ts === 1 || o.ts === 2) fiche.append(el("p", "warn", "Effectifs par niveau non publiés : type d'école déduit " + (o.ts === 1 ? "de l'annuaire de l'éducation." : "du nom de l'école.")));
+      var posMsg = { 1: "Établissement absent de l'annuaire actuel (fermé ou fusionné depuis la rentrée 2024) : point placé " + (o.apc ? "au centre de la commune." : "à la mairie de la commune."),
+                     2: "Position connue à la commune seulement (annuaire de l'éducation).", 3: "Position inconnue : établissement absent de la carte.",
+                     4: "Position de qualité incertaine selon l'annuaire de l'éducation." };
+      if (posMsg[o.ap]) fiche.append(el("p", "warn", posMsg[o.ap]));
+      if (o.memes) {
+        var bm = el("div", "block"), nat = natureDuPoint(o);
+        bm.append(el("h3", null, "Au même point de la carte" + (nat ? " (" + nat + ")" : "")));
+        var lm = el("div", "memes");
+        o.memes.forEach(function (x) {
+          if (x === o) return;
+          var b = el("button", "link-btn", x.n + " (" + TYPE_COURT[x.t].toLowerCase() + (x.vis ? "" : ", " + accord(x.t, "masqué", "masquée") + " par les filtres") + ")");
+          b.type = "button"; b.addEventListener("click", function () { choisir(x); fiche.focus({ preventScroll: true }); });
+          lm.append(b);
+        });
+        bm.append(lm);
+        fiche.append(bm);
+      }
+      var act = el("div", "panel-actions");
+      if (o.lat != null) {
+        var voir = el("button", "link-btn", "Centrer la carte sur cet établissement");
+        voir.type = "button"; voir.addEventListener("click", function () {
+          changerVue("etab");
+          versCarte();
+          centrer(o);
+        });
+        act.append(voir);
+      }
+      if (o.ap !== 1 && o.ap !== 3) {
+        var a = el("a", null, "Voir dans l'annuaire de l'éducation (data.education.gouv.fr)");
+        a.href = "https://data.education.gouv.fr/explore/dataset/fr-en-annuaire-education/table/?q=" + encodeURIComponent(o.u);
+        a.target = "_blank"; a.rel = "noopener";
+        act.append(a);
+      }
+      if (act.childNodes.length) fiche.append(act);
+    }
+    function ficheDep(code) {
+      fiche.replaceChildren();
+      var a = aggDep[code], nom = depNom[code] || code;
+      var com = code === "977" || code === "978";
+      fiche.append(enTete((com ? "Collectivité" : "Département") + " · établissements affichés"));
+      var titre = el("div", "block");
+      titre.append(el("h2", null, nom + " (" + code + ")"));
+      if (a && a.r) titre.append(el("p", "place", a.r));
+      fiche.append(titre);
+      if (!a || !a.e) {
+        fiche.append(el("p", null, "Aucun établissement affiché dans ce département avec les filtres actuels."));
+        return;
+      }
+      var hero = el("div", "hero");
+      hero.append(el("span", "hero-v", "≈ " + eur(a.m)));
+      hero.append(el("span", "hero-u", "de dépense publique par élève en 2025 : moyenne des établissements affichés, pondérée par les élèves (estimation de l'auteur)"));
+      fiche.append(hero);
+      var cmp = el("p", "compare");
+      if (a.ec == null) cmp.append(document.createTextNode(typo("Pas de comparaison à structure égale : ses établissements affichés appartiennent à des groupes de moins de 10 établissements en France.")));
+      else {
+        var ecs = Math.abs(a.ec) < 0.05 ? 0 : a.ec;
+        cmp.append(el("strong", null, (ecs > 0 ? "▲ " : ecs < 0 ? "▼ " : "= ") + (ecs === 0 ? "Égale" : nf1.format(Math.abs(ecs)) + ESP + "% " + (ecs > 0 ? "de plus" : "de moins"))));
+        cmp.append(document.createTextNode(typo(" " + (ecs === 0 ? "à" : "que") + " la moyenne nationale à structure égale, c'est-à-dire si chacun de ses établissements avait la dépense par élève moyenne, en France, des établissements de son type et de son secteur.")));
+      }
+      fiche.append(cmp);
+
+      var act = el("div", "panel-actions");
+      var voir = el("button", "link-btn", "Voir ses établissements");
+      voir.type = "button";
+      voir.addEventListener("click", function () {
+        changerVue("etab");
+        versCarte();
+        aller(empriseDep[code], 11);
+      });
+      act.append(voir);
+      var zoom = el("button", "link-btn", com ? "Zoomer sur la collectivité" : "Zoomer sur le département");
+      zoom.type = "button";
+      zoom.addEventListener("click", function () {
+        versCarte();
+        aller(empriseDep[code], 11);
+      });
+      act.append(zoom);
+      fiche.append(act);
+
+      var comp = el("div", "block");
+      comp.append(el("h3", null, "D'où vient cette dépense, en moyenne"));
+      /* moyennes arrondies à l'euro en conservant le total affiché, puis le total des collectivités */
+      var g = arrondiSomme(a.g.map(function (x) { return x / a.e; }), Math.round(a.m));
+      var g4 = arrondiSomme(a.g4.map(function (x) { return x / a.e; }), g[3]);
+      var detColl = [];
+      if (g4[0]) detColl.push("communes " + eur(g4[0]));
+      if (g4[1]) detColl.push("département " + eur(g4[1]));
+      if (g4[2]) detColl.push("région " + eur(g4[2]));
+      if (g4[3]) detColl.push("transports " + eur(g4[3]));
+      comp.append(decomposition([
+        { v: g[0], c: "c1", lab: "Enseignants (État)" },
+        { v: g[1], c: "c2", lab: "Vie scolaire, direction, encadrement (État)" },
+        { v: g[2], c: "c3", lab: "Autres crédits de l'État, répartis par élève" },
+        { v: g[3], c: "c4", lab: "Collectivités", det: detColl },
+        { v: g[4], c: "c5", lab: "CAF et autres administrations" }
+      ]));
+      fiche.append(comp);
+
+      var bt = el("div", "block");
+      bt.append(el("h3", null, "Par type d'établissement"));
+      var t = el("table", "refs"), th = el("thead"), tr = el("tr");
+      ["Groupe", "Élèves", "Ici", "France", "Écart"].forEach(function (x) { tr.append(el("th", null, x)); });
+      th.append(tr); t.append(th);
+      var tb = el("tbody");
+      Object.keys(a.grp).sort(function (x, y) {
+        return (ORDRE_TYPES.indexOf(x[0]) * 2 + +x.slice(2)) - (ORDRE_TYPES.indexOf(y[0]) * 2 + +y.slice(2));
+      }).forEach(function (k) {
+        var sg = a.grp[k], m = sg.ve / sg.e, r = el("tr"), lib = TYPE_PL[k[0]] + " " + sectPl(k[0], +k.slice(2));
+        var ref = D.tailles[k] >= D.seuil_groupe ? D.refs[k] : null;   /* pas de moyenne nationale pour un groupe de moins de 10 établissements */
+        r.append(el("td", null, lib.charAt(0).toUpperCase() + lib.slice(1)));
+        r.append(el("td", null, nf0.format(sg.e)));
+        r.append(el("td", null, eur(m)));
+        r.append(el("td", null, ref != null ? eur(ref) : "–"));
+        r.append(el("td", null, ref ? pct(100 * (m / ref - 1)) : "–"));
+        tb.append(r);
+      });
+      t.append(tb);
+      var sc = el("div", "table-scroll"); sc.append(t); bt.append(sc);
+      bt.append(el("p", "place", "Moyennes pondérées par les élèves. « France » : moyenne nationale du même type et du même secteur, tous établissements ; « – » : groupe de moins de 10 établissements en France, sans comparaison."));
+      fiche.append(bt);
+
+      var dl = el("dl", "facts");
+      function fait(dt, dd) { dl.append(el("dt", null, dt)); dl.append(el("dd", null, dd)); }
+      fait("Établissements affichés", nf0.format(a.n));
+      fait("Élèves (rentrée 2024)", nf0.format(a.e));
+      fait("Part des élèves du privé sous contrat", partTexte(100 * a.prive / a.e));
+      fait("Part des élèves du second degré", partTexte(100 * a.sec / a.e));
+      fiche.append(dl);
+    }
+    function versCarte() {   /* amène la carte à l'écran si elle n'y est pas entière (toujours sur écran étroit), avec le focus */
+      var rc = conteneur.getBoundingClientRect();
+      if (!etroit() && rc.top >= 0 && rc.bottom <= window.innerHeight) return;
+      document.getElementById("zone-carte").scrollIntoView({ behavior: reduit() ? "auto" : "smooth", block: "start" });
+      conteneur.focus({ preventScroll: true });
+    }
+    function centrer(o) {
+      if (o.lat == null) return;
+      var z = Math.max(map.getZoom(), 14);
+      if (reduit()) map.setView([o.lat, o.lon], z, { animate: false }); else map.flyTo([o.lat, o.lon], z, { duration: 0.6 });
+    }
+    function majBandeau(nom, valeur, depuis) {
+      bandeau.replaceChildren();
+      if (!nom || depuis !== "carte" || !etroit()) { bandeau.hidden = true; return; }
+      var t = el("span"); t.append(el("strong", null, nom)); t.append(document.createTextNode(typo(" · ≈ " + eur(valeur) + " par élève")));
+      var b = el("button", null, "Voir la fiche "); b.type = "button";
+      var fleche = el("span", null, "↓"); fleche.setAttribute("aria-hidden", "true"); b.append(fleche);
+      b.addEventListener("click", function () { fiche.scrollIntoView({ behavior: reduit() ? "auto" : "smooth", block: "start" }); fiche.focus({ preventScroll: true }); });
+      bandeau.append(t); bandeau.append(b); bandeau.hidden = false;
+    }
+    ecouter(mqEtroit, function (e) { if (!e.matches) bandeau.hidden = true; });
+    function selectionnerDep(code) {
+      var avant = state.selDep;
+      state.selDep = code;
+      if (avant !== code) restylerFond();
+    }
+    function choisir(o, depuis) {
+      state.sel = o;
+      state.bandeau = !!o && depuis === "carte";
+      selectionnerDep(null);
+      if (o && state.vue === "dep") changerVue("etab");   /* l'établissement choisi doit être visible */
+      if (o) ficheEtab(o); else ficheParDefaut();
+      majBandeau(o && o.n, o && o.v, depuis);
+      annonce.textContent = typo(o ? "Fiche affichée : " + o.n + ", " + o.c + ", environ " + eur(o.v) + " par élève." : "Fiche fermée.");
+      try { history.replaceState(null, "", o ? "#" + o.u : location.pathname + location.search); } catch (e) { /* cadre isolé */ }
+      placerAnneaux(); marquerLignes();
+      if (o && depuis === "tableau") {
+        document.getElementById("zone-carte").scrollIntoView({ behavior: reduit() ? "auto" : "smooth", block: "start" });
+        if (etroit()) conteneur.focus({ preventScroll: true }); else fiche.focus({ preventScroll: true });
+        centrer(o);
+      }
+    }
+    function choisirDep(code, depuis) {
+      state.sel = null;
+      state.bandeau = depuis === "carte";
+      selectionnerDep(code);
+      ficheDep(code);
+      var a = aggDep[code];
+      majBandeau(depNom[code] || code, a && a.m, a && a.m != null ? depuis : null);
+      annonce.textContent = typo((code === "977" || code === "978" ? "Fiche de la collectivité : " : "Fiche du département : ") + (depNom[code] || code) + (a && a.m != null ? ", environ " + eur(a.m) + " par élève." : "."));
+      try { history.replaceState(null, "", "#dep-" + code); } catch (e) { /* cadre isolé */ }
+      placerAnneaux(); marquerLignes();
+      if (depuis === "tableau") {
+        var rf = fiche.getBoundingClientRect();
+        if (etroit() || rf.top < 0 || rf.top > window.innerHeight - 120) fiche.scrollIntoView({ behavior: reduit() ? "auto" : "smooth", block: "start" });
+        fiche.focus({ preventScroll: true });
+      }
+    }
+    function lireAncre() {
+      var h = (location.hash || "").replace("#", "").toUpperCase(), m = /^DEP-([0-9]{2,3}|2A|2B)$/.exec(h);
+      if (m && depNom[m[1]]) {
+        if (state.selDep !== m[1]) {
+          choisirDep(m[1]);
+          if (!map.getBounds().intersects(empriseDep[m[1]])) aller(empriseDep[m[1]], 9);   /* outre-mer depuis la métropole */
+        }
+        return;
+      }
+      if (parUai[h]) { if (parUai[h] !== state.sel) { choisir(parUai[h]); centrer(parUai[h]); } return; }
+      if (!h && (state.sel || state.selDep)) { choisir(null); return; }
+      if (h) { try { history.replaceState(null, "", state.sel ? "#" + state.sel.u : state.selDep ? "#dep-" + state.selDep : location.pathname + location.search); } catch (e) { /* cadre isolé */ } }
+    }
+    window.addEventListener("hashchange", lireAncre);
+
+    /* ---------------------------------------------------------------- tableau */
+    var COLS = [
+      { key: "n", lab: "Établissement", txt: true },
+      { key: "v", lab: "Dépense estimée par élève", num: true },
+      { key: "ecart", lab: "Écart à son groupe", num: true },
+      { key: "e", lab: "Élèves", num: true },
+      { key: "t", lab: "Type", txt: true },
+      { key: "s", lab: "Secteur", txt: true },
+      { key: "r", lab: "Région", txt: true },
+      { key: "ips", lab: "IPS", num: true }
+    ];
+    var entetes = document.getElementById("t-entetes");
+    COLS.forEach(function (c) {
+      var th = el("th"); th.scope = "col"; if (c.num) th.className = "num";
+      var b = el("button", null, c.lab); b.type = "button";
+      b.addEventListener("click", function () {
+        if (state.sort.key === c.key) state.sort.dir = -state.sort.dir; else state.sort = { key: c.key, dir: c.num ? -1 : 1 };
+        state.page = 0; tableau();
+      });
+      th.append(b); c.th = th; entetes.append(th);
+    });
+    function valeurTri(o, k) {
+      if (k === "n") return o.tri;
+      if (k === "t") return ORDRE_TYPES.indexOf(o.t);
+      if (k === "s") return o.s;
+      if (k === "r") return o.rcle;
+      return o[k];
+    }
+    var triCache = null;
+    function listeTriee() {
+      var k = state.sort.key, dir = state.sort.dir;
+      if (triCache && triCache.src === visible && triCache.k === k && triCache.dir === dir) return triCache.liste;
+      var liste = visible.slice().sort(function (a, b) {
+        var x = valeurTri(a, k), y = valeurTri(b, k);
+        if (x == null && y == null) return 0;
+        if (x == null) return 1;
+        if (y == null) return -1;
+        return (x < y ? -1 : x > y ? 1 : 0) * dir;
+      });
+      triCache = { src: visible, k: k, dir: dir, liste: liste };
+      return liste;
+    }
+    function bouton(b, actif) { b.setAttribute("aria-disabled", actif ? "false" : "true"); }
+    function tableau() {
+      var k = state.sort.key, dir = state.sort.dir, tri = listeTriee();
+      COLS.forEach(function (c) { c.th.setAttribute("aria-sort", c.key === k ? (dir > 0 ? "ascending" : "descending") : "none"); });
+      var pages = Math.max(1, Math.ceil(tri.length / PAGE));
+      state.page = Math.min(state.page, pages - 1);
+      var corps = document.getElementById("t-corps");
+      corps.replaceChildren();
+      if (!tri.length) {
+        var tr0 = el("tr"), td0 = el("td", "empty", "Aucun établissement ne correspond aux filtres. L'enseignement supérieur n'est pas couvert. Utilisez « Réinitialiser les filtres » pour tout afficher.");
+        td0.colSpan = COLS.length; tr0.append(td0); corps.append(tr0);
+      }
+      tri.slice(state.page * PAGE, (state.page + 1) * PAGE).forEach(function (o) {
+        var tr = el("tr"); tr.dataset.uai = o.u;
+        var td = el("td"), b = el("button", "row-btn", o.n); b.type = "button";
+        b.addEventListener("click", function () { choisir(o, "tableau"); });
+        td.append(b);
+        if (o.e < 50) td.append(el("span", "badge", "moins de 50 élèves"));
+        if (o.nc) td.append(el("span", "badge", "non classé"));
+        var sub = el("span", "sub", o.c + " (" + o.d + ")");
+        sub.append(el("span", "sub-type", " · " + TYPE_COURT[o.t] + (o.s ? accord(o.t, ", privé", ", privée") : "")));
+        sub.append(el("span", "sub-tel", " · " + (o.nc ? "non classé" : pct(o.ecart)) + " · " + nf0.format(o.e) + ESP + "élèves"));
+        td.append(sub);
+        tr.append(td);
+        tr.append(el("td", "num", "≈ " + eur(o.v)));
+        var tdE = el("td", "num", o.nc ? "n. c." : pct(o.ecart));
+        if (o.nc) tdE.title = typo("Non classé : " + D.non_classe[o.nc]);
+        tr.append(tdE);
+        tr.append(el("td", "num", nf0.format(o.e)));
+        tr.append(el("td", "nw", TYPE_COURT[o.t]));
+        tr.append(el("td", "nw", SECT[o.s]));
+        tr.append(el("td", null, o.r));
+        tr.append(el("td", "num", o.ips != null ? nf1.format(o.ips) : "–"));
+        corps.append(tr);
+      });
+      var n = tri.length;
+      document.getElementById("t-compte").textContent = nf0.format(n) + " établissement" + (n > 1 ? "s" : "");
+      document.getElementById("p-info").textContent = n ? nf0.format(state.page * PAGE + 1) + "–" + nf0.format(Math.min(n, (state.page + 1) * PAGE)) + " sur " + nf0.format(n) : "";
+      bouton(document.getElementById("p-prec"), state.page > 0);
+      bouton(document.getElementById("p-suiv"), state.page < pages - 1);
+      marquerLignes();
+    }
+    function marquerLignes() {
+      Array.prototype.forEach.call(document.querySelectorAll("#t-corps tr"), function (tr) {
+        tr.classList.toggle("is-sel", !!state.sel && tr.dataset.uai === state.sel.u);
+      });
+      Array.prototype.forEach.call(document.querySelectorAll("#dep-corps tr"), function (tr) {
+        tr.classList.toggle("is-sel", tr.dataset.dep === state.selDep);
+      });
+    }
+    document.getElementById("p-prec").addEventListener("click", function () { if (state.page > 0) { state.page -= 1; tableau(); } });
+    document.getElementById("p-suiv").addEventListener("click", function () {
+      if (this.getAttribute("aria-disabled") === "true") return;
+      state.page += 1; tableau();
+    });
+
+    /* ---------------------------------------------------------------- mise à jour */
+    function cadrerRecherche() {
+      var parTerr = {};
+      visible.forEach(function (o) { if (o.lat != null) (parTerr[o.terr] = parTerr[o.terr] || []).push(o); });
+      var cles2 = Object.keys(parTerr);
+      if (!cles2.length) { qInfo.textContent = ""; return; }
+      /* le territoire qui a le plus de résultats ; la métropole à égalité */
+      var choix = cles2.sort(function (a, b) { return parTerr[b].length - parTerr[a].length || (a === "metro" ? -1 : b === "metro" ? 1 : 0); })[0];
+      var autres = cles2.filter(function (k) { return k !== choix; }).map(function (k) { return TERR[k] + " (" + parTerr[k].length + ")"; });
+      qInfo.textContent = typo(autres.length ? "Carte cadrée sur " + TERR_SUR[choix] + " ; autres résultats : " + autres.join(", ") + " (voir « Aller à »)." : "");
+      aller(L.latLngBounds(parTerr[choix].map(function (o) { return [o.lat, o.lon]; })), 14);
+    }
+    function maj(depuisRecherche) {
+      visible = [];
+      rows.forEach(function (o) { o.vis = passe(o); if (o.vis) visible.push(o); });
+      agreger(); finSurvol();
+      document.getElementById("vide").hidden = visible.length > 0;
+      annulerDessinVue();
+      chiffres(); restylerFond(); legende(); cles(); decrire(); valeursDep(); tableau(); points.dessiner(); etiquettes(); resumeFiltres();
+      if (state.sel) ficheEtab(state.sel); else if (state.selDep) ficheDep(state.selDep);   /* mentions « masqué par les filtres », moyennes */
+      if (state.bandeau && etroit()) {   /* choix fait sur la carte : le bandeau suit les filtres, disparaît et revient avec eux */
+        if (state.sel) majBandeau(state.sel.n, state.sel.v, "carte");
+        else if (state.selDep) {
+          var ab = aggDep[state.selDep];
+          majBandeau(depNom[state.selDep] || state.selDep, ab && ab.m, ab && ab.m != null ? "carte" : null);
+        }
+      }
+      if (!depuisRecherche || !state.q.length) qInfo.textContent = "";
+      if (depuisRecherche && state.q.length) {
+        if (visible.length === 1 && visible[0] !== state.sel) { qInfo.textContent = ""; choisir(visible[0]); centrer(visible[0]); }
+        else if (visible.length > 1 && visible.length <= 5000) cadrerRecherche();
+        else qInfo.textContent = "";
+      }
+    }
+
+    chargement.hidden = true;
+    ficheParDefaut();
+    maj();
+    lireAncre();
+  }
+})();
+</script>

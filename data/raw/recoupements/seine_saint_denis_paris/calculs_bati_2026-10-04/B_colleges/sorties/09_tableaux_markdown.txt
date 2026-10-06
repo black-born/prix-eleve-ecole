@@ -1,0 +1,82 @@
+TABLEAU A
+| € par collégien du public et par an, fonction 221 | Équipement 2022-2025 | Subventions d'équipement | Capital PPP remboursé | Investissement bâti 2022-2025 | Investissement bâti 2016-2025 | Fonctionnement 2022-2025 | dont frais de personnel | Total hors remboursements 2022-2025 |
+|---|---|---|---|---|---|---|---|---|
+| Seine-Saint-Denis | 1 020 | 9 | 207 | **1 235** | 1 225 | 1 721 | 913 | 2 754 |
+| Paris (Ville de Paris) | 273 | 60 | 0 | **333** | 442 | 1 300 | 554 | 1 633 |
+| Hauts-de-Seine | 1 839 | 33 | 46 | **1 919** | 1 420 | 2 098 | 668 | 3 971 |
+| Val-de-Marne | 1 350 | 7 | 0 | **1 357** | 1 310 | 1 363 | 733 | 2 723 |
+| Seine-et-Marne | 1 286 | 8 | 0 | **1 294** | 1 122 | 728 | 0 (imputé ailleurs) | 2 022 |
+| Essonne | 1 072 | 4 | 0 | **1 077** | 916 | 1 557 | 680 | 2 634 |
+| Yvelines | 942 | 70 | 0 | **1 012** | 895 | 1 084 | 0 (imputé ailleurs) | 2 096 |
+| Val-d'Oise | 994 | 2 | 0 | **996** | 771 | 874 | 171 | 1 870 |
+| France (départements, Paris, Métropole de Lyon) | 928 | 39 | 11 | **979** | 844 | 1 215 | 506 | 2 185 |
+
+TABLEAU B
+| Fonction 221, moyenne 2022-2025 | Seine-Saint-Denis : M€ par an | Seine-Saint-Denis : € par collégien du public | Paris : M€ par an | Paris : € par collégien du public |
+|---|---|---|---|---|
+| F1 Personnel (621, 631, 633, 64) | 72,0 | 913 | 29,4 | 554 |
+| F10 Charges financières (66) | 6,2 | 79 | 0,0 | 0 |
+| F11 Autres charges de fonctionnement | 0,0 | 0 | 0,0 | 0 |
+| F2 Énergie et eau (60611-60613, 60621-60622) | 14,3 | 181 | 0,0 | 0 |
+| F3 Entretien, réparations, maintenance, nettoyage (6152x, 6155, 6156, 6283) | 6,8 | 86 | 1,6 | 30 |
+| F4 Contrats de prestations de services (611) | 1,9 | 24 | 0,0 | 0 |
+| F5 Locations et charges locatives (613, 614) | 0,1 | 1 | 0,0 | 0 |
+| F6 Autres achats et charges externes (60-62) | 10,8 | 136 | 0,7 | 13 |
+| F7 Dotations de fonctionnement aux collèges publics (655111) | 11,8 | 149 | 15,7 | 296 |
+| F8 Dotations de fonctionnement aux collèges privés (655112) | 7,2 | 92 | 21,5 | 406 |
+| F9 Autres subventions et participations (65x) | 4,7 | 60 | 0,0 | 1 |
+| I0 Remboursement en capital des marchés de partenariat (1675) | 16,3 | 207 | 0,0 | 0 |
+| I1 Terrains, constructions, rénovations, gros travaux, avances (211-214, 217, 231x, 236-238) | 66,6 | 844 | 13,4 | 253 |
+| I3 Mobilier, informatique, matériel (215x, 218x) | 8,2 | 104 | 0,3 | 6 |
+| I4 Études, logiciels, incorporels (20 hors 204) | 5,6 | 71 | 0,7 | 13 |
+| I5 Subventions d'équipement versées (204, 2324) | 0,7 | 9 | 3,2 | 60 |
+| I6 Autres immobilisations (21, 23) | 0,1 | 1 | 0,0 | 0 |
+| I7 Autres investissements (13, 26, 27, 45x hors 455, 481) | 0,4 | 5 | 0,0 | 0 |
+
+TABLEAU C
+| Année | 93 : équipement (M€) | dont participations PPP (235) | 93 : capital PPP remboursé (M€) | 93 : investissement bâti (M€) | 93 : € par collégien du public | Paris : équipement + subventions (M€) | Paris : cités scolaires (M€) | Paris : € par collégien du public (avec cités scolaires) | France : € par collégien du public |
+|---|---|---|---|---|---|---|---|---|---|
+| 2012 | 68,6 | 13,9 | 0,0 | 72,0 | — | 23,2 | 0,0 | — (—) | — |
+| 2013 | 60,8 | 20,0 | 0,0 | 61,3 | — | 22,2 | 0,0 | — (—) | — |
+| 2014 | 142,8 | 99,9 | 2,8 | 146,7 | — | 43,3 | 0,0 | — (—) | — |
+| 2015 | 65,1 | 5,7 | 8,1 | 76,2 | — | 39,5 | 0,0 | — (—) | — |
+| 2016 | 70,3 | 13,1 | 8,5 | 81,3 | 1 120 | 29,7 | 0,0 | 521 (521) | 650 |
+| 2017 | 84,3 | 25,0 | 9,0 | 93,6 | 1 273 | 32,4 | 0,0 | 572 (572) | 651 |
+| 2018 | 108,3 | 20,9 | 9,9 | 118,5 | 1 580 | 27,7 | 5,2 | 491 (584) | 686 |
+| 2019 | 98,2 | 32,9 | 12,1 | 110,7 | 1 438 | 36,5 | 0,0 | 644 (644) | 788 |
+| 2020 | 65,0 | 0,0 | 13,6 | 79,0 | 1 007 | 28,0 | 0,0 | 494 (494) | 798 |
+| 2021 | 55,3 | 0,0 | 14,7 | 71,3 | 904 | 18,6 | 2,6 | 330 (377) | 937 |
+| 2022 | 61,2 | 0,0 | 16,1 | 78,4 | 997 | 14,4 | 1,5 | 261 (288) | 969 |
+| 2023 | 77,0 | 0,0 | 16,0 | 94,2 | 1 194 | 18,0 | 0,2 | 336 (340) | 989 |
+| 2024 | 86,1 | 0,0 | 16,4 | 102,7 | 1 301 | 19,1 | 2,7 | 366 (418) | 1 001 |
+| 2025 | 97,4 | 0,0 | 16,7 | 115,0 | 1 455 | 19,1 | 13,5 | 376 (642) | 960 |
+
+TABLEAU D
+| Année | Encours au 1er janvier (M€) | Dette inscrite à la livraison (M€) | Capital remboursé (M€) | Encours au 31 décembre (M€) |
+|---|---|---|---|---|
+| 2014 | 0,0 | 239,7 | 2,8 | 236,9 |
+| 2015 | 236,9 | 0,0 | 8,1 | 228,8 |
+| 2016 | 228,8 | 8,0 | 8,5 | 228,3 |
+| 2017 | 228,3 | 0,0 | 9,0 | 219,2 |
+| 2018 | 219,2 | 23,4 | 9,9 | 232,8 |
+| 2019 | 232,8 | 0,0 | 12,1 | 220,7 |
+| 2020 | 220,7 | 28,9 | 13,6 | 236,0 |
+| 2021 | 236,0 | 0,0 | 14,7 | 221,4 |
+| 2022 | 221,4 | 17,8 | 16,1 | 223,0 |
+| 2023 | 223,0 | 0,0 | 16,0 | 207,0 |
+| 2024 | 207,0 | 0,0 | 16,4 | 190,6 |
+| 2025 | 190,6 | 0,0 | 16,7 | 173,9 |
+
+TABLEAU E
+| Collégiens du public | Seine-Saint-Denis | Paris | France (hors COM) |
+|---|---|---|---|
+| Rentrée 2015 (établissements de type collège) | 72 033 | 56 322 | 2 617 277 |
+| Rentrée 2019 (même champ) | 77 882 | 56 024 | 2 663 886 |
+| Rentrée 2019 (élèves de niveau collège) | 78 186 | 56 786 | 2 675 843 |
+| Rentrée 2025 (élèves de niveau collège) | 79 351 | 49 880 | 2 634 574 |
+| Évolution 2015-2019 | 8,1 % | -0,5 % | 1,8 % |
+| Évolution 2019-2025 | 1,5 % | -12,2 % | -1,5 % |
+| Évolution 2015-2025 (raccordée) | 9,7 % | -12,6 % | 0,2 % |
+| Élèves par établissement, rentrée 2025 | 547 | 356 | 419 |
+| Part des collégiens dans un établissement de 700 élèves ou plus, rentrée 2025 | 31,1 % | 10,2 % | 21,5 % |
+| Part des collégiens dans un établissement de moins de 400 élèves, rentrée 2025 | 3,8 % | 39,1 % | 19,3 % |

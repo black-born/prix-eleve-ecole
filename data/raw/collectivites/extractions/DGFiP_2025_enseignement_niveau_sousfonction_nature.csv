@@ -1,0 +1,782 @@
+﻿niveau;budget;perimetre;sous_fonction;section;nature;montant_M€
+Communes (y.c. Paris);budget annexe;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);221 Collèges;fonctionnement;F_achats_charges_externes;0.003
+Communes (y.c. Paris);budget annexe;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);222 Lycées publics;fonctionnement;F_achats_charges_externes;0.0
+Communes (y.c. Paris);budget annexe;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);24 Cités scolaires;fonctionnement;F_achats_charges_externes;0.003
+Communes (y.c. Paris);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_achats_charges_externes;0.047
+Communes (y.c. Paris);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_autres;0.0
+Communes (y.c. Paris);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_interventions;0.029
+Communes (y.c. Paris);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_personnel;-0.022
+Communes (y.c. Paris);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_autres;0.0
+Communes (y.c. Paris);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_equipement;0.004
+Communes (y.c. Paris);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_achats_charges_externes;0.012
+Communes (y.c. Paris);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_autres;0.0
+Communes (y.c. Paris);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_personnel;0.282
+Communes (y.c. Paris);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;investissement;I_equipement;0.05
+Communes (y.c. Paris);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_achats_charges_externes;2.15
+Communes (y.c. Paris);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_autres;1.399
+Communes (y.c. Paris);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_interventions;0.023
+Communes (y.c. Paris);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_personnel;5.983
+Communes (y.c. Paris);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;investissement;I_autres;0.0
+Communes (y.c. Paris);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;investissement;I_equipement;2.509
+Communes (y.c. Paris);budget annexe;transport scolaire;81 Transports scolaires;fonctionnement;F_achats_charges_externes;0.207
+Communes (y.c. Paris);budget annexe;transport scolaire;81 Transports scolaires;fonctionnement;F_autres;0.0
+Communes (y.c. Paris);budget annexe;transport scolaire;81 Transports scolaires;fonctionnement;F_personnel;0.099
+Communes (y.c. Paris);budget annexe;écoles (1er degré);20 Services communs;fonctionnement;F_achats_charges_externes;1.184
+Communes (y.c. Paris);budget annexe;écoles (1er degré);20 Services communs;fonctionnement;F_autres;0.011
+Communes (y.c. Paris);budget annexe;écoles (1er degré);20 Services communs;fonctionnement;F_interventions;0.0
+Communes (y.c. Paris);budget annexe;écoles (1er degré);20 Services communs;fonctionnement;F_personnel;0.438
+Communes (y.c. Paris);budget annexe;écoles (1er degré);20 Services communs;investissement;I_autres;0.0
+Communes (y.c. Paris);budget annexe;écoles (1er degré);20 Services communs;investissement;I_equipement;0.243
+Communes (y.c. Paris);budget annexe;écoles (1er degré);211 Écoles maternelles;fonctionnement;F_achats_charges_externes;10.257
+Communes (y.c. Paris);budget annexe;écoles (1er degré);211 Écoles maternelles;fonctionnement;F_autres;0.135
+Communes (y.c. Paris);budget annexe;écoles (1er degré);211 Écoles maternelles;fonctionnement;F_interventions;0.0
+Communes (y.c. Paris);budget annexe;écoles (1er degré);211 Écoles maternelles;fonctionnement;F_personnel;0.562
+Communes (y.c. Paris);budget annexe;écoles (1er degré);211 Écoles maternelles;investissement;I_equipement;0.012
+Communes (y.c. Paris);budget annexe;écoles (1er degré);212 Écoles primaires;fonctionnement;F_achats_charges_externes;18.49
+Communes (y.c. Paris);budget annexe;écoles (1er degré);212 Écoles primaires;fonctionnement;F_autres;0.013
+Communes (y.c. Paris);budget annexe;écoles (1er degré);212 Écoles primaires;fonctionnement;F_interventions;0.008
+Communes (y.c. Paris);budget annexe;écoles (1er degré);212 Écoles primaires;fonctionnement;F_personnel;0.034
+Communes (y.c. Paris);budget annexe;écoles (1er degré);212 Écoles primaires;investissement;I_autres;0.0
+Communes (y.c. Paris);budget annexe;écoles (1er degré);212 Écoles primaires;investissement;I_equipement;0.154
+Communes (y.c. Paris);budget annexe;écoles (1er degré);213 Classes regroupées;fonctionnement;F_achats_charges_externes;4.555
+Communes (y.c. Paris);budget annexe;écoles (1er degré);213 Classes regroupées;fonctionnement;F_autres;0.0
+Communes (y.c. Paris);budget annexe;écoles (1er degré);213 Classes regroupées;fonctionnement;F_interventions;0.108
+Communes (y.c. Paris);budget annexe;écoles (1er degré);213 Classes regroupées;fonctionnement;F_personnel;0.731
+Communes (y.c. Paris);budget annexe;écoles (1er degré);213 Classes regroupées;investissement;I_autres;0.0
+Communes (y.c. Paris);budget annexe;écoles (1er degré);213 Classes regroupées;investissement;I_equipement;6.0
+Communes (y.c. Paris);budget annexe;écoles (1er degré);281 Hébergement et restauration scolaires;fonctionnement;F_achats_charges_externes;35.345
+Communes (y.c. Paris);budget annexe;écoles (1er degré);281 Hébergement et restauration scolaires;fonctionnement;F_autres;0.535
+Communes (y.c. Paris);budget annexe;écoles (1er degré);281 Hébergement et restauration scolaires;fonctionnement;F_interventions;6.303
+Communes (y.c. Paris);budget annexe;écoles (1er degré);281 Hébergement et restauration scolaires;fonctionnement;F_personnel;28.044
+Communes (y.c. Paris);budget annexe;écoles (1er degré);281 Hébergement et restauration scolaires;investissement;I_autres;0.0
+Communes (y.c. Paris);budget annexe;écoles (1er degré);281 Hébergement et restauration scolaires;investissement;I_equipement;4.039
+Communes (y.c. Paris);budget annexe;écoles (1er degré);282 Sport scolaire;fonctionnement;F_achats_charges_externes;0.231
+Communes (y.c. Paris);budget annexe;écoles (1er degré);282 Sport scolaire;investissement;I_autres;0.094
+Communes (y.c. Paris);budget annexe;écoles (1er degré);284 Classes de découverte;fonctionnement;F_achats_charges_externes;2.948
+Communes (y.c. Paris);budget annexe;écoles (1er degré);284 Classes de découverte;fonctionnement;F_interventions;0.028
+Communes (y.c. Paris);budget annexe;écoles (1er degré);284 Classes de découverte;fonctionnement;F_personnel;4.54
+Communes (y.c. Paris);budget annexe;écoles (1er degré);288 Autres services annexes;fonctionnement;F_achats_charges_externes;0.717
+Communes (y.c. Paris);budget annexe;écoles (1er degré);288 Autres services annexes;fonctionnement;F_autres;0.067
+Communes (y.c. Paris);budget annexe;écoles (1er degré);288 Autres services annexes;fonctionnement;F_interventions;0.002
+Communes (y.c. Paris);budget annexe;écoles (1er degré);288 Autres services annexes;fonctionnement;F_personnel;3.474
+Communes (y.c. Paris);budget annexe;écoles (1er degré);288 Autres services annexes;investissement;I_autres;0.0
+Communes (y.c. Paris);budget annexe;écoles (1er degré);288 Autres services annexes;investissement;I_equipement;0.33
+Communes (y.c. Paris);budget annexe;écoles (1er degré);29 Sécurité;fonctionnement;F_achats_charges_externes;0.0
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);22 Second degré (non ventilé);fonctionnement;F_interventions;0.084
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);221 Collèges;fonctionnement;F_achats_charges_externes;5.398
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);221 Collèges;fonctionnement;F_autres;0.136
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);221 Collèges;fonctionnement;F_interventions;38.516
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);221 Collèges;fonctionnement;F_personnel;31.256
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);221 Collèges;investissement;I_autres;0.0
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);221 Collèges;investissement;I_equipement;16.572
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);221 Collèges;investissement;I_subventions_equipement_versees;3.262
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);222 Lycées publics;fonctionnement;F_achats_charges_externes;0.997
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);222 Lycées publics;fonctionnement;F_autres;0.109
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);222 Lycées publics;fonctionnement;F_interventions;8.029
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);222 Lycées publics;fonctionnement;F_personnel;1.261
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);222 Lycées publics;investissement;I_autres;0.047
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);222 Lycées publics;investissement;I_equipement;5.686
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);222 Lycées publics;investissement;I_subventions_equipement_versees;0.302
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);223 Lycées privés;fonctionnement;F_achats_charges_externes;0.3
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);223 Lycées privés;fonctionnement;F_autres;0.0
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);223 Lycées privés;fonctionnement;F_interventions;0.544
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);223 Lycées privés;fonctionnement;F_personnel;0.009
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);24 Cités scolaires;fonctionnement;F_achats_charges_externes;1.062
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);24 Cités scolaires;fonctionnement;F_autres;3.848
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);24 Cités scolaires;fonctionnement;F_interventions;2.26
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);24 Cités scolaires;fonctionnement;F_personnel;10.086
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);24 Cités scolaires;investissement;I_autres;0.0
+Communes (y.c. Paris);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);24 Cités scolaires;investissement;I_equipement;24.63
+Communes (y.c. Paris);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_achats_charges_externes;5.021
+Communes (y.c. Paris);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_autres;0.178
+Communes (y.c. Paris);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_interventions;65.948
+Communes (y.c. Paris);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_personnel;10.939
+Communes (y.c. Paris);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_autres;0.478
+Communes (y.c. Paris);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_equipement;6.005
+Communes (y.c. Paris);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_subventions_equipement_versees;10.095
+Communes (y.c. Paris);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_achats_charges_externes;7.301
+Communes (y.c. Paris);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_autres;0.155
+Communes (y.c. Paris);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_interventions;8.796
+Communes (y.c. Paris);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_personnel;37.934
+Communes (y.c. Paris);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;investissement;I_autres;0.001
+Communes (y.c. Paris);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;investissement;I_equipement;6.238
+Communes (y.c. Paris);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;investissement;I_subventions_equipement_versees;0.231
+Communes (y.c. Paris);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_achats_charges_externes;6.456
+Communes (y.c. Paris);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_interventions;0.067
+Communes (y.c. Paris);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_personnel;12.488
+Communes (y.c. Paris);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;investissement;I_equipement;0.04
+Communes (y.c. Paris);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);27 Formation sanitaire et sociale;fonctionnement;F_achats_charges_externes;0.043
+Communes (y.c. Paris);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);27 Formation sanitaire et sociale;fonctionnement;F_interventions;0.033
+Communes (y.c. Paris);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);27 Formation sanitaire et sociale;fonctionnement;F_personnel;0.003
+Communes (y.c. Paris);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);27 Formation sanitaire et sociale;investissement;I_equipement;0.038
+Communes (y.c. Paris);budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_achats_charges_externes;44.875
+Communes (y.c. Paris);budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_autres;0.378
+Communes (y.c. Paris);budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_interventions;6.682
+Communes (y.c. Paris);budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_personnel;13.989
+Communes (y.c. Paris);budget principal;transport scolaire;81 Transports scolaires;investissement;I_autres;0.0
+Communes (y.c. Paris);budget principal;transport scolaire;81 Transports scolaires;investissement;I_equipement;4.481
+Communes (y.c. Paris);budget principal;transport scolaire;81 Transports scolaires;investissement;I_subventions_equipement_versees;0.158
+Communes (y.c. Paris);budget principal;écoles (1er degré);20 Services communs;fonctionnement;F_achats_charges_externes;158.551
+Communes (y.c. Paris);budget principal;écoles (1er degré);20 Services communs;fonctionnement;F_autres;3.295
+Communes (y.c. Paris);budget principal;écoles (1er degré);20 Services communs;fonctionnement;F_interventions;131.997
+Communes (y.c. Paris);budget principal;écoles (1er degré);20 Services communs;fonctionnement;F_personnel;1183.073
+Communes (y.c. Paris);budget principal;écoles (1er degré);20 Services communs;investissement;I_autres;4.301
+Communes (y.c. Paris);budget principal;écoles (1er degré);20 Services communs;investissement;I_equipement;316.617
+Communes (y.c. Paris);budget principal;écoles (1er degré);20 Services communs;investissement;I_subventions_equipement_versees;0.27
+Communes (y.c. Paris);budget principal;écoles (1er degré);21 Premier degré (non ventilé);investissement;I_equipement;0.793
+Communes (y.c. Paris);budget principal;écoles (1er degré);211 Écoles maternelles;fonctionnement;F_achats_charges_externes;257.951
+Communes (y.c. Paris);budget principal;écoles (1er degré);211 Écoles maternelles;fonctionnement;F_autres;2.138
+Communes (y.c. Paris);budget principal;écoles (1er degré);211 Écoles maternelles;fonctionnement;F_interventions;70.585
+Communes (y.c. Paris);budget principal;écoles (1er degré);211 Écoles maternelles;fonctionnement;F_personnel;1845.715
+Communes (y.c. Paris);budget principal;écoles (1er degré);211 Écoles maternelles;investissement;I_autres;0.371
+Communes (y.c. Paris);budget principal;écoles (1er degré);211 Écoles maternelles;investissement;I_equipement;448.247
+Communes (y.c. Paris);budget principal;écoles (1er degré);211 Écoles maternelles;investissement;I_subventions_equipement_versees;0.041
+Communes (y.c. Paris);budget principal;écoles (1er degré);212 Écoles primaires;fonctionnement;F_achats_charges_externes;511.836
+Communes (y.c. Paris);budget principal;écoles (1er degré);212 Écoles primaires;fonctionnement;F_autres;4.508
+Communes (y.c. Paris);budget principal;écoles (1er degré);212 Écoles primaires;fonctionnement;F_interventions;144.041
+Communes (y.c. Paris);budget principal;écoles (1er degré);212 Écoles primaires;fonctionnement;F_personnel;1107.593
+Communes (y.c. Paris);budget principal;écoles (1er degré);212 Écoles primaires;investissement;I_autres;2.445
+Communes (y.c. Paris);budget principal;écoles (1er degré);212 Écoles primaires;investissement;I_equipement;1011.491
+Communes (y.c. Paris);budget principal;écoles (1er degré);212 Écoles primaires;investissement;I_subventions_equipement_versees;0.428
+Communes (y.c. Paris);budget principal;écoles (1er degré);213 Classes regroupées;fonctionnement;F_achats_charges_externes;402.603
+Communes (y.c. Paris);budget principal;écoles (1er degré);213 Classes regroupées;fonctionnement;F_autres;6.351
+Communes (y.c. Paris);budget principal;écoles (1er degré);213 Classes regroupées;fonctionnement;F_interventions;278.105
+Communes (y.c. Paris);budget principal;écoles (1er degré);213 Classes regroupées;fonctionnement;F_personnel;893.481
+Communes (y.c. Paris);budget principal;écoles (1er degré);213 Classes regroupées;investissement;I_autres;4.998
+Communes (y.c. Paris);budget principal;écoles (1er degré);213 Classes regroupées;investissement;I_equipement;1412.417
+Communes (y.c. Paris);budget principal;écoles (1er degré);213 Classes regroupées;investissement;I_subventions_equipement_versees;0.954
+Communes (y.c. Paris);budget principal;écoles (1er degré);281 Hébergement et restauration scolaires;fonctionnement;F_achats_charges_externes;1423.921
+Communes (y.c. Paris);budget principal;écoles (1er degré);281 Hébergement et restauration scolaires;fonctionnement;F_autres;18.579
+Communes (y.c. Paris);budget principal;écoles (1er degré);281 Hébergement et restauration scolaires;fonctionnement;F_interventions;274.557
+Communes (y.c. Paris);budget principal;écoles (1er degré);281 Hébergement et restauration scolaires;fonctionnement;F_personnel;1366.852
+Communes (y.c. Paris);budget principal;écoles (1er degré);281 Hébergement et restauration scolaires;investissement;I_autres;2.156
+Communes (y.c. Paris);budget principal;écoles (1er degré);281 Hébergement et restauration scolaires;investissement;I_equipement;295.227
+Communes (y.c. Paris);budget principal;écoles (1er degré);281 Hébergement et restauration scolaires;investissement;I_subventions_equipement_versees;2.803
+Communes (y.c. Paris);budget principal;écoles (1er degré);282 Sport scolaire;fonctionnement;F_achats_charges_externes;16.091
+Communes (y.c. Paris);budget principal;écoles (1er degré);282 Sport scolaire;fonctionnement;F_autres;0.14
+Communes (y.c. Paris);budget principal;écoles (1er degré);282 Sport scolaire;fonctionnement;F_interventions;1.546
+Communes (y.c. Paris);budget principal;écoles (1er degré);282 Sport scolaire;fonctionnement;F_personnel;37.641
+Communes (y.c. Paris);budget principal;écoles (1er degré);282 Sport scolaire;investissement;I_autres;0.0
+Communes (y.c. Paris);budget principal;écoles (1er degré);282 Sport scolaire;investissement;I_equipement;2.837
+Communes (y.c. Paris);budget principal;écoles (1er degré);282 Sport scolaire;investissement;I_subventions_equipement_versees;0.037
+Communes (y.c. Paris);budget principal;écoles (1er degré);283 Médecine scolaire;fonctionnement;F_achats_charges_externes;1.891
+Communes (y.c. Paris);budget principal;écoles (1er degré);283 Médecine scolaire;fonctionnement;F_autres;0.009
+Communes (y.c. Paris);budget principal;écoles (1er degré);283 Médecine scolaire;fonctionnement;F_interventions;0.089
+Communes (y.c. Paris);budget principal;écoles (1er degré);283 Médecine scolaire;fonctionnement;F_personnel;11.237
+Communes (y.c. Paris);budget principal;écoles (1er degré);283 Médecine scolaire;investissement;I_autres;0.001
+Communes (y.c. Paris);budget principal;écoles (1er degré);283 Médecine scolaire;investissement;I_equipement;0.171
+Communes (y.c. Paris);budget principal;écoles (1er degré);284 Classes de découverte;fonctionnement;F_achats_charges_externes;49.238
+Communes (y.c. Paris);budget principal;écoles (1er degré);284 Classes de découverte;fonctionnement;F_autres;0.391
+Communes (y.c. Paris);budget principal;écoles (1er degré);284 Classes de découverte;fonctionnement;F_interventions;6.96
+Communes (y.c. Paris);budget principal;écoles (1er degré);284 Classes de découverte;fonctionnement;F_personnel;33.137
+Communes (y.c. Paris);budget principal;écoles (1er degré);284 Classes de découverte;investissement;I_autres;0.0
+Communes (y.c. Paris);budget principal;écoles (1er degré);284 Classes de découverte;investissement;I_equipement;1.998
+Communes (y.c. Paris);budget principal;écoles (1er degré);288 Autres services annexes;fonctionnement;F_achats_charges_externes;92.77
+Communes (y.c. Paris);budget principal;écoles (1er degré);288 Autres services annexes;fonctionnement;F_autres;0.537
+Communes (y.c. Paris);budget principal;écoles (1er degré);288 Autres services annexes;fonctionnement;F_interventions;21.08
+Communes (y.c. Paris);budget principal;écoles (1er degré);288 Autres services annexes;fonctionnement;F_personnel;265.761
+Communes (y.c. Paris);budget principal;écoles (1er degré);288 Autres services annexes;investissement;I_autres;0.0
+Communes (y.c. Paris);budget principal;écoles (1er degré);288 Autres services annexes;investissement;I_equipement;9.739
+Communes (y.c. Paris);budget principal;écoles (1er degré);288 Autres services annexes;investissement;I_subventions_equipement_versees;0.253
+Communes (y.c. Paris);budget principal;écoles (1er degré);29 Sécurité;fonctionnement;F_achats_charges_externes;0.295
+Communes (y.c. Paris);budget principal;écoles (1er degré);29 Sécurité;fonctionnement;F_autres;0.028
+Communes (y.c. Paris);budget principal;écoles (1er degré);29 Sécurité;fonctionnement;F_interventions;0.198
+Communes (y.c. Paris);budget principal;écoles (1er degré);29 Sécurité;fonctionnement;F_personnel;1.281
+Communes (y.c. Paris);budget principal;écoles (1er degré);29 Sécurité;investissement;I_autres;0.0
+Communes (y.c. Paris);budget principal;écoles (1er degré);29 Sécurité;investissement;I_equipement;0.685
+Départements;budget annexe;collèges;281 Hébergement et restauration scolaires;fonctionnement;F_achats_charges_externes;1.077
+Départements;budget annexe;collèges;281 Hébergement et restauration scolaires;fonctionnement;F_autres;0.002
+Départements;budget annexe;collèges;281 Hébergement et restauration scolaires;fonctionnement;F_interventions;0.0
+Départements;budget annexe;collèges;281 Hébergement et restauration scolaires;fonctionnement;F_personnel;0.53
+Départements;budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_achats_charges_externes;0.545
+Départements;budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_autres;0.001
+Départements;budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_interventions;0.009
+Départements;budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_personnel;0.448
+Départements;budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_equipement;0.051
+Départements;budget principal;collèges;20 Services communs;fonctionnement;F_achats_charges_externes;4.174
+Départements;budget principal;collèges;20 Services communs;fonctionnement;F_autres;0.248
+Départements;budget principal;collèges;20 Services communs;fonctionnement;F_interventions;3.417
+Départements;budget principal;collèges;20 Services communs;fonctionnement;F_personnel;569.909
+Départements;budget principal;collèges;20 Services communs;investissement;I_autres;0.0
+Départements;budget principal;collèges;20 Services communs;investissement;I_equipement;4.801
+Départements;budget principal;collèges;20 Services communs;investissement;I_subventions_equipement_versees;3.24
+Départements;budget principal;collèges;221 Collèges;fonctionnement;F_achats_charges_externes;522.198
+Départements;budget principal;collèges;221 Collèges;fonctionnement;F_autres;83.094
+Départements;budget principal;collèges;221 Collèges;fonctionnement;F_interventions;1171.001
+Départements;budget principal;collèges;221 Collèges;fonctionnement;F_personnel;1340.896
+Départements;budget principal;collèges;221 Collèges;investissement;I_autres;5.377
+Départements;budget principal;collèges;221 Collèges;investissement;I_equipement;2329.159
+Départements;budget principal;collèges;221 Collèges;investissement;I_subventions_equipement_versees;69.125
+Départements;budget principal;collèges;222 Lycées publics;fonctionnement;F_achats_charges_externes;0.018
+Départements;budget principal;collèges;222 Lycées publics;fonctionnement;F_interventions;0.79
+Départements;budget principal;collèges;222 Lycées publics;investissement;I_autres;0.195
+Départements;budget principal;collèges;222 Lycées publics;investissement;I_subventions_equipement_versees;5.636
+Départements;budget principal;collèges;223 Lycées privés;fonctionnement;F_interventions;0.145
+Départements;budget principal;collèges;223 Lycées privés;investissement;I_subventions_equipement_versees;0.063
+Départements;budget principal;collèges;24 Cités scolaires;fonctionnement;F_achats_charges_externes;0.173
+Départements;budget principal;collèges;24 Cités scolaires;fonctionnement;F_autres;0.017
+Départements;budget principal;collèges;24 Cités scolaires;fonctionnement;F_interventions;7.029
+Départements;budget principal;collèges;24 Cités scolaires;investissement;I_autres;2.457
+Départements;budget principal;collèges;24 Cités scolaires;investissement;I_equipement;9.477
+Départements;budget principal;collèges;24 Cités scolaires;investissement;I_subventions_equipement_versees;3.362
+Départements;budget principal;collèges;28 Services périscolaires et annexes (non ventilé);fonctionnement;F_autres;0.0
+Départements;budget principal;collèges;28 Services périscolaires et annexes (non ventilé);fonctionnement;F_interventions;12.256
+Départements;budget principal;collèges;28 Services périscolaires et annexes (non ventilé);fonctionnement;F_personnel;0.001
+Départements;budget principal;collèges;281 Hébergement et restauration scolaires;fonctionnement;F_achats_charges_externes;19.937
+Départements;budget principal;collèges;281 Hébergement et restauration scolaires;fonctionnement;F_autres;8.003
+Départements;budget principal;collèges;281 Hébergement et restauration scolaires;fonctionnement;F_interventions;21.498
+Départements;budget principal;collèges;281 Hébergement et restauration scolaires;fonctionnement;F_personnel;3.27
+Départements;budget principal;collèges;281 Hébergement et restauration scolaires;investissement;I_autres;0.0
+Départements;budget principal;collèges;281 Hébergement et restauration scolaires;investissement;I_equipement;4.846
+Départements;budget principal;collèges;281 Hébergement et restauration scolaires;investissement;I_subventions_equipement_versees;2.173
+Départements;budget principal;collèges;282 Sport scolaire;fonctionnement;F_achats_charges_externes;0.878
+Départements;budget principal;collèges;282 Sport scolaire;fonctionnement;F_interventions;10.253
+Départements;budget principal;collèges;282 Sport scolaire;investissement;I_autres;0.0
+Départements;budget principal;collèges;282 Sport scolaire;investissement;I_equipement;6.619
+Départements;budget principal;collèges;282 Sport scolaire;investissement;I_subventions_equipement_versees;0.268
+Départements;budget principal;collèges;283 Médecine scolaire;fonctionnement;F_achats_charges_externes;0.071
+Départements;budget principal;collèges;284 Classes de découverte;fonctionnement;F_interventions;1.986
+Départements;budget principal;collèges;288 Autres services annexes;fonctionnement;F_achats_charges_externes;3.516
+Départements;budget principal;collèges;288 Autres services annexes;fonctionnement;F_autres;0.249
+Départements;budget principal;collèges;288 Autres services annexes;fonctionnement;F_interventions;23.297
+Départements;budget principal;collèges;288 Autres services annexes;investissement;I_equipement;0.781
+Départements;budget principal;collèges;288 Autres services annexes;investissement;I_subventions_equipement_versees;0.495
+Départements;budget principal;collèges;29 Sécurité;fonctionnement;F_interventions;0.034
+Départements;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_achats_charges_externes;8.829
+Départements;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_autres;0.128
+Départements;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_interventions;58.827
+Départements;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_personnel;2.829
+Départements;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_autres;4.596
+Départements;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_equipement;50.132
+Départements;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_subventions_equipement_versees;13.721
+Départements;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_achats_charges_externes;8.71
+Départements;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_autres;0.001
+Départements;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_interventions;14.273
+Départements;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_personnel;1.916
+Départements;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;investissement;I_equipement;0.805
+Départements;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;investissement;I_subventions_equipement_versees;0.304
+Départements;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_achats_charges_externes;0.318
+Départements;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_interventions;0.023
+Départements;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_personnel;0.137
+Départements;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;investissement;I_subventions_equipement_versees;0.02
+Départements;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);27 Formation sanitaire et sociale;fonctionnement;F_interventions;5.812
+Départements;budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_achats_charges_externes;210.013
+Départements;budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_autres;0.125
+Départements;budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_interventions;51.75
+Départements;budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_personnel;0.112
+Départements;budget principal;transport scolaire;81 Transports scolaires;investissement;I_equipement;0.044
+Départements;budget principal;écoles (1er degré);211 Écoles maternelles;fonctionnement;F_achats_charges_externes;0.018
+Départements;budget principal;écoles (1er degré);211 Écoles maternelles;fonctionnement;F_interventions;1.03
+Départements;budget principal;écoles (1er degré);211 Écoles maternelles;investissement;I_equipement;1.304
+Départements;budget principal;écoles (1er degré);211 Écoles maternelles;investissement;I_subventions_equipement_versees;1.14
+Départements;budget principal;écoles (1er degré);212 Écoles primaires;fonctionnement;F_achats_charges_externes;0.009
+Départements;budget principal;écoles (1er degré);212 Écoles primaires;fonctionnement;F_interventions;0.63
+Départements;budget principal;écoles (1er degré);212 Écoles primaires;investissement;I_autres;3.486
+Départements;budget principal;écoles (1er degré);212 Écoles primaires;investissement;I_equipement;14.628
+Départements;budget principal;écoles (1er degré);212 Écoles primaires;investissement;I_subventions_equipement_versees;12.847
+Départements;budget principal;écoles (1er degré);213 Classes regroupées;fonctionnement;F_achats_charges_externes;0.011
+Départements;budget principal;écoles (1er degré);213 Classes regroupées;fonctionnement;F_interventions;0.298
+Départements;budget principal;écoles (1er degré);213 Classes regroupées;fonctionnement;F_personnel;0.007
+Départements;budget principal;écoles (1er degré);213 Classes regroupées;investissement;I_equipement;38.233
+Départements;budget principal;écoles (1er degré);213 Classes regroupées;investissement;I_subventions_equipement_versees;18.169
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);221 Collèges;fonctionnement;F_achats_charges_externes;0.001
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);221 Collèges;fonctionnement;F_interventions;0.004
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);221 Collèges;fonctionnement;F_personnel;0.002
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);24 Cités scolaires;investissement;I_equipement;-0.041
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_achats_charges_externes;0.452
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_autres;0.11
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_interventions;0.0
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_autres;0.0
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_equipement;2.8
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_achats_charges_externes;4.043
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_autres;0.063
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_interventions;0.004
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_personnel;3.161
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;investissement;I_autres;0.0
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;investissement;I_equipement;0.56
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_achats_charges_externes;2.926
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_autres;0.496
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_interventions;0.079
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_personnel;8.876
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;investissement;I_autres;0.0
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;investissement;I_equipement;0.892
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;transport scolaire;81 Transports scolaires;fonctionnement;F_achats_charges_externes;23.075
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;transport scolaire;81 Transports scolaires;fonctionnement;F_autres;0.145
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;transport scolaire;81 Transports scolaires;fonctionnement;F_interventions;0.304
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;transport scolaire;81 Transports scolaires;fonctionnement;F_personnel;2.21
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;transport scolaire;81 Transports scolaires;investissement;I_autres;1.0
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;transport scolaire;81 Transports scolaires;investissement;I_equipement;1.016
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);20 Services communs;fonctionnement;F_achats_charges_externes;2.501
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);20 Services communs;fonctionnement;F_autres;0.176
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);20 Services communs;fonctionnement;F_interventions;1.019
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);20 Services communs;fonctionnement;F_personnel;1.687
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);20 Services communs;investissement;I_autres;0.0
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);20 Services communs;investissement;I_equipement;2.411
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);211 Écoles maternelles;fonctionnement;F_achats_charges_externes;0.447
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);211 Écoles maternelles;fonctionnement;F_autres;0.006
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);211 Écoles maternelles;fonctionnement;F_interventions;0.017
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);211 Écoles maternelles;fonctionnement;F_personnel;3.453
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);211 Écoles maternelles;investissement;I_autres;0.0
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);211 Écoles maternelles;investissement;I_equipement;0.083
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);212 Écoles primaires;fonctionnement;F_achats_charges_externes;2.213
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);212 Écoles primaires;fonctionnement;F_autres;0.066
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);212 Écoles primaires;fonctionnement;F_interventions;0.314
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);212 Écoles primaires;fonctionnement;F_personnel;1.753
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);212 Écoles primaires;investissement;I_autres;0.0
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);212 Écoles primaires;investissement;I_equipement;1.573
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);213 Classes regroupées;fonctionnement;F_achats_charges_externes;1.928
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);213 Classes regroupées;fonctionnement;F_autres;0.015
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);213 Classes regroupées;fonctionnement;F_interventions;0.242
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);213 Classes regroupées;fonctionnement;F_personnel;11.439
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);213 Classes regroupées;investissement;I_autres;0.0
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);213 Classes regroupées;investissement;I_equipement;1.65
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);213 Classes regroupées;investissement;I_subventions_equipement_versees;0.018
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);281 Hébergement et restauration scolaires;fonctionnement;F_achats_charges_externes;18.071
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);281 Hébergement et restauration scolaires;fonctionnement;F_autres;0.219
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);281 Hébergement et restauration scolaires;fonctionnement;F_interventions;0.057
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);281 Hébergement et restauration scolaires;fonctionnement;F_personnel;16.617
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);281 Hébergement et restauration scolaires;investissement;I_autres;0.0
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);281 Hébergement et restauration scolaires;investissement;I_equipement;3.768
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);281 Hébergement et restauration scolaires;investissement;I_subventions_equipement_versees;0.013
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);284 Classes de découverte;fonctionnement;F_achats_charges_externes;0.14
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);288 Autres services annexes;fonctionnement;F_achats_charges_externes;0.266
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);288 Autres services annexes;fonctionnement;F_autres;0.006
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);288 Autres services annexes;fonctionnement;F_interventions;0.001
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);288 Autres services annexes;fonctionnement;F_personnel;0.901
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);288 Autres services annexes;investissement;I_autres;0.0
+GFP (y.c. Métropole de Lyon, EPT);budget annexe;écoles (1er degré);288 Autres services annexes;investissement;I_equipement;0.045
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);221 Collèges;fonctionnement;F_achats_charges_externes;10.696
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);221 Collèges;fonctionnement;F_autres;6.433
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);221 Collèges;fonctionnement;F_interventions;23.794
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);221 Collèges;fonctionnement;F_personnel;31.115
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);221 Collèges;investissement;I_autres;0.0
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);221 Collèges;investissement;I_equipement;50.417
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);221 Collèges;investissement;I_subventions_equipement_versees;2.305
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);222 Lycées publics;fonctionnement;F_achats_charges_externes;0.134
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);222 Lycées publics;fonctionnement;F_autres;0.007
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);222 Lycées publics;fonctionnement;F_interventions;0.219
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);222 Lycées publics;fonctionnement;F_personnel;0.001
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);222 Lycées publics;investissement;I_autres;1.904
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);222 Lycées publics;investissement;I_equipement;0.182
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);222 Lycées publics;investissement;I_subventions_equipement_versees;0.101
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);223 Lycées privés;fonctionnement;F_achats_charges_externes;0.029
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);223 Lycées privés;fonctionnement;F_autres;0.009
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);223 Lycées privés;fonctionnement;F_interventions;0.0
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);223 Lycées privés;investissement;I_equipement;0.049
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);24 Cités scolaires;fonctionnement;F_achats_charges_externes;0.193
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);24 Cités scolaires;fonctionnement;F_autres;0.002
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);24 Cités scolaires;fonctionnement;F_interventions;0.353
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);24 Cités scolaires;fonctionnement;F_personnel;0.038
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);24 Cités scolaires;investissement;I_autres;0.0
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);24 Cités scolaires;investissement;I_equipement;0.279
+GFP (y.c. Métropole de Lyon, EPT);budget principal;collèges-lycées (cas particuliers : Paris, Métropole de Lyon);24 Cités scolaires;investissement;I_subventions_equipement_versees;0.001
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_achats_charges_externes;14.33
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_autres;2.22
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_interventions;68.357
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_personnel;13.243
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_autres;36.257
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_equipement;107.775
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_subventions_equipement_versees;65.635
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_achats_charges_externes;5.696
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_autres;0.317
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_interventions;12.74
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_personnel;15.902
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;investissement;I_autres;1.441
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;investissement;I_equipement;2.662
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;investissement;I_subventions_equipement_versees;1.297
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_achats_charges_externes;0.035
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_autres;0.7
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_interventions;1.67
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_personnel;0.23
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;investissement;I_autres;0.0
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;investissement;I_equipement;1.25
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;investissement;I_subventions_equipement_versees;0.075
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);27 Formation sanitaire et sociale;fonctionnement;F_achats_charges_externes;0.003
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);27 Formation sanitaire et sociale;fonctionnement;F_interventions;0.249
+GFP (y.c. Métropole de Lyon, EPT);budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);27 Formation sanitaire et sociale;investissement;I_subventions_equipement_versees;0.024
+GFP (y.c. Métropole de Lyon, EPT);budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_achats_charges_externes;157.767
+GFP (y.c. Métropole de Lyon, EPT);budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_autres;4.468
+GFP (y.c. Métropole de Lyon, EPT);budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_interventions;42.916
+GFP (y.c. Métropole de Lyon, EPT);budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_personnel;13.908
+GFP (y.c. Métropole de Lyon, EPT);budget principal;transport scolaire;81 Transports scolaires;investissement;I_autres;0.019
+GFP (y.c. Métropole de Lyon, EPT);budget principal;transport scolaire;81 Transports scolaires;investissement;I_equipement;1.539
+GFP (y.c. Métropole de Lyon, EPT);budget principal;transport scolaire;81 Transports scolaires;investissement;I_subventions_equipement_versees;0.392
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);20 Services communs;fonctionnement;F_achats_charges_externes;10.199
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);20 Services communs;fonctionnement;F_autres;0.53
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);20 Services communs;fonctionnement;F_interventions;31.603
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);20 Services communs;fonctionnement;F_personnel;101.14
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);20 Services communs;investissement;I_autres;0.405
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);20 Services communs;investissement;I_equipement;13.64
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);20 Services communs;investissement;I_subventions_equipement_versees;2.73
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);211 Écoles maternelles;fonctionnement;F_achats_charges_externes;11.471
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);211 Écoles maternelles;fonctionnement;F_autres;0.017
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);211 Écoles maternelles;fonctionnement;F_interventions;2.492
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);211 Écoles maternelles;fonctionnement;F_personnel;67.355
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);211 Écoles maternelles;investissement;I_autres;0.274
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);211 Écoles maternelles;investissement;I_equipement;10.87
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);211 Écoles maternelles;investissement;I_subventions_equipement_versees;0.183
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);212 Écoles primaires;fonctionnement;F_achats_charges_externes;28.299
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);212 Écoles primaires;fonctionnement;F_autres;0.227
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);212 Écoles primaires;fonctionnement;F_interventions;7.794
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);212 Écoles primaires;fonctionnement;F_personnel;41.873
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);212 Écoles primaires;investissement;I_autres;0.375
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);212 Écoles primaires;investissement;I_equipement;61.435
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);212 Écoles primaires;investissement;I_subventions_equipement_versees;1.79
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);213 Classes regroupées;fonctionnement;F_achats_charges_externes;27.297
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);213 Classes regroupées;fonctionnement;F_autres;3.027
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);213 Classes regroupées;fonctionnement;F_interventions;11.151
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);213 Classes regroupées;fonctionnement;F_personnel;60.571
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);213 Classes regroupées;investissement;I_autres;1.284
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);213 Classes regroupées;investissement;I_equipement;77.094
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);213 Classes regroupées;investissement;I_subventions_equipement_versees;3.818
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);281 Hébergement et restauration scolaires;fonctionnement;F_achats_charges_externes;119.428
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);281 Hébergement et restauration scolaires;fonctionnement;F_autres;0.708
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);281 Hébergement et restauration scolaires;fonctionnement;F_interventions;16.215
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);281 Hébergement et restauration scolaires;fonctionnement;F_personnel;152.859
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);281 Hébergement et restauration scolaires;investissement;I_autres;0.132
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);281 Hébergement et restauration scolaires;investissement;I_equipement;35.277
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);281 Hébergement et restauration scolaires;investissement;I_subventions_equipement_versees;1.139
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);282 Sport scolaire;fonctionnement;F_achats_charges_externes;5.581
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);282 Sport scolaire;fonctionnement;F_autres;0.007
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);282 Sport scolaire;fonctionnement;F_interventions;2.377
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);282 Sport scolaire;fonctionnement;F_personnel;2.88
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);282 Sport scolaire;investissement;I_autres;0.0
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);282 Sport scolaire;investissement;I_equipement;7.127
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);282 Sport scolaire;investissement;I_subventions_equipement_versees;0.004
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);283 Médecine scolaire;fonctionnement;F_achats_charges_externes;0.122
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);283 Médecine scolaire;fonctionnement;F_autres;0.008
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);283 Médecine scolaire;fonctionnement;F_interventions;0.005
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);283 Médecine scolaire;fonctionnement;F_personnel;0.002
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);283 Médecine scolaire;investissement;I_equipement;0.006
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);284 Classes de découverte;fonctionnement;F_achats_charges_externes;1.071
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);284 Classes de découverte;fonctionnement;F_autres;0.022
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);284 Classes de découverte;fonctionnement;F_interventions;3.565
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);284 Classes de découverte;fonctionnement;F_personnel;7.502
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);284 Classes de découverte;investissement;I_autres;0.0
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);284 Classes de découverte;investissement;I_equipement;0.068
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);288 Autres services annexes;fonctionnement;F_achats_charges_externes;10.57
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);288 Autres services annexes;fonctionnement;F_autres;0.132
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);288 Autres services annexes;fonctionnement;F_interventions;3.014
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);288 Autres services annexes;fonctionnement;F_personnel;40.494
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);288 Autres services annexes;investissement;I_autres;0.0
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);288 Autres services annexes;investissement;I_equipement;3.132
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);288 Autres services annexes;investissement;I_subventions_equipement_versees;0.046
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);29 Sécurité;fonctionnement;F_achats_charges_externes;0.035
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);29 Sécurité;fonctionnement;F_autres;-0.009
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);29 Sécurité;fonctionnement;F_interventions;0.009
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);29 Sécurité;fonctionnement;F_personnel;0.075
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);29 Sécurité;investissement;I_autres;0.0
+GFP (y.c. Métropole de Lyon, EPT);budget principal;écoles (1er degré);29 Sécurité;investissement;I_equipement;0.014
+Régions et CTU;budget principal;collèges (CTU : Corse, Guyane, Martinique);221 Collèges;fonctionnement;F_achats_charges_externes;3.063
+Régions et CTU;budget principal;collèges (CTU : Corse, Guyane, Martinique);221 Collèges;fonctionnement;F_autres;0.011
+Régions et CTU;budget principal;collèges (CTU : Corse, Guyane, Martinique);221 Collèges;fonctionnement;F_interventions;23.951
+Régions et CTU;budget principal;collèges (CTU : Corse, Guyane, Martinique);221 Collèges;fonctionnement;F_personnel;21.083
+Régions et CTU;budget principal;collèges (CTU : Corse, Guyane, Martinique);221 Collèges;investissement;I_autres;0.199
+Régions et CTU;budget principal;collèges (CTU : Corse, Guyane, Martinique);221 Collèges;investissement;I_equipement;41.313
+Régions et CTU;budget principal;collèges (CTU : Corse, Guyane, Martinique);221 Collèges;investissement;I_subventions_equipement_versees;2.609
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_achats_charges_externes;0.742
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_autres;0.002
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_interventions;106.952
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_personnel;0.767
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_autres;22.366
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_equipement;114.509
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_subventions_equipement_versees;102.958
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_achats_charges_externes;1084.061
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_autres;23.539
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_interventions;1218.79
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_personnel;-0.236
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;investissement;I_autres;0.0
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;investissement;I_equipement;6.399
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;investissement;I_subventions_equipement_versees;7.029
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_achats_charges_externes;4.271
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_autres;0.057
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_interventions;82.91
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_personnel;0.735
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;investissement;I_autres;0.0
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;investissement;I_equipement;71.649
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;investissement;I_subventions_equipement_versees;91.651
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);27 Formation sanitaire et sociale;fonctionnement;F_achats_charges_externes;2.259
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);27 Formation sanitaire et sociale;fonctionnement;F_autres;0.106
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);27 Formation sanitaire et sociale;fonctionnement;F_interventions;1428.535
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);27 Formation sanitaire et sociale;investissement;I_autres;0.2
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);27 Formation sanitaire et sociale;investissement;I_equipement;46.407
+Régions et CTU;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);27 Formation sanitaire et sociale;investissement;I_subventions_equipement_versees;40.013
+Régions et CTU;budget principal;lycées;20 Services communs;fonctionnement;F_achats_charges_externes;11.742
+Régions et CTU;budget principal;lycées;20 Services communs;fonctionnement;F_autres;0.476
+Régions et CTU;budget principal;lycées;20 Services communs;fonctionnement;F_interventions;27.519
+Régions et CTU;budget principal;lycées;20 Services communs;fonctionnement;F_personnel;6.044
+Régions et CTU;budget principal;lycées;20 Services communs;investissement;I_autres;0.0
+Régions et CTU;budget principal;lycées;20 Services communs;investissement;I_equipement;1.271
+Régions et CTU;budget principal;lycées;20 Services communs;investissement;I_subventions_equipement_versees;1.739
+Régions et CTU;budget principal;lycées;222 Lycées publics;fonctionnement;F_achats_charges_externes;336.538
+Régions et CTU;budget principal;lycées;222 Lycées publics;fonctionnement;F_autres;13.518
+Régions et CTU;budget principal;lycées;222 Lycées publics;fonctionnement;F_interventions;921.174
+Régions et CTU;budget principal;lycées;222 Lycées publics;fonctionnement;F_personnel;2560.943
+Régions et CTU;budget principal;lycées;222 Lycées publics;investissement;I_autres;24.438
+Régions et CTU;budget principal;lycées;222 Lycées publics;investissement;I_equipement;2217.594
+Régions et CTU;budget principal;lycées;222 Lycées publics;investissement;I_subventions_equipement_versees;128.772
+Régions et CTU;budget principal;lycées;223 Lycées privés;fonctionnement;F_achats_charges_externes;4.085
+Régions et CTU;budget principal;lycées;223 Lycées privés;fonctionnement;F_autres;0.002
+Régions et CTU;budget principal;lycées;223 Lycées privés;fonctionnement;F_interventions;454.149
+Régions et CTU;budget principal;lycées;223 Lycées privés;investissement;I_autres;0.02
+Régions et CTU;budget principal;lycées;223 Lycées privés;investissement;I_equipement;25.373
+Régions et CTU;budget principal;lycées;223 Lycées privés;investissement;I_subventions_equipement_versees;94.951
+Régions et CTU;budget principal;lycées;24 Cités scolaires;fonctionnement;F_achats_charges_externes;18.113
+Régions et CTU;budget principal;lycées;24 Cités scolaires;fonctionnement;F_autres;0.125
+Régions et CTU;budget principal;lycées;24 Cités scolaires;fonctionnement;F_interventions;22.124
+Régions et CTU;budget principal;lycées;24 Cités scolaires;fonctionnement;F_personnel;8.549
+Régions et CTU;budget principal;lycées;24 Cités scolaires;investissement;I_autres;11.362
+Régions et CTU;budget principal;lycées;24 Cités scolaires;investissement;I_equipement;131.803
+Régions et CTU;budget principal;lycées;24 Cités scolaires;investissement;I_subventions_equipement_versees;3.54
+Régions et CTU;budget principal;lycées;281 Hébergement et restauration scolaires;fonctionnement;F_achats_charges_externes;9.123
+Régions et CTU;budget principal;lycées;281 Hébergement et restauration scolaires;fonctionnement;F_autres;16.803
+Régions et CTU;budget principal;lycées;281 Hébergement et restauration scolaires;fonctionnement;F_interventions;33.231
+Régions et CTU;budget principal;lycées;281 Hébergement et restauration scolaires;fonctionnement;F_personnel;1.41
+Régions et CTU;budget principal;lycées;281 Hébergement et restauration scolaires;investissement;I_equipement;15.627
+Régions et CTU;budget principal;lycées;281 Hébergement et restauration scolaires;investissement;I_subventions_equipement_versees;1.227
+Régions et CTU;budget principal;lycées;282 Sport scolaire;fonctionnement;F_achats_charges_externes;0.527
+Régions et CTU;budget principal;lycées;282 Sport scolaire;fonctionnement;F_autres;0.002
+Régions et CTU;budget principal;lycées;282 Sport scolaire;fonctionnement;F_interventions;2.093
+Régions et CTU;budget principal;lycées;282 Sport scolaire;investissement;I_autres;0.0
+Régions et CTU;budget principal;lycées;282 Sport scolaire;investissement;I_equipement;5.747
+Régions et CTU;budget principal;lycées;282 Sport scolaire;investissement;I_subventions_equipement_versees;0.03
+Régions et CTU;budget principal;lycées;284 Classes de découverte;fonctionnement;F_interventions;0.021
+Régions et CTU;budget principal;lycées;288 Autres services annexes;fonctionnement;F_achats_charges_externes;19.21
+Régions et CTU;budget principal;lycées;288 Autres services annexes;fonctionnement;F_autres;2.21
+Régions et CTU;budget principal;lycées;288 Autres services annexes;fonctionnement;F_interventions;60.956
+Régions et CTU;budget principal;lycées;288 Autres services annexes;fonctionnement;F_personnel;0.512
+Régions et CTU;budget principal;lycées;288 Autres services annexes;investissement;I_autres;0.002
+Régions et CTU;budget principal;lycées;288 Autres services annexes;investissement;I_equipement;101.264
+Régions et CTU;budget principal;lycées;288 Autres services annexes;investissement;I_subventions_equipement_versees;7.064
+Régions et CTU;budget principal;lycées;29 Sécurité;fonctionnement;F_achats_charges_externes;4.858
+Régions et CTU;budget principal;lycées;29 Sécurité;investissement;I_autres;0.327
+Régions et CTU;budget principal;lycées;29 Sécurité;investissement;I_equipement;29.283
+Régions et CTU;budget principal;lycées;29 Sécurité;investissement;I_subventions_equipement_versees;0.295
+Régions et CTU;budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_achats_charges_externes;1156.24
+Régions et CTU;budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_autres;0.621
+Régions et CTU;budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_interventions;461.267
+Régions et CTU;budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_personnel;1.047
+Régions et CTU;budget principal;transport scolaire;81 Transports scolaires;investissement;I_equipement;1.364
+Régions et CTU;budget principal;transport scolaire;81 Transports scolaires;investissement;I_subventions_equipement_versees;0.177
+Régions et CTU;budget principal;écoles (1er degré);211 Écoles maternelles;fonctionnement;F_interventions;0.004
+Régions et CTU;budget principal;écoles (1er degré);211 Écoles maternelles;investissement;I_subventions_equipement_versees;0.67
+Régions et CTU;budget principal;écoles (1er degré);212 Écoles primaires;fonctionnement;F_interventions;0.689
+Régions et CTU;budget principal;écoles (1er degré);212 Écoles primaires;investissement;I_equipement;0.222
+Régions et CTU;budget principal;écoles (1er degré);212 Écoles primaires;investissement;I_subventions_equipement_versees;0.016
+Régions et CTU;budget principal;écoles (1er degré);213 Classes regroupées;fonctionnement;F_interventions;0.008
+Syndicats;budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_achats_charges_externes;0.005
+Syndicats;budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_autres;0.002
+Syndicats;budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_personnel;0.051
+Syndicats;budget annexe;non classé (EPL, syndicats);20 Services communs;fonctionnement;F_achats_charges_externes;0.003
+Syndicats;budget annexe;non classé (EPL, syndicats);20 Services communs;fonctionnement;F_autres;0.001
+Syndicats;budget annexe;non classé (EPL, syndicats);211 Écoles maternelles;fonctionnement;F_achats_charges_externes;0.001
+Syndicats;budget annexe;non classé (EPL, syndicats);212 Écoles primaires;fonctionnement;F_achats_charges_externes;-0.041
+Syndicats;budget annexe;non classé (EPL, syndicats);212 Écoles primaires;fonctionnement;F_personnel;0.0
+Syndicats;budget annexe;non classé (EPL, syndicats);212 Écoles primaires;investissement;I_autres;0.0
+Syndicats;budget annexe;non classé (EPL, syndicats);213 Classes regroupées;fonctionnement;F_achats_charges_externes;0.002
+Syndicats;budget annexe;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;fonctionnement;F_achats_charges_externes;0.017
+Syndicats;budget annexe;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;fonctionnement;F_personnel;0.0
+Syndicats;budget annexe;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;investissement;I_equipement;0.001
+Syndicats;budget annexe;non classé (EPL, syndicats);288 Autres services annexes;fonctionnement;F_achats_charges_externes;0.0
+Syndicats;budget annexe;transport scolaire;81 Transports scolaires;fonctionnement;F_achats_charges_externes;12.617
+Syndicats;budget annexe;transport scolaire;81 Transports scolaires;fonctionnement;F_autres;0.01
+Syndicats;budget annexe;transport scolaire;81 Transports scolaires;fonctionnement;F_interventions;0.384
+Syndicats;budget annexe;transport scolaire;81 Transports scolaires;fonctionnement;F_personnel;0.273
+Syndicats;budget annexe;transport scolaire;81 Transports scolaires;investissement;I_equipement;0.502
+Syndicats;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_achats_charges_externes;1.848
+Syndicats;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_autres;0.143
+Syndicats;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_interventions;3.431
+Syndicats;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_personnel;2.522
+Syndicats;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_autres;0.0
+Syndicats;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_equipement;0.946
+Syndicats;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_achats_charges_externes;4.811
+Syndicats;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_autres;0.0
+Syndicats;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_interventions;0.09
+Syndicats;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_personnel;0.37
+Syndicats;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;investissement;I_equipement;0.018
+Syndicats;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_achats_charges_externes;0.85
+Syndicats;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_autres;0.101
+Syndicats;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_interventions;0.014
+Syndicats;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_personnel;2.043
+Syndicats;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;investissement;I_autres;0.0
+Syndicats;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;investissement;I_equipement;1.33
+Syndicats;budget principal;non classé (EPL, syndicats);20 Services communs;fonctionnement;F_achats_charges_externes;0.602
+Syndicats;budget principal;non classé (EPL, syndicats);20 Services communs;fonctionnement;F_autres;0.099
+Syndicats;budget principal;non classé (EPL, syndicats);20 Services communs;fonctionnement;F_interventions;0.25
+Syndicats;budget principal;non classé (EPL, syndicats);20 Services communs;fonctionnement;F_personnel;8.977
+Syndicats;budget principal;non classé (EPL, syndicats);20 Services communs;investissement;I_autres;1.156
+Syndicats;budget principal;non classé (EPL, syndicats);20 Services communs;investissement;I_equipement;0.111
+Syndicats;budget principal;non classé (EPL, syndicats);211 Écoles maternelles;fonctionnement;F_achats_charges_externes;0.713
+Syndicats;budget principal;non classé (EPL, syndicats);211 Écoles maternelles;fonctionnement;F_autres;0.001
+Syndicats;budget principal;non classé (EPL, syndicats);211 Écoles maternelles;fonctionnement;F_interventions;0.079
+Syndicats;budget principal;non classé (EPL, syndicats);211 Écoles maternelles;fonctionnement;F_personnel;2.253
+Syndicats;budget principal;non classé (EPL, syndicats);211 Écoles maternelles;investissement;I_autres;1.032
+Syndicats;budget principal;non classé (EPL, syndicats);211 Écoles maternelles;investissement;I_equipement;0.273
+Syndicats;budget principal;non classé (EPL, syndicats);212 Écoles primaires;fonctionnement;F_achats_charges_externes;1.644
+Syndicats;budget principal;non classé (EPL, syndicats);212 Écoles primaires;fonctionnement;F_autres;0.017
+Syndicats;budget principal;non classé (EPL, syndicats);212 Écoles primaires;fonctionnement;F_interventions;0.803
+Syndicats;budget principal;non classé (EPL, syndicats);212 Écoles primaires;fonctionnement;F_personnel;1.805
+Syndicats;budget principal;non classé (EPL, syndicats);212 Écoles primaires;investissement;I_autres;0.011
+Syndicats;budget principal;non classé (EPL, syndicats);212 Écoles primaires;investissement;I_equipement;0.309
+Syndicats;budget principal;non classé (EPL, syndicats);213 Classes regroupées;fonctionnement;F_achats_charges_externes;2.483
+Syndicats;budget principal;non classé (EPL, syndicats);213 Classes regroupées;fonctionnement;F_autres;0.298
+Syndicats;budget principal;non classé (EPL, syndicats);213 Classes regroupées;fonctionnement;F_interventions;0.184
+Syndicats;budget principal;non classé (EPL, syndicats);213 Classes regroupées;fonctionnement;F_personnel;2.171
+Syndicats;budget principal;non classé (EPL, syndicats);213 Classes regroupées;investissement;I_autres;0.521
+Syndicats;budget principal;non classé (EPL, syndicats);213 Classes regroupées;investissement;I_equipement;0.265
+Syndicats;budget principal;non classé (EPL, syndicats);221 Collèges;fonctionnement;F_achats_charges_externes;0.116
+Syndicats;budget principal;non classé (EPL, syndicats);221 Collèges;fonctionnement;F_autres;0.039
+Syndicats;budget principal;non classé (EPL, syndicats);221 Collèges;fonctionnement;F_interventions;0.138
+Syndicats;budget principal;non classé (EPL, syndicats);221 Collèges;fonctionnement;F_personnel;0.063
+Syndicats;budget principal;non classé (EPL, syndicats);221 Collèges;investissement;I_autres;0.0
+Syndicats;budget principal;non classé (EPL, syndicats);221 Collèges;investissement;I_equipement;0.095
+Syndicats;budget principal;non classé (EPL, syndicats);222 Lycées publics;fonctionnement;F_achats_charges_externes;0.046
+Syndicats;budget principal;non classé (EPL, syndicats);222 Lycées publics;fonctionnement;F_interventions;0.007
+Syndicats;budget principal;non classé (EPL, syndicats);222 Lycées publics;fonctionnement;F_personnel;0.019
+Syndicats;budget principal;non classé (EPL, syndicats);222 Lycées publics;investissement;I_equipement;0.012
+Syndicats;budget principal;non classé (EPL, syndicats);24 Cités scolaires;fonctionnement;F_interventions;0.174
+Syndicats;budget principal;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;fonctionnement;F_achats_charges_externes;19.34
+Syndicats;budget principal;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;fonctionnement;F_autres;0.133
+Syndicats;budget principal;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;fonctionnement;F_interventions;0.13
+Syndicats;budget principal;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;fonctionnement;F_personnel;9.053
+Syndicats;budget principal;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;investissement;I_autres;0.027
+Syndicats;budget principal;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;investissement;I_equipement;1.501
+Syndicats;budget principal;non classé (EPL, syndicats);282 Sport scolaire;fonctionnement;F_achats_charges_externes;1.639
+Syndicats;budget principal;non classé (EPL, syndicats);282 Sport scolaire;fonctionnement;F_autres;0.007
+Syndicats;budget principal;non classé (EPL, syndicats);282 Sport scolaire;fonctionnement;F_interventions;0.031
+Syndicats;budget principal;non classé (EPL, syndicats);282 Sport scolaire;fonctionnement;F_personnel;0.138
+Syndicats;budget principal;non classé (EPL, syndicats);282 Sport scolaire;investissement;I_equipement;0.114
+Syndicats;budget principal;non classé (EPL, syndicats);288 Autres services annexes;fonctionnement;F_achats_charges_externes;0.222
+Syndicats;budget principal;non classé (EPL, syndicats);288 Autres services annexes;fonctionnement;F_autres;0.001
+Syndicats;budget principal;non classé (EPL, syndicats);288 Autres services annexes;fonctionnement;F_interventions;0.029
+Syndicats;budget principal;non classé (EPL, syndicats);288 Autres services annexes;fonctionnement;F_personnel;1.166
+Syndicats;budget principal;non classé (EPL, syndicats);288 Autres services annexes;investissement;I_autres;0.0
+Syndicats;budget principal;non classé (EPL, syndicats);288 Autres services annexes;investissement;I_equipement;0.552
+Syndicats;budget principal;non classé (EPL, syndicats);29 Sécurité;fonctionnement;F_achats_charges_externes;0.002
+Syndicats;budget principal;non classé (EPL, syndicats);29 Sécurité;fonctionnement;F_interventions;1.322
+Syndicats;budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_achats_charges_externes;20.258
+Syndicats;budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_autres;0.173
+Syndicats;budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_interventions;155.008
+Syndicats;budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_personnel;2.764
+Syndicats;budget principal;transport scolaire;81 Transports scolaires;investissement;I_autres;0.0
+Syndicats;budget principal;transport scolaire;81 Transports scolaires;investissement;I_equipement;0.4
+Syndicats;budget principal;transport scolaire;81 Transports scolaires;investissement;I_subventions_equipement_versees;0.022
+Établissements publics locaux;budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_achats_charges_externes;0.0
+Établissements publics locaux;budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_equipement;0.0
+Établissements publics locaux;budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_achats_charges_externes;0.043
+Établissements publics locaux;budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_autres;0.0
+Établissements publics locaux;budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_personnel;0.315
+Établissements publics locaux;budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;investissement;I_equipement;0.0
+Établissements publics locaux;budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_achats_charges_externes;0.635
+Établissements publics locaux;budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_autres;0.049
+Établissements publics locaux;budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_interventions;59.611
+Établissements publics locaux;budget annexe;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_personnel;2.056
+Établissements publics locaux;budget annexe;non classé (EPL, syndicats);20 Services communs;fonctionnement;F_achats_charges_externes;2.298
+Établissements publics locaux;budget annexe;non classé (EPL, syndicats);20 Services communs;fonctionnement;F_autres;0.021
+Établissements publics locaux;budget annexe;non classé (EPL, syndicats);20 Services communs;fonctionnement;F_interventions;15.622
+Établissements publics locaux;budget annexe;non classé (EPL, syndicats);20 Services communs;fonctionnement;F_personnel;2.89
+Établissements publics locaux;budget annexe;non classé (EPL, syndicats);212 Écoles primaires;fonctionnement;F_achats_charges_externes;0.032
+Établissements publics locaux;budget annexe;non classé (EPL, syndicats);212 Écoles primaires;fonctionnement;F_personnel;0.018
+Établissements publics locaux;budget annexe;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;fonctionnement;F_achats_charges_externes;0.32
+Établissements publics locaux;budget annexe;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;fonctionnement;F_autres;0.0
+Établissements publics locaux;budget annexe;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;fonctionnement;F_personnel;0.379
+Établissements publics locaux;budget annexe;non classé (EPL, syndicats);288 Autres services annexes;fonctionnement;F_achats_charges_externes;0.04
+Établissements publics locaux;budget annexe;non classé (EPL, syndicats);288 Autres services annexes;fonctionnement;F_autres;0.0
+Établissements publics locaux;budget annexe;non classé (EPL, syndicats);288 Autres services annexes;fonctionnement;F_interventions;0.012
+Établissements publics locaux;budget annexe;non classé (EPL, syndicats);288 Autres services annexes;fonctionnement;F_personnel;0.127
+Établissements publics locaux;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_achats_charges_externes;17.048
+Établissements publics locaux;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_autres;0.736
+Établissements publics locaux;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_interventions;3.337
+Établissements publics locaux;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_personnel;79.456
+Établissements publics locaux;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_autres;0.001
+Établissements publics locaux;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_equipement;-15.518
+Établissements publics locaux;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;investissement;I_subventions_equipement_versees;0.349
+Établissements publics locaux;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_achats_charges_externes;98.847
+Établissements publics locaux;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_autres;1.318
+Établissements publics locaux;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_interventions;23.429
+Établissements publics locaux;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_personnel;80.097
+Établissements publics locaux;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;investissement;I_autres;0.0
+Établissements publics locaux;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;investissement;I_equipement;0.432
+Établissements publics locaux;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_achats_charges_externes;0.017
+Établissements publics locaux;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_autres;4.971
+Établissements publics locaux;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;fonctionnement;F_interventions;0.556
+Établissements publics locaux;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);26 Apprentissage;investissement;I_equipement;0.44
+Établissements publics locaux;budget principal;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);27 Formation sanitaire et sociale;fonctionnement;F_achats_charges_externes;0.002
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);20 Services communs;fonctionnement;F_achats_charges_externes;34.038
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);20 Services communs;fonctionnement;F_autres;2.46
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);20 Services communs;fonctionnement;F_interventions;1.334
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);20 Services communs;fonctionnement;F_personnel;140.29
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);20 Services communs;investissement;I_autres;0.0
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);20 Services communs;investissement;I_equipement;22.456
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);211 Écoles maternelles;fonctionnement;F_achats_charges_externes;0.002
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);211 Écoles maternelles;fonctionnement;F_personnel;0.039
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);211 Écoles maternelles;investissement;I_equipement;0.0
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);212 Écoles primaires;fonctionnement;F_achats_charges_externes;0.078
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);212 Écoles primaires;fonctionnement;F_interventions;0.016
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);212 Écoles primaires;fonctionnement;F_personnel;0.005
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);213 Classes regroupées;fonctionnement;F_achats_charges_externes;0.059
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);213 Classes regroupées;fonctionnement;F_interventions;0.003
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);213 Classes regroupées;fonctionnement;F_personnel;0.005
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);221 Collèges;fonctionnement;F_achats_charges_externes;0.017
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);221 Collèges;fonctionnement;F_interventions;0.353
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);221 Collèges;fonctionnement;F_personnel;0.333
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);221 Collèges;investissement;I_autres;0.0
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);221 Collèges;investissement;I_equipement;0.005
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);222 Lycées publics;fonctionnement;F_achats_charges_externes;0.017
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);24 Cités scolaires;fonctionnement;F_achats_charges_externes;0.0
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);24 Cités scolaires;fonctionnement;F_interventions;0.009
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);24 Cités scolaires;fonctionnement;F_personnel;-0.004
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;fonctionnement;F_achats_charges_externes;7.236
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;fonctionnement;F_autres;0.026
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;fonctionnement;F_interventions;0.066
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;fonctionnement;F_personnel;8.711
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;investissement;I_autres;0.0
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;investissement;I_equipement;0.349
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;investissement;I_subventions_equipement_versees;0.185
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);282 Sport scolaire;fonctionnement;F_achats_charges_externes;0.006
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);283 Médecine scolaire;fonctionnement;F_achats_charges_externes;0.027
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);284 Classes de découverte;fonctionnement;F_achats_charges_externes;0.037
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);284 Classes de découverte;fonctionnement;F_autres;0.02
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);284 Classes de découverte;fonctionnement;F_interventions;0.007
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);288 Autres services annexes;fonctionnement;F_achats_charges_externes;1.112
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);288 Autres services annexes;fonctionnement;F_autres;0.001
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);288 Autres services annexes;fonctionnement;F_interventions;0.173
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);288 Autres services annexes;fonctionnement;F_personnel;6.733
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);288 Autres services annexes;investissement;I_equipement;0.018
+Établissements publics locaux;budget principal;non classé (EPL, syndicats);29 Sécurité;fonctionnement;F_achats_charges_externes;0.139
+Établissements publics locaux;budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_achats_charges_externes;0.0
+Établissements publics locaux;budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_interventions;0.015
+Établissements publics locaux;budget principal;transport scolaire;81 Transports scolaires;fonctionnement;F_personnel;0.068
+Établissements publics locaux;budget principal rattaché;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);23 Enseignement supérieur;fonctionnement;F_achats_charges_externes;0.006
+Établissements publics locaux;budget principal rattaché;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);25 Formation professionnelle;fonctionnement;F_achats_charges_externes;0.001
+Établissements publics locaux;budget principal rattaché;hors scolaire (supérieur, formation pro., apprentissage, sanitaire et social);27 Formation sanitaire et sociale;fonctionnement;F_achats_charges_externes;0.0
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);20 Services communs;fonctionnement;F_achats_charges_externes;0.352
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);20 Services communs;fonctionnement;F_autres;0.001
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);20 Services communs;fonctionnement;F_interventions;0.837
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);20 Services communs;investissement;I_equipement;0.077
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);211 Écoles maternelles;fonctionnement;F_achats_charges_externes;0.214
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);211 Écoles maternelles;fonctionnement;F_interventions;0.004
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);212 Écoles primaires;fonctionnement;F_achats_charges_externes;0.253
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);212 Écoles primaires;fonctionnement;F_interventions;0.007
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);213 Classes regroupées;fonctionnement;F_achats_charges_externes;0.882
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);213 Classes regroupées;fonctionnement;F_interventions;0.449
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);221 Collèges;fonctionnement;F_interventions;0.0
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);24 Cités scolaires;fonctionnement;F_achats_charges_externes;0.0
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);24 Cités scolaires;fonctionnement;F_interventions;0.006
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;fonctionnement;F_achats_charges_externes;1.097
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;fonctionnement;F_autres;0.0
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;fonctionnement;F_interventions;0.019
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;fonctionnement;F_personnel;0.008
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);281 Hébergement et restauration scolaires;investissement;I_equipement;0.013
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);282 Sport scolaire;fonctionnement;F_achats_charges_externes;0.004
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);283 Médecine scolaire;fonctionnement;F_achats_charges_externes;0.0
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);284 Classes de découverte;fonctionnement;F_achats_charges_externes;0.407
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);284 Classes de découverte;fonctionnement;F_interventions;0.026
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);288 Autres services annexes;fonctionnement;F_achats_charges_externes;0.055
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);288 Autres services annexes;fonctionnement;F_autres;0.0
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);288 Autres services annexes;fonctionnement;F_interventions;0.078
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);288 Autres services annexes;fonctionnement;F_personnel;0.31
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);288 Autres services annexes;investissement;I_equipement;0.004
+Établissements publics locaux;budget principal rattaché;non classé (EPL, syndicats);29 Sécurité;fonctionnement;F_achats_charges_externes;0.0
+Établissements publics locaux;budget principal rattaché;transport scolaire;81 Transports scolaires;fonctionnement;F_achats_charges_externes;0.13
+Établissements publics locaux;budget principal rattaché;transport scolaire;81 Transports scolaires;fonctionnement;F_interventions;0.0

@@ -1,0 +1,262 @@
+exer                          2022     2023     2024     2025
+type_de_budget   fonction                                    
+Budget annexe    2           91.12    90.49    94.18    95.87
+                 21          91.12    90.49    94.18    95.87
+                 211         33.96    32.52    33.80    30.17
+                 212         57.16    57.98    60.39    54.18
+                 213           NaN      NaN      NaN    11.51
+Budget principal 2         2552.75  2652.32  2809.61  2924.64
+                 20         191.34   209.88   226.93   239.99
+                 201        191.34   209.88   226.93   239.99
+                 21        1452.51  1532.34  1578.77  1628.28
+                 211        524.10   548.90   580.88   597.89
+                 212        652.27   686.18   708.63   735.16
+                 213        276.14   297.26   289.26   295.23
+                 22         265.94   282.52   288.24   280.91
+                 221        248.09   262.63   266.57   260.22
+                 222         17.85    19.89    21.67    20.70
+                 23         163.51    94.62   123.13   114.39
+                 24          20.62    22.44    31.97    62.87
+                 25          20.20    23.40    29.04    32.53
+                 256         20.20    23.40      NaN      NaN
+                 26          63.07    46.54    48.63    51.53
+                 28         375.56   440.59   482.90   514.14
+                 281        299.57   363.25   403.88   432.15
+                 284         23.29    26.02    25.95    26.26
+                 288         52.70    51.32    53.08    55.72
+
+===== 93
+exer                                                                                                          2022    2023    2024    2025
+fonction nom_fonction                                             agregat                                                                 
+2        Enseignement                                             Achats et charges externes                 27.79   39.97     NaN     NaN
+                                                                  Autres dépenses d'investissement             NaN    0.96     NaN     NaN
+                                                                  Autres dépenses de fonctionnement           0.37    0.61     NaN     NaN
+                                                                  Charges financières                         6.17    6.63     NaN     NaN
+                                                                  Dépenses d'intervention                    27.97   24.40     NaN     NaN
+                                                                  Dépenses d'investissement hors remb        62.32   79.14     NaN     NaN
+                                                                  Dépenses d'équipement                      61.22   76.96     NaN     NaN
+                                                                  Dépenses de fonctionnement                131.43  144.19     NaN     NaN
+                                                                  Dépenses totales hors remb                193.74  223.33     NaN     NaN
+                                                                  Frais de personnel                         69.12   72.59     NaN     NaN
+                                                                  Subventions aux personnes de droit privé    0.40    0.50     NaN     NaN
+                                                                  Subventions d'équipement versées            1.10    1.21     NaN     NaN
+         Enseignement, formation professionnelle et apprentissage Achats et charges externes                   NaN     NaN   42.92   38.03
+                                                                  Autres dépenses d'investissement             NaN     NaN    0.51     NaN
+                                                                  Autres dépenses de fonctionnement            NaN     NaN    0.14    0.62
+                                                                  Charges financières                          NaN     NaN    6.34    5.65
+                                                                  Dépenses d'intervention                      NaN     NaN   25.62   24.03
+                                                                  Dépenses d'investissement hors remb          NaN     NaN   86.84   98.29
+                                                                  Dépenses d'équipement                        NaN     NaN   86.13   97.38
+                                                                  Dépenses de fonctionnement                   NaN     NaN  148.91  142.92
+                                                                  Dépenses totales hors remb                   NaN     NaN  235.75  241.21
+                                                                  Frais de personnel                           NaN     NaN   73.89   74.58
+                                                                  Subventions aux personnes de droit privé     NaN     NaN    0.61    0.31
+                                                                  Subventions d'équipement versées             NaN     NaN    0.20    0.91
+20       Services communs                                         Achats et charges externes                  0.06    0.09     NaN     NaN
+                                                                  Dépenses de fonctionnement                  1.14    1.14     NaN     NaN
+                                                                  Dépenses totales hors remb                  1.14    1.14     NaN     NaN
+                                                                  Frais de personnel                          1.08    1.04     NaN     NaN
+22       Enseignement du second degré                             Achats et charges externes                 27.64   39.87   36.53   31.25
+                                                                  Autres dépenses d'investissement             NaN    0.96    0.51     NaN
+                                                                  Autres dépenses de fonctionnement           0.37    0.61    0.14    0.62
+                                                                  Charges financières                         6.17    6.63    6.34    5.65
+                                                                  Dépenses d'intervention                    27.97   24.40   20.91   19.79
+                                                                  Dépenses d'investissement hors remb        62.32   79.14   86.76   97.73
+                                                                  Dépenses d'équipement                      61.22   76.96   86.13   97.38
+                                                                  Dépenses de fonctionnement                130.19  143.05  137.81  131.90
+                                                                  Dépenses totales hors remb                192.51  222.19  224.56  229.63
+                                                                  Frais de personnel                         68.04   71.54   73.89   74.58
+                                                                  Subventions aux personnes de droit privé    0.40    0.50    0.61    0.31
+                                                                  Subventions d'équipement versées            1.10    1.21    0.12    0.35
+221      Collèges                                                 Achats et charges externes                 27.64   39.87   36.53   31.25
+                                                                  Autres dépenses d'investissement             NaN    0.96    0.51     NaN
+                                                                  Autres dépenses de fonctionnement           0.37    0.61    0.14    0.62
+                                                                  Charges financières                         6.17    6.63    6.34    5.65
+                                                                  Dépenses d'intervention                    27.97   24.40   20.91   19.79
+                                                                  Dépenses d'investissement hors remb        62.32   79.14   86.76   97.73
+                                                                  Dépenses d'équipement                      61.22   76.96   86.13   97.38
+                                                                  Dépenses de fonctionnement                130.19  143.05  137.81  131.90
+                                                                  Dépenses totales hors remb                192.51  222.19  224.56  229.63
+                                                                  Frais de personnel                         68.04   71.54   73.89   74.58
+                                                                  Subventions aux personnes de droit privé    0.40    0.50    0.61    0.31
+                                                                  Subventions d'équipement versées            1.10    1.21    0.12    0.35
+24       Cités scolaires                                          Dépenses d'investissement hors remb          NaN     NaN    0.08    0.56
+                                                                  Dépenses totales hors remb                   NaN     NaN    0.08    0.56
+                                                                  Subventions d'équipement versées             NaN     NaN    0.08    0.56
+28       Autres services périscolaires et annexes                 Achats et charges externes                  0.10    0.00    6.40    6.78
+                                                                  Autres dépenses de fonctionnement            NaN     NaN     NaN   -0.00
+                                                                  Dépenses d'intervention                      NaN     NaN    4.71    4.24
+                                                                  Dépenses de fonctionnement                  0.10    0.00   11.11   11.02
+                                                                  Dépenses totales hors remb                  0.10    0.00   11.11   11.02
+281      Hébergement et restauration scolaires                    Achats et charges externes                   NaN     NaN    6.40    6.78
+                                                                  Autres dépenses de fonctionnement            NaN     NaN     NaN   -0.00
+                                                                  Dépenses d'intervention                      NaN     NaN    4.71    4.24
+                                                                  Dépenses de fonctionnement                   NaN     NaN   11.11   11.02
+                                                                  Dépenses totales hors remb                   NaN     NaN   11.11   11.02
+===== 75
+exer                                                                                                          2022    2023    2024    2025
+fonction nom_fonction                                             agregat                                                                 
+2        Enseignement, formation professionnelle et apprentissage Achats et charges externes                 34.86   36.47   36.30   38.48
+                                                                  Autres dépenses d'investissement            0.10    0.18    0.24    0.13
+                                                                  Autres dépenses de fonctionnement           4.96    7.17    7.71    7.06
+                                                                  Dépenses d'intervention                   186.88  208.46  227.53  233.59
+                                                                  Dépenses d'investissement hors remb       113.23   98.21  100.43  109.04
+                                                                  Dépenses d'équipement                      83.91   89.18   82.54   95.16
+                                                                  Dépenses de fonctionnement                736.34  784.62  834.79  864.47
+                                                                  Dépenses totales hors remb                849.58  882.83  935.22  973.50
+                                                                  Frais de personnel                        509.65  532.52  563.24  585.33
+                                                                  Subventions aux personnes de droit privé    4.02    3.82    3.96    4.14
+                                                                  Subventions d'équipement versées           29.22    8.85   17.65   13.74
+20       Services communs                                         Achats et charges externes                  0.97    1.10    0.93    0.94
+                                                                  Autres dépenses de fonctionnement           0.06    0.76    0.97    0.90
+                                                                  Dépenses d'intervention                     0.10    0.05    0.07    0.08
+                                                                  Dépenses d'investissement hors remb         0.88    0.90    1.54    1.86
+                                                                  Dépenses d'équipement                       0.88    0.90    1.54    1.86
+                                                                  Dépenses de fonctionnement                 62.90   69.06   74.10   78.13
+                                                                  Dépenses totales hors remb                 63.78   69.96   75.64   80.00
+                                                                  Frais de personnel                         61.77   67.15   72.13   76.20
+201      Services communs                                         Achats et charges externes                  0.97    1.10    0.93    0.94
+                                                                  Autres dépenses de fonctionnement           0.06    0.76    0.97    0.90
+                                                                  Dépenses d'intervention                     0.10    0.05    0.07    0.08
+                                                                  Dépenses d'investissement hors remb         0.88    0.90    1.54    1.86
+                                                                  Dépenses d'équipement                       0.88    0.90    1.54    1.86
+                                                                  Dépenses de fonctionnement                 62.90   69.06   74.10   78.13
+                                                                  Dépenses totales hors remb                 63.78   69.96   75.64   80.00
+                                                                  Frais de personnel                         61.77   67.15   72.13   76.20
+21       Enseignement du premier degré                            Achats et charges externes                  7.74    9.42    9.03   10.14
+                                                                  Autres dépenses d'investissement             NaN    0.01    0.06    0.08
+                                                                  Autres dépenses de fonctionnement           2.23    2.20    2.35    2.23
+                                                                  Dépenses d'intervention                    35.90   35.56   35.29   35.00
+                                                                  Dépenses d'investissement hors remb        54.02   60.38   53.23   53.76
+                                                                  Dépenses d'équipement                      54.02   60.37   53.18   53.68
+                                                                  Dépenses de fonctionnement                429.79  450.04  472.66  488.63
+                                                                  Dépenses totales hors remb                483.82  510.42  525.90  542.40
+                                                                  Frais de personnel                        383.92  402.86  425.99  441.27
+                                                                  Subventions aux personnes de droit privé    1.06    1.07    1.08    1.09
+211      Écoles maternelles                                       Achats et charges externes                  1.34    1.74    1.49    1.50
+                                                                  Autres dépenses de fonctionnement           0.68    0.72    0.65    0.71
+                                                                  Dépenses d'intervention                     0.00    0.00    0.00    0.00
+                                                                  Dépenses d'investissement hors remb         0.04    0.11    0.01     NaN
+                                                                  Dépenses d'équipement                       0.04    0.11    0.01     NaN
+                                                                  Dépenses de fonctionnement                174.66  182.86  193.62  199.30
+                                                                  Dépenses totales hors remb                174.70  182.97  193.63  199.30
+                                                                  Frais de personnel                        172.64  180.40  191.48  197.09
+212      Écoles primaires                                         Achats et charges externes                  1.86    2.46    2.52    2.28
+                                                                  Autres dépenses de fonctionnement           1.26    1.32    1.34    1.28
+                                                                  Dépenses d'intervention                     0.00    0.00    0.00    0.00
+                                                                  Dépenses d'investissement hors remb         5.44    5.29    0.92    0.63
+                                                                  Dépenses d'équipement                       5.44    5.29    0.92    0.63
+                                                                  Dépenses de fonctionnement                211.99  223.43  235.29  244.43
+                                                                  Dépenses totales hors remb                217.42  228.73  236.21  245.05
+                                                                  Frais de personnel                        208.87  219.65  231.43  240.86
+213      Classes regroupées                                       Achats et charges externes                  4.54    5.22    5.02    6.36
+                                                                  Autres dépenses d'investissement             NaN    0.01    0.06    0.08
+                                                                  Autres dépenses de fonctionnement           0.29    0.16    0.36    0.24
+                                                                  Dépenses d'intervention                    35.90   35.56   35.29   34.99
+                                                                  Dépenses d'investissement hors remb        48.55   54.98   52.31   53.13
+                                                                  Dépenses d'équipement                      48.55   54.97   52.25   53.05
+                                                                  Dépenses de fonctionnement                 43.14   43.75   43.75   44.91
+                                                                  Dépenses totales hors remb                 91.69   98.73   96.06   98.05
+                                                                  Frais de personnel                          2.41    2.81    3.09    3.31
+                                                                  Subventions aux personnes de droit privé    1.06    1.07    1.08    1.09
+22       Enseignement du second degré                             Achats et charges externes                  1.90    2.17    2.40    2.68
+                                                                  Autres dépenses d'investissement            0.10    0.17    0.18    0.05
+                                                                  Autres dépenses de fonctionnement            NaN     NaN    0.00    0.00
+                                                                  Dépenses d'intervention                    42.22   43.28   43.17   39.36
+                                                                  Dépenses d'investissement hors remb        15.06   18.60   20.06   19.72
+                                                                  Dépenses d'équipement                      12.46   15.04   15.68   16.27
+                                                                  Dépenses de fonctionnement                 73.59   75.57   76.02   73.92
+                                                                  Dépenses totales hors remb                 88.65   94.17   96.08   93.63
+                                                                  Frais de personnel                         29.47   30.13   30.45   31.87
+                                                                  Subventions aux personnes de droit privé     NaN     NaN     NaN    0.01
+                                                                  Subventions d'équipement versées            2.50    3.39    4.21    3.40
+221      Collèges                                                 Achats et charges externes                  1.83    2.16    2.39    2.67
+                                                                  Autres dépenses de fonctionnement          -0.00     NaN    0.00    0.00
+                                                                  Dépenses d'intervention                    38.22   38.43   37.97   34.16
+                                                                  Dépenses d'investissement hors remb        14.37   18.03   19.12   19.06
+                                                                  Dépenses d'équipement                      11.87   14.94   15.11   15.86
+                                                                  Dépenses de fonctionnement                 68.33   69.51   69.74   67.68
+                                                                  Dépenses totales hors remb                 82.70   87.54   88.86   86.74
+                                                                  Frais de personnel                         28.28   28.92   29.38   30.84
+                                                                  Subventions aux personnes de droit privé     NaN     NaN     NaN    0.01
+                                                                  Subventions d'équipement versées            2.50    3.09    4.01    3.20
+222      Lycées publics                                           Achats et charges externes                  0.07    0.00    0.01    0.01
+                                                                  Autres dépenses d'investissement            0.10    0.17    0.18    0.05
+                                                                  Dépenses d'intervention                     4.00    4.85    5.20    5.20
+                                                                  Dépenses d'investissement hors remb         0.69    0.57    0.95    0.66
+                                                                  Dépenses d'équipement                       0.59    0.10    0.57    0.41
+                                                                  Dépenses de fonctionnement                  5.26    6.06    6.28    6.24
+                                                                  Dépenses totales hors remb                  5.95    6.63    7.22    6.90
+                                                                  Frais de personnel                          1.19    1.21    1.07    1.02
+                                                                  Subventions d'équipement versées             NaN    0.30    0.20    0.20
+23       Enseignement supérieur                                   Achats et charges externes                  0.46    0.87    0.77    0.57
+                                                                  Autres dépenses d'investissement             NaN     NaN    0.00     NaN
+                                                                  Autres dépenses de fonctionnement           0.00    0.00    0.00    0.00
+                                                                  Dépenses d'intervention                    21.58   19.84   21.39   21.77
+                                                                  Dépenses d'investissement hors remb        27.62    5.84   13.90   11.06
+                                                                  Dépenses d'équipement                       1.79    1.30    1.13    0.91
+                                                                  Dépenses de fonctionnement                 26.58   25.30   26.78   26.69
+                                                                  Dépenses totales hors remb                 54.20   31.14   40.68   37.76
+                                                                  Frais de personnel                          4.53    4.59    4.62    4.36
+                                                                  Subventions aux personnes de droit privé    0.93    1.19    1.09    1.11
+                                                                  Subventions d'équipement versées           25.82    4.54   12.77   10.15
+24       Cités scolaires                                          Autres dépenses de fonctionnement           2.52    4.10    4.29    3.79
+                                                                  Dépenses d'investissement hors remb         1.46    0.23    2.74   13.50
+                                                                  Dépenses d'équipement                       1.46    0.23    2.74   13.50
+                                                                  Dépenses de fonctionnement                  5.41    7.25    7.92    7.46
+                                                                  Dépenses totales hors remb                  6.87    7.48   10.66   20.96
+                                                                  Frais de personnel                          2.89    3.15    3.63    3.67
+25       Formation professionnelle                                Achats et charges externes                  0.50    0.44    0.46    0.49
+                                                                  Autres dépenses de fonctionnement           0.12    0.06    0.08    0.08
+                                                                  Dépenses d'investissement hors remb         0.29    0.61    1.26    1.50
+                                                                  Dépenses d'équipement                       0.29    0.61    1.26    1.50
+                                                                  Dépenses de fonctionnement                  6.44    7.20    8.42    9.34
+                                                                  Dépenses totales hors remb                  6.73    7.80    9.68   10.84
+                                                                  Frais de personnel                          5.82    6.69    7.88    8.77
+256      Autres                                                   Achats et charges externes                  0.50    0.44     NaN     NaN
+                                                                  Autres dépenses de fonctionnement           0.12    0.06     NaN     NaN
+                                                                  Dépenses d'investissement hors remb         0.29    0.61     NaN     NaN
+                                                                  Dépenses d'équipement                       0.29    0.61     NaN     NaN
+                                                                  Dépenses de fonctionnement                  6.44    7.20     NaN     NaN
+                                                                  Dépenses totales hors remb                  6.73    7.80     NaN     NaN
+                                                                  Frais de personnel                          5.82    6.69     NaN     NaN
+26       Apprentissage                                            Achats et charges externes                  6.06    4.80    5.11    5.71
+                                                                  Dépenses d'intervention                     0.15     NaN     NaN     NaN
+                                                                  Dépenses de fonctionnement                 21.02   15.51   16.21   17.18
+                                                                  Dépenses totales hors remb                 21.02   15.51   16.21   17.18
+                                                                  Frais de personnel                         14.81   10.71   11.10   11.47
+28       Autres services périscolaires et annexes                 Achats et charges externes                 17.22   17.66   17.60   17.94
+                                                                  Autres dépenses de fonctionnement           0.03    0.06    0.02    0.05
+                                                                  Dépenses d'intervention                    86.92  109.73  127.61  137.39
+                                                                  Dépenses d'investissement hors remb        13.91   11.65    7.69    7.63
+                                                                  Dépenses d'équipement                      13.01   10.73    7.02    7.44
+                                                                  Dépenses de fonctionnement                110.60  134.69  152.68  163.11
+                                                                  Dépenses totales hors remb                124.51  146.34  160.37  170.73
+                                                                  Frais de personnel                          6.43    7.24    7.45    7.73
+                                                                  Subventions aux personnes de droit privé    2.03    1.57    1.78    1.93
+                                                                  Subventions d'équipement versées            0.90    0.92    0.67    0.19
+281      Hébergement et restauration scolaires                    Achats et charges externes                  0.17    0.12    0.14    0.04
+                                                                  Autres dépenses de fonctionnement           0.00    0.02    0.00    0.00
+                                                                  Dépenses d'intervention                    84.82  108.10  125.75  135.40
+                                                                  Dépenses d'investissement hors remb        13.50   11.40    7.26    7.14
+                                                                  Dépenses d'équipement                      12.60   10.48    6.59    6.95
+                                                                  Dépenses de fonctionnement                 86.36  109.69  127.36  136.91
+                                                                  Dépenses totales hors remb                 99.86  121.08  134.63  144.05
+                                                                  Frais de personnel                          1.37    1.45    1.48    1.47
+                                                                  Subventions d'équipement versées            0.90    0.92    0.67    0.19
+284      Classes de découverte                                    Achats et charges externes                  7.38    8.03    8.01    8.14
+                                                                  Autres dépenses de fonctionnement           0.00    0.01    0.00    0.00
+                                                                  Dépenses d'intervention                     0.06    0.11    0.14    0.11
+                                                                  Dépenses de fonctionnement                  7.76    8.66    8.63    8.73
+                                                                  Dépenses totales hors remb                  7.76    8.66    8.63    8.73
+                                                                  Frais de personnel                          0.32    0.51    0.48    0.48
+                                                                  Subventions aux personnes de droit privé     NaN    0.04    0.06    0.06
+288      Autres services annexes de l'enseignement                Achats et charges externes                  9.67    9.51    9.45    9.77
+                                                                  Autres dépenses de fonctionnement           0.03    0.03    0.01    0.05
+                                                                  Dépenses d'intervention                     2.03    1.52    1.72    1.87
+                                                                  Dépenses d'investissement hors remb         0.41    0.25    0.43    0.48
+                                                                  Dépenses d'équipement                       0.41    0.25    0.43    0.48
+                                                                  Dépenses de fonctionnement                 16.48   16.35   16.69   17.47
+                                                                  Dépenses totales hors remb                 16.89   16.60   17.12   17.95
+                                                                  Frais de personnel                          4.75    5.29    5.50    5.78
+                                                                  Subventions aux personnes de droit privé    2.03    1.52    1.72    1.87

@@ -1,0 +1,61 @@
+﻿bloc;indicateur;valeur;unite;source
+A. Effectifs;Élèves du public, rentrée 2024, jeu fr-en-ecoles-effectifs-nb_classes (toutes écoles);5462329.0;élèves;MEN open data
+A. Effectifs;Élèves du public, rentrée 2025;5365524.0;élèves;MEN open data
+A. Effectifs;dont COM 975, 986, 987, 988 (exclus), rentrée 2024 | rentrée 2025;50702 | 49909;élèves;MEN open data
+A. Effectifs;Élèves du public non appariés à une commune après les 5 méthodes (hors COM), année civile 2025;0.0;élèves;calcul
+A. Effectifs;Élèves du public appariés, hors COM, année civile 2025 (2/3 R2024 + 1/3 R2025);5379623.0;élèves;calcul
+A. Effectifs;Élèves du privé sous contrat, hors COM, année civile 2025;846510.0;élèves;MEN open data
+B. Couverture;Communes ayant au moins un élève du public (hors COM);20848;communes;calcul
+B. Couverture;dont communes couvertes (dépense de fonctionnement « écoles » > 0 en 2025);3336;communes;DGFiP 2025
+B. Couverture;Élèves du public des communes couvertes;3798310.333333333;élèves;calcul
+B. Couverture;Part des élèves du public couverts (hors COM);0.7060551145188674;ratio;calcul
+B. Couverture;Élèves du public des communes non couvertes;1581312.666666667;élèves;calcul
+B. Couverture;dont communes présentes dans la balance fonctionnelle mais sans dépense « écoles » (écoles gérées ailleurs);36983.333333333336;élèves;calcul
+B. Couverture;Dépense « écoles » des communes couvertes (toutes, y.c. sans élève du public);14133.841682260001;M€;DGFiP 2025
+B. Couverture;dont communes couvertes ayant des élèves du public;14129.72119037;M€;DGFiP 2025
+B. Couverture;Dépense moyenne par élève du public des communes couvertes;3720.0017772033902;€;calcul
+C. Extrapolation;Part de la dépense « écoles » dans la dépense totale (hors charges financières), communes couvertes de 3 500 à 9 999 hab.;0.1548245317997905;ratio;DGFiP 2025 / OFGL 2025
+C. Extrapolation;Dépense totale (hors charges financières, BP) des communes non couvertes;25842.51583682;M€;OFGL base communes 2025
+C. Extrapolation;Nombre de communes non couvertes (OFGL 2025, hors COM);31440;communes;OFGL base communes 2025
+C. Extrapolation;Dépense totale des communes < 3 500 hab. (DGCL 4F, F1 Série l. 228) : 2022 | 2023 | 2025;22627.3 | 24071.8 | 26317.1;M€;DGCL CLC 2026
+C. Extrapolation;M1 moyenne des communes couvertes (méthode OFGL) : coût par élève non couvert retenu (€);3720.0017772033902;€;calcul
+C. Extrapolation;M1 moyenne des communes couvertes (méthode OFGL) : dépense extrapolée des communes non couvertes;5882.485930314234;M€;calcul
+C. Extrapolation;M2 8 classes d'élèves du public (coût de la classe appliqué aux non couverts) : coût par élève non couvert retenu (€);4146.3240059767195;€;calcul
+C. Extrapolation;M2 8 classes d'élèves du public (coût de la classe appliqué aux non couverts) : dépense extrapolée des communes non couvertes;6556.634670755064;M€;calcul
+C. Extrapolation;"M3 3 classes regroupées (< 300 ; 300-999 ; >= 1 000 élèves) : coût par élève non couvert retenu (€)";3617.707794084522;€;calcul
+C. Extrapolation;"M3 3 classes regroupées (< 300 ; 300-999 ; >= 1 000 élèves) : dépense extrapolée des communes non couvertes";5720.727159084581;M€;calcul
+C. Extrapolation;M4 coût par élève des communes couvertes de 3 500 à 9 999 habitants : coût par élève non couvert retenu (€);3057.146835059337;€;calcul
+C. Extrapolation;M4 coût par élève des communes couvertes de 3 500 à 9 999 habitants : dépense extrapolée des communes non couvertes;4834.305014139241;M€;calcul
+C. Extrapolation;M5 « à la DEPP » : part « écoles » des communes de 3 500-9 999 hab. x dépense totale des communes non couvertes : coût par élève non couvert retenu (€);2530.2114498319706;€;calcul
+C. Extrapolation;M5 « à la DEPP » : part « écoles » des communes de 3 500-9 999 hab. x dépense totale des communes non couvertes : dépense extrapolée des communes non couvertes;4001.0554149643276;M€;calcul
+C. Extrapolation;M5bis DEPP (Cour des comptes 2025 : 4,2 Md€) porté en 2025, si base 2022 : coût par élève non couvert retenu (€);3089.1343297194835;€;calcul
+C. Extrapolation;M5bis DEPP (Cour des comptes 2025 : 4,2 Md€) porté en 2025, si base 2022 : dépense extrapolée des communes non couvertes;4884.887244620263;M€;calcul
+C. Extrapolation;M5bis DEPP (Cour des comptes 2025 : 4,2 Md€) porté en 2025, si base 2023 : coût par élève non couvert retenu (€);2903.759247845053;€;calcul
+C. Extrapolation;M5bis DEPP (Cour des comptes 2025 : 4,2 Md€) porté en 2025, si base 2023 : dépense extrapolée des communes non couvertes;4591.751279567856;M€;calcul
+C. Extrapolation;M6 pour mémoire : facteur OFGL 2023 (1/0,62), couverture 2022 : coût par élève non couvert retenu (€);;€;calcul
+C. Extrapolation;M6 pour mémoire : facteur OFGL 2023 (1/0,62), couverture 2022 : dépense extrapolée des communes non couvertes;8662.677160094841;M€;calcul
+C. Extrapolation;Élèves du public non couverts sans population OFGL (communes absentes de la base OFGL 2025);10393.666666666666;élèves;calcul
+D. GFP;"Dépense « écoles » des GFP, ML et EPT (fonctions 20, 21, 28, 29 ; BP), total";980.5474116700001;M€;DGFiP 2025
+D. GFP;dont imputable aux élèves des communes non couvertes (au prorata des élèves de chaque GFP);485.1708694541491;M€;calcul
+D. GFP;dont imputable aux élèves des communes couvertes;495.37654221585086;M€;calcul
+D. GFP;GFP non rattachés à un EPCI de la base OFGL (ML, EPT ou SIREN absent);0.0;M€;calcul
+E. Administration générale;Communes à comptabilité fonctionnelle : dépense totale toutes fonctions (BP, F + I);87446.95566605999;M€;DGFiP 2025
+E. Administration générale;dont fonction 2 « Enseignement »;14444.7385641;M€;DGFiP 2025
+E. Administration générale;Ratio dépense d'éducation identifiée / dépense totale (règle DEPP);0.16518286376098862;ratio;calcul
+E. Administration générale;Administration générale, fonction 020, fonctionnement;17802.077079169998;M€;DGFiP 2025
+E. Administration générale;Administration générale indéterminée (0, 02, 020, 021, 028), fonctionnement;19495.5604128;M€;DGFiP 2025
+E. Administration générale;Administration générale indéterminée (0, 02, 020, 021, 028), F + I;22548.634357400002;M€;DGFiP 2025
+E. Administration générale;Services généraux (fonction 0 entière), F + I;25725.38232264;M€;DGFiP 2025
+E. Administration générale;Quote-part d'administration générale, communes couvertes, variante bas (020, F);2940.598072831156;M€;calcul
+E. Administration générale;dont part « écoles » (au prorata écoles / fonction 2 = 0.978), variante bas (020, F);2877.307015846569;M€;calcul
+E. Administration générale;Quote-part d'administration générale, communes couvertes, variante central (A00, F);3220.3324996116658;M€;calcul
+E. Administration générale;dont part « écoles » (au prorata écoles / fonction 2 = 0.978), variante central (A00, F);3151.0206648439826;M€;calcul
+E. Administration générale;Quote-part d'administration générale, communes couvertes, variante haut (A00, F + I);3724.6479970547516;M€;calcul
+E. Administration générale;dont part « écoles » (au prorata écoles / fonction 2 = 0.978), variante haut (A00, F + I);3644.481682995327;M€;calcul
+F. DEPP;CT, financement final 2024p, écoles publiques (RERS 2026, 10.04 T2 E9);20608.0915075757;M€;DEPP
+F. DEPP;CT, financement final 2024p, écoles privées sous contrat (E19);1141.80736067918;M€;DEPP
+F. DEPP;Ménages, financement final 2024p, écoles publiques (G9);1905.65201266665;M€;DEPP
+F. DEPP;Croissance 2024-2025 du financement initial des communes (NI 26.42, Fig. 2 B7/C7 x Fig. 3bis E10/F10);0.02505298010202406;ratio;DEPP
+F. DEPP;Croissance 2024p-2025p du financement initial CT du 1er degré (NI 25.52 -> NI 26.42, Fig. 4 x Fig. 5);0.02746452029904134;ratio;DEPP
+F. DEPP;CT, financement initial 1er degré 2025p (NI 26.42 : 38,41 % x 60,0 Md€);23045.54781172841;M€;DEPP
+F. DEPP;Écoles publiques + privées, CT, financement final, porté en 2025 (x croissance des communes);22294.798651822304;M€;calcul

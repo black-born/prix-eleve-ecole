@@ -1,0 +1,19 @@
+﻿niveau;methode;variante;montant_M€;eleves;euros_par_eleve;total_B_par_eleve;part_du_total_%;detail
+écoles publiques;M1 comptes directs;étroite;3880.1;3798310;1022;9807.8;10.4;constructions 3039.0 + énergie 543.1 + entretien 298.0 M€ (communes couvertes)
+écoles publiques;M1 comptes directs;large;4360.3;3798310;1148;9807.8;11.7;investissement 3519.2 + énergie + entretien (communes couvertes)
+écoles publiques;M1 comptes directs;investissement seul;3519.2;3798310;927;9807.8;9.4;investissement des communes couvertes
+collèges publics;M1 comptes directs;étroite;2476.8;2659221;931;11451.0;8.1;constructions 2132.9 + énergie 175.8 + entretien 168.1 M€ (départements, Paris, ML, CTU)
+collèges publics;M1 comptes directs;large;2941.9;2659221;1106;11451.0;9.7;investissement 2598.0 + énergie + entretien
+collèges publics;M1 comptes directs;investissement seul;2598.0;2659221;977;11451.0;8.5;investissement (départements, Paris, ML, CTU)
+collèges publics;M1 comptes directs;large + dotations aux EPLE (majorant);3643.8;2659221;1370;11451.0;12.0;+ dotations de fonctionnement aux collèges publics et non subdivisées 701.9 M€ (elles paient aussi l'énergie et l'entretien courant, mais pas seulement)
+lycées publics;M1 comptes directs;étroite;1918.5;1784977;1075;14353.6;7.5;(constructions 1992.6 + énergie 161.7 + entretien 63.9) × 0.8649 (régions et CTU)
+lycées publics;M1 comptes directs;large;2514.1;1784977;1408;14353.6;9.8;(investissement 2801.6 − sous-fonction 223 120.3 + énergie + entretien) × 0.8649
+lycées publics;M1 comptes directs;investissement seul;2319.0;1784977;1299;14353.6;9.1;investissement hors 223 × part champ
+lycées publics;M1 comptes directs;large + dotations aux EPLE (majorant);3267.8;1784977;1831;14353.6;12.8;+ dotations de fonctionnement aux lycées publics 871.4 M€ × part champ
+écoles publiques;M2 structure de B (H-D2);investissement + entretien et énergie;6647.5;5411627;1228;9807.8;12.5;investissement 991 € + entretien et énergie 237 € par élève
+collèges publics;M2 structure de B (H-D2);investissement + entretien et énergie;2920.7;2634043;1109;11451.0;9.7;investissement 976 € + entretien et énergie 133 € par élève
+lycées publics;M2 structure de B (H-D2);investissement + entretien et énergie;2529.0;1800728;1404;14353.6;9.8;investissement 1295 € + entretien et énergie 110 € par élève
+1er degré (A, public + privé);M3 rapport à A (DEPP 2025p);étroite;5495.5;6355849;865;8962.0;9.6;"écoles : montant par élève des communes couvertes × élèves du public hors COM ; dénominateur : élèves de A (année civile)"
+1er degré (A, public + privé);M3 rapport à A (DEPP 2025p);large;6175.6;6355849;972;8962.0;10.8;"écoles : montant par élève des communes couvertes × élèves du public hors COM ; dénominateur : élèves de A (année civile)"
+2nd degré (A, public + privé, apprentis compris);M3 rapport à A (DEPP 2025p);étroite;4395.3;6260925;702;10470.0;6.7;"collèges + lycées (part du public hors post-bac et agricole) ; dénominateur : élèves de A"
+2nd degré (A, public + privé, apprentis compris);M3 rapport à A (DEPP 2025p);large;5456.0;6260925;871;10470.0;8.3;"collèges + lycées (part du public hors post-bac et agricole) ; dénominateur : élèves de A"

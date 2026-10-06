@@ -1,0 +1,49 @@
+﻿annee;bloc;poste;montant_MEUR;classement_DEPP;statut;source_emplacement;calcul_remarque
+2025;0. Référence DEPP;État, financement initial, 1er + 2nd degrés (2025p);82668.1;cible;publié (calcul part x DIE);"NI 26.42 xlsx : Figure 4 B32, C32 ; Figure 5 B32, B33";0.550983 x 59999.2 + 0.672638 x 73753.7
+2025;A. Budget;MIES exécutée 2025 (CP, CAS compris);87745.9;;officiel;"RAP 2025 p.20-21 ; PLRG 2025";
+2025;A. Budget;− Dépenses dans les COM (exécution 2024 reprise pour 2025);-1160.6;hors champ « France »;"documenté (champ) ; montant 2025 = hypothèse";DPT Outre-mer 2026, tableaux par territoire p.248-277 (extractions/passerelle_G5_intrants_RAP_DPT_2024_2025.csv);
+2025;A. Budget;= MIES champ France;86585.3;;calcul;;
+2025;B. Postes identifiables (RAP);− Post-bac en lycée (P141-05 + P139-06);-1618.4;supérieur (STS, CPGE);documenté;"RAP 2025 MIES (extractions/rap2025_execution_par_action_2024_2025.csv) ; Dossier 206 p.13-14 imprimées";
+2025;B. Postes identifiables (RAP);− Formation continue des adultes et VAE (P141-09);-92.5;extrascolaire (formation professionnelle continue);documenté;"RAP 2025 MIES (extractions/rap2025_execution_par_action_2024_2025.csv) ; Dossier 206 p.14";
+2025;B. Postes identifiables (RAP);− Allocations PFMP (P141 208,0 + P139 54,76 + P143 28,98);-291.7;exclues de la DIE;documenté;"RAP 2025 p.116, 230, 404 ; L'état de l'École 2025 p.98 imprimée";
+2025;B. Postes identifiables (RAP);− P214 action 11 (sport, jeunesse, vie associative);-188.9;hors DIE ou extrascolaire;supposé;RAP 2025 MIES (extractions/rap2025_execution_par_action_2024_2025.csv);
+2025;B. Postes identifiables (RAP);− Gratifications des étudiants MEEF (P140, P141, P139, P230);-14.2;supérieur (master) ou exclues;supposé;RAP 2025 p.64, 125, 173, 238-239;
+2025;B. Postes identifiables (RAP);− BTSA, BTS et CPGE agricoles du P143 (prorata des effectifs, 9.84 %);-161.1;supérieur court;"classement documenté ; montant = hypothèse (prorata)";"DGER, effectifs voie scolaire 2024 et 2025 (2/3 - 1/3) ; P143 hors COM et hors PFMP";0.09843 x (1666.2 - 29.0)
+2025;B. Postes identifiables (RAP);= MIES France après postes identifiables;84218.4;;calcul;;
+2025;B. Postes identifiables (RAP);Écart restant à ce stade (budget − DEPP);1550.3;;calcul;;
+2025;C. Postes estimés (calage DEPP);− Crédits MEN imputés par clés hors 1er/2nd degrés (3.028 % des crédits MEN hors COM);-2571.5;"supérieur (part STS/CPGE des actions transversales et des enseignants imputés aux actions lycée) ; extrascolaire (formation continue des personnels) ; part du P214";"principe documenté (Dossier 206 p.14 et 32) ; montant estimé (calage DEPP 2024p)";voir lignes 2024 ci-dessous;0.03028 x 84919.0
+2025;C. Postes estimés (calage DEPP);+ Financements de l'État hors MIES en 1er/2nd degrés (autres ministères hors agriculture + reste du monde);1035.4;État (autres ministères, reste du monde);estimé (résidu DEPP 2024p, supposé stable en 2025);voir lignes 2024 ci-dessous;
+2025;D. Résultat;= Estimation de la part État DEPP à partir du budget;82682.3;;calcul;;
+2025;D. Résultat;Résidu (estimation − DEPP), variante centrale;14.2;;calcul;|résidu| < 500 MEUR : oui;
+2025;E. Variantes;Résidu si calage complet sur la structure DEPP 2013 (Dossier 206);-752.0;;sensibilité;Tableau 2i 2013 + PLR 2013;
+2025;E. Variantes;Résidu si BTSA au prorata pondéré par secteur (12.14 %);8.4;;sensibilité;;
+2025;E. Variantes;Résidu si BTSA selon la structure DEPP 2013 (17.92 %);7.1;;sensibilité;;
+2025;E. Variantes;Résidu si COM 2025 = LFI 2025 (1 103,5 MEUR);71.4;;sensibilité;DPT 2026;
+2025;E. Variantes;Pour mémoire : ancienne passerelle (MIES − COM − post-bac − P214-11 − FC adultes − apprentissage) − DEPP;2014.4;;ancienne version (NOTES § 8);;
+2024;F. Calage 2024;État, financement initial, 1er + 2nd degrés (2024p);81282.3;;publié (calcul);"NI 25.52 xlsx : Figure 4 B32, C32 ; Figure 5 B31, B32";
+2024;F. Calage 2024;dont MEN-MESR, 1er + 2nd degrés (parts « dont MENESR » arrondies à 0,1 point);78795.6;;publié (calcul);séries chronologiques DEPP 366603 : onglets « DIE 1er degré » et « DIE 2nd degré », cellules U17;0.5479999999999999 x 58523.0 + 0.639 x 73122.1 (incertitude d'arrondi +/- 66 MEUR)
+2024;F. Calage 2024;Crédits MEN de la MIES hors COM (2024);83577.3;;officiel;"RAP 2025 (colonne 2024) ; DPT 2026";
+2024;F. Calage 2024;= Crédits MEN classés par la DEPP hors 1er/2nd degrés ou exclus;4781.7;;calcul;;5.721 % des crédits MEN hors COM
+2024;F. Calage 2024;"dont postes identifiables 2024 (post-bac 1 570,3 ; FC adultes 92,7 ; PFMP MEN 392,9 ; P214-11 181,0 ; MEEF 13,8)";2250.8;;officiel (RAP);"RAP 2024 p.124, 134, 182, 235, 243 ; RAP 2025";
+2024;F. Calage 2024;dont imputations par clés non identifiables;2530.9;;calcul;;3.028 % des crédits MEN hors COM
+2024;F. Calage 2024;P143 hors COM, hors PFMP et hors BTSA (part 2nd degré);1451.2;;estimé (prorata effectifs);;part supérieur court 10.175 %
+2024;F. Calage 2024;= Autres ministères (hors agriculture) + reste du monde, 1er + 2nd degrés;1035.4;;résidu;;
+2013;G. Calage 2013;DEPP « Enseignement scolaire » (programmes MEN de la MIES), total;61189.0;;publié;Dossier 206, Tableau 2i 2013 définitif (p.152 imprimée);
+2013;G. Calage 2013;dont supérieur + extrascolaire;3339.8;;publié;idem;5.458 %
+2013;G. Calage 2013;Budget 2013 : post-bac (P141-05 + P139-06) + FC adultes (P141-09);1304.7;;officiel;PLR 2013 (data.economie.gouv.fr);
+2013;G. Calage 2013;= imputations par clés non identifiables;2035.1;;calcul;;3.326 % du total DEPP
+2013;G. Calage 2013;Budget 2013 : programmes MEN de la MIES (France + COM);62107.7;;officiel;PLR 2013;écart avec DEPP = 918.7 (COM + exclusions)
+2013;G. Calage 2013;Autres ministères + reste du monde, 1er + 2nd degrés;780.0;;publié;Tableau 2i 2013;
+2024;H. Contrôle global MEN-MESR (tous niveaux);Budget MIES-MEN + P150 + P231, hors COM (COM 2024), hors PFMP;101465.4;;calcul;"RAP ; RERS 2026 10.03 ; DPT 2026 ; RAP PFMP";
+2024;H. Contrôle global MEN-MESR (tous niveaux);DEPP : MEN-MESR, financement initial, tous niveaux;101607.9;;publié;NI 26.42 xlsx Figure 3bis E5 (2024 définitif);
+2024;H. Contrôle global MEN-MESR (tous niveaux);Écart DEPP − budget;142.5;;calcul;;0.14 %
+2025;H. Contrôle global MEN-MESR (tous niveaux);Budget MIES-MEN + P150 + P231, hors COM (COM 2024), hors PFMP;103095.0;;calcul;"RAP ; RERS 2026 10.03 ; DPT 2026 ; RAP PFMP";
+2025;H. Contrôle global MEN-MESR (tous niveaux);DEPP : MEN-MESR, financement initial, tous niveaux;103194.6;;publié;NI 26.42 xlsx Figure 3bis F5 (2025p);
+2025;H. Contrôle global MEN-MESR (tous niveaux);Écart DEPP − budget;99.6;;calcul;;0.10 %
+2025;I. Pour information;Actions de formation des personnels (P140-04 + P141-10 + P139-10);717.7;"rémunération des personnels en formation = dépense d'enseignement ; formation continue -> extrascolaire";documenté (principe);RAP 2025 MIES (extractions/rap2025_execution_par_action_2024_2025.csv);"dont titre 2 640.8 ; hors titre 2 76.9"
+2025;I. Pour information;Hors titre 2 des actions de formation, hors gratifications MEEF (borne basse des coûts d'organisation de la formation);63.3;;calcul;RAP 2025 MIES (extractions/rap2025_execution_par_action_2024_2025.csv);
+2025;I. Pour information;Stagiaires P140 (catégorie 1108) : 9774.00 ETPT x 31232 € (hors CAS);305.3;"dépense d'enseignement ; niveau non documenté";"officiel (ETPT, coût) ; produit = calcul";RAP 2025;avec CAS (estimation) : 472.5
+2025;I. Pour information;Stagiaires P141 (catégorie 1108) : 8987.43 ETPT x 31231 € (hors CAS);280.7;"dépense d'enseignement ; niveau non documenté";"officiel (ETPT, coût) ; produit = calcul";RAP 2025;avec CAS (estimation) : 415.3
+2025;I. Pour information;Stagiaires P230 (catégorie 1108) : 544.05 ETPT x 30718 € (hors CAS);16.7;"dépense d'enseignement ; niveau non documenté";"officiel (ETPT, coût) ; produit = calcul";RAP 2025;avec CAS (estimation) : 24.7
+2025;I. Pour information;Stagiaires P139 (catégorie 1108) : 2039.33 ETPT x 33249 € (hors CAS);67.8;"dépense d'enseignement ; niveau non documenté";"officiel (ETPT, coût) ; produit = calcul";RAP 2025;avec CAS (estimation) : 68.2
+2025;I. Pour information;Stagiaires, total 4 programmes (hors CAS);670.5;;calcul;RAP 2025;"avec CAS (estimation) : 980.8 ; 21344.81 ETPT"

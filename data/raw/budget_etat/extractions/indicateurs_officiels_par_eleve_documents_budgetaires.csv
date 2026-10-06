@@ -1,0 +1,10 @@
+﻿indicateur;annee;valeur;unite;statut;source_emplacement;remarque
+Dépense moyenne de l'État pour la formation d'un élève ou étudiant de l'enseignement agricole technique (public + privé, 2nd degré + BTSA);2023;8931.0;EUR par élève/étudiant;réalisé;RAP 2025 P143, indicateur 2.1 p.373;"Effectifs de l'année civile = 2/3 année scolaire N-1/N + 1/3 année N/N+1 ; numérateur : personnel, AT, visites médicales, subventions au privé, inclusion, examens"
+idem;2024;9375.0;EUR par élève/étudiant;réalisé;"RAP 2025 P143 p.373 ; PAP 2027 P143 p.303";
+idem;2025;9336.0;EUR par élève/étudiant;réalisé;"RAP 2025 P143 p.373 ; PAP 2027 P143 p.303";"Cible 2025 : 9 200 ; inclut les dépenses de pensions (CAS) selon le RAP"
+idem (cible);2026;9850.0;EUR par élève/étudiant;cible PAP 2026;PAP 2027 P143 p.303;
+idem (cible);2027;10000.0;EUR par élève/étudiant;cible PAP 2027;PAP 2027 P143 p.303;
+Part de la dépense dédiée à l'enseignement agricole public correspondant au périmètre de la subvention au privé (personnel non enseignant, AED, etc.);2025;3264.0;EUR par élève/étudiant;réalisé;RAP 2025 P143 p.373;
+Forfait d'externat (part personnels) versé au privé sous contrat - taux moyen constaté;année scolaire 2024-2025;556.0;EUR par élève;réalisé;RAP 2025 P139 action 09, p.235;"546 EUR collège ; 524 EUR LGT ; 715 EUR LP ; 1 258 870 élèves à la rentrée 2024 ; 697 463 487 EUR en 2025"
+Crédits pédagogiques du 2nd degré public (EPLE) par élève;2025;18.2;EUR par élève;réalisé;RAP 2025 P141 p.109;"4 665 909 élèves du 2nd degré public 2024-2025 (hors EREA, hors Polynésie) ; hausse liée aux manuels de 6e"
+Coût moyen par élève - subvention à la Polynésie française (crédits pédagogiques);année scolaire 2024-2025;257.0;EUR par élève;réalisé;RAP 2025 P141 p.110;22 150 élèves

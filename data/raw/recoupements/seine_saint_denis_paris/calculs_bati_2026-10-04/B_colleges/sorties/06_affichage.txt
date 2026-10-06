@@ -1,0 +1,24 @@
+              entite  rentree  etablissements     eleves  eleves_par_etablissement  mediane  nb_etab_700_plus  part_eleves_etab_700_plus  nb_etab_moins_400  part_eleves_etab_moins_400     max
+0  Seine-Saint-Denis     2019             143    78186.0                   546.755    582.0                28                      0.272                 23                       0.049   871.0
+1              Paris     2019             142    56786.0                   399.901    442.5                 9                      0.136                 56                       0.188  1477.0
+2  France (hors COM)     2019            6238  2675843.0                   428.958    454.0               749                      0.228               2562                       0.181  1854.0
+3  Seine-Saint-Denis     2025             145    79351.0                   547.248    585.0                32                      0.311                 21                       0.038   871.0
+4              Paris     2025             140    49880.0                   356.286    377.5                 6                      0.102                 82                       0.391  1383.0
+5  France (hors COM)     2025            6287  2634574.0                   419.051    444.0               698                      0.215               2687                       0.193  1947.0
+                                                    0         1                  2
+entite                              Seine-Saint-Denis     Paris  France (hors COM)
+R2015 (jeu obsolète, type COLLEGE)            72033.0   56322.0          2617277.0
+R2016 (jeu obsolète, type COLLEGE)            72871.0   55977.0          2608299.0
+R2017 (jeu obsolète, type COLLEGE)            74001.0   55653.0          2624213.0
+R2018 (jeu obsolète, type COLLEGE)            76049.0   55812.0          2648165.0
+R2019 (jeu obsolète)                          77882.0   56024.0          2663886.0
+R2019                                           78186     56786            2675843
+R2020                                           78959     56506            2689111
+R2021                                           78523     55432            2678986
+R2022                                           78862     54173            2682702
+R2023                                           78986     52858            2675476
+R2024                                           78851     51158            2656918
+R2025                                           79351     49880            2634574
+evol_2019_2025                                 0.0149 -0.121614          -0.015423
+evol_2015_2019_jeu_obsolete                  0.081199 -0.005291           0.017808
+evol_2015_2025_raccordee                     0.097309 -0.126262           0.002111

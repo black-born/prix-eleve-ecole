@@ -1,0 +1,15 @@
+﻿territoire;poste;montant_M€;euros_par_eleve_public;eleves_publics_rentree2024
+Paris;investissement (comptes 20, 21, 23);63.2;610;103593
+Paris;énergie et fluides (6061x, 60621, 60622);0.0;0;103593
+Paris;entretien, maintenance, nettoyage (6152x, 6156, 6283);5.7;55;103593
+Paris;fonctionnement total (classe 6 hors 66, 675, 676, 68);729.9;7046;103593
+Paris;BÂTIMENTS (investissement + énergie + entretien);68.9;665;103593
+Paris, budget annexe (cbudg 3);énergie et fluides (6061x, 60621, 60622);21.8;211;103593
+Paris, budget annexe (cbudg 3);entretien, maintenance, nettoyage (6152x, 6156, 6283);2.1;21;103593
+Paris, budget annexe (cbudg 3);fonctionnement total (classe 6 hors 66, 675, 676, 68);32.0;308;103593
+Paris, budget annexe (cbudg 3);BÂTIMENTS (investissement + énergie + entretien);24.0;231;103593
+Seine-Saint-Denis;investissement (comptes 20, 21, 23);249.0;1357;183522
+Seine-Saint-Denis;énergie et fluides (6061x, 60621, 60622);28.3;154;183522
+Seine-Saint-Denis;entretien, maintenance, nettoyage (6152x, 6156, 6283);17.0;93;183522
+Seine-Saint-Denis;fonctionnement total (classe 6 hors 66, 675, 676, 68);468.3;2552;183522
+Seine-Saint-Denis;BÂTIMENTS (investissement + énergie + entretien);294.3;1604;183522

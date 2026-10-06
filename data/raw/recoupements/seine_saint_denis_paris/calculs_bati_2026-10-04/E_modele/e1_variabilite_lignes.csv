@@ -1,0 +1,169 @@
+﻿groupe;territoire;ligne;moyenne_par_eleve;min_par_eleve;max_par_eleve;ecart_type_pondere;coef_variation_%;part_variance_total_%
+écoles publiques;Paris;etat_enseignants;4701.084;3135.027;8065.917;864.364;18.386;97.941
+écoles publiques;Paris;etat_remplacement_formation;496.112;496.112;496.112;0.0;0.0;0.0
+écoles publiques;Paris;etat_vie_scolaire;0.0;0.0;0.0;0.0;;0.0
+écoles publiques;Paris;etat_pilotage_admin;310.87;310.87;310.87;0.0;0.0;-0.0
+écoles publiques;Paris;etat_inclusion_sante_social;319.648;319.648;319.648;0.0;0.0;0.0
+écoles publiques;Paris;etat_activites_educatives;15.529;15.529;15.529;0.0;0.0;-0.0
+écoles publiques;Paris;etat_aides_familles;0.0;0.0;0.0;0.0;;0.0
+écoles publiques;Paris;etat_forfait_prive_internats;0.0;0.0;0.0;0.0;;0.0
+écoles publiques;Paris;etat_soutien_administration;229.317;229.316;229.317;0.0;0.0;-0.0
+écoles publiques;Paris;ct_ecoles;9472.717;9472.717;9472.717;0.0;0.0;-0.0
+écoles publiques;Paris;ct_colleges;0.0;0.0;0.0;0.0;;0.0
+écoles publiques;Paris;ct_lycees;0.0;0.0;0.0;0.0;;0.0
+écoles publiques;Paris;ct_transports;210.972;210.972;210.972;0.0;0.0;0.0
+écoles publiques;Paris;apu_par_eleve;129.265;0.0;210.728;94.401;73.029;2.059
+écoles publiques;Seine-Saint-Denis;etat_enseignants;4594.316;2990.291;8022.102;849.501;18.49;37.317
+écoles publiques;Seine-Saint-Denis;etat_remplacement_formation;496.112;496.112;496.112;0.0;0.0;-0.0
+écoles publiques;Seine-Saint-Denis;etat_vie_scolaire;0.0;0.0;0.0;0.0;;0.0
+écoles publiques;Seine-Saint-Denis;etat_pilotage_admin;310.87;310.87;310.87;0.0;0.0;-0.0
+écoles publiques;Seine-Saint-Denis;etat_inclusion_sante_social;319.648;319.648;319.648;0.0;0.0;-0.0
+écoles publiques;Seine-Saint-Denis;etat_activites_educatives;15.529;15.529;15.529;0.0;0.0;0.0
+écoles publiques;Seine-Saint-Denis;etat_aides_familles;0.0;0.0;0.0;0.0;;0.0
+écoles publiques;Seine-Saint-Denis;etat_forfait_prive_internats;0.0;0.0;0.0;0.0;;0.0
+écoles publiques;Seine-Saint-Denis;etat_soutien_administration;229.317;229.317;229.317;0.0;0.0;0.0
+écoles publiques;Seine-Saint-Denis;ct_ecoles;3434.652;820.551;8580.19;1139.161;33.167;61.686
+écoles publiques;Seine-Saint-Denis;ct_colleges;0.0;0.0;0.0;0.0;;0.0
+écoles publiques;Seine-Saint-Denis;ct_lycees;0.0;0.0;0.0;0.0;;0.0
+écoles publiques;Seine-Saint-Denis;ct_transports;210.972;210.972;210.972;0.0;0.0;0.0
+écoles publiques;Seine-Saint-Denis;apu_par_eleve;129.956;0.0;210.728;98.596;75.869;0.997
+collèges publics;Paris;etat_enseignants;5887.655;4795.076;7886.835;753.192;12.793;50.009
+collèges publics;Paris;etat_remplacement_formation;594.903;594.903;594.903;0.0;0.0;0.0
+collèges publics;Paris;etat_vie_scolaire;578.04;85.04;1877.537;363.72;62.923;24.115
+collèges publics;Paris;etat_pilotage_admin;743.992;78.408;2207.15;472.877;63.559;25.876
+collèges publics;Paris;etat_inclusion_sante_social;454.059;454.059;454.059;0.0;0.0;0.0
+collèges publics;Paris;etat_activites_educatives;15.529;15.529;15.529;0.0;0.0;-0.0
+collèges publics;Paris;etat_aides_familles;179.868;179.868;179.868;0.0;0.0;0.0
+collèges publics;Paris;etat_forfait_prive_internats;19.554;19.554;19.554;0.0;0.0;0.0
+collèges publics;Paris;etat_soutien_administration;229.317;229.317;229.317;0.0;0.0;-0.0
+collèges publics;Paris;ct_ecoles;0.0;0.0;0.0;0.0;;0.0
+collèges publics;Paris;ct_colleges;1692.329;1692.329;1692.329;0.0;0.0;-0.0
+collèges publics;Paris;ct_lycees;0.0;0.0;0.0;0.0;;0.0
+collèges publics;Paris;ct_transports;210.972;210.972;210.972;0.0;0.0;0.0
+collèges publics;Paris;apu_par_eleve;234.364;234.364;234.364;0.0;0.0;-0.0
+collèges publics;Seine-Saint-Denis;etat_enseignants;6018.846;4772.356;8437.649;558.669;9.282;63.323
+collèges publics;Seine-Saint-Denis;etat_remplacement_formation;594.903;594.903;594.903;0.0;0.0;-0.0
+collèges publics;Seine-Saint-Denis;etat_vie_scolaire;728.925;87.363;1201.746;218.544;29.982;21.195
+collèges publics;Seine-Saint-Denis;etat_pilotage_admin;711.267;370.072;1410.636;178.462;25.091;15.483
+collèges publics;Seine-Saint-Denis;etat_inclusion_sante_social;454.059;454.059;454.059;0.0;0.0;-0.0
+collèges publics;Seine-Saint-Denis;etat_activites_educatives;15.529;15.529;15.529;0.0;0.0;0.0
+collèges publics;Seine-Saint-Denis;etat_aides_familles;179.868;179.868;179.868;0.0;0.0;0.0
+collèges publics;Seine-Saint-Denis;etat_forfait_prive_internats;19.554;19.554;19.554;0.0;0.0;0.0
+collèges publics;Seine-Saint-Denis;etat_soutien_administration;229.317;229.317;229.317;0.0;0.0;0.0
+collèges publics;Seine-Saint-Denis;ct_ecoles;0.0;0.0;0.0;0.0;;0.0
+collèges publics;Seine-Saint-Denis;ct_colleges;2504.19;2504.19;2504.19;0.0;0.0;-0.0
+collèges publics;Seine-Saint-Denis;ct_lycees;0.0;0.0;0.0;0.0;;0.0
+collèges publics;Seine-Saint-Denis;ct_transports;210.972;210.972;210.972;0.0;0.0;0.0
+collèges publics;Seine-Saint-Denis;apu_par_eleve;234.364;234.364;234.364;0.0;0.0;-0.0
+lycées publics (GT + polyvalents + professionnels);Paris;etat_enseignants;7516.331;5493.76;15134.379;1810.646;24.089;84.549
+lycées publics (GT + polyvalents + professionnels);Paris;etat_remplacement_formation;594.903;594.903;594.903;0.0;0.0;0.0
+lycées publics (GT + polyvalents + professionnels);Paris;etat_vie_scolaire;493.586;0.0;2215.99;217.475;44.06;6.212
+lycées publics (GT + polyvalents + professionnels);Paris;etat_pilotage_admin;1173.496;0.0;3542.115;395.176;33.675;10.127
+lycées publics (GT + polyvalents + professionnels);Paris;etat_inclusion_sante_social;454.059;454.059;454.059;0.0;0.0;-0.0
+lycées publics (GT + polyvalents + professionnels);Paris;etat_activites_educatives;15.529;15.529;15.529;0.0;0.0;0.0
+lycées publics (GT + polyvalents + professionnels);Paris;etat_aides_familles;179.868;179.868;179.868;0.0;0.0;-0.0
+lycées publics (GT + polyvalents + professionnels);Paris;etat_forfait_prive_internats;19.554;19.554;19.554;0.0;0.0;0.0
+lycées publics (GT + polyvalents + professionnels);Paris;etat_soutien_administration;229.317;229.317;229.317;0.0;0.0;-0.0
+lycées publics (GT + polyvalents + professionnels);Paris;ct_ecoles;0.0;0.0;0.0;0.0;;0.0
+lycées publics (GT + polyvalents + professionnels);Paris;ct_colleges;24.298;0.0;536.592;67.46;277.634;1.65
+lycées publics (GT + polyvalents + professionnels);Paris;ct_lycees;2565.585;1777.63;2602.959;103.76;4.044;-2.537
+lycées publics (GT + polyvalents + professionnels);Paris;ct_transports;210.972;210.972;210.972;0.0;0.0;0.0
+lycées publics (GT + polyvalents + professionnels);Paris;apu_par_eleve;234.364;234.364;234.364;0.0;0.0;0.0
+lycées publics (GT + polyvalents + professionnels);Seine-Saint-Denis;etat_enseignants;7477.957;5572.602;10654.731;1223.264;16.358;77.791
+lycées publics (GT + polyvalents + professionnels);Seine-Saint-Denis;etat_remplacement_formation;594.903;594.903;594.903;0.0;0.0;0.0
+lycées publics (GT + polyvalents + professionnels);Seine-Saint-Denis;etat_vie_scolaire;476.469;106.426;941.928;156.109;32.764;6.641
+lycées publics (GT + polyvalents + professionnels);Seine-Saint-Denis;etat_pilotage_admin;836.659;290.461;4435.561;534.221;63.852;15.635
+lycées publics (GT + polyvalents + professionnels);Seine-Saint-Denis;etat_inclusion_sante_social;454.059;454.059;454.059;0.0;0.0;-0.0
+lycées publics (GT + polyvalents + professionnels);Seine-Saint-Denis;etat_activites_educatives;15.529;15.529;15.529;0.0;0.0;-0.0
+lycées publics (GT + polyvalents + professionnels);Seine-Saint-Denis;etat_aides_familles;179.868;179.868;179.868;0.0;0.0;-0.0
+lycées publics (GT + polyvalents + professionnels);Seine-Saint-Denis;etat_forfait_prive_internats;19.554;19.554;19.554;0.0;0.0;-0.0
+lycées publics (GT + polyvalents + professionnels);Seine-Saint-Denis;etat_soutien_administration;229.317;229.317;229.317;0.0;0.0;0.0
+lycées publics (GT + polyvalents + professionnels);Seine-Saint-Denis;ct_ecoles;0.0;0.0;0.0;0.0;;0.0
+lycées publics (GT + polyvalents + professionnels);Seine-Saint-Denis;ct_colleges;19.585;0.0;209.742;42.748;218.269;1.702
+lycées publics (GT + polyvalents + professionnels);Seine-Saint-Denis;ct_lycees;2582.601;2384.944;2602.958;44.434;1.721;-1.769
+lycées publics (GT + polyvalents + professionnels);Seine-Saint-Denis;ct_transports;210.972;210.972;210.972;0.0;0.0;0.0
+lycées publics (GT + polyvalents + professionnels);Seine-Saint-Denis;apu_par_eleve;234.364;234.364;234.364;0.0;0.0;-0.0
+lycées GT publics;Paris;etat_enseignants;6454.533;5493.76;9007.359;692.17;10.724;60.881
+lycées GT publics;Paris;etat_remplacement_formation;594.903;594.903;594.903;0.0;0.0;-0.0
+lycées GT publics;Paris;etat_vie_scolaire;433.699;0.0;2215.99;202.033;46.584;11.569
+lycées GT publics;Paris;etat_pilotage_admin;1147.47;0.0;3542.115;370.078;32.252;27.55
+lycées GT publics;Paris;etat_inclusion_sante_social;454.059;454.059;454.059;0.0;0.0;-0.0
+lycées GT publics;Paris;etat_activites_educatives;15.529;15.529;15.529;0.0;0.0;-0.0
+lycées GT publics;Paris;etat_aides_familles;179.868;179.868;179.868;0.0;0.0;-0.0
+lycées GT publics;Paris;etat_forfait_prive_internats;19.554;19.554;19.554;0.0;0.0;-0.0
+lycées GT publics;Paris;etat_soutien_administration;229.317;229.317;229.317;0.0;0.0;0.0
+lycées GT publics;Paris;ct_ecoles;0.0;0.0;0.0;0.0;;0.0
+lycées GT publics;Paris;ct_colleges;0.0;0.0;0.0;0.0;;0.0
+lycées GT publics;Paris;ct_lycees;2602.958;2602.958;2602.958;0.0;0.0;-0.0
+lycées GT publics;Paris;ct_transports;210.972;210.972;210.972;0.0;0.0;0.0
+lycées GT publics;Paris;apu_par_eleve;234.364;234.364;234.364;0.0;0.0;-0.0
+lycées GT publics;Seine-Saint-Denis;etat_enseignants;6607.047;5706.824;7998.335;592.278;8.964;37.389
+lycées GT publics;Seine-Saint-Denis;etat_remplacement_formation;594.903;594.903;594.903;0.0;0.0;-0.0
+lycées GT publics;Seine-Saint-Denis;etat_vie_scolaire;368.251;106.426;558.441;95.616;25.965;3.078
+lycées GT publics;Seine-Saint-Denis;etat_pilotage_admin;888.051;554.009;4435.561;779.1;87.731;59.533
+lycées GT publics;Seine-Saint-Denis;etat_inclusion_sante_social;454.059;454.059;454.059;0.0;0.0;-0.0
+lycées GT publics;Seine-Saint-Denis;etat_activites_educatives;15.529;15.529;15.529;0.0;0.0;0.0
+lycées GT publics;Seine-Saint-Denis;etat_aides_familles;179.868;179.868;179.868;0.0;0.0;0.0
+lycées GT publics;Seine-Saint-Denis;etat_forfait_prive_internats;19.554;19.554;19.554;0.0;0.0;-0.0
+lycées GT publics;Seine-Saint-Denis;etat_soutien_administration;229.317;229.317;229.317;0.0;0.0;-0.0
+lycées GT publics;Seine-Saint-Denis;ct_ecoles;0.0;0.0;0.0;0.0;;0.0
+lycées GT publics;Seine-Saint-Denis;ct_colleges;0.0;0.0;0.0;0.0;;0.0
+lycées GT publics;Seine-Saint-Denis;ct_lycees;2602.958;2602.958;2602.958;0.0;0.0;0.0
+lycées GT publics;Seine-Saint-Denis;ct_transports;210.972;210.972;210.972;0.0;0.0;-0.0
+lycées GT publics;Seine-Saint-Denis;apu_par_eleve;234.364;234.364;234.364;0.0;0.0;-0.0
+lycées polyvalents publics;Paris;etat_enseignants;9012.922;7104.593;15134.379;1385.385;15.371;85.614
+lycées polyvalents publics;Paris;etat_remplacement_formation;594.903;594.903;594.903;0.0;0.0;0.0
+lycées polyvalents publics;Paris;etat_vie_scolaire;474.561;215.627;1140.241;144.012;30.346;2.106
+lycées polyvalents publics;Paris;etat_pilotage_admin;1085.664;767.291;2430.099;319.135;29.395;13.256
+lycées polyvalents publics;Paris;etat_inclusion_sante_social;454.059;454.059;454.059;0.0;0.0;-0.0
+lycées polyvalents publics;Paris;etat_activites_educatives;15.529;15.529;15.529;0.0;0.0;-0.0
+lycées polyvalents publics;Paris;etat_aides_familles;179.868;179.868;179.868;0.0;0.0;0.0
+lycées polyvalents publics;Paris;etat_forfait_prive_internats;19.554;19.554;19.554;0.0;0.0;0.0
+lycées polyvalents publics;Paris;etat_soutien_administration;229.317;229.317;229.317;0.0;0.0;0.0
+lycées polyvalents publics;Paris;ct_ecoles;0.0;0.0;0.0;0.0;;0.0
+lycées polyvalents publics;Paris;ct_colleges;25.834;0.0;536.592;55.056;213.117;1.814
+lycées polyvalents publics;Paris;ct_lycees;2563.224;1777.63;2602.958;84.682;3.304;-2.791
+lycées polyvalents publics;Paris;ct_transports;210.972;210.972;210.972;0.0;0.0;-0.0
+lycées polyvalents publics;Paris;apu_par_eleve;234.364;234.364;234.364;0.0;0.0;0.0
+lycées polyvalents publics;Seine-Saint-Denis;etat_enseignants;7729.577;5572.602;10384.837;1072.14;13.871;84.872
+lycées polyvalents publics;Seine-Saint-Denis;etat_remplacement_formation;594.903;594.903;594.903;0.0;0.0;-0.0
+lycées polyvalents publics;Seine-Saint-Denis;etat_vie_scolaire;513.259;236.036;941.928;129.967;25.322;3.731
+lycées polyvalents publics;Seine-Saint-Denis;etat_pilotage_admin;777.846;290.461;1626.527;253.176;32.548;11.445
+lycées polyvalents publics;Seine-Saint-Denis;etat_inclusion_sante_social;454.059;454.059;454.059;0.0;0.0;-0.0
+lycées polyvalents publics;Seine-Saint-Denis;etat_activites_educatives;15.529;15.529;15.529;0.0;0.0;-0.0
+lycées polyvalents publics;Seine-Saint-Denis;etat_aides_familles;179.868;179.868;179.868;0.0;0.0;-0.0
+lycées polyvalents publics;Seine-Saint-Denis;etat_forfait_prive_internats;19.554;19.554;19.554;0.0;0.0;-0.0
+lycées polyvalents publics;Seine-Saint-Denis;etat_soutien_administration;229.317;229.317;229.317;0.0;0.0;0.0
+lycées polyvalents publics;Seine-Saint-Denis;ct_ecoles;0.0;0.0;0.0;0.0;;0.0
+lycées polyvalents publics;Seine-Saint-Denis;ct_colleges;15.359;0.0;123.229;34.653;225.62;1.224
+lycées polyvalents publics;Seine-Saint-Denis;ct_lycees;2586.994;2474.869;2602.958;36.02;1.392;-1.272
+lycées polyvalents publics;Seine-Saint-Denis;ct_transports;210.972;210.972;210.972;0.0;0.0;0.0
+lycées polyvalents publics;Seine-Saint-Denis;apu_par_eleve;234.364;234.364;234.364;0.0;0.0;0.0
+lycées professionnels publics;Paris;etat_enseignants;10191.895;8489.53;14098.705;1382.275;13.562;78.693
+lycées professionnels publics;Paris;etat_remplacement_formation;594.903;594.903;594.903;0.0;0.0;0.0
+lycées professionnels publics;Paris;etat_vie_scolaire;755.073;545.029;1146.274;136.257;18.046;1.672
+lycées professionnels publics;Paris;etat_pilotage_admin;1372.2;0.0;3455.806;491.033;35.784;19.269
+lycées professionnels publics;Paris;etat_inclusion_sante_social;454.059;454.059;454.059;0.0;0.0;-0.0
+lycées professionnels publics;Paris;etat_activites_educatives;15.529;15.529;15.529;0.0;0.0;-0.0
+lycées professionnels publics;Paris;etat_aides_familles;179.868;179.868;179.868;0.0;0.0;-0.0
+lycées professionnels publics;Paris;etat_forfait_prive_internats;19.554;19.554;19.554;0.0;0.0;-0.0
+lycées professionnels publics;Paris;etat_soutien_administration;229.317;229.317;229.317;0.0;0.0;0.0
+lycées professionnels publics;Paris;ct_ecoles;0.0;0.0;0.0;0.0;;0.0
+lycées professionnels publics;Paris;ct_colleges;120.499;0.0;359.542;113.429;94.133;-0.679
+lycées professionnels publics;Paris;ct_lycees;2417.62;2049.949;2602.959;174.465;7.216;1.044
+lycées professionnels publics;Paris;ct_transports;210.972;210.972;210.972;0.0;0.0;0.0
+lycées professionnels publics;Paris;apu_par_eleve;234.364;234.364;234.364;0.0;0.0;0.0
+lycées professionnels publics;Seine-Saint-Denis;etat_enseignants;9224.529;7885.365;10654.731;778.071;8.435;83.567
+lycées professionnels publics;Seine-Saint-Denis;etat_remplacement_formation;594.903;594.903;594.903;0.0;0.0;0.0
+lycées professionnels publics;Seine-Saint-Denis;etat_vie_scolaire;674.174;474.355;937.339;131.591;19.519;5.323
+lycées professionnels publics;Seine-Saint-Denis;etat_pilotage_admin;887.392;307.663;1413.762;258.593;29.141;11.156
+lycées professionnels publics;Seine-Saint-Denis;etat_inclusion_sante_social;454.059;454.059;454.059;0.0;0.0;-0.0
+lycées professionnels publics;Seine-Saint-Denis;etat_activites_educatives;15.529;15.529;15.529;0.0;0.0;0.0
+lycées professionnels publics;Seine-Saint-Denis;etat_aides_familles;179.868;179.868;179.868;0.0;0.0;-0.0
+lycées professionnels publics;Seine-Saint-Denis;etat_forfait_prive_internats;19.554;19.554;19.554;0.0;0.0;-0.0
+lycées professionnels publics;Seine-Saint-Denis;etat_soutien_administration;229.317;229.317;229.317;0.0;0.0;0.0
+lycées professionnels publics;Seine-Saint-Denis;ct_ecoles;0.0;0.0;0.0;0.0;;0.0
+lycées professionnels publics;Seine-Saint-Denis;ct_colleges;93.44;0.0;209.742;53.451;57.204;1.178
+lycées professionnels publics;Seine-Saint-Denis;ct_lycees;2505.833;2384.944;2602.958;55.56;2.217;-1.224
+lycées professionnels publics;Seine-Saint-Denis;ct_transports;210.972;210.972;210.972;0.0;0.0;-0.0
+lycées professionnels publics;Seine-Saint-Denis;apu_par_eleve;234.364;234.364;234.364;0.0;0.0;-0.0

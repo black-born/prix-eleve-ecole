@@ -1,0 +1,11 @@
+       annee  eleves_Paris  Paris_fonctions_ecoles_M€  Paris_hors_fonctions_M€  Paris_PPP_capital_M€  Paris_elargi_M€  Paris_elargi_avec_PPP_M€  Paris_fonctions_€  Paris_elargi_€  Paris_elargi_avec_PPP_€    SSD_€  eleves_SSD  SSD_M€  rapport_SSD_Paris_fonctions  rapport_SSD_Paris_elargi
+0       2023      108538.0                      72.92                     15.4                  2.41            88.32                     90.73             671.81          813.69                   835.90  1002.00    186344.0  186.72                         1.49                      1.23
+1       2024      105848.0                      62.42                     29.0                  2.33            91.42                     93.75             589.67          863.65                   885.67  1307.28    185782.0  242.87                         2.22                      1.51
+2       2025      103593.0                      63.17                     36.5                  2.22            99.67                    101.89             609.81          962.15                   983.58  1362.99    183522.0  250.14                         2.24                      1.42
+3  2023-2025      317979.0                     198.50                     80.9                  6.96           279.40                    286.36             624.27          878.69                   900.58  1223.30    555648.0  679.72                         1.96                      1.39
+   annee  CRC_total_equipement_scolaire_€  CRC_eleves_rentree_N  CRC_€_par_eleve_rentree_N  I_total_M€    eleves  ecart_CRC_moins_DGFiP_M€
+0   2019                        112473823                122759                      916.2         NaN       NaN                       NaN
+1   2020                         74718436                119018                      627.8         NaN       NaN                       NaN
+2   2021                         70577073                112875                      625.3        65.0  118692.0                       5.6
+3   2022                         75726714                108726                      696.5        68.8  112631.0                       6.9
+4   2023                         89553885                106180                      843.4        72.9  108538.0                      16.6

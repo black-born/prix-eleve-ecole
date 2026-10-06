@@ -1,0 +1,91 @@
+﻿degre;secteur;financeur;poste;euros_par_eleve;euros_par_eleve_non_arrondi
+1er degré;prive_sc;Autres administrations publiques;Allocation de rentrée scolaire et autres (CAF…);139.0;138.94
+1er degré;prive_sc;Collectivités;Forfait communal / départemental / régional versé au privé;1357.0;1356.75
+1er degré;prive_sc;Collectivités;Transports scolaires;211.0;210.97
+1er degré;prive_sc;État;AESH, santé et service social scolaires, orientation;250.0;249.52
+1er degré;prive_sc;État;Actions éducatives complémentaires;16.0;15.53
+1er degré;prive_sc;État;Administration centrale et académique, examens;229.0;229.32
+1er degré;prive_sc;État;Bourses et fonds sociaux;0.0;0.0
+1er degré;prive_sc;État;Direction, administration et encadrement pédagogique;0.0;0.0
+1er degré;prive_sc;État;Enseignants affectés dans les établissements (salaires et pensions);2423.0;2423.29
+1er degré;prive_sc;État;Forfait d'externat versé par l'État au privé, internats;0.0;0.0
+1er degré;prive_sc;État;Remplacement et formation des enseignants;176.0;176.12
+1er degré;prive_sc;État;Vie scolaire (CPE, assistants d'éducation);0.0;0.0
+1er degré;public;Autres administrations publiques;Allocation de rentrée scolaire et autres (CAF…);134.0;133.74
+1er degré;public;Collectivités;Bâtiments : construction, rénovation, grosses réparations, équipement;991.0;991.42
+1er degré;public;Collectivités;Dotations et autres frais de fonctionnement (fournitures, caisses des écoles…);341.0;341.49
+1er degré;public;Collectivités;Entretien, énergie et fluides des bâtiments;237.0;236.95
+1er degré;public;Collectivités;Personnels des collectivités (ATSEM, agents d'entretien et de restauration);1900.0;1900.42
+1er degré;public;Collectivités;Restauration scolaire et activités (achats, prestations);408.0;408.1
+1er degré;public;Collectivités;Transports scolaires;211.0;210.97
+1er degré;public;État;AESH, santé et service social scolaires, orientation;320.0;319.65
+1er degré;public;État;Actions éducatives complémentaires;16.0;15.53
+1er degré;public;État;Administration centrale et académique, examens;229.0;229.32
+1er degré;public;État;Bourses et fonds sociaux;0.0;0.0
+1er degré;public;État;Direction, administration et encadrement pédagogique;311.0;310.87
+1er degré;public;État;Enseignants affectés dans les établissements (salaires et pensions);4213.0;4213.18
+1er degré;public;État;Forfait d'externat versé par l'État au privé, internats;0.0;0.0
+1er degré;public;État;Remplacement et formation des enseignants;496.0;496.11
+1er degré;public;État;Vie scolaire (CPE, assistants d'éducation);0.0;0.0
+2nd degré;prive_sc;Autres administrations publiques;Allocation de rentrée scolaire et autres (CAF…);234.0;234.36
+2nd degré;prive_sc;Collectivités;Forfait communal / départemental / régional versé au privé;730.0;730.02
+2nd degré;prive_sc;Collectivités;Transports scolaires;211.0;210.97
+2nd degré;prive_sc;État;AESH, santé et service social scolaires, orientation;250.0;249.52
+2nd degré;prive_sc;État;Actions éducatives complémentaires;16.0;15.53
+2nd degré;prive_sc;État;Administration centrale et académique, examens;229.0;229.32
+2nd degré;prive_sc;État;Bourses et fonds sociaux;66.0;65.59
+2nd degré;prive_sc;État;Direction, administration et encadrement pédagogique;0.0;0.0
+2nd degré;prive_sc;État;Enseignants affectés dans les établissements (salaires et pensions);4168.0;4167.68
+2nd degré;prive_sc;État;Forfait d'externat versé par l'État au privé, internats;585.0;585.36
+2nd degré;prive_sc;État;Remplacement et formation des enseignants;176.0;176.12
+2nd degré;prive_sc;État;Vie scolaire (CPE, assistants d'éducation);0.0;0.0
+2nd degré;public;Autres administrations publiques;Allocation de rentrée scolaire et autres (CAF…);234.0;234.36
+2nd degré;public;Collectivités;Bâtiments : construction, rénovation, grosses réparations, équipement;1106.0;1105.61
+2nd degré;public;Collectivités;Dotations et autres frais de fonctionnement (fournitures, caisses des écoles…);502.0;502.06
+2nd degré;public;Collectivités;Entretien, énergie et fluides des bâtiments;123.0;123.43
+2nd degré;public;Collectivités;Personnels des collectivités (ATSEM, agents d'entretien et de restauration);958.0;958.06
+2nd degré;public;Collectivités;Restauration scolaire et activités (achats, prestations);21.0;21.26
+2nd degré;public;Collectivités;Transports scolaires;211.0;210.97
+2nd degré;public;État;AESH, santé et service social scolaires, orientation;454.0;454.06
+2nd degré;public;État;Actions éducatives complémentaires;16.0;15.53
+2nd degré;public;État;Administration centrale et académique, examens;229.0;229.32
+2nd degré;public;État;Bourses et fonds sociaux;180.0;179.87
+2nd degré;public;État;Direction, administration et encadrement pédagogique;925.0;924.69
+2nd degré;public;État;Enseignants affectés dans les établissements (salaires et pensions);6471.0;6471.34
+2nd degré;public;État;Forfait d'externat versé par l'État au privé, internats;20.0;19.55
+2nd degré;public;État;Remplacement et formation des enseignants;595.0;594.9
+2nd degré;public;État;Vie scolaire (CPE, assistants d'éducation);620.0;620.16
+1er degré;public + privé;Autres administrations publiques;Allocation de rentrée scolaire et autres (CAF…);134.0;134.45
+1er degré;public + privé;Collectivités;Bâtiments : construction, rénovation, grosses réparations, équipement;857.0;856.82
+1er degré;public + privé;Collectivités;Dotations et autres frais de fonctionnement (fournitures, caisses des écoles…);295.0;295.13
+1er degré;public + privé;Collectivités;Entretien, énergie et fluides des bâtiments;205.0;204.78
+1er degré;public + privé;Collectivités;Forfait communal / départemental / régional versé au privé;184.0;184.2
+1er degré;public + privé;Collectivités;Personnels des collectivités (ATSEM, agents d'entretien et de restauration);1642.0;1642.41
+1er degré;public + privé;Collectivités;Restauration scolaire et activités (achats, prestations);353.0;352.69
+1er degré;public + privé;Collectivités;Transports scolaires;211.0;210.97
+1er degré;public + privé;État;AESH, santé et service social scolaires, orientation;310.0;310.13
+1er degré;public + privé;État;Actions éducatives complémentaires;16.0;15.53
+1er degré;public + privé;État;Administration centrale et académique, examens;229.0;229.32
+1er degré;public + privé;État;Bourses et fonds sociaux;0.0;0.0
+1er degré;public + privé;État;Direction, administration et encadrement pédagogique;269.0;268.66
+1er degré;public + privé;État;Enseignants affectés dans les établissements (salaires et pensions);3970.0;3970.17
+1er degré;public + privé;État;Forfait d'externat versé par l'État au privé, internats;0.0;0.0
+1er degré;public + privé;État;Remplacement et formation des enseignants;453.0;452.67
+1er degré;public + privé;État;Vie scolaire (CPE, assistants d'éducation);0.0;0.0
+2nd degré;public + privé;Autres administrations publiques;Allocation de rentrée scolaire et autres (CAF…);234.0;234.36
+2nd degré;public + privé;Collectivités;Bâtiments : construction, rénovation, grosses réparations, équipement;872.0;871.87
+2nd degré;public + privé;Collectivités;Dotations et autres frais de fonctionnement (fournitures, caisses des écoles…);396.0;395.92
+2nd degré;public + privé;Collectivités;Entretien, énergie et fluides des bâtiments;97.0;97.34
+2nd degré;public + privé;Collectivités;Forfait communal / départemental / régional versé au privé;154.0;154.33
+2nd degré;public + privé;Collectivités;Personnels des collectivités (ATSEM, agents d'entretien et de restauration);756.0;755.51
+2nd degré;public + privé;Collectivités;Restauration scolaire et activités (achats, prestations);17.0;16.76
+2nd degré;public + privé;Collectivités;Transports scolaires;211.0;210.97
+2nd degré;public + privé;État;AESH, santé et service social scolaires, orientation;411.0;410.82
+2nd degré;public + privé;État;Actions éducatives complémentaires;16.0;15.53
+2nd degré;public + privé;État;Administration centrale et académique, examens;229.0;229.32
+2nd degré;public + privé;État;Bourses et fonds sociaux;156.0;155.71
+2nd degré;public + privé;État;Direction, administration et encadrement pédagogique;729.0;729.2
+2nd degré;public + privé;État;Enseignants affectés dans les établissements (salaires et pensions);5984.0;5984.32
+2nd degré;public + privé;État;Forfait d'externat versé par l'État au privé, internats;139.0;139.17
+2nd degré;public + privé;État;Remplacement et formation des enseignants;506.0;506.37
+2nd degré;public + privé;État;Vie scolaire (CPE, assistants d'éducation);489.0;489.05

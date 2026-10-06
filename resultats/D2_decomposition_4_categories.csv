@@ -1,0 +1,25 @@
+﻿secteur;degre;categorie;euros_par_eleve;part_%
+public + privé;1er degré;1. Enseignants (« profs »);4423;48.45
+public + privé;1er degré;2. Bâtiments et équipement (« réparations ») : construction, rénovation, grosses réparations, équipement, entretien, énergie;1062;11.63
+public + privé;1er degré;3. Activités et fonctionnement : cantine, transports, actions éducatives, fournitures, forfaits du privé;1059;11.6
+public + privé;1er degré;4. Autres : autres personnels (État, collectivités), aides aux familles, administration;2585;28.32
+public + privé;2nd degré;1. Enseignants (« profs »);6491;56.95
+public + privé;2nd degré;2. Bâtiments et équipement (« réparations ») : construction, rénovation, grosses réparations, équipement, entretien, énergie;969;8.5
+public + privé;2nd degré;3. Activités et fonctionnement : cantine, transports, actions éducatives, fournitures, forfaits du privé;933;8.18
+public + privé;2nd degré;4. Autres : autres personnels (État, collectivités), aides aux familles, administration;3004;26.36
+public;1er degré;1. Enseignants (« profs »);4709;48.02
+public;1er degré;2. Bâtiments et équipement (« réparations ») : construction, rénovation, grosses réparations, équipement, entretien, énergie;1228;12.52
+public;1er degré;3. Activités et fonctionnement : cantine, transports, actions éducatives, fournitures, forfaits du privé;976;9.95
+public;1er degré;4. Autres : autres personnels (État, collectivités), aides aux familles, administration;2894;29.51
+public;2nd degré;1. Enseignants (« profs »);7066;55.79
+public;2nd degré;2. Bâtiments et équipement (« réparations ») : construction, rénovation, grosses réparations, équipement, entretien, énergie;1229;9.7
+public;2nd degré;3. Activités et fonctionnement : cantine, transports, actions éducatives, fournitures, forfaits du privé;769;6.07
+public;2nd degré;4. Autres : autres personnels (État, collectivités), aides aux familles, administration;3601;28.43
+prive_sc;1er degré;1. Enseignants (« profs »);2599;54.15
+prive_sc;1er degré;2. Bâtiments et équipement (« réparations ») : construction, rénovation, grosses réparations, équipement, entretien, énergie;0;0.0
+prive_sc;1er degré;3. Activités et fonctionnement : cantine, transports, actions éducatives, fournitures, forfaits du privé;1583;32.98
+prive_sc;1er degré;4. Autres : autres personnels (État, collectivités), aides aux familles, administration;618;12.87
+prive_sc;2nd degré;1. Enseignants (« profs »);4344;65.18
+prive_sc;2nd degré;2. Bâtiments et équipement (« réparations ») : construction, rénovation, grosses réparations, équipement, entretien, énergie;0;0.0
+prive_sc;2nd degré;3. Activités et fonctionnement : cantine, transports, actions éducatives, fournitures, forfaits du privé;1542;23.14
+prive_sc;2nd degré;4. Autres : autres personnels (État, collectivités), aides aux familles, administration;779;11.69
