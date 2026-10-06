@@ -10,6 +10,7 @@
 | [hypotheses.md](hypotheses.md) | **Toutes les hypothèses**, numérotées (H-…), justifiées et chiffrées |
 | [sources.md](sources.md) | Toutes les sources officielles, avec liens et dates |
 | [resultats/carte_etablissements.html](resultats/carte_etablissements.html) | Carte interactive des 58 068 écoles, collèges et lycées publics et privés sous contrat : dépense publique estimée par élève, décomposition, comparaison avec les établissements du même type et du même secteur ; affichage au choix par département (avec la fiche de chaque département) ou par établissement ; filtres par type, secteur et région ; l'enseignement supérieur n'est pas couvert (données : `resultats/carte_etablissements_2025.csv`, colonnes décrites dans `resultats/carte_etablissements_2025_colonnes.md`) |
+| [note_synthese_93_paris.md](note_synthese_93_paris.md) | **Note de synthèse (2 pages)** : Seine-Saint-Denis et Paris, coût par élève à l'école, au collège et au lycée, avant et après correction du profil des enseignants ; à partager |
 | [analyse_seine_saint_denis_paris.md](analyse_seine_saint_denis_paris.md) | Seine-Saint-Denis et Paris : le « +13 % » du ministre et le « rabais de 30 % » des syndicats confrontés à nos estimations, école, collège et lycée ; ce que nos hypothèses ne voient pas (salaires réels, primes, clés des collectivités) ; pourquoi l'écart des écoles ne se prolonge pas au collège et au lycée ; dépense et état des bâtiments |
 
 ## Organisation du dossier
